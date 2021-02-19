@@ -1,0 +1,366 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-brasieres",
+      "menu-item#category-tops",
+      "menu-item#category-panties",
+      "menu-item#category-kids",
+      "menu-item#category-descanso",
+      "menu-item#category-medias",
+      "menu-item#category-deportivo",
+      "menu-item#category-vestidos",
+      "menu-item#category-belleza",
+      "menu-item#category-bioseguridad",
+      "menu-item#category-rebajas",
+      "menu-item#yoi"
+    ]
+  },
+  "menu-item#category-brasieres": {
+    "props": {
+      "id": "menu-item-category-brasieres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/",
+        "noFollow": false,
+        "tagTitle": "BRASIERES",
+        "text": "BRASIERES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-brasieres"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-brasieres": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-brasieres"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-brasieres": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-brasieres-clothing",
+      "menu-item#category-brasieres-accessories",
+      "menu-item#category-brasieres-eyeglasses"
+    ]
+  },
+  "menu-item#category-brasieres-clothing": {
+    "props": {
+      "id": "menu-item-category-brasieres-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-brasieres-accessories": {
+    "props": {
+      "id": "menu-item-category-brasieres-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-brasieres-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-brasieres-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-tops": {
+    "props": {
+      "id": "menu-item-category-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tops/",
+        "noFollow": false,
+        "tagTitle": "TOPS",
+        "text": "TOPS"
+      }
+    }
+  },
+  "menu-item#category-panties": {
+    "props": {
+      "id": "menu-item-category-panties",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/panties/",
+        "noFollow": false,
+        "tagTitle": "PANTIES",
+        "text": "PANTIES"
+      }
+    }
+  },
+  "menu-item#category-kids": {
+    "props": {
+      "id": "menu-item-category-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids/",
+        "noFollow": false,
+        "tagTitle": "KIDS & TEEN",
+        "text": "KIDS & TEEN"
+      }
+    }
+  },
+  "menu-item#category-descanso": {
+    "props": {
+      "id": "menu-item-category-descanso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/descanso/",
+        "noFollow": false,
+        "tagTitle": "DESCANSO",
+        "text": "DESCANSO"
+      }
+    }
+  },
+  "menu-item#category-medias": {
+    "props": {
+      "id": "menu-item-category-medias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medias/",
+        "noFollow": false,
+        "tagTitle": "MEDIAS",
+        "text": "MEDIAS"
+      }
+    }
+  },
+  "menu-item#category-deportivo": {
+    "props": {
+      "id": "menu-item-category-deportivo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportivo/",
+        "noFollow": false,
+        "tagTitle": "DEPORTIVO",
+        "text": "DEPORTIVO"
+      }
+    }
+  },
+  "menu-item#category-vestidos": {
+    "props": {
+      "id": "menu-item-category-vestidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestidos/",
+        "noFollow": false,
+        "tagTitle": "VESTIDOS DE BAÑO",
+        "text": "VESTIDOS DE BAÑO"
+      }
+    }
+  },
+  "menu-item#category-belleza": {
+    "props": {
+      "id": "menu-item-category-belleza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza/",
+        "noFollow": false,
+        "tagTitle": "BELLEZA",
+        "text": "BELLEZA"
+      }
+    }
+  },
+  "menu-item#category-bioseguridad": {
+    "props": {
+      "id": "menu-item-category-bioseguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bioseguridad/",
+        "noFollow": false,
+        "tagTitle": "BIOSEGURIDAD",
+        "text": "BIOSEGURIDAD"
+      }
+    }
+  },
+  "menu-item#category-rebajas": {
+    "props": {
+      "id": "menu-item-category-rebajas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebajas/",
+        "noFollow": false,
+        "tagTitle": "REBAJAS",
+        "text": "REBAJAS"
+      }
+    }
+  },
+
+
+  "menu-item#yoi": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "YOI",
+        "text": "YOI"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#yoi"
+    ]
+  },
+  "vtex.menu@2.x:submenu#yoi": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-yoi"
+    ]
+  },
+  "flex-layout.row#menu-yoi": {
+    "children": [
+      "flex-layout.col#menu-yoi-1",
+      "flex-layout.col#menu-yoi-2"
+    ]
+  },
+  "flex-layout.col#menu-yoi-1": {
+    "children": [
+      "vtex.menu@2.x:menu#yoi"
+    ]
+  },
+  "flex-layout.col#menu-yoi-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#yoi": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#socialseller",
+      "menu-item#tiendas",
+      "menu-item#credipink"
+    ]
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "menu-item-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": true,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#credipink": {
+    "props": {
+      "id": "menu-item-credipink",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/credipink",
+        "noFollow": true,
+        "tagTitle": "CrediPink",
+        "text": "CrediPink"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+  "menu-item#socialseller": {
+    "props": {
+      "id": "menu-item-socialseller",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/socialseller",
+        "noFollow": true,
+        "tagTitle": "socialseller",
+        "text": "CONVIÉRTETE EN SOCIAL SELLER"
+      }
+    }
+  }
+}
