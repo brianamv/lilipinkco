@@ -62,7 +62,6 @@
     "props": {  
       "src": "assets/buttonLP1.jpg" ,
       "href": "#" ,
-      "callToActionUrl": "/sale/d",
       "width": "25%"     
     }
   }, 
@@ -70,7 +69,6 @@
       "props": {  
         "src": "assets/buttonYoi1.jpg" ,
         "href": "#" ,
-        "callToActionUrl": "/sale/d",
         "width": "25%" 
       }  
   },
