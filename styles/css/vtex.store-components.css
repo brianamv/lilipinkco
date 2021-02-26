@@ -8,40 +8,48 @@
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;
+  max-height: 700px;
   margin: 0 auto;
   background-color: #e6f1e6;
-  padding: 0px;
+  padding: 5px;
 }
 
 .infoCardContainer--info-card-ic1 {
   max-width: 1520px;
+  max-height: 700px;
   margin: 0 auto;
   background-color: #EFEFEF;
-  padding: 0px;
+  padding: 5px;
 }
 
 .infoCardContainer--info-card-ic2 {
   max-width: 1520px;
+  max-height: 700px;
   margin: 0 auto;
   background-color: #EFEFEF;
-  padding: 0px;
+  padding: 5px;
 }
 
 .infoCardContainer--info-card-ic3 {
   max-width: 1520px;
+  max-height: 700px;
   margin: 0 auto;
   background-color: #EFEFEF;
-  padding: 0px;
+  padding: 5px;
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #EFEFEF;
   max-width: 1528px;
+  max-height: 100;
   margin: 0 auto;
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  background-color: #EFEFEF;
+  padding: 6px 1px;
+  max-height: 100;
+
 }
 
 .label {
@@ -78,7 +86,7 @@
 }
 
 .imageElement--storePrint {
-  max-height: 300px;
+  max-height: 700px;
   margin-bottom: 20px;
 }
 
@@ -97,21 +105,22 @@
 
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 70%;
+    height: 90%;
   }
 
   .infoCardContainer--info-card-ic1 .infoCardImageContainer {
     width: 90%;
-    height: 600px;
+    height:80%;
     padding: 14px;
   }
   .infoCardContainer--info-card-ic2 .infoCardImageContainer {
     width: 90%;
-    height: 600px;
+    height:80%;
     padding: 14px;
   }
   .infoCardContainer--info-card-ic3 .infoCardImageContainer {
     width: 90%;
-   height: 600px;
+    height:80%;
     padding: 14px;
   }
 
@@ -119,7 +128,7 @@
 
   .imageElement--storePrint {
     margin-bottom: 0px;
-    max-height: 600px;
+    max-height: 700px;
   }
 }
 

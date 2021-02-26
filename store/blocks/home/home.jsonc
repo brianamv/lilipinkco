@@ -9,9 +9,11 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#setInfocart",
-      "rich-text#question",
+      "flex-layout.row#bannerInferior",
+      "newsletter",
       "rich-text#link",
-      "newsletter"
+      "social-networks"
+      
     ]
   },
 
@@ -115,7 +117,7 @@
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n*Sígue Nuestras Redes Sociales*\n",
       "blockClass": "link"
     }
   },
@@ -171,6 +173,46 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-ic3",
       "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#bannerInferior": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#bannerSlim2"]
+  },
+ 
+  
+  "image#bannerSlim2": {  
+    "props": {  
+      "src": "assets/BannerInferior.jpg"  
+    }  
+  },
+
+  "social-networks": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
     }
   }
 }
