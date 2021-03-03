@@ -4,50 +4,171 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-brasier",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-brasieres",
+      "menu-item#category-tops", 
+      "menu-item#category-panties",           
+      "menu-item#category-kids",
+      "menu-item#category-descanso",
+      "menu-item#category-medias",
+      "menu-item#category-deportivo",
+      "menu-item#category-vestidos",
+      "menu-item#category-belleza",
+      "menu-item#category-bioseguridad",
+      "menu-item#yoi"
     ]
   },
-  "menu-item#category-brasier": {
+  "menu-item#category-brasieres": {
     "props": {
-      "id": "menu-item-category-brasier",
+      "id": "menu-item-category-brasieres",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/brasieres/",
         "noFollow": false,
-        "tagTitle": "Brasieres",
-        "text": "Brasieres"
+        "tagTitle": "BRASIERES",
+        "text": "BRASIERES"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-brasier"
+      "vtex.menu@2.x:submenu#category-brasieres"
     ]
   },
-  "vtex.menu@2.x:submenu#category-brasier": {
+  "vtex.menu@2.x:submenu#category-brasieres": {
     "props": {
-      "width": "auto"
+      "width": "100%"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-brasier"
+      "flex-layout.row#category-brasieres"      
     ]
   },
-  "vtex.menu@2.x:menu#category-brasier": {
+  "flex-layout.row#category-brasieres": {
+    "children": [
+      
+
+      "flex-layout.col#category-brasieres-1",
+      "flex-layout.col#category-brasieres-2",
+      "flex-layout.col#category-brasieres-3",
+      "flex-layout.col#category-brasieres-4",
+      "flex-layout.col#category-brasieres-5"
+      
+    ]
+  },
+  
+  "flex-layout.col#category-brasieres-1": {
+    "children": [
+      "menu-item#category-brasieres-Buscar",
+      "menu-item#category-brasieres-Ver_todo",
+      "menu-item#category-brasieres-Lo_mas_Vendido",
+      "menu-item#category-brasieres-nuevosbrasieresybralettes",
+      "menu-item#category-brasieres-Ofertas"
+      
+    ]
+  },
+  "flex-layout.col#category-brasieres-2": {
+    "children": [
+      "menu-item#category-brasieres-Tipo",
+      "menu-item#category-brasieres-PushUp",
+      "menu-item#category-brasieres-ConForro",
+      "menu-item#category-brasieres-SinForro",
+      "menu-item#category-brasieres-CoberturaTotal",
+      "menu-item#category-brasieres-MediaCopa",
+      "menu-item#category-brasieres-BrasieresParaCamisa",
+      "menu-item#category-brasieres-SinAro",
+      "menu-item#category-brasieres-Bustier",
+      "menu-item#category-brasieres-Strapless" ,
+      "menu-item#category-brasieres-Bralettes-y-brasieres-de-casa",
+      "menu-item#category-brasieres-deports"
+    ]
+  },
+  "flex-layout.col#category-brasieres-3": {
+    "children": [
+      "menu-item#category-brasieres-Beneficio",
+      "menu-item#category-brasieres-PushUp_realce",
+      "menu-item#category-brasieres-reduce",
+      "menu-item#category-brasieres-facilitadores-postura",
+      "menu-item#category-brasieres-Post-Quirúrgicos",
+      "menu-item#category-brasieres-Maternidad-y-Lactancia",
+      "menu-item#category-brasieres-Mastectomía",
+      "menu-item#category-brasieres-Multiusos",
+      "menu-item#category-brasieres-Brasieres-Deportivos"
+      
+      
+    ]
+  },
+  "flex-layout.col#category-brasieres-4": {
+    "children": [
+      "menu-item#category-brasieres-Compra_mas_y_ahorra",
+      "menu-item#category-brasieres-Paquete-x-2",
+      "menu-item#category-brasieres-Paquete-x-3",
+      "menu-item#category-brasieres-Paquete-x-4",
+      "menu-item#category-brasieres-Pague_1_lleve_2 ",
+      "menu-item#category-brasieres-Pague_1_lleve_3 "
+      
+    ]
+  },
+  "flex-layout.col#category-brasieres-5": {
+    "children": [
+      "info-card#home"
+      
+    ]
+  },
+  "vtex.menu@2.x:menu#category-brasieres": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-brasierbralette",
-      "menu-item#category-brasierconrelleno",
-      "menu-item#category-brasiersinrelleno"
-    ]
+    }
   },
-  "menu-item#category-brasierbralette": {
+  "menu-item#category-brasieres-Buscar": {
     "props": {
-      "id": "menu-item-category-brasierbralette",
+      "id": "menu-item-category-brasieres-Buscar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Buscar",
+        "text": "Buscar"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Ver_todo": {
+    "props": {
+      "id": "menu-item-category-brasieres-Ver_todo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ver_todo",
+        "text": "Ver Todo"
+      }
+    }
+  },
+
+  "menu-item#category-brasieres-Lo_mas_Vendido": {
+    "props": {
+      "id": "menu-item-category-brasieres-Lo_mas_Vendido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lo_mas_Vendido",
+        "text": "Lo Mas Vendido"
+      }
+    }
+  },
+
+  "menu-item#category-brasieres-nuevosbrasieresybralettes": {
+    "props": {
+      "id": "menu-item-category-brasieres-nuevosbrasieresybralettes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -55,14 +176,292 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Brasier Bralette",
-        "text": "Brasier Bralette"
+        "tagTitle": "Nuevos Brasieres y Bralettes",
+        "text": "Nuevos Brasieres y Bralettes"
       }
     }
   },
-  "menu-item#category-brasierconrelleno": {
+
+  "menu-item#category-brasieres-Ofertas": {
     "props": {
-      "id": "menu-item-category-brasierconrelleno",
+      "id": "menu-item-category-brasieres-Ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Tipo": {
+    "props": {
+      "id": "menu-item-category-brasieres-Tipo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tipo",
+        "text": "Tipo"
+      }
+    }
+  },
+  
+  "menu-item#category-brasieres-PushUp": {
+    "props": {
+      "id": "menu-item-category-brasieres-PushUp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "PushUp",
+        "text": "Push Up"
+      }
+    }
+  },
+ 
+  
+  "menu-item#category-brasieres-ConForro": {
+    "props": {
+      "id": "menu-item-category-brasieres-ConForro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "ConForro",
+        "text": "Con Forro"
+      }
+    }
+  },
+  "menu-item#category-brasieres-SinForro": {
+    "props": {
+      "id": "menu-item-category-brsieres-SinForro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "SinForro",
+        "text": "Sin Forro"
+      }
+    }
+  },
+  "menu-item#category-brasieres-CoberturaTotal": {
+    "props": {
+      "id": "menu-item-category-brasieres-CoberturaTotal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "CoberturaTotal",
+        "text": "Cobertura Total"
+      }
+    }
+  },
+  "menu-item#category-brasieres-MediaCopa": {
+    "props": {
+      "id": "menu-item-category-brasieres-MediaCopa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "MediaCopa",
+        "text": "Media Copa"
+      }
+    }
+  },
+  "menu-item#category-brasieres-BrasieresParaCamisa": {
+    "props": {
+      "id": "menu-item-category-brasieres-BrasieresParaCamisa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "BrasieresParaCamisa",
+        "text": "Brasieres Para Camisa"
+      }
+    }
+  },
+  
+  "menu-item#category-brasieres-SinAro": {
+    "props": {
+      "id": "menu-item-category-brasieres-SinAro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "SinAro",
+        "text": "Sin Aro"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Bustier": {
+    "props": {
+      "id": "menu-item-category-brasieres-Bustier",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Bustier",
+        "text": "Bustier"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Strapless": {
+    "props": {
+      "id": "menu-item-category-brasieres-Strapless",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Strapless",
+        "text": "Strapless"
+      }
+    }
+  },
+  
+  "menu-item#category-brasieres-Bralettes-y-brasieres-de-casa": {
+    "props": {
+      "id": "menu-item-category-brasieres-brasieres-de-casa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Bralettes y brasieres de casa",
+        "text": "Bralettes y brasieres de casa"
+      }
+    }
+  },
+ 
+  "menu-item#category-brasieres-deports": {
+    "props": {
+      "id": "menu-item-category-brasieres-deports",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "deports",
+        "text": "Deportivos"
+      }
+    }
+  },
+  
+  "menu-item#category-brasieres-Beneficio": {
+    "props": {
+      "id": "menu-item-category-brasieres-Beneficio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Beneficio",
+        "text": "Beneficio"
+      }
+    }
+  }, 
+  "menu-item#category-brasieres-Compra_mas_y_ahorra": {
+    "props": {
+      "id": "menu-item-category-brasieres-Compra_mas_y_ahorra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Compra_mas_y_ahorra",
+        "text": "Compra Mas y Ahorra"
+      }
+    }
+  }, 
+  "menu-item#category-brasieres-PushUp_realce": {
+    "props": {
+      "id": "menu-item-category-brasieres-PushUp_realce",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "PushUp_realce",
+        "text": "Push Up realce"
+      }
+    }
+  },
+  "menu-item#category-brasieres-reduce": {
+    "props": {
+      "id": "menu-item-category-brasieres-reduce",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "reduce",
+        "text": "Reduccion"
+      }
+    }
+  },
+  "menu-item#category-brasieres-facilitadores-postura": {
+    "props": {
+      "id": "menu-item-category-facilitadores-postura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "facilitadores-postura",
+        "text": "Facilitadores Postura"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Post-Quirúrgicos": {
+    "props": {
+      "id": "menu-item-category-Post-Quirúrgicos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -70,42 +469,518 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Brasier con relleno",
-        "text": "Brasier con relleno"
+        "tagTitle": "Post Quirúrgicos",
+        "text": "Post Quirúrgicos"
       }
     }
   },
-  "menu-item#category-brasiersinrelleno": {
+  "menu-item#category-brasieres-Maternidad-y-Lactancia": {
     "props": {
-      "id": "menu-item-category-brasiersinrelleno",
+      "id": "menu-item-category-Maternidad-y-Lactancia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Brasier sin relleno",
-        "text": "Brasier sin relleno"
+        "tagTitle": "Maternidad-y-Lactancia",
+        "text": "Maternidad y Lactancia"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-brasieres-Mastectomía": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-Mastectomía",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Mastectomía",
+        "text": "Mastectomía"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#category-brasieres-Multiusos": {
+    "props": {
+      "id": "menu-item-category-Multiusos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Multiusos",
+        "text": "Multiusos"
+      }
+    }
+  }, 
+  "menu-item#category-brasieres-Brasieres-Deportivos": {
+    "props": {
+      "id": "menu-item-category-Brasieres-Deportivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Brasieres-Deportivos",
+        "text": "Brasieres Deportivos"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Paquete-x-2": {
+    "props": {
+      "id": "menu-item-category-Paquete-x-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Paquete-x-2",
+        "text": "Paquete x 2"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Paquete-x-3": {
+    "props": {
+      "id": "menu-item-category-Paquete-x-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Paquete-x-3",
+        "text": "Paquete x 3"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Paquete-x-4": {
+    "props": {
+      "id": "menu-item-category-Paquete-x-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Paquete-x-4",
+        "text": "Paquete x 4"
+      }
+    }
+  },
+  "menu-item#category-brasieres-Pague_1_lleve_2 ": {
+    "props": {
+      "id": "menu-item-category-Pague_1_lleve_2 ",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Pague_1_lleve_2 ",
+        "text": "Pague 1 lleve 2 "
+      }
+    }
+  },
+  "menu-item#category-brasieres-Pague_1_lleve_3 ": {
+    "props": {
+      "id": "menu-item-category-Pague_1_lleve_3 ",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Pague_1_lleve_3 ",
+        "text": "Pague 1 lleve 3 "
+      }
+    }
+  },
+
+  "menu-item#category-tops": {
+    "props": {
+      "id": "menu-item-category-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tops/",
+        "noFollow": false,
+        "tagTitle": "TOPS",
+        "text": "TOPS"
+      }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#category-tops"
+  ]
+},
+"vtex.menu@2.x:submenu#category-tops": {
+  "props": {
+    "width": "100%"
+  },
+  "children": [
+    "flex-layout.row#category-tops"      
+  ]
+},
+"flex-layout.row#category-tops": {
+  "children": [
+    
+
+    "flex-layout.col#category-tops-1",
+    "flex-layout.col#category-tops-2",
+    "flex-layout.col#category-tops-3",
+    "flex-layout.col#category-tops-4",
+    "flex-layout.col#category-tops-5"
+    
+  ]
+},
+
+"flex-layout.col#category-tops-1": {
+  "children": [
+    "menu-item#category-tops-Buscar",
+    "menu-item#category-tops-Ver_todo",
+    "menu-item#category-tops-Lo_mas_Vendido",
+    "menu-item#category-tops-nuevosbrasieresybralettes",
+    "menu-item#category-tops-Ofertas"
+    
+  ]
+},
+"flex-layout.col#category-tops-2": {
+  "children": [
+    "menu-item#category-tops-tipo",
+    "menu-item#category-tops-fashiontops"
+  ]
+},
+"flex-layout.col#category-tops-3": {
+  "children": [
+    "menu-item#category-tops-beneficios"
+    
+  ]
+},
+"flex-layout.col#category-tops-4": {
+  "children": [
+    "menu-item#category-tops-Compra_mas_y_ahorra",
+    "menu-item#category-tops-pague1lleve3"
+  ]
+},
+"flex-layout.col#category-tops-5": {
+  "children": [
+    "info-card#home"   
+  ]
+},
+"vtex.menu@2.x:menu#category-tops": {
+  "props": {
+    "orientation": "vertical"
+  }
+},
+"menu-item#category-tops-Buscar": {
+  "props": {
+    "id": "menu-item-category-tops-Buscar",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-tops-Ver_todo": {
+  "props": {
+    "id": "menu-item-category-tops-Ver_todo",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ver_todo",
+      "text": "Ver Todo"
+    }
+  }
+},
+"menu-item#category-tops-Lo_mas_Vendido": {
+  "props": {
+    "id": "menu-item-category-tops-Lo_mas_Vendido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Lo_mas_Vendido",
+      "text": "Lo Mas Vendido"
+    }
+  }
+},
+
+"menu-item#category-tops-nuevosbrasieresybralettes": {
+  "props": {
+    "id": "menu-item-category-tops-nuevosbrasieresybralettes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Nuevos Brasieres y Bralettes",
+      "text": "Nuevos Brasieres y Bralettes"
+    }
+  }
+},
+
+"menu-item#category-tops-Ofertas": {
+  "props": {
+    "id": "menu-item-category-tops-Ofertas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ofertas",
+      "text": "Ofertas"
+    }
+  }
+},
+"menu-item#category-tops-tipo": {
+  "props": {
+    "id": "menu-item-category-tops-tipos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Tipos",
+      "text": "Tipos"
+    }
+  }
+},
+
+"menu-item#category-tops-fashiontops": {
+  "props": {
+    "id": "menu-item-category-tops-fashiontops",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Fashion Tops",
+      "text": "Fashion Tops"
+    }
+  }
+},
+
+"menu-item#category-tops-beneficios": {
+  "props": {
+    "id": "menu-item-category-tops-beneficios",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Beneficios",
+      "text": "Beneficios"
+    }
+  }
+},
+
+"menu-item#category-tops-Compra_mas_y_ahorra": {
+  "props": {
+    "id": "menu-item-category-tops-Compra_mas_y_ahorra",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Compra mas y ahorra",
+      "text": "Compra mas y ahorra"
+    }
+  }
+},
+"menu-item#category-tops-pague1lleve3": {
+  "props": {
+    "id": "menu-item-category-tops-pague1lleve3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Pague 1 lleve 3",
+      "text": "Pague 1 lleve 3"
+    }
+  }
+},
+
+  "menu-item#category-panties": {
+    "props": {
+      "id": "menu-item-category-panties",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/panties/",
+        "noFollow": false,
+        "tagTitle": "PANTIES",
+        "text": "PANTIES"
+      }
+    }
+  },
+  "menu-item#category-kids": {
+    "props": {
+      "id": "menu-item-category-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids/",
+        "noFollow": false,
+        "tagTitle": "KIDS & TEEN",
+        "text": "KIDS & TEEN"
+      }
+    }
+  },
+  "menu-item#category-descanso": {
+    "props": {
+      "id": "menu-item-category-descanso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/descanso/",
+        "noFollow": false,
+        "tagTitle": "DESCANSO",
+        "text": "DESCANSO"
+      }
+    }
+  },
+  "menu-item#category-medias": {
+    "props": {
+      "id": "menu-item-category-medias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medias/",
+        "noFollow": false,
+        "tagTitle": "MEDIAS",
+        "text": "MEDIAS"
+      }
+    }
+  },
+  "menu-item#category-deportivo": {
+    "props": {
+      "id": "menu-item-category-deportivo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportivo/",
+        "noFollow": false,
+        "tagTitle": "DEPORTIVO",
+        "text": "DEPORTIVO"
+      }
+    }
+  },
+  "menu-item#category-vestidos": {
+    "props": {
+      "id": "menu-item-category-vestidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestidos/",
+        "noFollow": false,
+        "tagTitle": "VESTIDOS DE BAÑO",
+        "text": "VESTIDOS DE BAÑO"
+      }
+    }
+  },
+  "menu-item#category-belleza": {
+    "props": {
+      "id": "menu-item-category-belleza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza/",
+        "noFollow": false,
+        "tagTitle": "BELLEZA",
+        "text": "BELLEZA"
+      }
+    }
+  },
+  "menu-item#category-bioseguridad": {
+    "props": {
+      "id": "menu-item-category-bioseguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bioseguridad/",
+        "noFollow": false,
+        "tagTitle": "BIOSEGURIDAD",
+        "text": "BIOSEGURIDAD"
+      }
+    }
+  },
+  "menu-item#category-rebajas": {
+    "props": {
+      "id": "menu-item-category-rebajas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebajas/",
+        "noFollow": false,
+        "tagTitle": "REBAJAS",
+        "text": "REBAJAS"
+      }
+    }
+  },
+
+
+  "menu-item#yoi": {
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -115,74 +990,75 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "YOI",
+        "text": "YOI"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#yoi"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#yoi": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#menu-yoi"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#menu-yoi": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-yoi-1",
+      "flex-layout.col#menu-yoi-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#menu-yoi-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#yoi"
     ]
   },
-  "flex-layout.col#menu-more-2": {
+  "flex-layout.col#menu-yoi-2": {
     "children": [
       "info-card#home"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#yoi": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#socialseller",
+      "menu-item#tiendas",
+      "menu-item#credipink"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#tiendas": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-tiendas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/tiendas",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#credipink": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-credipink",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
+        "href": "/credipink",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "CrediPink",
+        "text": "CrediPink"
       }
     }
   },
@@ -198,6 +1074,21 @@
         "noFollow": true,
         "tagTitle": "Contact Us",
         "text": "Contact Us"
+      }
+    }
+  },
+  "menu-item#socialseller": {
+    "props": {
+      "id": "menu-item-socialseller",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/socialseller",
+        "noFollow": true,
+        "tagTitle": "socialseller",
+        "text": "CONVIÉRTETE EN SOCIAL SELLER"
       }
     }
   }

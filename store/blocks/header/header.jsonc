@@ -201,7 +201,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-brasieres",
+      //"menu-item#category-brasieres",
       "menu-item#category-tops",
       "menu-item#category-panties",
       "menu-item#category-kids",
@@ -211,7 +211,6 @@
       "menu-item#category-vestidos",
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
-      "menu-item#category-rebajas",
       "menu-item#yoi"
     ],
     "props": {
