@@ -31,7 +31,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!!!"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -211,7 +211,6 @@
       "menu-item#category-vestidos",
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
-      "menu-item#category-rebajas",
       "menu-item#yoi"
     ],
     "props": {
