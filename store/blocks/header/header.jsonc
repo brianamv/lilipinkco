@@ -201,7 +201,7 @@
 
   "menu#drawer": {
     "children": [
-      //"menu-item#category-brasieres",
+      "menu-item#category-brasieres",
       "menu-item#category-tops",
       "menu-item#category-panties",
       "menu-item#category-kids",
