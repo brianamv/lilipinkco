@@ -12,9 +12,8 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-Atención-al-cliente",
       "footer-spacer"
       ],
     "props": {
@@ -86,7 +85,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS A PINK LIFE S.A.S.",
+      "text": "All stock and product photos are from photos.icons8.com",
       "blockClass": "footer"
     }
   }
