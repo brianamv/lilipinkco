@@ -663,13 +663,7 @@
       }
     }
 
-  },
-
-  "menu-item#category-brasieres-copab": {
-    "props": {
-      "id": "menu-item-category-brasieres-copab",
-=======
-  },
+  },  
   "menu-item#category-brasieres-Copa-B": {
     "props": {
       "id": "menu-item-category-brasieres-Copa-B",

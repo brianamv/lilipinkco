@@ -93,47 +93,65 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#Politicas",
+      "menu-item#Condiciones-y-restricciones",
+      "menu-item#políticas-de-Cambios-y-Devoluciones",
+      "menu-item#Privacidad-de-la-Información",
+      "menu-item#Trabaja-con-nosotros"
+
     ]
   },
-
-  "menu-item#smartphones": {
+  "menu-item#Politicas": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-Politicas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/decoration/Politicass",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Politicas",
+        "text": "Politicas"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "menu-item#Condiciones-y-restricciones": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-Condiciones-y-restricciones",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/decoration/Condiciones-y-restricciones",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Condiciones y restricciones",
+        "text": "Condiciones y restricciones"
       }
     }
   },
 
-  "menu-item#tvs": {
+  "menu-item#políticas-de-Cambios-y-Devoluciones": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-políticas-de-Cambios-y-Devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/políticas-de-Cambios-y-Devoluciones",
+        "noFollow": true,
+        "tagTitle": "políticas-de-Cambios-y-Devoluciones",
+        "text": "Cambios y Devoluciones"
+      }
+    }
+  },
+
+  "menu-item#Privacidad-de-la-Información": {
+    "props": {
+      "id": "menu-item-Privacidad-de-la-Información",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -141,26 +159,43 @@
         "type": "internal",
         "href": "/decoration/tvs",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Privacidad-de-la-Información",
+        "text": "Privacidad de la Información"
+      }
+    }
+  },
+  "menu-item#Trabaja-con-nosotros": {
+    "props": {
+      "id": "menu-item-Trabaja-con-nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Trabaja-con-nosotros",
+        "text": "Trabaja con nosotros"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#footer-Atención-al-cliente": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#Atención-al-cliente",
+      "menu-item#escribenos",
+      "menu-item#Linea-Telefonica",
+      "menu-item#Telefono",
+      "menu-item#3105756438"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#Atención-al-cliente": {
     "props": {
-      "id": "menu-item-bags",
+      "id": "menu-item-Atención-al-cliente",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -168,66 +203,84 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Atención-al-cliente",
+        "text": "Atención al cliente"
       }
     }
   },
-  "menu-item#backpacks": {
+  "menu-item#escribenos": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-escribenos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/bags/escribenos",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "escribenos",
+        "text": "servicioalcliente@lilipink.com"
       }
     }
   },
-  "menu-item#necessaire": {
+  "menu-item#Linea-Telefonica": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-Linea-Telefonica",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/bags/Telefono",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Linea-Telefonica",
+        "text": "Línea Telefónica:"
       }
     }
   },
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "menu-item#Telefono": {
     "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt"
-    ]
+      "id": "menu-item-Telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/Telefono",
+        "noFollow": true,
+        "tagTitle": "Telefono",
+        "text": "6702400 Ext 107"
+      }
+    }
   },
-
+  "menu-item#3105756438":{
+    "props": {
+      "id": "menu-item-Linea-Telefonica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/Telefono",
+        "noFollow": true,
+        "tagTitle": "Linea-Telefonica",
+        "text": "3105756438"
+      }
+    }
+  },
+ 
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
+      "menu-item#Links-de-Interes-mobile",
       "menu-item#Politicas-mobile",
       "menu-item#sale-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#Links-de-Interes-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -278,9 +331,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#Condiciones-y-restricciones",
+      "menu-item#políticas-de-Cambios-y-Devoluciones",
+      "menu-item#Privacidad-de-la-Información",
+      "menu-item#Trabaja-con-nosotros"
     ]
   },
 
@@ -302,87 +356,12 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#Atención-al-cliente",
+      "menu-item#escribenos",
+      "menu-item#Linea-Telefonica",
+      "menu-item#Telefono",
+      "menu-item#3105756438"
+      
     ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-
-  "menu-item#tank-tops": {
-    "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
   }  
 }
