@@ -82,6 +82,7 @@
       "menu-item#category-brasieres-Strapless" ,
       "menu-item#category-brasieres-Bralettes-y-brasieres-de-casa",
       "menu-item#category-brasieres-deports"
+
     ]
   },
   "flex-layout.col#category-brasieres-3": {
@@ -95,8 +96,7 @@
       "menu-item#category-brasieres-Mastectomía",
       "menu-item#category-brasieres-Multiusos",
       "menu-item#category-brasieres-Brasieres-Deportivos"
-      
-      
+
     ]
   },
   "flex-layout.col#category-brasieres-4": {
@@ -110,6 +110,7 @@
       "menu-item#category-brasieres-Copa-B",
       "menu-item#category-brasieres-Copa-C",
       "menu-item#category-brasieres-Copa-D"
+
     ]
   },
   "flex-layout.col#category-brasieres-5": {
@@ -138,7 +139,7 @@
         "text": "Buscar" ,
         "fullWidt":false          
        
-        
+
       }
     }
   },
@@ -151,10 +152,11 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres",
+         "noFollow": false,
         "tagTitle": "Ver_todo",
         "text": "Ver Todo"
+
       }
     }
   },
@@ -167,10 +169,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres?O=OrderByTopSaleDESC",
+           "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
         "text": "Lo Mas Vendido"
+
       }
     }
   },
@@ -183,10 +187,11 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres?O=OrderByReleaseDateDESC",
+             "noFollow": false,
         "tagTitle": "Nuevos Brasieres y Bralettes",
         "text": "Nuevos Brasieres y Bralettes"
+
       }
     }
   },
@@ -199,10 +204,11 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres?O=OrderByBestDiscountDESC",
+          "noFollow": false,
         "tagTitle": "Ofertas",
         "text": "Ofertas"
+
       }
     }
   },
@@ -219,6 +225,7 @@
         "noFollow": false,
         "tagTitle": "Tipo",
         "text": "Tipo"
+
       }
     }
   },
@@ -246,7 +253,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres/push-up",
         "noFollow": false,
         "tagTitle": "PushUp",
         "text": "Push Up"
@@ -255,6 +262,7 @@
   },
  
   
+
   "menu-item#category-brasieres-Bralette": {
     "props": {
       "id": "menu-item-category-brasieres-Bralette",
@@ -263,7 +271,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Bralette",
         "text": "Bralette"
@@ -283,6 +291,7 @@
         "noFollow": false,
         "tagTitle": "SinForro",
         "text": "Sin Forro"
+
       }
     }
   },
@@ -298,6 +307,7 @@
         "noFollow": false,
         "tagTitle": "CoberturaTotal",
         "text": "Cobertura Total"
+
       }
     }
   },
@@ -313,6 +323,7 @@
         "noFollow": false,
         "tagTitle": "MediaCopa",
         "text": "Media Copa"
+
       }
     }
   },
@@ -324,10 +335,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres/deportivos",
+          "noFollow": false,
         "tagTitle": "BrasieresParaCamisa",
         "text": "Brasieres Para Camisa"
+
       }
     }
   },
@@ -340,8 +353,8 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres/media-copa",
+          "noFollow": false,
         "tagTitle": "SinAro",
         "text": "Sin Aro"
       }
@@ -355,8 +368,8 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres/Strapless",
+          "noFollow": false,
         "tagTitle": "Bustier",
         "text": "Bustier"
       }
@@ -370,10 +383,11 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Strapless",
+         "tagTitle": "Strapless",
         "text": "Strapless"
+
       }
     }
   },
@@ -390,10 +404,12 @@
         "noFollow": false,
         "tagTitle": "Bralettes y brasieres de casa",
         "text": "Bralettes y brasieres de casa"
+
       }
     }
   },
  
+
   "menu-item#category-brasieres-deports": {
     "props": {
       "id": "menu-item-category-brasieres-deports",
@@ -410,6 +426,7 @@
     }
   },
   
+
   "menu-item#category-brasieres-Beneficio": {
     "props": {
       "blockClass": "BeneficioBrasieres",
@@ -421,8 +438,9 @@
         "type": "internal",
         "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Beneficio",
-        "text": "Beneficio"
+        "tagTitle": "Beneficios",
+        "text": "Beneficios"
+
       }
     }
   }, 
@@ -439,6 +457,7 @@
         "noFollow": false,
         "tagTitle": "Compra_mas_y_ahorra",
         "text": "Compra más y Ahorra"
+
       }
     }
   }, 
@@ -452,8 +471,9 @@
         "type": "internal",
         "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "PushUp_realce",
-        "text": "Push Up realce"
+        "tagTitle": "Realce",
+        "text": "Realce"
+
       }
     }
   },
@@ -469,6 +489,7 @@
         "noFollow": false,
         "tagTitle": "reduce",
         "text": "Reduccion"
+
       }
     }
   },
@@ -480,10 +501,11 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
+        "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/brasieres/deportivos",
+           "noFollow": false,
         "tagTitle": "facilitadores-postura",
         "text": "Facilitadores Postura"
+
       }
     }
   },
@@ -499,6 +521,7 @@
         "noFollow": false,
         "tagTitle": "Post Quirúrgicos",
         "text": "Post Quirúrgicos"
+
       }
     }
   },
@@ -514,6 +537,7 @@
         "noFollow": false,
         "tagTitle": "Maternidad-y-Lactancia",
         "text": "Maternidad y Lactancia"
+
       }
     }
   },
@@ -527,8 +551,8 @@
         "type": "internal",
         "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Mastectomía",
-        "text": "Mastectomía"
+        "tagTitle": "Mesh",
+        "text": "Mesh"
       }
     }
   },
@@ -542,8 +566,9 @@
         "type": "internal",
         "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Multiusos",
+       "tagTitle": "Multiusos",
         "text": "Multiusos"
+
       }
     }
   }, 
@@ -607,6 +632,7 @@
       }
     }
   },
+
   "menu-item#category-brasieres-Copa ": {
     "props": {
       "id": "menu-item-category-brasieres-Copa ",
@@ -636,6 +662,13 @@
         "text": "Copa A"
       }
     }
+
+  },
+
+  "menu-item#category-brasieres-copab": {
+    "props": {
+      "id": "menu-item-category-brasieres-copab",
+=======
   },
   "menu-item#category-brasieres-Copa-B": {
     "props": {
@@ -3320,8 +3353,262 @@
         "tagTitle": "Triangulares",
         "text": "Triangulares"
       }
-    }
   },
+
+  "blocks": [
+    "vtex.menu@2.x:submenu#category-tops"
+  ]
+},
+"vtex.menu@2.x:submenu#category-tops": {
+  "props": {
+    "width": "100%"
+  },
+  "children": [
+    "flex-layout.row#category-tops"      
+  ]
+},
+"flex-layout.row#category-tops": {
+  "children": [
+    
+
+    "flex-layout.col#category-tops-1",
+    "flex-layout.col#category-tops-2",
+    "flex-layout.col#category-tops-3",
+    "flex-layout.col#category-tops-4",
+    "flex-layout.col#category-tops-5"
+    
+  ]
+},
+
+"flex-layout.col#category-tops-1": {
+  "children": [
+    "menu-item#category-tops-Buscar",
+    "menu-item#category-tops-Ver_todo",
+    "menu-item#category-tops-Lo_mas_Vendido",
+    "menu-item#category-tops-nuevosbrasieresybralettes",
+    "menu-item#category-tops-Ofertas"
+    
+  ]
+},
+"flex-layout.col#category-tops-2": {
+  "children": [
+    "menu-item#category-tops-tipo",
+    "menu-item#category-tops-fashiontops"
+  ]
+},
+"flex-layout.col#category-tops-3": {
+  "children": [
+    "menu-item#category-tops-beneficios"
+    
+  ]
+},
+"flex-layout.col#category-tops-4": {
+  "children": [
+    "menu-item#category-tops-Compra_mas_y_ahorra",
+    "menu-item#category-tops-pague1lleve3",
+    "menu-item#category-tops-paquetex3",
+    "menu-item#category-tops-paquetex4"
+  ]
+},
+"flex-layout.col#category-tops-5": {
+  "children": [
+    "info-card#home"   
+  ]
+},
+"vtex.menu@2.x:menu#category-tops": {
+  "props": {
+    "orientation": "vertical"
+  }
+},
+"menu-item#category-tops-Buscar": {
+  "props": {
+    "id": "menu-item-category-tops-Buscar",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-tops-Ver_todo": {
+  "props": {
+    "id": "menu-item-category-tops-Ver_todo",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/tops",
+      "noFollow": false,
+      "tagTitle": "Ver todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+"menu-item#category-tops-Lo_mas_Vendido": {
+  "props": {
+    "id": "menu-item-category-tops-Lo_mas_Vendido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/tops?O=OrderByTopSaleDESC",
+      "noFollow": false,
+      "tagTitle": "Lo más Vendido",
+      "text": "Los Más Vendidos"
+    }
+  }
+},
+
+"menu-item#category-tops-nuevosbrasieresybralettes": {
+  "props": {
+    "id": "menu-item-category-tops-nuevosbrasieresybralettes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Nuevos Brasieres y Bralettes",
+      "text": "Nuevos Brasieres y Bralettes"
+    }
+  }
+},
+
+"menu-item#category-tops-Ofertas": {
+  "props": {
+    "id": "menu-item-category-tops-Ofertas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/tops?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Mejor descuento",
+      "text": "Mejor Descuento"
+    }
+  }
+},
+"menu-item#category-tops-tipo": {
+  "props": {
+    "id": "menu-item-category-tops-tipos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Tipos",
+      "text": "Tipos"
+    }
+  }
+},
+
+"menu-item#category-tops-fashiontops": {
+  "props": {
+    "id": "menu-item-category-tops-fashiontops",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/tops/Fashion-Tops",
+      "noFollow": false,
+      "tagTitle": "Fashion Tops",
+      "text": "Fashion Tops"
+    }
+  }
+},
+
+"menu-item#category-tops-beneficios": {
+  "props": {
+    "id": "menu-item-category-tops-beneficios",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Beneficios",
+      "text": "Beneficios"
+    }
+  }
+},
+
+"menu-item#category-tops-Compra_mas_y_ahorra": {
+  "props": {
+    "id": "menu-item-category-tops-Compra_mas_y_ahorra",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Compra mas y ahorra",
+      "text": "Compra más y ahorra"
+    }
+  }
+},
+"menu-item#category-tops-pague1lleve3": {
+  "props": {
+    "id": "menu-item-category-tops-pague1lleve3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://mqaenvironment.vtexcommercestable.com.br/lilipink/tops/PQ%20x%202?PS=12&map=c,c,specificationFilter_70",
+      "noFollow": false,
+      "tagTitle": "Paquete x 2",
+      "text": "Paquete x 2"
+    }
+  }
+},
+
+"menu-item#category-tops-paquetex3": {
+  "props": {
+    "id": "menu-item#category-tops-paquetex3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Paquete x 3",
+      "text": "Paquete x 3"
+    }
+  }
+},
+
+"menu-item#category-tops-paquetex4": {
+  "props": {
+    "id": "menu-item#category-tops-paquetex4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Paquete x 4",
+      "text": "Paquete x 4"
+    }
+  }
+},
+
+ 
   "menu-item#category-vestidos-Halter": {
     "props": {
       "id": "menu-item#category-vestidos-Halter",

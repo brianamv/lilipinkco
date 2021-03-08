@@ -11,7 +11,8 @@
       "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#4-desktop"
+      "flex-layout.row#4-desktop",
+       "flex-layout.row#6-desktop"
     ]
   },
 
@@ -102,6 +103,33 @@
       "minicart.v2"
     ]
   },
+  "flex-layout.row#6-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+       "horizontalAlign": "center",
+       "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "rich-text#linkImperdibles",
+      "rich-text#linkPedidoWhatsapp",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "rich-text#linkImperdibles": {
+    "props": {
+      "text": "Encuentra Nuestros Imperdibles AQUÍ          |",
+      "blockClass": "link"
+    }
+  },
+  "rich-text#linkPedidoWhatsapp": {
+    "props": {
+      "text": "|          Haz tu pedido vía Whatsapp AQUÍ",
+      "blockClass": "link"
+    }
+  },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
@@ -135,8 +163,17 @@
     "children": [
       "flex-layout.col#category-menu"
     ]
-
   },
+
+   "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },
+
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
