@@ -53,7 +53,7 @@
 }
 
 .label {
-  color: #fff;
+  color: #e4147e;;
   font-size: 26px;
 }
 
@@ -70,19 +70,20 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
+  color: #e4147e;
   font-size: 16px;
 }
 
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
-  color: #fff;
+  color: #e4147e;
   border: none;
   margin-right: -24px;
 }
 
 .buttonContainer {
   padding-top: 0px;
+  
 }
 
 .imageElement--storePrint {

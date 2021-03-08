@@ -37,7 +37,12 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727272;
+  color: black;
+  font-size: 11px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink):hover {
+  color: rgb(255, 0, 128);
   font-size: 11px;
 }
 .flexRow--deals {
