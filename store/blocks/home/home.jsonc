@@ -135,6 +135,7 @@
       "src": "assets/BannerDeal.jpg"  
     }  
   },
+  
   "flex-layout.row#setInfocart": {
     "props": {
        "verticalAlign": "middle",
@@ -190,7 +191,7 @@
       "src": "assets/BannerInferior.jpg"  
     }  
   },
-  /*---------------*/
+  /* pruebaredes sociales*/
   "social-networks": {
     "props": {
       "verticalAlign": "middle",
