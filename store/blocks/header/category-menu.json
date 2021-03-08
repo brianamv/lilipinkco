@@ -57,6 +57,7 @@
   },
   
   "flex-layout.col#category-brasieres-1": {
+    
     "children": [
       "menu-item#category-brasieres-Buscar",
       "menu-item#category-brasieres-Ver_todo",
@@ -70,6 +71,7 @@
     "children": [
       "menu-item#category-brasieres-Tipo",
       "menu-item#category-brasieres-PushUp",
+      "menu-item#category-brasieres-vacio",
       "menu-item#category-brasieres-Bralette",
       "menu-item#category-brasieres-SinForro",
       "menu-item#category-brasieres-CoberturaTotal",
@@ -109,7 +111,6 @@
       "menu-item#category-brasieres-Copa-C",
       "menu-item#category-brasieres-Copa-D"
 
-
     ]
   },
   "flex-layout.col#category-brasieres-5": {
@@ -125,6 +126,7 @@
   },
   "menu-item#category-brasieres-Buscar": {
     "props": {
+      "blockClass": "Buscar",
       "id": "menu-item-category-brasieres-Buscar",
       "type": "custom",
       "iconId": null,
@@ -134,13 +136,16 @@
         "href": "/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Buscar",
-        "text": "Buscar"
+        "text": "Buscar" ,
+        "fullWidt":false          
+       
 
       }
     }
   },
   "menu-item#category-brasieres-Ver_todo": {
     "props": {
+      "blockClass": "Vertodo",
       "id": "menu-item-category-brasieres-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -209,6 +214,7 @@
   },
   "menu-item#category-brasieres-Tipo": {
     "props": {
+      "blockClass": "Tipo",
       "id": "menu-item-category-brasieres-Tipo",
       "type": "custom",
       "iconId": null,
@@ -220,6 +226,21 @@
         "tagTitle": "Tipo",
         "text": "Tipo"
 
+      }
+    }
+  },
+  "menu-item#category-brasieres-vacio": {
+    "props": {
+      "id": "menu-item-category-brasieres-vacio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
       }
     }
   },
@@ -254,6 +275,7 @@
         "noFollow": false,
         "tagTitle": "Bralette",
         "text": "Bralette"
+        
       }
     }
   },
@@ -407,6 +429,7 @@
 
   "menu-item#category-brasieres-Beneficio": {
     "props": {
+      "blockClass": "BeneficioBrasieres",
       "id": "menu-item-category-brasieres-Beneficio",
       "type": "custom",
       "iconId": null,
@@ -423,6 +446,7 @@
   }, 
   "menu-item#category-brasieres-Compra_mas_y_ahorra": {
     "props": {
+      "blockClass": "CompramasBrasieres",
       "id": "menu-item-category-brasieres-Compra_mas_y_ahorra",
       "type": "custom",
       "iconId": null,
@@ -431,8 +455,9 @@
         "type": "internal",
         "href": "/brasieres/clothing/",
         "noFollow": false,
-        "tagTitle": "Compra mas y ahorra",
-         "text": "Compra Mas y Ahorra"
+        "tagTitle": "Compra_mas_y_ahorra",
+        "text": "Compra más y Ahorra"
+
       }
     }
   }, 
@@ -735,7 +760,10 @@
 "flex-layout.col#category-tops-2": {
   "children": [
     "menu-item#category-tops-tipo",
-    "menu-item#category-tops-fashiontops"
+    "menu-item#category-tops-fashiontops",
+    "menu-item#category-tops-vacio",
+    "menu-item#category-tops-vacio-1",
+    "menu-item#category-tops-vacio-2"
   ]
 },
 "flex-layout.col#category-tops-3": {
@@ -867,6 +895,51 @@
       "noFollow": false,
       "tagTitle": "Fashion Tops",
       "text": "Fashion Tops"
+    }
+  }
+},
+"menu-item#category-tops-vacio": {
+  "props": {
+    "id": "menu-item-category-tops-vacio",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "",
+      "text": ""
+    }
+  }
+},
+"menu-item#category-tops-vacio-1": {
+  "props": {
+    "id": "menu-item-category-tops-vacio-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "",
+      "text": ""
+    }
+  }
+},
+"menu-item#category-tops-vacio-2": {
+  "props": {
+    "id": "menu-item-category-tops-vacio-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "",
+      "text": ""
     }
   }
 },

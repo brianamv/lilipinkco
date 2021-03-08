@@ -7,7 +7,7 @@
  * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
-{
+ {
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
@@ -51,6 +51,7 @@
       "font": "t-heading-1"
     }
   },
+
   "store.custom#venta-whatsapp": {
     "blocks": [
       "flex-layout.row#venta-whatsapp",
@@ -105,3 +106,4 @@
      }
    }
 } 
+

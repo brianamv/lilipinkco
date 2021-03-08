@@ -8,7 +8,9 @@
   "store.custom#contact-us": {
     "path": "/contact-us"
   },
+
   "store.custom#venta-whatsapp": {
     "path": "/venta-whatsapp"
+
   }
 }

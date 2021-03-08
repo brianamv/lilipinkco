@@ -31,7 +31,7 @@
   max-width: 540px;
   margin: 0 16px;
   padding-top: 120px;
-  color: #03034E;
+  color: #e4147e;
 }
 
 .container--question .strong {
@@ -45,7 +45,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #e4147e;
 }
 
 .container--link .strong {
@@ -86,5 +86,7 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
+    
   }
+  
 }

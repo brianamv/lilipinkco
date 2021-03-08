@@ -135,6 +135,7 @@
       "src": "assets/BannerDeal.jpg"  
     }  
   },
+  
   "flex-layout.row#setInfocart": {
     "props": {
        "verticalAlign": "middle",
@@ -190,7 +191,7 @@
       "src": "assets/BannerInferior.jpg"  
     }  
   },
-
+  /* pruebaredes sociales*/
   "social-networks": {
     "props": {
       "verticalAlign": "middle",
@@ -203,15 +204,8 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
+        }       
+        
       ]
     }
   }

@@ -4,15 +4,16 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#Links-de-interes",
+      "menu-item#Quienes-somos",
+      "menu-item#Promociones",
+      "menu-item#Preguntas-frecuentes",
+      "menu-item#Guía-de-Tallas-y-Tips"
     ]
   },
-  "menu-item#news": {
+  "menu-item#Links-de-interes": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-Links-de-interes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -20,14 +21,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Links-de-interes",
+        "text": "Links de interes"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#Quienes-somos": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-Quienes-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +36,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Quienes-somos",
+        "text": "Quienes somos"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#Preguntas-frecuentes": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-Preguntas-frecuentes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +51,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Preguntas-frecuentes",
+        "text": "Preguntas frecuentes"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#Promociones": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-Promociones",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,10 +66,26 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Promociones",
+        "text": "Promociones"
       }
-    }
+    }  
+
+  },
+  "menu-item#Guía-de-Tallas-y-Tips": {
+    "props": {
+      "id": "Guía-de-Tallas-y-Tips",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Guía-de-Tallas-y-Tips",
+        "text": "Guía de Tallas y Tips"
+      }
+    }  
   },
 
   "vtex.menu@2.x:menu#footer-decoration": {
@@ -156,7 +173,6 @@
       }
     }
   },
-
   "menu-item#backpacks": {
     "props": {
       "id": "menu-item-backpacks",
@@ -172,7 +188,6 @@
       }
     }
   },
-
   "menu-item#necessaire": {
     "props": {
       "id": "menu-item-necessaire",
@@ -188,18 +203,16 @@
       }
     }
   },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
+      "menu-item#Links-de-interes",
       "menu-item#shorts",
       "menu-item#tank-tops",
       "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#sweatshirt"
     ]
   },
 
@@ -241,9 +254,8 @@
     "children": [
       "menu-item#shorts",
       "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#shirts"
+      
     ]
   },
 
@@ -342,7 +354,6 @@
       }
     }
   },
-
   "menu-item#shirts": {
     "props": {
       "id": "menu-item-shirts",
@@ -358,7 +369,6 @@
       }
     }
   },
-
   "menu-item#sweatshirt": {
     "props": {
       "id": "menu-item-sweat-shirts",
@@ -373,21 +383,5 @@
         "text": "Sweatshirt"
       }
     }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      }
-    }
-  }
+  }  
 }
