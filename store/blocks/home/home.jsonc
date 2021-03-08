@@ -151,7 +151,7 @@
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-ic1",
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
   "info-card#ic2": {
