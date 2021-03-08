@@ -208,7 +208,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#Links-de-interes",
+      "menu-item#clothing",
       "menu-item#shorts",
       "menu-item#tank-tops",
       "menu-item#shirts",
@@ -222,7 +222,7 @@
     },
     "children": [
       "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
+      "menu-item#Politicas-mobile",
       "menu-item#sale-mobile"
     ]
   },
@@ -238,7 +238,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Links de Interes"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -252,27 +252,28 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts"
+      "menu-item#Quienes-somos",
+      "menu-item#Promociones",
+      "menu-item#Preguntas-frecuentes",
+      "menu-item#Guía-de-Tallas-y-Tips"
       
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#Politicas-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Politicas",
+        "text": "Politicas"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#Politicas"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#Politicas": {
+    "children": ["vtex.menu@2.x:menu#footer-Politicas-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-Politicas-mobile": {
     "props": {
       "orientation": "vertical"
     },
@@ -287,7 +288,7 @@
     "props": {
       "itemProps": {
         "tagTitle": "Sale",
-        "text": "Sale"
+        "text": "Atención al cliente"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
