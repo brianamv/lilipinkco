@@ -64,7 +64,6 @@
     "vtex.tab-layout": "0.x",
     "vtex.css-handles": "0.x",
     "vtex.category-menu": "2.x"
-
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"
