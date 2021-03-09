@@ -75,8 +75,15 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #e4147e;
+  /*background-color: transparent;*/
+  color: #faf4f7;
+  border: none;
+  margin-right: -24px;
+}
+:global(.vtex-button) {
+  /*background-color: transparent;*/
+  background-color: #e4147e;
+  
   border: none;
   margin-right: -24px;
 }
