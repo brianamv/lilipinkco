@@ -5,6 +5,9 @@
 .flexRowContent--savingsSummaryListDesktop {
   justify-content: flex-start;
 }
+.flexRowContent--menu-row {
+  background-color: #e4147e;
+}
 
 .flexCol--summaryRightListDesktop {
   justify-content: space-around;

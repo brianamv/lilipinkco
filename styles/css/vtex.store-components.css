@@ -84,6 +84,7 @@
 .buttonContainer {
   padding-top: 0px;
   
+  
 }
 
 .imageElement--storePrint {
@@ -125,8 +126,6 @@
     padding: 14px;
   }
 
-  
-
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 700px;
@@ -152,7 +151,7 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: black;
   font-weight: bold;
   font-size: 30px;
 }

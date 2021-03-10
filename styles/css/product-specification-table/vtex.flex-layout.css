@@ -6,6 +6,10 @@
   background-color: #eaeaea;
   padding: 0.5rem 1rem;
 }
+.flexRowContent--1-footer-mobile{
+  color: #9c2e2e;  
+}
+
 
 .flexCol--productSpecificationName {
   padding: 1rem;
