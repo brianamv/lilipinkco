@@ -9,12 +9,8 @@
     "path": "/contact-us"
   },
 
-  "store.custom#venta-whatsapp": {
-    "path": "/venta-whatsapp"
-
-  },
-  "store.custom#nosotros": {
-    "path": "/nosotros"
+  "store.custom#venta-whatsapp-tiendas": {
+    "path": "/venta-whatsapp-tiendas"
 
   }
   

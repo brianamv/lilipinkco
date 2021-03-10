@@ -52,76 +52,130 @@
     }
 
   },
-
-  "store.custom#venta-whatsapp": {
+  "store.custom#venta-whatsapp-tiendas": {
     "blocks": [
       "flex-layout.row#venta-whatsapp",
-      "video#venta-whatsapp"
+      "flex-layout.row#venta-whatsapp-2"
+
     ]
   },
   "flex-layout.row#venta-whatsapp": {
-    "children": [
-      "image#mobile-phone",
-      "flex-layout.col#text-about-us"
+    "children": [      
+      
+      "flex-layout.row#bannerwhatapps"
     ]
   },
-
-  "flex-layout.col#text-about-us": {
+  "flex-layout.row#bannerwhatapps": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#bannerwhatapps"
+      
+    ]
+  }, 
+  
+  "image#bannerwhatapps": {  
+    "props": {  
+      "src": "assets/banner-whatsapp-final1.jpg"  
+    }  
+  },
+  "flex-layout.row#venta-whatsapp-2": {
+    "children": [      
+      
+      "tab-layout#page"
+    ]
+  },
+  "tab-layout#page":{
     "children": [
-      "rich-text#title-about-us",
-      "rich-text#about-us"
+      "tab-list#Pagina-nueva",
+      "tab-content#Pagina-nueva"
     ],
     "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
+      "blockClass": "PaginaNueva",
+      "defaultActiveTabId": "PaginaNueva1"
     }
   },
-
-  "rich-text#title-about-us": {
+  "tab-list#Pagina-nueva": {
+    "children": [
+      "tab-list.item#Pagina1",
+      "tab-list.item#Pagina2",
+      "tab-list.item#Pagina3",
+      "tab-list.item#Pagina4",
+      "tab-list.item#Pagina5",
+      "tab-list.item#Pagina6",
+      "tab-list.item#Pagina7",
+      "tab-list.item#Pagina8",
+      "tab-list.item#Pagina9"
+    ]
+  },
+  "tab-list.item#Pagina1": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
-      "blockClass": "title"
+      "tabId": "pagina1",
+      "label": "Bogotá",
+      "defaultActiveTab": true
     }
   },
-
-  "image#mobile-phone": {
+  "tab-list.item#Pagina2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
-      "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "storePrint"
+      "tabId": "pagina2",
+      "label": "Bucaramanga"
     }
   },
-  "video#venta-whatsapp": {
+  "tab-list.item#Pagina3": {
     "props": {
-      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
-      "width": "100%",
-      "height": "100%"
+      "tabId": "pagina3",
+      "label": "Barranquilla"
     }
   },
-
-  "rich-text#about-us": {
+  "tab-list.item#Pagina4": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
-      "blockClass": "about"
-     }
-   },
-
-   "store.custom#nosotros": {
-    "blocks": [
-      //"flex-layout.row#nosotros"  
-     ]
-    },
-    "rich-text#title-nosotros": {
-      "props": {
-        "text":
-        "#Página Nosotros",
-        "blockClass": "title"
-      }
-    },
-  
-
+      "tabId": "pagina4",
+      "label": "Santa Marta"
+    }
+  },
+  "tab-list.item#Pagina5": {
+    "props": {
+      "tabId": "pagina5",
+      "label": "Valledupar"
+    }
+  },
+  "tab-list.item#Pagina6": {
+    "props": {
+      "tabId": "pagina6",
+      "label": "Medellín"
+    }
+  },
+  "tab-list.item#Pagina7": {
+    "props": {
+      "tabId": "pagina7",
+      "label": "Cartagena"
+    }
+  },
+  "tab-list.item#Pagina8": {
+    "props": {
+      "tabId": "pagina8",
+      "label": "Cali"
+    }
+  },
+  "tab-list.item#Pagina9": {
+    "props": {
+      "tabId": "pagina9",
+      "label": "Otras"
+    }
+  },
+  "tab-content#Pagina-nueva": {
+    "children": [
+      "tab-content.item#pagina1"
+    ]
+  },
+  "tab-content.item#pagina1": {
+    "children": [
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
    "store.storelocator": {
     "blocks": ["flex-layout.row#title", "flex-layout.row#container"]
   },

@@ -30,14 +30,36 @@
   padding: 5px;
 }
 
+
 .infoCardContainer--info-card-ic3 {
   max-width: 1520px;
   max-height: 700px;
   margin: 0 auto;
   background-color: #EFEFEF;
   padding: 5px;
-}
 
+}
+.imageElement--Imagenetiqueta{ 
+  height :20px;
+  width: 34%;
+  margin-bottom: -1%;
+  display: flex;
+  justify-content: center;
+}
+.imageElement--Img-ig{ 
+  height :54px;
+  width: 23%;
+  margin-bottom: -1%;
+  display: flex;
+  justify-content: center;
+}
+.imageElement--Img-fb{ 
+  height :54px;
+  width: 23%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
 .newsletter {
   background-color: #EFEFEF;
   max-width: 1528px;
@@ -161,4 +183,8 @@
   color: black;
   font-weight: bold;
   font-size: 30px;
+}
+.searchIcon{
+  color: #e4147e;
+
 }

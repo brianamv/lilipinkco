@@ -12,7 +12,7 @@
       "flex-layout.row#bannerInferior",
       "newsletter",
       "rich-text#link",
-      "social-networks"
+      "flex-layout.row#redessociales"
       
     ]
   },
@@ -114,13 +114,6 @@
       "blockClass": "question"
     }
   },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n*Sígue Nuestras Redes Sociales*\n",
-      "blockClass": "link"
-    }
-  },
   "flex-layout.row#bannerComplemento": {
     "props": {
       "verticalAlign": "middle",
@@ -135,7 +128,6 @@
       "src": "assets/BannerDeal.jpg"  
     }  
   },
-  
   "flex-layout.row#setInfocart": {
     "props": {
        "verticalAlign": "middle",
@@ -151,7 +143,7 @@
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-ic1",
-      "textAlignment": "left"
+      "textAlignment": "center"
     }
   },
   "info-card#ic2": {
@@ -169,7 +161,7 @@
     "props": {
       "id": "info-card-ic3",
       "isFullModeStyle": true,
-       "imageUrl": "assets/infoHomeC.jpg",
+       "imageUrl": "assets/fresca.jpg",
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-ic3",
@@ -191,22 +183,48 @@
       "src": "assets/BannerInferior.jpg"  
     }  
   },
-  /* pruebaredes sociales*/
-  "social-networks": {
+  "rich-text#link": {
+    "props": {
+      "text": "\n*Sígue Nuestras Redes Sociales*\n",
+      "blockClass": "link"
+    }
+  },
+  
+  "flex-layout.row#redessociales": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        }       
-        
-      ]
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#redesfb",
+      "rich-text#fb",
+      "image#redesig",
+      "rich-text#ig"
+    ]
+  }, 
+  
+  "image#redesfb": {  
+    "props": {  
+      "blockClass": "Img-fb",
+      "src": "assets/face-pink.png"  
+    }  
+  },
+  "rich-text#fb": {
+    "props": {
+      "blockClass": "Facebook",
+      "text": " @LiliPinkColombia "
+    }
+  },
+  "image#redesig": {  
+    "props": { 
+      "blockClass": "Img-ig", 
+      "src": "assets/insta-pink.png"  
+    }  
+  },
+  "rich-text#ig": {
+    "props": {
+      "blockClass": "Instagram",
+      "text": "@Lilipinkcol"     
     }
   }
 }
