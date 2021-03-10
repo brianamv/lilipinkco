@@ -12,5 +12,9 @@
   "store.custom#venta-whatsapp": {
     "path": "/venta-whatsapp"
 
+  },
+  "store.custom#nosotros": {
+    "path": "/nosotros"
+
   }
 }
