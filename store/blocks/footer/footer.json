@@ -11,10 +11,14 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
+      "footer-spacer",
       "vtex.menu@2.x:menu#Products",
+      "footer-spacer",   
       "vtex.menu@2.x:menu#footer-decoration",
+      "footer-spacer",
       "vtex.menu@2.x:menu#footer-Atención-al-cliente",
       "footer-spacer"
+      
       ],
     "props": {
       "blockClass": "menu-row",
@@ -26,7 +30,17 @@
   
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      
+      "flex-layout.row#imagenes-tarjetas",
+      "flex-layout.row#imagenes-tarjetas-2",
+      "flex-layout.row#imagenes-tarjetas-3",
+      "flex-layout.row#imagenes-tarjetas-4",
+      "flex-layout.row#imagenes-tarjetas-5",
+      "flex-layout.row#imagenes-tarjetas-6",
+      "flex-layout.row#imagenes-tarjetas-7",
+      "flex-layout.row#imagenes-tarjetas-8"
+    ],
     "props": {
       "blockClass": "payment-methods"
     }
@@ -36,7 +50,102 @@
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
-
+  "flex-layout.row#imagenes-tarjetas": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas"]
+  },
+  "image#tarjetas": {  
+    "props": {  
+      "src": "assets/efecty.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-2"]
+  },
+  "image#tarjetas-2": {  
+    "props": {  
+      "src": "assets/DAVIVIENDA.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-3": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-3"]
+  },
+  "image#tarjetas-3": {  
+    "props": {  
+      "src": "assets/PSE.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-4": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-4"]
+  },
+  "image#tarjetas-4": {  
+    "props": {  
+      "src": "assets/VISA.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-5": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-5"]
+  },
+  "image#tarjetas-5": {  
+    "props": {  
+      "src": "assets/MASTERCARD.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-6": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-6"]
+  },
+  "image#tarjetas-6": {  
+    "props": {  
+      "src": "assets/CODENSA.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-7": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-7"]
+  },
+  "image#tarjetas-7": {  
+    "props": {  
+      "src": "assets/DINERS-CLUB.png"  
+    }  
+  },
+  "flex-layout.row#imagenes-tarjetas-8": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#tarjetas-8"]
+  },
+  "image#tarjetas-8": {  
+    "props": {  
+      "src": "assets/AMERICAN.png"  
+    }  
+  },
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer"],
     "props": {
@@ -44,9 +153,9 @@
     }
   },
   "rich-text#footer": {
-    "props": {
+    "props": {      
       "text": "© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS A PINK LIFE S.A.S.",
-      "blockClass": "footer"
+      "blockClass": "footercopyright"     
     }
   },
 

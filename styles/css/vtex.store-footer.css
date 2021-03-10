@@ -12,10 +12,7 @@
 .row--payment-methods {
   padding-top: 16px;
  }
-.socialNetworkImage--instagram{ 
-  background-color:   #e4147e;
-}
-.socialNetworkImage--facebook{ 
-  border-color:  #e4147e;
-  
+ .socialNetworksContainer{ 
+  justify-content: center;
+  display: flex;
 }
