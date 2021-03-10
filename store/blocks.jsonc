@@ -50,6 +50,162 @@
       "text": "**PAGE NOT FOUND**",
       "font": "t-heading-1"
     }
-  } 
-  
-}
+
+  },
+
+  "store.custom#venta-whatsapp": {
+    "blocks": [
+      "flex-layout.row#venta-whatsapp",
+      "video#venta-whatsapp"
+    ]
+  },
+  "flex-layout.row#venta-whatsapp": {
+    "children": [
+      "image#mobile-phone",
+      "flex-layout.col#text-about-us"
+    ]
+  },
+
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#about-us"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-about-us": {
+    "props": {
+      "text":
+      "# Create meaningful and relevant experiences.",
+      "blockClass": "title"
+    }
+  },
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "video#venta-whatsapp": {
+    "props": {
+      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "about"
+     }
+   },
+
+   "store.custom#nosotros": {
+    "blocks": [
+      //"flex-layout.row#nosotros"  
+     ]
+    },
+    "rich-text#title-nosotros": {
+      "props": {
+        "text":
+        "#Página Nosotros",
+        "blockClass": "title"
+      }
+    }
+  },
+
+
+   "store.storelocator": {
+    "blocks": ["flex-layout.row#title", "flex-layout.row#container"]
+  },
+  "flex-layout.row#title": {
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.row#container": {
+    "children": ["store-list"]
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "## Store Locator"
+    }
+  },
+  "store.storedetail": {
+    "blocks": ["flex-layout.row#titleStore", "store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#containerStore"],
+    "props": {
+      "title": "{storeName} Store"
+    }
+  },
+  "flex-layout.row#titleStore": {
+    "children": ["flex-layout.col#titleStore"]
+  },
+  "flex-layout.row#containerStore": {
+    "children": ["flex-layout.col#detail", "flex-layout.col#store"]
+  },
+  "flex-layout.col#titleStore": {
+    "children": ["rich-text#titleStore"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleStore": {
+    "props": {
+      "text": "## Store Detail"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      "store-back-link",
+      "store-map",
+      "store-address",
+      "store-hours",
+      "store-instructions"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#store": {
+    "children": ["store-name"],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Business hours:",
+      "format": "12h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "Back to all stores"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": ""
+    }
+  }
+} 
+
+
