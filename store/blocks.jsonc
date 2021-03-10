@@ -119,9 +119,8 @@
         "#Página Nosotros",
         "blockClass": "title"
       }
-    }
-  },
-
+    },
+  
 
    "store.storelocator": {
     "blocks": ["flex-layout.row#title", "flex-layout.row#container"]
