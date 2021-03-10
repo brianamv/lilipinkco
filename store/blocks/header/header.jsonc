@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
+      //"flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
@@ -44,12 +44,12 @@
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
-      "flex-layout.col#botonesHeader",
+      "flex-layout.row#botonesHeader",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#websites"
     ]
   },
-  "flex-layout.col#botonesHeader": {
+  "flex-layout.row#botonesHeader": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
@@ -63,14 +63,14 @@
     "props": {  
       "src": "assets/buttonLP1.jpg" ,
       "href": "#" ,
-      "width": "25%"     
+      "width": "55%"     
     }
   }, 
     "image#btnYoi": {  
       "props": {  
         "src": "assets/buttonYoi1.jpg" ,
         "href": "#" ,
-        "width": "25%" 
+        "width": "55%" 
       }  
   },
   "flex-layout.col#spacer": {
@@ -113,21 +113,56 @@
     },
     "children": [
       "flex-layout.col#spacer",
-      "rich-text#linkImperdibles",
-      "rich-text#linkPedidoWhatsapp",
+      "flex-layout.col#logo1",
+      "rich-text#linkImperdibles",    
+      "flex-layout.col#logo2",  
+      "rich-text#linkPedidoWhatsapp",      
       "flex-layout.col#spacer"
     ]
   },
+  "flex-layout.col#logo1": {
+    "props": {
+      "blockClass": "logo1",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo1"]
+  },
+ 
+  
+  "image#logo1": {  
+    "props": {  
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/label.png"  
+    }  
+  },
+  "flex-layout.col#logo2": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo2"]
+  },
+ 
+  
+  "image#logo2": {  
+    "props": {  
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/logo-wh.png"  
+    }  
+  },
   "rich-text#linkImperdibles": {
     "props": {
-      "text": "Encuentra Nuestros Imperdibles AQUÍ          |",
-      "blockClass": "link"
+      "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
+      "href":"#",
+      "blockClass": "Encuentra"
     }
   },
   "rich-text#linkPedidoWhatsapp": {
     "props": {
-      "text": "|          Haz tu pedido vía Whatsapp AQUÍ",
-      "blockClass": "link"
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "blockClass": "whatapps"
     }
   },
   "flex-layout.col#logo-desktop": {

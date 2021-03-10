@@ -4275,6 +4275,7 @@
   },
   "menu-item#socialseller": {
     "props": {
+      "blockClass":"GENERA-INGRESOS",
       "id": "menu-item-socialseller",
       "type": "custom",
       "iconId": null,
@@ -4284,7 +4285,7 @@
         "href": "/socialseller",
         "noFollow": true,
         "tagTitle": "socialseller",
-        "text": "CONVIÉRTETE EN SOCIAL SELLER"
+        "text": "GENERA INGRESOS ADICIONALES CON NOSOTROS"
       }
     }
   }
