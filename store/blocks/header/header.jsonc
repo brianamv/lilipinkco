@@ -162,7 +162,7 @@
   "rich-text#linkPedidoWhatsapp": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "blockClass": "whatapps"
+      "blockClass": "home-whatapps"
     }
   },
   "flex-layout.col#logo-desktop": {

@@ -89,10 +89,33 @@
         "children": ["flex-layout.col#text-ANTARES-SOACHA","flex-layout.col#text-TERREROS-SOACHA","flex-layout.col#text-SUBA", "flex-layout.col#text-GRAN-PLAZA-BOSA"]
       },
       "flex-layout.col#text-TERREROS-SOACHA":{
-        "children": ["rich-text#title-TERREROS-SOACHA", "rich-text#cc-TERREROS-SOACHA"],
+        "children": ["image#icono","rich-text#title-TERREROS-SOACHA", "rich-text#cc-TERREROS-SOACHA"],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#whatpps":{
+        "children": ["image#whatapps","rich-text#whatapps"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "image#whatapps": {
+        "props": {
+          "src": "assets/logo-wh.png",
+          "href": "https://www.lilipink.com/web/venta-whatsapp",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "whatapps"
+        }
+      },
+      "rich-text#whatapps": {
+        "props": {
+            "blockClass": "text-whatapps",
+            "text":"3219328912"
+          
         }
       },
       
@@ -117,8 +140,15 @@
           "preventVerticalStretch": true
         }
       },
+      "flex-layout.col#text-vacio": {
+        "children": [],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
       "flex-layout.col#text-centromayor": {
-        "children": ["image#icono","rich-text#title-centromayor", "rich-text#cc-centromayor"],
+        "children": ["image#icono","rich-text#title-centromayor", "rich-text#cc-centromayor","flex-layout.row#whatpps"],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
@@ -149,7 +179,7 @@
       "rich-text#title-centromayor": {
         "props": {
           "text": "CENTRO MAYOR",
-          "blockClass": "title"
+          "blockClass": "centroMayor"
         }
       },      
       
@@ -219,7 +249,7 @@
       "rich-text#cc-centromayor": {
         "props": {
           "text": "C.C Centro Mayor Local 1-129 Autopista sur No 38a",
-          "blockClass": "about"
+          "blockClass": "Info-centroMayor"
         }
       },
      
