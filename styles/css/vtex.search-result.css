@@ -14,16 +14,22 @@
   justify-content: center;
   overflow: hidden;
   width: auto !important;
-  align-self: center
+  align-self: center;
 }
 
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
 
+.filterItem :global(.vtex-checkbox__inner-container) {
+  background-color:transparent;
+  border:none;
+}
+
 .filterItem.filterItem--Negro {
   display: inline-block;
-  background-color:#000000;
+  background-image:url('/arquivos/ids/155585/negro.jpg');
+  background-repeat: no-repeat;
   height: 40px;
   width: 40px;
   margin: 1rem .25rem 0;
@@ -33,13 +39,44 @@
   text-indent: -99999px;
   border-radius: 100%;
 }
+
 .filterItem.filterItem--Azul {
-  background-color:#0000FF;
+  display: inline-block;
+  background-image:url('/arquivos/ids/155582/azul.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
 }
 .filterItem.filterItem--Pink {
-  background-color:#FF00FF;
+  display: inline-block;
+  background-image:url('/arquivos/ids/155586/rosado.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
 }
 .filterItem.filterItem--Estampado {
-  background-color:#008080;
+  display: inline-block;
+  background-image:url('/arquivos/ids/155584/estampado2.jpg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: 1rem .25rem 0;
+  font-family: 'Barlow Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: -99999px;
+  border-radius: 100%;
 }
 
