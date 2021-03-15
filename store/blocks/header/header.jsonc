@@ -66,12 +66,12 @@
       "width": "55%"     
     }
   }, 
-    "image#btnYoi": {  
-      "props": {  
-        "src": "assets/buttonYoi1.jpg" ,
-        "href": "#" ,
-        "width": "55%" 
-      }  
+  "image#btnYoi": {  
+    "props": {  
+      "src": "assets/buttonYoi1.jpg" ,
+      "href": "#" ,
+      "width": "55%" 
+    }  
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -162,7 +162,7 @@
   "rich-text#linkPedidoWhatsapp": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "blockClass": "whatapps"
+      "blockClass": "home-whatapps"
     }
   },
   "flex-layout.col#logo-desktop": {

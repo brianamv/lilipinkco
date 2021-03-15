@@ -1,6 +1,6 @@
 {
   "store.custom#contact-us": {
-    "children": [
+    "blocks": [
       "flex-layout.row#contact-us"
     ]
   },

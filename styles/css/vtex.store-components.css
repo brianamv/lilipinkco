@@ -53,6 +53,12 @@
   display: flex;
   justify-content: right;
 }
+.imageElement--whatapps{
+  height :46px;
+  width: 20%;
+  margin-bottom: -1%;
+  justify-content: left;
+}
 .imageElement--Img-fb{ 
   height :44px;
   width: 15%;

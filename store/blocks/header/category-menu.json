@@ -37,7 +37,7 @@
   },
   "vtex.menu@2.x:submenu#category-brasieres": {
     "props": {
-      "width": "100%"
+      "width": "95%"
     },
     "children": [
       "flex-layout.row#category-brasieres"      
@@ -45,14 +45,14 @@
   },
   "flex-layout.row#category-brasieres": {
     "children": [
-      
-
       "flex-layout.col#category-brasieres-1",
-      "flex-layout.col#category-brasieres-2",
-      "flex-layout.col#category-brasieres-3",
-      "flex-layout.col#category-brasieres-4",
+      "flex-layout.col#category-brasieres-5",      
+      "flex-layout.col#category-brasieres-2",    
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-3",    
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-4", 
       "flex-layout.col#category-brasieres-5"
-      
     ]
   },
   
@@ -71,7 +71,6 @@
     "children": [
       "menu-item#category-brasieres-Tipo",
       "menu-item#category-brasieres-PushUp",
-      "menu-item#category-brasieres-vacio",
       "menu-item#category-brasieres-Bralette",
       "menu-item#category-brasieres-SinForro",
       "menu-item#category-brasieres-CoberturaTotal",
@@ -115,10 +114,15 @@
   },
   "flex-layout.col#category-brasieres-5": {
     "children": [
-      "info-card#home"
-      
+     
+      "menu-item#category-brasieres-vacio1",
+      "menu-item#category-brasieres-vacio1",
+      "menu-item#category-brasieres-vacio1",
+      "menu-item#category-brasieres-vacio1"
+
     ]
   },
+  
   "vtex.menu@2.x:menu#category-brasieres": {
     "props": {
       "orientation": "vertical"
@@ -229,21 +233,7 @@
       }
     }
   },
-  "menu-item#category-brasieres-vacio": {
-    "props": {
-      "id": "menu-item-category-brasieres-vacio",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "",
-        "text": ""
-      }
-    }
-  },
+  
   
   "menu-item#category-brasieres-PushUp": {
     "props": {
@@ -423,7 +413,23 @@
       }
     }
   },
-  
+  "menu-item#category-brasieres-vacio1": {
+    "props": {
+      "blockClass": "BeneficioBrasieres",
+      "id": "menu-item-category-brasieres-vacio1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+
+      }
+    }
+  }, 
 
   "menu-item#category-brasieres-Beneficio": {
     "props": {
