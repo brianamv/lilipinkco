@@ -1,9 +1,7 @@
 {
   "store.custom#contact-us": {
-    "children": [
-      "flex-layout.row#contact-us",
-      "flex-layout.row#tiendas",
-      "tab-layout#venta-whatsapp-tiendas-2"
+    "blocks": [
+      "flex-layout.row#contact-us"
     ]
   },
 
@@ -82,83 +80,6 @@
   "form-submit#contact": {
     "props": {
       "label": "Submit"
-    }
-  },
-  "flex-layout.row#tiendas": {
-    "children": [      
-      
-      "flex-layout.row#bannerwhatapps"
-    ]
-  },
-  "flex-layout.row#bannerwhatapps": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": ["image#bannerwhatapps"
-      
-    ]
-  }, 
-  
-  "image#bannerwhatapps": {  
-    "props": {  
-      "src": "assets/banner-whatsapp-final1.jpg"  
-    }  
-  },
-  "tab-layout#venta-whatsapp-tiendas-2": {
-    "children": [           
-      "tab-list#page",
-      "tab-content#home"
-    ],
-    "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "home1"
-    }
-  },
-  "tab-list#page":{
-    "children": [
-      "tab-list.item#Pagina-nueva",
-      "tab-list.item#Pagina-nueva-2"
-    ],
-    "props": {
-      "blockClass": "PaginaNueva",
-      "defaultActiveTabId": "PaginaNueva1"
-    }
-  },
-  "tab-list.item#Pagina-nueva": {
-    "props": {
-      "tabId": "home1",
-      "label": "Bogota",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#Pagina-nueva-2": {
-    "props": {
-      "tabId": "home1",
-      "label": "villavo",
-      "defaultActiveTab": true
-    }
-  }, 
-  "tab-content#home": {
-    "children": [
-      "tab-content.item#pagina1",
-      "tab-content.item#pagina2"
-    ]
-  },
-  "tab-content.item#pagina1": {
-    "children": [
-      "rich-text#link"
-    ],
-    "props": {
-      "tabId": "home1"
-    }
-  },
-  "tab-content.item#pagina2": {
-    "children": [
-      "rich-text#link"
-    ],
-    "props": {
-      "tabId": "home2"
     }
   }
 }

@@ -66,12 +66,12 @@
       "width": "55%"     
     }
   }, 
-    "image#btnYoi": {  
-      "props": {  
-        "src": "assets/buttonYoi1.jpg" ,
-        "href": "#" ,
-        "width": "55%" 
-      }  
+  "image#btnYoi": {  
+    "props": {  
+      "src": "assets/buttonYoi1.jpg" ,
+      "href": "#" ,
+      "width": "55%" 
+    }  
   },
   "flex-layout.col#spacer": {
     "props": {
