@@ -95,6 +95,13 @@
   display: none;
 
 }
+.notificationBarContainer--tienda-whatapps{
+  background-color: transparent;
+ 
+  
+
+}
+
 .label {
   color: #e4147e;;
   font-size: 26px;
