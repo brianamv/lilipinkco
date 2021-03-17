@@ -131,11 +131,11 @@
   "info-card#ic1": {
     "props": {
       "id": "info-card-ic1",
-      "isFullModeStyle": false,
+      "isFullModeStyle":true,
        "imageUrl": "assets/infoHomeA.jpg",
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-ic1",
+      "blockClass": "info-card",
       "textAlignment": "center"
     }
   },
@@ -146,7 +146,7 @@
        "imageUrl": "assets/infoHome2.jpg",  
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-ic2",
+      "blockClass": "info-card",
       "textAlignment": "center"
     }
   },
@@ -157,7 +157,7 @@
        "imageUrl": "assets/fresca.jpg",
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-ic3",
+      "blockClass": "info-card",
       "textAlignment": "center"
     }
   },

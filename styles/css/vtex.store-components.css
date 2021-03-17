@@ -6,7 +6,7 @@
   text-decoration: underline;
 }
 
-.infoCardContainer--info-card-home {
+/*.infoCardContainer--info-card-home {
   max-width: 1520px;
   max-height: 700px;
   margin: 0 auto;
@@ -38,6 +38,9 @@
   background-color: #EFEFEF;
   padding: 5px;
 
+}*/
+.infoCardContainer--info-card{
+  height:400px ;
 }
 .imageElement--Imagenetiqueta{ 
   height :20px;
