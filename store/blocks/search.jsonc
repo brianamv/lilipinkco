@@ -4,7 +4,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        //"simulationBehavior": "skip"
+        "simulationBehavior": "default",
+        "__unstableProductOriginVtex": "true"
       }
     }
   },
@@ -27,7 +29,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        //"simulationBehavior": "skip"
+        "simulationBehavior": "default",
+        "__unstableProductOriginVtex": "true"
       }
     }
   },
@@ -37,7 +41,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        //"simulationBehavior": "skip"
+        "simulationBehavior": "default",
+        "__unstableProductOriginVtex": "true"
       }
     }
   },
@@ -47,7 +53,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        //"simulationBehavior": "skip"
+        "simulationBehavior": "default",
+        "__unstableProductOriginVtex": "true"
       }
     }
   },
