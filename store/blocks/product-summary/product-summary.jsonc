@@ -1,6 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
+      "product-summary-add-to-list-button",
       "stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.col#productRating",
@@ -8,6 +9,7 @@
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
+      "product-summary-sku-selector",
       "add-to-cart-button"
     ]
   },
