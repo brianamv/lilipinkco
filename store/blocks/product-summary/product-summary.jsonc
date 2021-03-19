@@ -13,6 +13,13 @@
       "add-to-cart-button"
     ]
   },
+  "product-summary-sku-selector" : {
+    "props": {
+       "visibleVariations": [
+          "Color"
+       ]
+    }
+ },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
