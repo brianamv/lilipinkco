@@ -5,6 +5,7 @@
     },
     "children": [
       "menu-item#category-brasieres",
+      "menu-item#category-brallet",
       "menu-item#category-tops", 
       "menu-item#category-panties",           
       "menu-item#category-kids",
@@ -17,8 +18,52 @@
       "menu-item#yoi"
     ]
   },
+
+  "menu-item#category-brallet": {
+    "props": {
+      "blockClass": "estilobrallet",
+      "id": "menu-item-category-brasieres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lilipink/brasieres/",
+        "noFollow": false,
+        "tagTitle": "BRASIERES",
+        "text": "brallet"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-brallet"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-brallet": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#category-brallet"      
+    ]
+  },
+  "flex-layout.row#category-brallet": {
+    "children": [
+      "flex-layout.col#category-brasieres-1",
+      "flex-layout.col#category-brasieres-5",      
+      "flex-layout.col#category-brasieres-2",    
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-3",    
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-4", 
+      "flex-layout.col#category-brasieres-5"
+    ]
+  },
+
+
+
   "menu-item#category-brasieres": {
     "props": {
+      "blockClass": "",
       "id": "menu-item-category-brasieres",
       "type": "custom",
       "iconId": null,
@@ -37,7 +82,7 @@
   },
   "vtex.menu@2.x:submenu#category-brasieres": {
     "props": {
-      "width": "95%"
+      "width": "100%"
     },
     "children": [
       "flex-layout.row#category-brasieres"      
@@ -167,6 +212,7 @@
 
   "menu-item#category-brasieres-Lo_mas_Vendido": {
     "props": {
+      "blockClass": "lomas_vendido",
       "id": "menu-item-category-brasieres-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -185,6 +231,7 @@
 
   "menu-item#category-brasieres-nuevosbrasieresybralettes": {
     "props": {
+      "blockClass": "nuevosbrasieresybralettes",
       "id": "menu-item-category-brasieres-nuevosbrasieresybralettes",
       "type": "custom",
       "iconId": null,
@@ -202,6 +249,7 @@
 
   "menu-item#category-brasieres-Ofertas": {
     "props": {
+      "blockClass": "brasieres-Ofertas",
       "id": "menu-item-category-brasieres-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -237,6 +285,7 @@
   
   "menu-item#category-brasieres-PushUp": {
     "props": {
+      "blockClass": "brasieres-PushUp",
       "id": "menu-item-category-brasieres-PushUp",
       "type": "custom",
       "iconId": null,
@@ -255,6 +304,7 @@
 
   "menu-item#category-brasieres-Bralette": {
     "props": {
+      
       "id": "menu-item-category-brasieres-Bralette",
       "type": "custom",
       "iconId": null,
@@ -715,7 +765,7 @@
     }
   },
   "menu-item#category-tops": {
-    "props": {
+    "props": {      
       "id": "menu-item-category-tops",
       "type": "custom",
       "iconId": null,
@@ -1029,6 +1079,7 @@
 
   "menu-item#category-panties": {
     "props": {
+      "blockClass": "cambiodeletra",
       "id": "menu-item-category-panties",
       "type": "custom",
       "iconId": null,

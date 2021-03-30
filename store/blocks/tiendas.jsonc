@@ -25,6 +25,7 @@
       "image#bannerwhatapps": {  
         "props": {  
           "src": "assets/banner-whatsapp-final1.jpg"  
+          
         }  
       },
       "tab-layout#venta-whatsapp-tiendas-2": {

@@ -37,7 +37,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/quienes-somos",
         "noFollow": false,
         "tagTitle": "Quienes-somos",
         "text": "Quienes somos"
@@ -53,7 +53,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "preguntas-frecuentes",
         "noFollow": false,
         "tagTitle": "Preguntas-frecuentes",
         "text": "Preguntas frecuentes"
@@ -69,7 +69,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/promociones",
         "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"
@@ -86,7 +86,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "guia-de-tallas",
         "noFollow": false,
         "tagTitle": "Guía-de-Tallas-y-Tips",
         "text": "Guía de Tallas y Tips"
@@ -169,7 +169,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/Condiciones-y-restricciones",
+        "href": "/Condiciones-y-restricciones",
         "noFollow": true,
         "tagTitle": "Condiciones y restricciones",
         "text": "Condiciones y restricciones"
@@ -203,7 +203,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/privacidad-de-la-informacion",
         "noFollow": true,
         "tagTitle": "Privacidad-de-la-Información",
         "text": "Privacidad de la Información"
@@ -219,7 +219,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/trabaja-con-nosotros",
         "noFollow": true,
         "tagTitle": "Trabaja-con-nosotros",
         "text": "Trabaja con nosotros"
@@ -265,7 +265,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/escribenos",
+        "href": "/servicio-al-cliente",
         "noFollow": true,
         "tagTitle": "escribenos",
         "text": "servicioalcliente@lilipink.com"

@@ -154,7 +154,7 @@
   },
   "rich-text#footer": {
     "props": {      
-      "text": "© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS A PINK LIFE S.A.S.",
+      "text": "",
       "blockClass": "footercopyright"     
     }
   },

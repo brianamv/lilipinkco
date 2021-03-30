@@ -10,6 +10,29 @@
   },
   "store.custom#tiendas": {
     "path": "/tiendas"
+  },
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#promociones": {
+    "path": "/promociones"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#condiciones-y-restricciones": {
+    "path": "/condiciones-y-restricciones"
+  },
+  "store.custom#cambios-y-devoluciones": {
+    "path": "/cambios-y-devoluciones"
+  },
+  "store.custom#privacidad-de-la-informacion": {
+    "path": "/privacidad-de-la-informacion"
+  },
+  "store.custom#trabaja-con-nosotros": {
+    "path": "/trabaja-con-nosotros"
+  },
+  "store.custom#servicio-al-cliente": {
+    "path": "/servicio-al-cliente"
   }
-  
 }

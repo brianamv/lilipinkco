@@ -44,8 +44,8 @@
 }
 .imageElement--Imagenetiqueta{ 
   height :20px;
-  width: 34%;
-  margin-bottom: -1%;
+  width: 20px;
+  margin: 0 2px 0 30px;
   display: flex;
   justify-content: center;
 }
@@ -219,4 +219,8 @@
 .searchIcon{
   color: #e4147e;
 
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  background: yellow;
 }
