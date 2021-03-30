@@ -13,6 +13,35 @@
       "add-to-cart-button"
     ]
   },
+  "product-summary-sku-selector" : {
+    "props": {
+      "showValueNameForImageVariation": true,
+      "initialSelection": "empty",
+      "thumbnailImage": ["color"],  
+       "visibleVariations": [
+          "Color"
+       ]
+    }
+ },
+//Cambio SKU Selector image
+"sku-selector": {
+  "props": {
+    "variationsSpacing": 3,
+    "showValueNameForImageVariation": true,
+    "initialSelection": "empty",
+    "thumbnailImage": ["color"],  
+    "visibleVariations": [
+      "Color",
+      "Talla"
+   ]
+  }
+},
+ "product-images": {  
+  "props": {  
+    "displayThumbnailsArrows": true,  
+    "hiddenImages": ["color"]  
+  }  
+},  
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"

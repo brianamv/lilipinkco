@@ -21,7 +21,7 @@
   border-bottom: 1px #E7E9EE solid;
 }
 
-.filterItem :global(.vtex-checkbox__inner-container) {
+/*.filterItem :global(.vtex-checkbox__inner-container) {
   background-color:transparent;
   border:none;
 }
@@ -78,5 +78,4 @@
   text-align: center;
   text-indent: -99999px;
   border-radius: 100%;
-}
-
+}*/

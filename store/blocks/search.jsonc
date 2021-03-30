@@ -4,13 +4,13 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip"
+        //"simulationBehavior": "skip",
         "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
     }
   },
-
+  
   "store.search#brand": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -141,7 +141,7 @@
   },
   "flex-layout.row#fetchmore": {
     "props": {
-      "marginTop": 3
+      "marginTop": 10
     },
     "children": ["search-fetch-more"]
   },

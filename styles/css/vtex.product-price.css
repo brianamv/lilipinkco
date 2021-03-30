@@ -21,7 +21,8 @@
 
 .savings {
   font-weight: 500;
-  color: #79B03A;
+  /*color: #79B03A;*/
+  color:red;
 }
 
 .sellingPriceValue--summary {
