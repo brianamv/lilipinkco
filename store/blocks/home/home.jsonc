@@ -170,6 +170,12 @@
     },
     "children": ["image#bannerSlim2"]
   },
+  "image#bannerSlim2": {  
+    "props": {  
+      "src": "assets/BannerInferior.jpg"  
+    }  
+  },
+  
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
@@ -191,12 +197,7 @@
   },
  
   
-  "image#bannerSlim2": {  
-    "props": {  
-      "src": "assets/BannerInferior.jpg"  
-    }  
-  },
-  
+ 
   "rich-text#link": {
     "props": {
       "text": "\n*Sígue Nuestras Redes Sociales*\n",
