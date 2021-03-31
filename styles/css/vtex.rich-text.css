@@ -41,6 +41,37 @@
   padding-top: 120px;
   color: #e4147e;
 }
+.container--Info-trabaja{
+  padding: 50px;
+}
+.container--condiciones-restriciones{
+  text-align: center;
+  justify-content: center;
+  padding-top: 120px;
+  margin-top: -8%;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: inherit;
+  color:gray;
+
+}
+.container--condiciones-restriciones2{
+  padding-right: 60px;
+  padding-left: 60px;
+  text-justify: distribute;
+  color:gray;
+
+}
+.container--Vacantes{
+  text-align: center;
+  justify-content: center;
+  padding-top: 120px;
+  margin-top: -8%;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: inherit;
+
+}
 
 .container--question .strong {
   font-size: 32px;

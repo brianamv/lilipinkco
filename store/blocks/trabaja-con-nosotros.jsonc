@@ -6,7 +6,9 @@
             "flex-layout.row#tiendas",
             "flex-layout.row#tiendas2",
             "flex-layout.row#bannertrabaja3",
-            "rich-text#vacantes"
+            "rich-text#vacantes",
+            "rich-text#Info-trabaja",
+            "flex-layout.row#tiendas3"
 
             
           ]
@@ -41,17 +43,33 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#bannerwhatapps2"
+        "image#bannertrabaja2"
     ]
   }, 
   
-  "image#bannerwhatapps2": {  
+  "image#bannertrabaja2": {  
     "props": {  
       "src": "assets/banner-trabaja-2.png"  
       
     }  
   },
   /**/
+  "flex-layout.row#tiendas3": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#bannertrabaja3"
+    ]
+  }, 
+  
+  "image#bannertrabaja3": {  
+    "props": {  
+      "src": "assets/lilipink-trabajo-con-nosotros-4.png"  
+      
+    }  
+  },
   "flex-layout.row#bannertrabaja3": {
     "props": {
       "verticalAlign": "middle",
@@ -127,11 +145,21 @@
   },
   "rich-text#vacantes": {
     "props": {
-      "text": "## Nuestras Vacantes",
-      "verticalAlign":"middle",
-      "horizontalAlign":"center",
-      "blockClass": "h"
+      "text": "NUESTRAS VACANTES ",      
+      "blockClass": "Vacantes"
+    }
+  },
+  "rich-text#Info-trabaja": {
+    "props": {
+      "text": "En Lili Pink creémos que lo que nos hace diferente son nuestros colaboradores, si estás interesado en trabajar con nosotros te invitamos a que te postules a nuestras vacantes y nos envies tu hoja de vida. ",      
+      "blockClass": "Info-trabaja"
+    }
+  },
+  "rich-text#Raya": {
+    "props": {
+      "text": "__________________________________________________________",      
+      "blockClass": "raya"
     }
   }
-  }
+}
   
