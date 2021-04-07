@@ -13,11 +13,13 @@
       "add-to-cart-button"
     ]
   },
+
+// SKU Selector Color
   "product-summary-sku-selector" : {
     "props": {
       "showValueNameForImageVariation": true,
       "initialSelection": "empty",
-      "thumbnailImage": ["color"],  
+      "thumbnailImage": ["color"],
        "visibleVariations": [
           "Color"
        ]
@@ -29,19 +31,21 @@
     "variationsSpacing": 3,
     "showValueNameForImageVariation": true,
     "initialSelection": "empty",
-    "thumbnailImage": ["color"],  
+    "thumbnailImage": ["color"],
+    "hideImpossibleCombinations": false,
+    "maxItems": 5,
     "visibleVariations": [
       "Color",
       "Talla"
    ]
   }
 },
- "product-images": {  
-  "props": {  
-    "displayThumbnailsArrows": true,  
-    "hiddenImages": ["color"]  
-  }  
-},  
+ "product-images": {
+  "props": {
+    "displayThumbnailsArrows": true,
+    "hiddenImages": ["color"]
+  }
+},
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
