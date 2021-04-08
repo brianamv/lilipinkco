@@ -43,6 +43,9 @@
   },
   "store.custom#politica-cambios-garantias-lili":{
     "path": "/politica-cambios-garantias-lili"
+  },
+  "store.custom#guia-de-tallas":{
+    "path": "/guia-de-talla"
   }
     
   
