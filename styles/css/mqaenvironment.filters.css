@@ -1,5 +1,4 @@
 .filtersContainer {
-  background-color: #f1f1f1;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -14,8 +13,9 @@
   order: 1;
   flex-basis: 100%;
   flex-wrap: nowrap;
+  border:1px solid #000000;
 }
 
 .filterLink {
-   color:#f1f1f1;
+   color:#ffffff;
 }
