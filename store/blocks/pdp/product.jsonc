@@ -3,7 +3,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      //"product-availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
@@ -153,8 +152,8 @@
   "product-availability": {
     "props": {
       "threshold": "10",
-      "lowStockMessage": "Only {quantity} left!",
-      "highStockMessage": "Item in stock!"
+      "lowStockMessage": "Solamente quedan {quantity} disponible",
+      "highStockMessage": "En existencia"
     }
   },
 

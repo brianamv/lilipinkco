@@ -41,6 +41,120 @@
 .filterItem .filterItem--Lilipink {
    margin-top: 10%;
 }
+
+.checkbox__input {
+    background-color: transparent;
+    border:none;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+  background-color:transparent;
+  border:none;
+}
+
+.filter__container.filter__container--specificationFilter_96 {
+   text-align: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.filterItem.filterItem--32B {
+   display: inline-block;
+   border:#000 solid 2px;
+   width: 65px;
+   height: 40px;
+   margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--34B {
+  display: inline-block;
+   border:#000 solid 2px;
+   width: 65px;
+   height: 40px;
+   margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36B {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38B {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--32C {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--32C {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38C {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36DD {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--36DD {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filterItem.filterItem--38D {
+  display: inline-block;
+  border:#000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin:5px 3px 1px 1px;
+}
+
+.filtersWrapper {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+  border-color:#FFFFFF;
+}
+
+.bb {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+
+}
+
+.b--muted-4 {
+   border-color:#FFFFFF;
+
+}
 /*.filterAccordionItemBox--color {
    display:none;
 }*/
