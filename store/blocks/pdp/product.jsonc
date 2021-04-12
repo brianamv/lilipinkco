@@ -112,8 +112,9 @@
       "product-quantity",
       "product-availability",
       "product-assembly-options",
-      "product-gifts",
+      "product-gifts",      
       "flex-layout.row#buy-button",
+      "flex-layout.col#productos",
       "availability-subscriber",
       //"shipping-simulator",
       "share#default",
@@ -164,6 +165,50 @@
     },
     "children": ["add-to-cart-button"]
   },
+/**/
+
+"flex-layout.col#productos": {
+  "children": [
+    "disclosure-layout-group#productos"
+  ]
+},
+
+"disclosure-layout-group#productos": {
+  "children": [
+    "disclosure-layout#first1"
+  ]
+},
+
+"disclosure-layout#first1": {
+  "props": {
+    "animated": true
+  },
+  "children": ["disclosure-trigger#first", "disclosure-content#first"]
+},
+"disclosure-trigger#first": {
+  "props": {
+    "blockClass": "question",
+    "as": "div"
+  },
+  "children": ["disclosure-state-indicator", "rich-text#talla"]
+},
+"disclosure-content#first": {
+  "props": {
+    "blockClass": "answer"
+  },
+  "children": ["image#bra-2"]
+},
+"image#bra-2": {  
+  "props": {  
+    "src": "assets/bra-1.png"  
+    
+  }  
+},
+"rich-text#talla": {
+  "props": {
+    "text": "talla"
+  }
+},
 
   "share#default": {
     "props": {

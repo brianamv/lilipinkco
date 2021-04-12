@@ -22,6 +22,7 @@
         "disclosure-layout-group#group"
       ]
     },
+    
     "rich-text#faq": {
       "props": {
         "text": "## Preguntas Frecuentes"
