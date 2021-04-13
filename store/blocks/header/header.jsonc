@@ -12,6 +12,7 @@
       "flex-layout.row#3-desktop",      
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
+      "flex-layout.row#lilipink-yoi",
       "flex-layout.row#6-desktop"
       
     ]
@@ -260,5 +261,32 @@
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "70"
     }
+  },
+  "flex-layout.row#lilipink-yoi": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "link#Link",
+      "link#yoi"
+    ]
+  },
+
+  "link#Link": {
+    "props": {
+      "href": "/",
+      "label": "Lilipink"
+    }
+  },
+  "link#yoi": {
+    "props": {
+      "href": "/",
+      "label": "Yoi"
+    }
   }
+
 }
