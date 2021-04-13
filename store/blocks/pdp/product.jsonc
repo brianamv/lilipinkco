@@ -6,10 +6,10 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      
-      "shelf.relatedProducts",
+      "flex-layout.row#shelf",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -17,9 +17,10 @@
       "rich-text#specifications"
     ]
   },
+
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      //"text": "##### Product Specifications"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -34,6 +35,7 @@
     },
     "children": ["product-description"]
   },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -61,7 +63,7 @@
     "props": {
       "specificationGroupName": "Group",
       "specificationName": "On Sale",
-      "visibleWhen": "True",
+      "visibleWhen": "true",
       "displayValue": "SPECIFICATION_NAME"
     }
   },
@@ -79,12 +81,20 @@
   "product-images": {
     "props": {
       "aspectRatio": {
-        "desktop": "auto",
-        "phone": "16:9"
+         "desktop": "auto",
+         "phone": "16:9"
       },
       "displayThumbnailsArrows": true
     }
   },
+
+  //Modificación product images
+    "product-images.high-quality-image": {
+      "props": {
+        "zoomMode": "in-place-click",
+        "zoomFactor": 3
+      }
+    },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -100,13 +110,15 @@
       "product-identifier.product",
       "sku-selector",
       "product-quantity",
+      "product-availability",
       "product-assembly-options",
       "product-gifts",      
       "flex-layout.row#buy-button",
       "flex-layout.col#productos",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      //"shipping-simulator",
+      "share#default",
+      "shelf.relatedProducts"
     ]
   },
 
@@ -120,7 +132,29 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "showValueNameForImageVariation": true,
+      "initialSelection": "empty",
+      "thumbnailImage": ["color"],
+      "visibleVariations": [
+        "Color",
+        "Talla"
+     ]
+    }
+  },
+
+
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
+    }
+  },
+
+  "product-availability": {
+    "props": {
+      "threshold": "10",
+      "lowStockMessage": "Solamente quedan {quantity} disponible",
+      "highStockMessage": "En existencia"
     }
   },
 
