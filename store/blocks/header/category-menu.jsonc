@@ -12,6 +12,8 @@
       "menu-item#category-medias",
       "menu-item#category-deportivo",
       "menu-item#category-vestidos",
+      "menu-item#category-hombre",
+      "menu-item#category-nino",
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
       "menu-item#yoi"
@@ -1811,20 +1813,19 @@
     }
   }
 },
-  "menu-item#category-kids": {
-    "props": {
-      "id": "menu-item-category-kids",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/kids---teen",
-        "noFollow": false,
-        "tagTitle": "KIDS & TEEN",
-        "text": "KIDS & TEEN"
-      }
-    
+"menu-item#category-kids": {
+  "props": {
+    "id": "menu-item-category-kids",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen",
+      "noFollow": false,
+      "tagTitle": "KIDS & TEEN",
+      "text": "KIDS & TEEN"
+    }
   },
   "blocks": [
     "vtex.menu@2.x:submenu#category-kids"
@@ -1835,60 +1836,178 @@
     "width": "100%"
   },
   "children": [
-    "flex-layout.row#category-kids"      
+    "flex-layout.row#category-kids&teen"
   ]
 },
-"flex-layout.row#category-kids": {
+"flex-layout.row#category-kids&teen": {
   "children": [
-    
-
-    "flex-layout.col#category-kids-1",
-    "flex-layout.col#category-kids-2",
-    "flex-layout.col#category-kids-3",
-    "flex-layout.col#category-kids-4",
-    "flex-layout.col#category-kids-5"
-    
+    "flex-layout.col#category-girl",
+    "flex-layout.col#category-junior",
+    "flex-layout.col#category-teen"
   ]
 },
-"flex-layout.col#category-kids-1": {
+"flex-layout.col#category-girl": {
   "children": [
-    "menu-item#category-kids-Buscar",
-    "menu-item#category-kids-Ver_todo",
-    "menu-item#category-kids-Lo_mas_Vendido",
-    "menu-item#category-kids-NuevosKids&Teen"
+    "menu-item#category-kids-girl"
   ]
 },
-"flex-layout.col#category-kids-2": {
+"menu-item#category-kids-girl": {
+  "props": {
+    "id": "menu-item-category-kids-girl",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "niña",
+      "text": "NIÑA"
+    }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#category-kids-girl"
+  ]
+},
+"vtex.menu@2.x:submenu#category-kids-girl": {
+  "props": {
+    "width": "100%"
+  },
   "children": [
-    "menu-item#category-kids-Kids",
-    "menu-item#category-kids-Teen"
+    "flex-layout.row#category-kids-girl"
   ]
 },
-"flex-layout.col#category-kids-3": {
+"flex-layout.col#category-junior": {
   "children": [
-    "menu-item#category-kids-Beneficio"
+    "menu-item#category-kids-junior"
   ]
 },
-"flex-layout.col#category-kids-4": {
+"menu-item#category-kids-junior": {
+  "props": {
+    "id": "menu-item-category-kids-junior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "junior",
+      "text": "JUNIOR"
+    }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#category-kids-junior"
+  ]
+},
+"vtex.menu@2.x:submenu#category-kids-junior": {
+  "props": {
+    "width": "100%"
+  },
   "children": [
-    "menu-item#category-kids-Compra_mas_y_ahorra"
-    
+    "flex-layout.row#category-kids-junior"
   ]
 },
-"flex-layout.col#category-kids-5": {
+"flex-layout.col#category-teen": {
   "children": [
-    "info-card#home"  
-
+    "menu-item#category-kids-girl-teen"
   ]
 },
-"vtex.menu@2.x:menu#category-kids": {
+"menu-item#category-kids-girl-teen": {
+  "props": {
+    "id": "menu-item-category-kids-teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "teen",
+      "text": "TEEN"
+    }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#category-kids-teen"
+  ]
+},
+"vtex.menu@2.x:submenu#category-kids-teen": {
+  "props": {
+    "width": "100%"
+  },
+  "children": [
+    "flex-layout.row#category-kids-teen"
+  ]
+},
+//inicio submenu kids&teen girl
+"flex-layout.row#category-kids-girl": {
+  "children": [
+    "flex-layout.col#category-kids-girl-1",
+    "flex-layout.col#category-kids-girl-2",
+    "flex-layout.col#category-kids-girl-3",
+    "flex-layout.col#category-kids-girl-4",
+    "flex-layout.col#category-kids-girl-5"
+  ]
+},
+"flex-layout.col#category-kids-girl-1": {
+  "children": [
+    "menu-item#category-kids-girl-partesuperior",
+    "menu-item#category-kids-girl-Buscar",
+    "menu-item#category-kids-girl-Ver_todo",
+    "menu-item#category-kids-girl-Lo_mas_Vendido",
+    "menu-item#category-kids-girl-NuevosKids&Teen",
+    "menu-item#category-kids-girl-descuentos",
+    "menu-item#category-kids-girl-inferior",
+    "menu-item#category-kids-girl-buscarinferior",
+    "menu-item#category-kids-girl-vertodoinferior",
+    "menu-item#category-kids-girl-nuevosinferior",
+    "menu-item#category-kids-girl-descuentosinferior"
+  ]
+},
+"flex-layout.col#category-kids-girl-2": {
+  "children": [
+    "menu-item#category-kids-girl-Kids",
+    "menu-item#category-kids-girl-Teen"
+  ]
+},
+"flex-layout.col#category-kids-girl-3": {
+  "children": [
+    "menu-item#category-kids-girl-Beneficio"
+  ]
+},
+"flex-layout.col#category-kids-girl-4": {
+  "children": [
+    "menu-item#category-kids-girl-Compra_mas_y_ahorra"
+  ]
+},
+"flex-layout.col#category-kids-girl-5": {
+  "children": [
+    "info-card#home"
+  ]
+},
+"vtex.menu@2.x:menu#category-kids-girl": {
   "props": {
     "orientation": "vertical"
   }
 },
-"menu-item#category-kids-Buscar": {
+"menu-item#category-kids-girl-partesuperior": {
   "props": {
-    "id": "menu-item-category-kids-Buscar",
+    "id": "menu-item-category-kids-girl-partesuperior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Parte Superior",
+      "text": "Parte Superior girl"
+    }
+  }
+},
+"menu-item#category-kids-girl-Buscar": {
+  "props": {
+    "id": "menu-item-category-kids-girl-Buscar",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1901,9 +2020,9 @@
     }
   }
 },
-"menu-item#category-kids-Ver_todo": {
+"menu-item#category-kids-girl-Ver_todo": {
   "props": {
-    "id": "menu-item-category-kids-Ver_todo",
+    "id": "menu-item-category-kids-girl-Ver_todo",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1916,9 +2035,9 @@
     }
   }
 },
-"menu-item#category-kids-Lo_mas_Vendido": {
+"menu-item#category-kids-girl-Lo_mas_Vendido": {
   "props": {
-    "id": "menu-item-category-kids-Lo_mas_Vendido",
+    "id": "menu-item-category-kids-girl-Lo_mas_Vendido",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1927,13 +2046,13 @@
       "href": "/lilipink/kids---teen?O=OrderByTopSaleDESC",
       "noFollow": false,
       "tagTitle": "Lo_mas_Vendido",
-      "text": "Lo mas Vendido"
+      "text": "Lo más Vendido"
     }
   }
 },
-"menu-item#category-kids-NuevosKids&Teen": {
+"menu-item#category-kids-girl-NuevosKids&Teen": {
   "props": {
-    "id": "menu-item-category-kids-Nuevos-Kids&Teen",
+    "id": "menu-item-category-kids-girl-Nuevos-Kids&Teen",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1941,14 +2060,104 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Nuevos Kids & Teen",
-      "text": "Nuevos Kids & Teen"
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
     }
   }
 },
-"menu-item#category-kids-Kids": {
+"menu-item#category-kids-girl-descuentos": {
   "props": {
-    "id": "menu-item-category-kids-Kids",
+    "id": "menu-item-category-kids-girl-descuentos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-girl-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Parte Inferior",
+      "text": "Parte Inferior"
+    }
+  }
+},
+"menu-item#category-kids-girl-buscarinferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-buscarinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-kids-girl-vertodoinferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-vertodoinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+"menu-item#category-kids-girl-nuevosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-nuevosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
+    }
+  }
+},
+"menu-item#category-kids-girl-descuentosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-descuentosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-girl-Kids": {
+  "props": {
+    "id": "menu-item-category-kids-girl-Kids",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1961,9 +2170,9 @@
     }
   }
 },
-"menu-item#category-kids-Teen": {
+"menu-item#category-kids-girl-Teen": {
   "props": {
-    "id": "menu-item-category-kids-Teen",
+    "id": "menu-item-category-kids-girl-Teen",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1976,9 +2185,9 @@
     }
   }
 },
-"menu-item#category-kids-Beneficio": {
+"menu-item#category-kids-girl-Beneficio": {
   "props": {
-    "id": "menu-item-category-kids-Beneficio",
+    "id": "menu-item-category-kids-girl-Beneficio",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -1991,9 +2200,561 @@
     }
   }
 },
-"menu-item#category-kids-Compra_mas_y_ahorra": {
+"menu-item#category-kids-girl-Compra_mas_y_ahorra": {
   "props": {
-    "id": "menu-item-category-kids-Compra_mas_y_ahorra",
+    "id": "menu-item-category-kids-girl-Compra_mas_y_ahorra",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Compra_mas_y_ahorra",
+      "text": "Compra mas y ahorra"
+    }
+  }
+},
+//inicio submenu kids&teen junior
+"flex-layout.row#category-kids-junior": {
+  "children": [
+    "flex-layout.col#category-kids-junior-1",
+    "flex-layout.col#category-kids-junior-2",
+    "flex-layout.col#category-kids-junior-3",
+    "flex-layout.col#category-kids-junior-4",
+    "flex-layout.col#category-kids-junior-5"
+  ]
+},
+"flex-layout.col#category-kids-junior-1": {
+  "children": [
+    "menu-item#category-kids-junior-partesuperior",
+    "menu-item#category-kids-junior-Buscar",
+    "menu-item#category-kids-junior-Ver_todo",
+    "menu-item#category-kids-junior-Lo_mas_Vendido",
+    "menu-item#category-kids-junior-NuevosKids&Teen",
+    "menu-item#category-kids-junior-descuentos",
+    "menu-item#category-kids-junior-inferior",
+    "menu-item#category-kids-junior-buscarinferior",
+    "menu-item#category-kids-junior-vertodoinferior",
+    "menu-item#category-kids-junior-nuevosinferior",
+    "menu-item#category-kids-junior-descuentosinferior"
+  ]
+},
+"flex-layout.col#category-kids-junior-2": {
+  "children": [
+    "menu-item#category-kids-junior-Kids",
+    "menu-item#category-kids-junior-Teen"
+  ]
+},
+"flex-layout.col#category-kids-junior-3": {
+  "children": [
+    "menu-item#category-kids-junior-Beneficio"
+  ]
+},
+"flex-layout.col#category-kids-junior-4": {
+  "children": [
+    "menu-item#category-kids-junior-Compra_mas_y_ahorra"
+  ]
+},
+"flex-layout.col#category-kids-junior-5": {
+  "children": [
+    "info-card#home"
+  ]
+},
+"vtex.menu@2.x:menu#category-kids-junior": {
+  "props": {
+    "orientation": "vertical"
+  }
+},
+"menu-item#category-kids-junior-partesuperior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-partesuperior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Parte Superior",
+      "text": "Parte Superior junior"
+    }
+  }
+},
+"menu-item#category-kids-junior-Buscar": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Buscar",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-kids-junior-Ver_todo": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Ver_todo",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen",
+      "noFollow": false,
+      "tagTitle": "Ver_todo",
+      "text": "Ver Todo"
+    }
+  }
+},
+"menu-item#category-kids-junior-Lo_mas_Vendido": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Lo_mas_Vendido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByTopSaleDESC",
+      "noFollow": false,
+      "tagTitle": "Lo_mas_Vendido",
+      "text": "Lo más Vendido"
+    }
+  }
+},
+"menu-item#category-kids-junior-NuevosKids&Teen": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Nuevos-Kids&Teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
+    }
+  }
+},
+"menu-item#category-kids-junior-descuentos": {
+  "props": {
+    "id": "menu-item-category-kids-junior-descuentos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-junior-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Parte Inferior",
+      "text": "Parte Inferior"
+    }
+  }
+},
+"menu-item#category-kids-junior-buscarinferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-buscarinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-kids-junior-vertodoinferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-vertodoinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+"menu-item#category-kids-junior-nuevosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-nuevosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
+    }
+  }
+},
+"menu-item#category-kids-junior-descuentosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-descuentosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-junior-Kids": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Kids",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen/kids?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "noFollow": false,
+      "tagTitle": "Kids",
+      "text": "Kids"
+    }
+  }
+},
+"menu-item#category-kids-junior-Teen": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen/teen?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "noFollow": false,
+      "tagTitle": "Teen",
+      "text": "Teen"
+    }
+  }
+},
+"menu-item#category-kids-junior-Beneficio": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Beneficio",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Beneficio",
+      "text": "Beneficio"
+    }
+  }
+},
+"menu-item#category-kids-junior-Compra_mas_y_ahorra": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Compra_mas_y_ahorra",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Compra_mas_y_ahorra",
+      "text": "Compra mas y ahorra"
+    }
+  }
+},
+//inicio submenu kids&teen teen
+"flex-layout.row#category-kids-teen": {
+  "children": [
+    "flex-layout.col#category-kids-teen-1",
+    "flex-layout.col#category-kids-teen-2",
+    "flex-layout.col#category-kids-teen-3",
+    "flex-layout.col#category-kids-teen-4",
+    "flex-layout.col#category-kids-teen-5"
+  ]
+},
+"flex-layout.col#category-kids-teen-1": {
+  "children": [
+    "menu-item#category-kids-teen-partesuperior",
+    "menu-item#category-kids-teen-Buscar",
+    "menu-item#category-kids-teen-Ver_todo",
+    "menu-item#category-kids-teen-Lo_mas_Vendido",
+    "menu-item#category-kids-teen-NuevosKids&Teen",
+    "menu-item#category-kids-teen-descuentos",
+    "menu-item#category-kids-teen-inferior",
+    "menu-item#category-kids-teen-buscarinferior",
+    "menu-item#category-kids-teen-vertodoinferior",
+    "menu-item#category-kids-teen-nuevosinferior",
+    "menu-item#category-kids-teen-descuentosinferior"
+  ]
+},
+"flex-layout.col#category-kids-teen-2": {
+  "children": [
+    "menu-item#category-kids-teen-Kids",
+    "menu-item#category-kids-teen-Teen"
+  ]
+},
+"flex-layout.col#category-kids-teen-3": {
+  "children": [
+    "menu-item#category-kids-teen-Beneficio"
+  ]
+},
+"flex-layout.col#category-kids-teen-4": {
+  "children": [
+    "menu-item#category-kids-teen-Compra_mas_y_ahorra"
+  ]
+},
+"flex-layout.col#category-kids-teen-5": {
+  "children": [
+    "info-card#home"
+  ]
+},
+"vtex.menu@2.x:menu#category-kids-teen": {
+  "props": {
+    "orientation": "vertical"
+  }
+},
+"menu-item#category-kids-teen-partesuperior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-partesuperior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Parte Superior",
+      "text": "Parte Superior teen"
+    }
+  }
+},
+"menu-item#category-kids-teen-Buscar": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Buscar",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-kids-teen-Ver_todo": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Ver_todo",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen",
+      "noFollow": false,
+      "tagTitle": "Ver_todo",
+      "text": "Ver Todo"
+    }
+  }
+},
+"menu-item#category-kids-teen-Lo_mas_Vendido": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Lo_mas_Vendido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByTopSaleDESC",
+      "noFollow": false,
+      "tagTitle": "Lo_mas_Vendido",
+      "text": "Lo más Vendido"
+    }
+  }
+},
+"menu-item#category-kids-teen-NuevosKids&Teen": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Nuevos-Kids&Teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
+    }
+  }
+},
+"menu-item#category-kids-teen-descuentos": {
+  "props": {
+    "id": "menu-item-category-kids-teen-descuentos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-teen-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Parte Inferior",
+      "text": "Parte Inferior"
+    }
+  }
+},
+"menu-item#category-kids-teen-buscarinferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-buscarinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "buscar",
+      "text": "Buscar"
+    }
+  }
+},
+"menu-item#category-kids-teen-vertodoinferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-vertodoinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+"menu-item#category-kids-teen-nuevosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-nuevosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
+    }
+  }
+},
+"menu-item#category-kids-teen-descuentosinferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-descuentosinferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
+    }
+  }
+},
+"menu-item#category-kids-teen-Kids": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Kids",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen/kids?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "noFollow": false,
+      "tagTitle": "Kids",
+      "text": "Kids"
+    }
+  }
+},
+"menu-item#category-kids-teen-Teen": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen/teen?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "noFollow": false,
+      "tagTitle": "Teen",
+      "text": "Teen"
+    }
+  }
+},
+"menu-item#category-kids-teen-Beneficio": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Beneficio",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Beneficio",
+      "text": "Beneficio"
+    }
+  }
+},
+"menu-item#category-kids-teen-Compra_mas_y_ahorra": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Compra_mas_y_ahorra",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -4352,6 +5113,687 @@
       }
     }
   },
+
+  "menu-item#category-hombre": {
+    "props": {
+      "blockClass": "",
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lilipink/brasieres/",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-hombre"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-hombre": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#category-hombre"
+    ]
+  },
+  "flex-layout.row#category-hombre": {
+    "children": [
+      "flex-layout.col#category-hombre-1",
+      "flex-layout.col#category-hombre-2",
+      "flex-layout.col#category-hombre-3",
+      "flex-layout.col#category-hombre-4",
+      "flex-layout.col#category-hombre-imagen"
+    ]
+  },
+
+  "flex-layout.col#category-hombre-1": {
+
+    "children": [
+      "menu-item#category-hombre-buscar",
+      "menu-item#category-hombre-ver_todo",
+      "menu-item#category-hombre-lo_mas_vendido",
+      "menu-item#category-hombre-nuevos",
+      "menu-item#category-hombre-ofertas"
+
+    ]
+  },
+  "flex-layout.col#category-hombre-2": {
+    "children": [
+      "menu-item#category-hombre-estilos",
+      "menu-item#category-hombre-interior"
+    ]
+  },
+  "flex-layout.col#category-hombre-3": {
+    "children": [
+      "menu-item#category-hombre-material",
+      "menu-item#category-hombre-algodon",
+      "menu-item#category-hombre-tejidoplano",
+      "menu-item#category-hombre-seamless",
+      "menu-item#category-hombre-microfibra"
+    ]
+  },
+  "flex-layout.col#category-hombre-4": {
+    "children": [
+      "menu-item#category-hombre-compra_mas_y_ahorra",
+      "menu-item#category-hombre-individual",
+      "menu-item#category-hombre-paquete-x-2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-hombre": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-hombre-buscar": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-buscar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Buscar",
+        "text": "Buscar" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-ver_todo": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-buscar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "ver todo",
+        "text": "Ver todo",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-hombre-lo_mas_vendido": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-lo_mas_vendido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "lo mas vendido",
+        "text": "Lo más vendido",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-hombre-nuevos": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "nuevos",
+        "text": "Nuevos",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-hombre-ofertas": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "descuentos",
+        "text": "Descuentos",
+        "fullWidt":false
+
+      }
+    }
+  },
+
+  "menu-item#category-hombre-estilos": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-estilos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "estilos",
+        "text": "Estilos" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-interior": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-interior",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "interior",
+        "text": "Interior" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-material": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-material",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "material",
+        "text": "Material" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-algodon": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-algodon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "algodon",
+        "text": "Algodon" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-tejidoplano": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-tejidoplano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "tejido plano",
+        "text": "Tejido Plano",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-seamless": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-seamless",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Seamless",
+        "text": "Seamless",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-microfibra": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-microfibra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Microfibra",
+        "text": "Microfibra",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-compra_mas_y_ahorra": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-compra_mas_y_ahorra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Compra más y ahorra",
+        "text": "Compra más y ahorra",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-individual": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-individual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Individual",
+        "text": "Individual",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-hombre-paquete-x-2": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-hombre-paquete-x-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Paquete x 2",
+        "text": "Paquete x 2",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "flex-layout.col#category-hombre-imagen": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "menu-item#category-nino": {
+    "props": {
+      "blockClass": "",
+      "id": "menu-item-category-nino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lilipink/brasieres/",
+        "noFollow": false,
+        "tagTitle": "NIÑO",
+        "text": "NIÑO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-nino"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-nino": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#category-nino"
+    ]
+  },
+  "flex-layout.row#category-nino": {
+    "children": [
+      "flex-layout.col#category-nino-1",
+      "flex-layout.col#category-nino-2",
+      "flex-layout.col#category-nino-3",
+      "flex-layout.col#category-nino-4",
+      "flex-layout.col#category-nino-imagen"
+    ]
+  },
+
+  "flex-layout.col#category-nino-1": {
+
+    "children": [
+      "menu-item#category-nino-buscar",
+      "menu-item#category-nino-ver_todo",
+      "menu-item#category-nino-lo_mas_vendido",
+      "menu-item#category-nino-nuevos",
+      "menu-item#category-nino-ofertas"
+
+    ]
+  },
+  "flex-layout.col#category-nino-2": {
+    "children": [
+      "menu-item#category-nino-estilos",
+      "menu-item#category-nino-interior"
+    ]
+  },
+  "flex-layout.col#category-nino-3": {
+    "children": [
+      "menu-item#category-nino-material",
+      "menu-item#category-nino-algodon",
+      "menu-item#category-nino-tejidoplano"
+    ]
+  },
+  "flex-layout.col#category-nino-4": {
+    "children": [
+      "menu-item#category-nino-compra_mas_y_ahorra",
+      "menu-item#category-nino-individual",
+      "menu-item#category-nino-paquete-x-2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-nino": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-nino-buscar": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-buscar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Buscar",
+        "text": "Buscar" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-ver_todo": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-buscar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "ver todo",
+        "text": "Ver todo",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-nino-lo_mas_vendido": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-lo_mas_vendido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "lo mas vendido",
+        "text": "Lo más vendido",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-nino-nuevos": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "nuevos",
+        "text": "Nuevos",
+        "fullWidt":false
+
+
+      }
+    }
+  },
+
+  "menu-item#category-nino-ofertas": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "descuentos",
+        "text": "Descuentos",
+        "fullWidt":false
+
+      }
+    }
+  },
+
+  "menu-item#category-nino-estilos": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-estilos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "estilos",
+        "text": "Estilos" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-interior": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-interior",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "interior",
+        "text": "Interior" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-material": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-material",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "material",
+        "text": "Material" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-algodon": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-algodon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "algodon",
+        "text": "Algodon" ,
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-tejidoplano": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-tejidoplano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "tejido plano",
+        "text": "Tejido Plano",
+        "fullWidt":false
+      }
+    }
+  },
+
+
+  "menu-item#category-nino-compra_mas_y_ahorra": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-compra_mas_y_ahorra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Compra más y ahorra",
+        "text": "Compra más y ahorra",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-individual": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-individual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Individual",
+        "text": "Individual",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "menu-item#category-nino-paquete-x-2": {
+    "props": {
+      "blockClass": "Buscar",
+      "id": "menu-item-category-nino-paquete-x-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brasieres/clothing/",
+        "noFollow": false,
+        "tagTitle": "Paquete x 2",
+        "text": "Paquete x 2",
+        "fullWidt":false
+      }
+    }
+  },
+
+  "flex-layout.col#category-nino-imagen": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+
   "menu-item#category-belleza": {
     "props": {
       "id": "menu-item-category-belleza",
@@ -4384,8 +5826,6 @@
   "children": [     
     "flex-layout.col#category-belleza-1" ,
     "flex-layout.col#category-belleza-2" ,
-    "flex-layout.col#category-belleza-3" ,
-    "flex-layout.col#category-belleza-4" ,
     "flex-layout.col#category-belleza-5" 
 
   ]
@@ -4402,21 +5842,19 @@
   "flex-layout.col#category-belleza-2": {
   "children": [
     "menu-item#category-belleza-Tipos",
+    "menu-item#category-belleza-Accesorios-Maquillaje",
+    "menu-item#category-belleza-Cuidado-Bucal",
+    "menu-item#category-belleza-Cuidado-Cabello",
+    "menu-item#category-belleza-Cuidado-Corporal",
+    "menu-item#category-belleza-Cuidado-Facial",
     "menu-item#category-belleza-Fragancias",
-    "menu-item#category-belleza-Maquillaje"
+    "menu-item#category-belleza-Manos-Pies",
+    "menu-item#category-belleza-Maquillaje",
+    "menu-item#category-belleza-Prevencion-Cuidado"
 
   ]
   },
-  "flex-layout.col#category-belleza-3": {
-  "children": [
-    "menu-item#category-belleza-Beneficios"
-  ]  
-  },
-  "flex-layout.col#category-belleza-4": {
-  "children": [
-    "menu-item#category-belleza-Compra-mas-y-ahorra"
-  ]
-  },
+  
   "flex-layout.col#category-belleza-5": {
   "children": [
     "info-card#home"  
@@ -4468,7 +5906,7 @@
         "href": "/lilipink/belleza?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
-        "text": "Los más Vendidos"
+        "text": "Los Más Vendidos"
       }
     }
   },
@@ -4482,8 +5920,8 @@
         "type": "internal",
         "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
         "noFollow": false,
-        "tagTitle": "Nuevos Brasieres y Bralettes",
-        "text": "Nuevos Brasieres y Bralettes"
+        "tagTitle": "Nuevos",
+        "text": "Nuevos"
       }
     }
   },
@@ -4498,8 +5936,8 @@
         "type": "internal",
         "href": "/lilipink/belleza?O=OrderByBestDiscountDESC",
         "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
+        "tagTitle": "Descuentos",
+        "text": "Descuentos"
       }
     }
   },
@@ -4513,8 +5951,83 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Tipos",
-        "text": "Tipos"
+        "tagTitle": "Estilos",
+        "text": "Estilos"
+      }
+    }
+  },
+  "menu-item#category-belleza-Accesorios-Maquillaje": {
+    "props": {
+      "id": "menu-item-category-belleza-Accesorios-Maquillaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lilipink/belleza/fragancias?initialMap=c,c&initialQuery=lilipink/belleza&map=category-1,category-2,category-3",
+        "noFollow": false,
+        "tagTitle": "AccesoriosMaquillaje",
+        "text": "Accesorios Maquillaje"
+      }
+    }
+  },
+  "menu-item#category-belleza-Cuidado-Bucal": {
+    "props": {
+      "id": "menu-item-category-belleza-Cuidado-Bucal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CuidadoBucal",
+        "text": "Cuidado Bucal"
+      }
+    }
+  },
+  "menu-item#category-belleza-Cuidado-Cabello": {
+    "props": {
+      "id": "menu-item-category-belleza-Cuidado-Cabello",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CuidadoCabello",
+        "text": "Cuidado Cabello"
+      }
+    }
+  },
+  "menu-item#category-belleza-Cuidado-Corporal": {
+    "props": {
+      "id": "menu-item-category-belleza-Cuidado-Corporal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CuidadoCorporal",
+        "text": "Cuidado Corporal"
+      }
+    }
+  },
+  "menu-item#category-belleza-Cuidado-Facial": {
+    "props": {
+      "id": "menu-item-category-belleza-Cuidado-Facial",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CuidadoFacial",
+        "text": "Cuidado Facial"
       }
     }
   },
@@ -4526,10 +6039,25 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza/fragancias?initialMap=c,c&initialQuery=lilipink/belleza&map=category-1,category-2,category-3",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Fragancias",
         "text": "Fragancias"
+      }
+    }
+  },
+  "menu-item#category-belleza-Manos-Pies": {
+    "props": {
+      "id": "menu-item-category-belleza-Manos-Pies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ManosPies",
+        "text": "Manos y Pies"
       }
     }
   },
@@ -4548,9 +6076,9 @@
       }
     }
   },
-  "menu-item#category-belleza-Beneficios": {
+  "menu-item#category-belleza-Prevencion-Cuidado": {
     "props": {
-      "id": "menu-item#category-belleza-Beneficios",
+      "id": "menu-item-category-belleza-Prevencion-Cuidado",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -4558,26 +6086,12 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Beneficios",
-        "text": "Beneficios"
+        "tagTitle": "PrevencionCuidado",
+        "text": "Prevención y Cuidado"
       }
     }
-  },  
-  "menu-item#category-belleza-Compra-mas-y-ahorra": {
-    "props": {
-      "id": "menu-item#category-belleza-Compra-mas-y-ahorra",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Compra mas y ahorra",
-        "text": "Compra mas y ahorra"
-      }
-    }
-  },  
+  },
+  
   
   "menu-item#category-bioseguridad": {
     "props": {
@@ -4610,8 +6124,6 @@
   "children": [     
     "flex-layout.col#category-bioseguridad-1" ,
     "flex-layout.col#category-bioseguridad-2" ,
-    "flex-layout.col#category-bioseguridad-3" ,
-    "flex-layout.col#category-bioseguridad-4" ,
     "flex-layout.col#category-bioseguridad-5" 
 
   ]
@@ -4629,18 +6141,9 @@
   "children": [
     "menu-item#category-bioseguridad-Tipo",
     "menu-item#category-bioseguridad-Tapabocas",
-    "menu-item#category-bioseguridad-Gelantibacterial",
-    "menu-item#category-bioseguridad-Medición-de-Temperatura"
-  ]
-  },
-  "flex-layout.col#category-bioseguridad-3": {
-  "children": [
-    "menu-item#category-bioseguridad-Beneficios"
-  ]  
-  },
-  "flex-layout.col#category-bioseguridad-4": {
-  "children": [
-    "menu-item#category-bioseguridad-Compra-mas-y-ahorra"
+    "menu-item#category-bioseguridad-Proteccion",
+    "menu-item#category-bioseguridad-Gel-Antibacterial",
+    "menu-item#category-bioseguridad-Medicion-de-Temperatura"
   ]
   },
   "flex-layout.col#category-bioseguridad-5": {
@@ -4694,7 +6197,7 @@
         "href": "/lilipink/bioseguridad?O=OrderByTopSaleDESC",
         "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
-        "text": "Los más Vendidos"
+        "text": "Los Más Vendidos"
       }
     }
   },
@@ -4708,8 +6211,8 @@
         "type": "internal",
         "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
         "noFollow": false,
-        "tagTitle": "Nuevos Brasieres y Bralettes",
-        "text": "Nuevos Brasieres y Bralettes"
+        "tagTitle": "Nuevos",
+        "text": "Nuevos"
       }
     }
   },
@@ -4724,42 +6227,12 @@
         "type": "internal",
         "href": "/lilipink/bioseguridad?O=OrderByBestDiscountDESC",
         "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
-      }
-    }
-  },
-  "menu-item#category-bioseguridad-Beneficios": {
-    "props": {
-      "id": "menu-item#category-bioseguridad-Beneficios",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Beneficios",
-        "text": "Beneficios"
+        "tagTitle": "Descuentos",
+        "text": "Descuentos"
       }
     }
   },
 
-"menu-item#category-bioseguridad-Compra-mas-y-ahorra": {
-  "props": {
-    "id": "menu-item#category-bioseguridad-Compra-mas-y-ahorra",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Compra mas y ahorra",
-      "text": "Compra mas y ahorra"
-    }
-  }
-},
 "menu-item#category-bioseguridad-Tipo": {
   "props": {
     "id": "menu-item#category-bioseguridad-Tipo",
@@ -4771,7 +6244,7 @@
       "href": "#",
       "noFollow": false,
       "tagTitle": "Tipo",
-      "text": "Tipo"
+      "text": "Estilos"
     }
   }
 },
@@ -4790,9 +6263,9 @@
     }
   }
 },
-"menu-item#category-bioseguridad-Gelantibacterial": {
+"menu-item#category-bioseguridad-Proteccion": {
   "props": {
-    "id": "menu-item#category-bioseguridad-Gelantibacterial",
+    "id": "menu-item#category-bioseguridad-Proteccion",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -4800,14 +6273,14 @@
       "type": "internal",
       "href": "/lilipink/bioseguridad/gel-antibacterial?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
       "noFollow": false,
-      "tagTitle": "Gelantibacterial",
-      "text": "Gelantibacterial"
+      "tagTitle": "Linea de Proteccion",
+      "text": "Línea de Protección"
     }
   }
 },
-"menu-item#category-bioseguridad-Medición-de-Temperatura": {
+"menu-item#category-bioseguridad-Gel-Antibacterial": {
   "props": {
-    "id": "menu-item#category-bioseguridad-Medición-de-Temperatura",
+    "id": "menu-item#category-bioseguridad-Gel-Antibacterial",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -4815,137 +6288,116 @@
       "type": "internal",
       "href": "/lilipink/bioseguridad/toma-de-temperatura?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
       "noFollow": false,
-      "tagTitle": "Medición de Temperatura",
+      "tagTitle": "Gel Antibacterial",
+      "text": "Gel Antibacterial"
+    }
+  }
+},
+"menu-item#category-bioseguridad-Medicion-de-Temperatura": {
+  "props": {
+    "id": "menu-item#category-bioseguridad-Medicion-de-Temperatura",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/bioseguridad/toma-de-temperatura?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
+      "noFollow": false,
+      "tagTitle": "Mediciondetemperatura",
       "text": "Medición de Temperatura"
     }
   }
 },
 
-  "menu-item#category-rebajas": {
-    "props": {
-      "id": "menu-item-category-rebajas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/rebajas/",
-        "noFollow": false,
-        "tagTitle": "REBAJAS",
-        "text": "REBAJAS"
-      }
+ 
+"menu-item#yoi": {
+  "props": {
+    "id": "menu-item-custom-sale",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": true,
+      "tagTitle": "YOI",
+      "text": "YOI"
     }
   },
-  "menu-item#yoi": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "YOI",
-        "text": "YOI"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#yoi"
-    ]
+  "blocks": [
+    "vtex.menu@2.x:submenu#yoi"
+  ]
+},
+"vtex.menu@2.x:submenu#yoi": {
+  "props": {
+
   },
-  "vtex.menu@2.x:submenu#yoi": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-yoi"
-    ]
+  "children": [
+    "flex-layout.row#menu-yoi"
+  ]
+},
+"flex-layout.row#menu-yoi": {
+  "children": [
+    "flex-layout.col#menu-yoi-1"
+  ]
+},
+"flex-layout.col#menu-yoi-1": {
+  "children": [
+    "vtex.menu@2.x:menu#yoi"
+  ]
+},
+
+"vtex.menu@2.x:menu#yoi": {
+  "props": {
+    "orientation": "vertical"
   },
-  "flex-layout.row#menu-yoi": {
-    "children": [
-      "flex-layout.col#menu-yoi-1",
-      "flex-layout.col#menu-yoi-2"
-    ]
-  },
-  "flex-layout.col#menu-yoi-1": {
-    "children": [
-      "vtex.menu@2.x:menu#yoi"
-    ]
-  },
-  "flex-layout.col#menu-yoi-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#yoi": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#socialseller",
-      "menu-item#tiendas",
-      "menu-item#credipink"
-    ]
-  },
-  "menu-item#tiendas": {
-    "props": {
-      "id": "menu-item-tiendas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/stores",
-        "noFollow": true,
-        "tagTitle": "Tiendas",
-        "text": "Tiendas"
-      }
+  "children": [
+    "menu-item#socialseller"
+  ]
+},
+"menu-item#tiendas": {
+  "props": {
+    "id": "menu-item-tiendas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/stores",
+      "noFollow": true,
+      "tagTitle": "Tiendas",
+      "text": "Tiendas"
     }
-  },
-  "menu-item#credipink": {
-    "props": {
-      "id": "menu-item-credipink",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/credipink",
-        "noFollow": true,
-        "tagTitle": "CrediPink",
-        "text": "CrediPink"
-      }
+  }
+},
+"menu-item#credipink": {
+  "props": {
+    "id": "menu-item-credipink",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/credipink",
+      "noFollow": true,
+      "tagTitle": "CrediPink",
+      "text": "CrediPink"
     }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
-      }
-    }
-  },
-  "menu-item#socialseller": {
-    "props": {
-      "blockClass":"GENERA-INGRESOS",
-      "id": "menu-item-socialseller",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/socialseller",
-        "noFollow": true,
-        "tagTitle": "socialseller",
-        "text": "GENERA INGRESOS ADICIONALES CON NOSOTROS"
+  }
+},
+"menu-item#socialseller": {
+  "props": {
+    "blockClass":"GENERA-INGRESOS",
+    "id": "menu-item-socialseller",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/socialseller",
+      "noFollow": true,
+      "tagTitle": "",
+      "text": ""
       }
     }
   }
