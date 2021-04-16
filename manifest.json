@@ -65,7 +65,8 @@
     "vtex.category-menu": "2.x",
     "vtex.condition-layout": "2.x",
     "mqaenvironment.filters": "0.x",
-    "vtex.product-availability": "0.x"
+    "vtex.product-availability": "0.x",
+    "mqaenvironment.multihome": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"
