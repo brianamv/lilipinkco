@@ -1,6 +1,7 @@
 
 {
   "vtex.menu@2.x:menu#category-menu": {
+
     "props": {
       "experimentalOptimizeRendering": true
     },
@@ -69,7 +70,6 @@
       "menu-item#category-brasieres-Lo_mas_Vendido",
       "menu-item#category-brasieres-nuevosbrasieresybralettes",
       "menu-item#category-brasieres-Ofertas"
-
     ]
   },
   "flex-layout.col#category-brasieres-2": {
@@ -160,7 +160,6 @@
         "tagTitle": "Buscar",
         "text": "Buscar" ,
         "fullWidt":false
-
 
       }
     }
@@ -255,7 +254,6 @@
     }
   },
 
-
   "menu-item#category-brasieres-PushUp": {
     "props": {
       "blockClass": "brasieres-PushUp",
@@ -273,11 +271,9 @@
     }
   },
 
-
-
   "menu-item#category-brasieres-Bralette": {
     "props": {
-
+      
       "id": "menu-item-category-brasieres-Bralette",
       "type": "custom",
       "iconId": null,
@@ -288,7 +284,6 @@
         "noFollow": false,
         "tagTitle": "Bralette",
         "text": "Con Copa"
-
       }
     }
   },
@@ -420,7 +415,6 @@
     }
   },
 
-
   "menu-item#category-brasieres-deports": {
     "props": {
       "id": "menu-item-category-brasieres-deports",
@@ -484,6 +478,7 @@
     }
   },
 
+
   "menu-item#category-brasieres-Beneficio": {
     "props": {
       "blockClass": "BeneficioBrasieres",
@@ -500,7 +495,9 @@
 
       }
     }
+
   },
+
   "menu-item#category-brasieres-Compra_mas_y_ahorra": {
     "props": {
       "blockClass": "CompramasBrasieres",
@@ -518,6 +515,7 @@
       }
     }
   },
+
   "menu-item#category-brasieres-PushUp_realce": {
     "props": {
       "id": "menu-item-category-brasieres-PushUp_realce",
@@ -929,6 +927,7 @@
         "noFollow": false,
         "tagTitle": "CorteLaserTermofusionado",
         "text": "Corte Termofusinado"
+
       }
     }
   },
@@ -939,6 +938,7 @@
   },
   "menu-item#category-tops": {
     "props": {
+
       "id": "menu-item-category-tops",
       "type": "custom",
       "iconId": null,
@@ -961,18 +961,17 @@
   },
   "children": [
     "flex-layout.row#category-tops"
+
   ]
 },
 "flex-layout.row#category-tops2": {
   "children": [
-
 
     "flex-layout.col#category-tops-1",
     "flex-layout.col#category-tops-2",
     "flex-layout.col#category-tops-3",
     "flex-layout.col#category-tops-4",
     "flex-layout.col#category-tops-5"
-
   ]
 },
 
@@ -1008,6 +1007,7 @@
 "flex-layout.col#category-tops-33": {
   "children": [
     "menu-item#category-tops-beneficios"
+
   ]
 },
 "flex-layout.col#category-tops-44": {
@@ -1016,12 +1016,12 @@
     "menu-item#category-tops-Paquete-x-4",
     "menu-item#category-tops-Paquete-x-2",
     "menu-item#category-tops-Paquete-x-3"
-
   ]
 },
 "flex-layout.col#category-tops-55": {
   "children": [
     "info-card#home"
+
   ]
 },
 "vtex.menu@2.x:menu#category-tops66": {
@@ -1229,7 +1229,6 @@
         "tagTitle": "PANTIES",
         "text": "PANTIES"
       }
-
   },
   "blocks": [
     "vtex.menu@2.x:submenu#category-panties"
@@ -1241,18 +1240,17 @@
   },
   "children": [
     "flex-layout.row#category-panties"
+
   ]
 },
 "flex-layout.row#category-panties": {
   "children": [
-
 
     "flex-layout.col#category-panties-1",
     "flex-layout.col#category-panties-2",
     "flex-layout.col#category-panties-3",
     "flex-layout.col#category-panties-4",
     "flex-layout.col#category-panties-5"
-
   ]
 },
 "flex-layout.col#category-panties-1": {
@@ -1262,7 +1260,6 @@
     "menu-item#category-panties-Lo_mas_Vendido",
     "menu-item#category-panties-Nuevos-Panties",
     "menu-item#category-panties-Ofertas"
-
   ]
 },
 "flex-layout.col#category-panties-2": {
@@ -1275,6 +1272,7 @@
     "menu-item#category-panties-Culotes-estilo-boyshort",
     "menu-item#category-panties-Pantis-brasileras",
     "menu-item#category-panties-Cintura-alta-y-cavado"
+
 
   ]
 },
@@ -1308,6 +1306,7 @@
 "flex-layout.col#category-panties-5": {
   "children": [
     "info-card#home"
+
   ]
 },
 "vtex.menu@2.x:menu#category-panties": {
@@ -3473,6 +3472,7 @@
       "noFollow": false,
       "tagTitle": "buscar",
       "text": "Buscar"
+
     }
   }
 },
@@ -4045,7 +4045,6 @@
         "tagTitle": "DESCANSO",
         "text": "DESCANSO Y MULTIUSOS"
       }
-
 },
 "blocks": [
   "vtex.menu@2.x:submenu#category-descanso"
@@ -4057,17 +4056,16 @@
 },
 "children": [
   "flex-layout.row#category-descanso"
+
 ]
 },
 "flex-layout.row#category-descanso": {
 "children": [
 
-
   "flex-layout.col#category-descanso-1",
   "flex-layout.col#category-descanso-2",
   "flex-layout.col#category-descanso-3",
   "flex-layout.col#category-descanso-5"
-
 ]
 },
 "flex-layout.col#category-descanso-1": {
@@ -4113,7 +4111,6 @@
   "menu-item#category-descanso-Pantalon-Corto",
   "menu-item#category-descanso-Pantalon-Capri",
   "menu-item#category-descanso-Pantalon-Largo"
-
 ]
 
 },
@@ -4295,6 +4292,7 @@
       }
     }
   },
+
   "menu-item#category-descanso-Short": {
     "props": {
       "id": "menu-item-category-descanso-Short",
@@ -4412,6 +4410,7 @@
         "noFollow": false,
         "tagTitle": "Algodon",
         "text": "Algodón"
+
       }
     }
   },
@@ -4427,6 +4426,7 @@
         "noFollow": false,
         "tagTitle": "Modal",
         "text": "Modal"
+
       }
     }
   },
@@ -4442,6 +4442,7 @@
         "noFollow": false,
         "tagTitle": "Encaje",
         "text": "Encaje"
+
       }
     }
   },
@@ -4472,6 +4473,7 @@
         "noFollow": false,
         "tagTitle": "Satin",
         "text": "Satín"
+
       }
     }
   },
@@ -4517,6 +4519,7 @@
         "noFollow": false,
         "tagTitle": "Manga-Sisa",
         "text": "Manga Sisa"
+
       }
     }
   },
@@ -4625,7 +4628,6 @@
   },
   "flex-layout.row#category-medias": {
   "children": [
-
 
     "flex-layout.col#category-medias-1",
     "flex-layout.col#category-medias-2",
@@ -4776,7 +4778,6 @@
         }
       }
     },
-
 
     "menu-item#category-medias-Pantumedias": {
       "props": {
@@ -5046,7 +5047,6 @@
         "tagTitle": "DEPORTIVO",
         "text": "DEPORTIVO"
       }
-
   },
   "blocks": [
     "vtex.menu@2.x:submenu#category-deportivo"
@@ -5065,7 +5065,7 @@
     "flex-layout.col#category-deportivo-1",
     "flex-layout.col#category-deportivo-2",
     "flex-layout.col#category-deportivo-3",
-    "flex-layout.col#category-deportivo-5"
+    "flex-layout.col#category-deportivo-5"r
 
   ]
   },
@@ -5101,6 +5101,7 @@
   "flex-layout.col#category-deportivo-5": {
   "children": [
     "info-card#home"
+
   ]
   },
   "vtex.menu@2.x:menu#category-deportivo": {
@@ -5168,7 +5169,6 @@
         }
       }
     },
-
     "menu-item#category-deportivo-Ofertas": {
       "props": {
         "id": "menu-item-category-deportivo-Ofertas",
@@ -5319,7 +5319,6 @@
         }
       }
     },
-
     "menu-item#category-deportivo-Deportes": {
       "props": {
         "id": "menu-item#category-deportivo-Deportes",
@@ -5381,7 +5380,6 @@
       }
     },
 
-
     "menu-item#category-vestidos": {
       "props": {
         "id": "menu-item-category-vestidos",
@@ -5395,6 +5393,7 @@
           "tagTitle": "VESTIDOS DE BAÑO",
           "text": "VESTIDOS DE BAÑO"
         }
+
 
   },
   "blocks": [
@@ -5450,6 +5449,7 @@
   "flex-layout.col#category-vestidos-5": {
   "children": [
     "info-card#home"
+
   ]
   },
   "vtex.menu@2.x:menu#category-vestidos": {
@@ -5712,13 +5712,11 @@
 "flex-layout.row#category-tops": {
   "children": [
 
-
     "flex-layout.col#category-tops-1",
     "flex-layout.col#category-tops-2",
     "flex-layout.col#category-tops-3",
     "flex-layout.col#category-tops-4",
     "flex-layout.col#category-tops-5"
-
   ]
 },
 
@@ -5729,7 +5727,6 @@
     "menu-item#category-tops-Lo_mas_Vendido",
     "menu-item#category-tops-nuevosbrasieresybralettes",
     "menu-item#category-tops-Ofertas"
-
   ]
 },
 "flex-layout.col#category-tops-2": {
@@ -5771,12 +5768,12 @@
     "menu-item#category-tops-Beneficios",
     "menu-item#category-tops-Sin-Costuras",
     "menu-item#category-tops-Corte-Laser-Termofusionado"
-
   ]
 },
 "flex-layout.col#category-tops-5": {
   "children": [
     "info-card#home"
+
   ]
 },
 "vtex.menu@2.x:menu#category-tops": {
@@ -6283,8 +6280,6 @@
     }
   }
 },
-
-
 
 
   "menu-item#category-vestidos-Halter": {
@@ -7071,8 +7066,8 @@
         "tagTitle": "BELLEZA",
         "text": "BELLEZA"
       }
-
   },
+
 
   "blocks": [
     "vtex.menu@2.x:submenu#category-belleza"
@@ -7118,7 +7113,6 @@
 
   ]
   },
-
   "flex-layout.col#category-belleza-5": {
   "children": [
     "info-card#home"
@@ -7189,7 +7183,6 @@
       }
     }
   },
-
   "menu-item#category-bellezas-Ofertas": {
     "props": {
       "id": "menu-item-category-belleza-Ofertas",
@@ -7356,7 +7349,6 @@
     }
   },
 
-
   "menu-item#category-bioseguridad": {
     "props": {
       "id": "menu-item-category-bioseguridad",
@@ -7370,7 +7362,6 @@
         "tagTitle": "BIOSEGURIDAD",
         "text": "BIOSEGURIDAD"
       }
-
   },
   "blocks": [
     "vtex.menu@2.x:submenu#category-bioseguridad"
@@ -7389,6 +7380,7 @@
     "flex-layout.col#category-bioseguridad-1" ,
     "flex-layout.col#category-bioseguridad-2" ,
     "flex-layout.col#category-bioseguridad-5"
+
 
   ]
   },
@@ -7480,7 +7472,6 @@
       }
     }
   },
-
   "menu-item#category-bioseguridad-Ofertas": {
     "props": {
       "id": "menu-item-category-bioseguridad-Ofertas",
@@ -7572,7 +7563,6 @@
     }
   }
 },
-
 
 "menu-item#yoi": {
   "props": {
@@ -7666,3 +7656,4 @@
     }
   }
 }
+
