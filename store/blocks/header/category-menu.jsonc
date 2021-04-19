@@ -1951,33 +1951,58 @@
 },
 "flex-layout.col#category-kids-girl-1": {
   "children": [
-    "menu-item#category-kids-girl-partesuperior",
     "menu-item#category-kids-girl-Buscar",
     "menu-item#category-kids-girl-Ver_todo",
     "menu-item#category-kids-girl-Lo_mas_Vendido",
     "menu-item#category-kids-girl-NuevosKids&Teen",
     "menu-item#category-kids-girl-descuentos",
-    "menu-item#category-kids-girl-inferior",
-    "menu-item#category-kids-girl-buscarinferior",
-    "menu-item#category-kids-girl-vertodoinferior",
-    "menu-item#category-kids-girl-nuevosinferior",
-    "menu-item#category-kids-girl-descuentosinferior"
+    "menu-item#category-kids-girl-Buscar-inferior",
+    "menu-item#category-kids-girl-Ver-Todo",
+    "menu-item#category-kids-girl-Lo-Mas_Vendido",
+    "menu-item#category-kids-girl-Nuevos-inferior",
+    "menu-item#category-kids-girl-Descuentos-inferior"
   ]
 },
 "flex-layout.col#category-kids-girl-2": {
   "children": [
-    "menu-item#category-kids-girl-Kids",
-    "menu-item#category-kids-girl-Teen"
+    "menu-item#category-kids-girl-estilos-superior",
+    "menu-item#category-kids-girl-crop-top",
+    "menu-item#category-kids-girl-deportivo",
+    "menu-item#category-kids-girl-halter",
+    "menu-item#category-kids-girl-racerback",
+    "menu-item#category-kids-girl-surtido",
+    "menu-item#category-kids-girl-tanktop",
+    "menu-item#category-kids-girl-top",
+    "menu-item#category-kids-girl-estilos-inferior",
+    "menu-item#category-kids-girl-boxer",
+    "menu-item#category-kids-girl-clasico",
+    "menu-item#category-kids-girl-hipster",
+    "menu-item#category-kids-girl-surtido-inferior"
   ]
 },
 "flex-layout.col#category-kids-girl-3": {
   "children": [
-    "menu-item#category-kids-girl-Beneficio"
+    "menu-item#category-kids-girl-material-superior",
+    "menu-item#category-kids-girl-algodon-superior",
+    "menu-item#category-kids-girl-seamless-superior",
+    "menu-item#category-kids-girl-surtido-superior",
+    "menu-item#category-kids-girl-material-inferior",
+    "menu-item#category-kids-girl-material-algodon-inferior",
+    "menu-item#category-kids-girl-material-seamless-inferior",
+    "menu-item#category-kids-girl-material-surtido-inferior"
   ]
 },
 "flex-layout.col#category-kids-girl-4": {
   "children": [
-    "menu-item#category-kids-girl-Compra_mas_y_ahorra"
+    "menu-item#category-kids-girl-Compra_mas_y_ahorra-superior",
+    "menu-item#category-kids-girl-individual-superior",
+    "menu-item#category-kids-girl-paquete-x2-superior-col4",
+    "menu-item#category-kids-girl-Compra_mas_y_ahorra-inferior",
+    "menu-item#category-kids-girl-individual-inferior",
+    "menu-item#category-kids-girl-paquete-x2-inferior",
+    "menu-item#category-kids-girl-paquete-x3-inferior",
+    "menu-item#category-kids-girl-paquete-x4-inferior",
+    "menu-item#category-kids-girl-semanario-inferior"
   ]
 },
 "flex-layout.col#category-kids-girl-5": {
@@ -1990,21 +2015,7 @@
     "orientation": "vertical"
   }
 },
-"menu-item#category-kids-girl-partesuperior": {
-  "props": {
-    "id": "menu-item-category-kids-girl-partesuperior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Parte Superior",
-      "text": "Parte Superior girl"
-    }
-  }
-},
+
 "menu-item#category-kids-girl-Buscar": {
   "props": {
     "id": "menu-item-category-kids-girl-Buscar",
@@ -2080,9 +2091,9 @@
     }
   }
 },
-"menu-item#category-kids-girl-inferior": {
+"menu-item#category-kids-girl-Buscar-inferior": {
   "props": {
-    "id": "menu-item-category-kids-girl-inferior",
+    "id": "menu-item-category-kids-girl-Buscar-inferior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2090,29 +2101,14 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Parte Inferior",
-      "text": "Parte Inferior"
-    }
-  }
-},
-"menu-item#category-kids-girl-buscarinferior": {
-  "props": {
-    "id": "menu-item-category-kids-girl-buscarinferior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
-      "noFollow": false,
-      "tagTitle": "buscar",
+      "tagTitle": "Buscar",
       "text": "Buscar"
     }
   }
 },
-"menu-item#category-kids-girl-vertodoinferior": {
+"menu-item#category-kids-girl-Ver-Todo": {
   "props": {
-    "id": "menu-item-category-kids-girl-vertodoinferior",
+    "id": "menu-item-category-kids-girl-Ver-Todo",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2120,14 +2116,14 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Ver Todos",
-      "text": "Ver Todos"
+      "tagTitle": "VerTodo",
+      "text": "Ver Todo"
     }
   }
 },
-"menu-item#category-kids-girl-nuevosinferior": {
+"menu-item#category-kids-girl-Lo-Mas_Vendido": {
   "props": {
-    "id": "menu-item-category-kids-girl-nuevosinferior",
+    "id": "menu-item-category-kids-girl-Lo-Mas_Vendido",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2135,14 +2131,29 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Nuevos",
+      "tagTitle": "LoMasVendidoInferior",
+      "text": "Lo Más Vendido"
+    }
+  }
+},
+"menu-item#category-kids-girl-Nuevos-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-Nuevos-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos-inferior",
       "text": "Nuevos"
     }
   }
 },
-"menu-item#category-kids-girl-descuentosinferior": {
+"menu-item#category-kids-girl-Descuentos-inferior": {
   "props": {
-    "id": "menu-item-category-kids-girl-descuentosinferior",
+    "id": "menu-item-category-kids-girl-Descuentos-inferior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2150,59 +2161,333 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Descuentos",
+      "tagTitle": "DescuentosInferior",
       "text": "Descuentos"
     }
   }
 },
-"menu-item#category-kids-girl-Kids": {
+
+"menu-item#category-kids-girl-estilos-superior": {
   "props": {
-    "id": "menu-item-category-kids-girl-Kids",
+    "id": "menu-item-category-kids-estilos-superior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/kids?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Kids",
-      "text": "Kids"
+      "tagTitle": "Estilos",
+      "text": "Estilos"
     }
   }
 },
-"menu-item#category-kids-girl-Teen": {
+"menu-item#category-kids-girl-crop-top": {
   "props": {
-    "id": "menu-item-category-kids-girl-Teen",
+    "id": "menu-item-category-kids-girl-crop-top",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/teen?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Teen",
-      "text": "Teen"
+      "tagTitle": "CropTop",
+      "text": "Crop Top"
     }
   }
 },
-"menu-item#category-kids-girl-Beneficio": {
+"menu-item#category-kids-girl-deportivo": {
   "props": {
-    "id": "menu-item-category-kids-girl-Beneficio",
+    "id": "menu-item-category-kids-girl-deportivo",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "#",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Beneficio",
-      "text": "Beneficio"
+      "tagTitle": "Deportivo",
+      "text": "Deportivo"
     }
   }
 },
-"menu-item#category-kids-girl-Compra_mas_y_ahorra": {
+"menu-item#category-kids-girl-halter": {
   "props": {
-    "id": "menu-item-category-kids-girl-Compra_mas_y_ahorra",
+    "id": "menu-item-category-kids-girl-halter",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Halter",
+      "text": "Halter"
+    }
+  }
+},
+"menu-item#category-kids-girl-racerback": {
+  "props": {
+    "id": "menu-item-category-kids-girl-racerback",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Racerback",
+      "text": "Racerback"
+    }
+  }
+},
+"menu-item#category-kids-girl-surtido": {
+  "props": {
+    "id": "menu-item-category-kids-girl-surtido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-girl-tanktop": {
+  "props": {
+    "id": "menu-item-category-kids-girl-tanktop",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Tanktop",
+      "text": "Tanktop"
+    }
+  }
+},
+"menu-item#category-kids-girl-top": {
+  "props": {
+    "id": "menu-item-category-kids-girl-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Top",
+      "text": "Top"
+    }
+  }
+},
+"menu-item#category-kids-girl-estilos-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Estilos-inferior",
+      "text": "Estilos"
+    }
+  }
+},
+"menu-item#category-kids-girl-boxer": {
+  "props": {
+    "id": "menu-item-category-kids-girl-boxer",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Boxer",
+      "text": "Boxer"
+    }
+  }
+},
+"menu-item#category-kids-girl-clasico": {
+  "props": {
+    "id": "menu-item-category-kids-girl-clasico",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Clasico",
+      "text": "Clásico"
+    }
+  }
+},
+"menu-item#category-kids-girl-hipster": {
+  "props": {
+    "id": "menu-item-category-kids-girl-hipster",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Hipster",
+      "text": "Hipster"
+    }
+  }
+},
+"menu-item#category-kids-girl-surtido-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-surtido-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-girl-material-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-material-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "MaterialSuperior",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-girl-algodon-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-algodo-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-girl-seamless-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-seamless-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-girl-surtido-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-surtido-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+
+
+"menu-item#category-kids-girl-material-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-material-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "MaterialSuperior",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-girl-material-algodon-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-material-algodo-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-girl-material-seamless-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-material-seamless-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-girl-material-surtido-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-surtido-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+
+"menu-item#category-kids-girl-Compra_mas_y_ahorra-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-Compra_mas_y_ahorra-superior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2210,8 +2495,128 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
       "noFollow": false,
-      "tagTitle": "Compra_mas_y_ahorra",
-      "text": "Compra mas y ahorra"
+      "tagTitle": "Compra_mas_y_ahorra-superior",
+      "text": "Compra Más y Ahorra"
+    }
+  }
+},
+"menu-item#category-kids-girl-individual-superior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-individual-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual-superior",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-girl-paquete-x2-superior-col4": {
+  "props": {
+    "id": "menu-item-category-kids-girl-paquete-x2-superior-col4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquete x2"
+    }
+  }
+},
+"menu-item#category-kids-girl-Compra_mas_y_ahorra-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-Compra_mas_y_ahorra-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Compramasyahorra",
+      "text": "Compra Más y Ahorra"
+    }
+  }
+},
+"menu-item#category-kids-girl-individual-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-individual-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-girl-paquete-x2-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-paquete-x2-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquete x 2"
+    }
+  }
+},
+"menu-item#category-kids-girl-paquete-x3-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-paquete-x3-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex3",
+      "text": "Paquete x 3"
+    }
+  }
+},
+"menu-item#category-kids-girl-paquete-x4-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-paquete-x4-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex4",
+      "text": "Paquete x 4"
+    }
+  }
+},
+"menu-item#category-kids-girl-semanario-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-girl-semanario-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Semanario",
+      "text": "Semanario"
     }
   }
 },
@@ -2227,33 +2632,58 @@
 },
 "flex-layout.col#category-kids-junior-1": {
   "children": [
-    "menu-item#category-kids-junior-partesuperior",
     "menu-item#category-kids-junior-Buscar",
     "menu-item#category-kids-junior-Ver_todo",
     "menu-item#category-kids-junior-Lo_mas_Vendido",
     "menu-item#category-kids-junior-NuevosKids&Teen",
     "menu-item#category-kids-junior-descuentos",
-    "menu-item#category-kids-junior-inferior",
-    "menu-item#category-kids-junior-buscarinferior",
-    "menu-item#category-kids-junior-vertodoinferior",
-    "menu-item#category-kids-junior-nuevosinferior",
-    "menu-item#category-kids-junior-descuentosinferior"
+    "menu-item#category-kids-junior-Buscar-inferior",
+    "menu-item#category-kids-junior-Ver-Todo",
+    "menu-item#category-kids-junior-Lo-Mas_Vendido",
+    "menu-item#category-kids-junior-Nuevos-inferior",
+    "menu-item#category-kids-junior-Descuentos-inferior"
   ]
 },
 "flex-layout.col#category-kids-junior-2": {
   "children": [
-    "menu-item#category-kids-junior-Kids",
-    "menu-item#category-kids-junior-Teen"
+    "menu-item#category-kids-junior-estilos-superior",
+    "menu-item#category-kids-junior-crop-top",
+    "menu-item#category-kids-junior-deportivo",
+    "menu-item#category-kids-junior-halter",
+    "menu-item#category-kids-junior-racerback",
+    "menu-item#category-kids-junior-surtido",
+    "menu-item#category-kids-junior-tanktop",
+    "menu-item#category-kids-junior-top",
+    "menu-item#category-kids-junior-estilos-inferior",
+    "menu-item#category-kids-junior-boxer",
+    "menu-item#category-kids-junior-clasico",
+    "menu-item#category-kids-junior-hipster",
+    "menu-item#category-kids-junior-surtido-inferior"
   ]
 },
 "flex-layout.col#category-kids-junior-3": {
   "children": [
-    "menu-item#category-kids-junior-Beneficio"
+    "menu-item#category-kids-junior-material-superior",
+    "menu-item#category-kids-junior-algodon-superior",
+    "menu-item#category-kids-junior-seamless-superior",
+    "menu-item#category-kids-junior-surtido-superior",
+    "menu-item#category-kids-junior-material-inferior",
+    "menu-item#category-kids-junior-material-algodon-inferior",
+    "menu-item#category-kids-junior-material-seamless-inferior",
+    "menu-item#category-kids-junior-material-surtido-inferior"
   ]
 },
 "flex-layout.col#category-kids-junior-4": {
   "children": [
-    "menu-item#category-kids-junior-Compra_mas_y_ahorra"
+    "menu-item#category-kids-junior-Compra_mas_y_ahorra-superior",
+    "menu-item#category-kids-junior-individual-superior",
+    "menu-item#category-kids-junior-paquete-x2-superior-col4",
+    "menu-item#category-kids-junior-Compra_mas_y_ahorra-inferior",
+    "menu-item#category-kids-junior-individual-inferior",
+    "menu-item#category-kids-junior-paquete-x2-inferior",
+    "menu-item#category-kids-junior-paquete-x3-inferior",
+    "menu-item#category-kids-junior-paquete-x4-inferior",
+    "menu-item#category-kids-junior-semanario-inferior"
   ]
 },
 "flex-layout.col#category-kids-junior-5": {
@@ -2264,21 +2694,6 @@
 "vtex.menu@2.x:menu#category-kids-junior": {
   "props": {
     "orientation": "vertical"
-  }
-},
-"menu-item#category-kids-junior-partesuperior": {
-  "props": {
-    "id": "menu-item-category-kids-junior-partesuperior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Parte Superior",
-      "text": "Parte Superior junior"
-    }
   }
 },
 "menu-item#category-kids-junior-Buscar": {
@@ -2356,9 +2771,9 @@
     }
   }
 },
-"menu-item#category-kids-junior-inferior": {
+"menu-item#category-kids-junior-Buscar-inferior": {
   "props": {
-    "id": "menu-item-category-kids-junior-inferior",
+    "id": "menu-item-category-kids-junior-Buscar-inferior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2366,29 +2781,14 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Parte Inferior",
-      "text": "Parte Inferior"
-    }
-  }
-},
-"menu-item#category-kids-junior-buscarinferior": {
-  "props": {
-    "id": "menu-item-category-kids-junior-buscarinferior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
-      "noFollow": false,
-      "tagTitle": "buscar",
+      "tagTitle": "Buscar",
       "text": "Buscar"
     }
   }
 },
-"menu-item#category-kids-junior-vertodoinferior": {
+"menu-item#category-kids-junior-Ver-Todo": {
   "props": {
-    "id": "menu-item-category-kids-junior-vertodoinferior",
+    "id": "menu-item-category-kids-junior-Ver-Todo",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2396,14 +2796,14 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Ver Todos",
-      "text": "Ver Todos"
+      "tagTitle": "VerTodo",
+      "text": "Ver Todo"
     }
   }
 },
-"menu-item#category-kids-junior-nuevosinferior": {
+"menu-item#category-kids-junior-Lo-Mas_Vendido": {
   "props": {
-    "id": "menu-item-category-kids-junior-nuevosinferior",
+    "id": "menu-item-category-kids-junior-Lo-Mas_Vendido",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2411,14 +2811,29 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Nuevos",
+      "tagTitle": "LoMasVendidoInferior",
+      "text": "Lo Más Vendido"
+    }
+  }
+},
+"menu-item#category-kids-junior-Nuevos-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Nuevos-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Nuevos-inferior",
       "text": "Nuevos"
     }
   }
 },
-"menu-item#category-kids-junior-descuentosinferior": {
+"menu-item#category-kids-junior-Descuentos-inferior": {
   "props": {
-    "id": "menu-item-category-kids-junior-descuentosinferior",
+    "id": "menu-item-category-kids-junior-Descuentos-inferior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2426,59 +2841,336 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Descuentos",
+      "tagTitle": "DescuentosInferior",
       "text": "Descuentos"
     }
   }
 },
-"menu-item#category-kids-junior-Kids": {
+
+"menu-item#category-kids-junior-estilos-superior": {
   "props": {
-    "id": "menu-item-category-kids-junior-Kids",
+    "id": "menu-item-category-kids-estilos-superior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/kids?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Kids",
-      "text": "Kids"
+      "tagTitle": "Estilos",
+      "text": "Estilos"
     }
   }
 },
-"menu-item#category-kids-junior-Teen": {
+"menu-item#category-kids-junior-crop-top": {
   "props": {
-    "id": "menu-item-category-kids-junior-Teen",
+    "id": "menu-item-category-kids-junior-crop-top",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/teen?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Teen",
-      "text": "Teen"
+      "tagTitle": "CropTop",
+      "text": "Crop Top"
     }
   }
 },
-"menu-item#category-kids-junior-Beneficio": {
+"menu-item#category-kids-junior-deportivo": {
   "props": {
-    "id": "menu-item-category-kids-junior-Beneficio",
+    "id": "menu-item-category-kids-junior-deportivo",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "#",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Beneficio",
-      "text": "Beneficio"
+      "tagTitle": "Deportivo",
+      "text": "Deportivo"
     }
   }
 },
-"menu-item#category-kids-junior-Compra_mas_y_ahorra": {
+"menu-item#category-kids-junior-halter": {
   "props": {
-    "id": "menu-item-category-kids-junior-Compra_mas_y_ahorra",
+    "id": "menu-item-category-kids-junior-halter",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Halter",
+      "text": "Halter"
+    }
+  }
+},
+"menu-item#category-kids-junior-racerback": {
+  "props": {
+    "id": "menu-item-category-kids-junior-racerback",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Racerback",
+      "text": "Racerback"
+    }
+  }
+},
+"menu-item#category-kids-junior-surtido": {
+  "props": {
+    "id": "menu-item-category-kids-junior-surtido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-junior-tanktop": {
+  "props": {
+    "id": "menu-item-category-kids-junior-tanktop",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Tanktop",
+      "text": "Tanktop"
+    }
+  }
+},
+"menu-item#category-kids-junior-top": {
+  "props": {
+    "id": "menu-item-category-kids-junior-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Top",
+      "text": "Top"
+    }
+  }
+},
+"menu-item#category-kids-junior-estilos-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Estilos-inferior",
+      "text": "Estilos"
+    }
+  }
+},
+"menu-item#category-kids-junior-boxer": {
+  "props": {
+    "id": "menu-item-category-kids-junior-boxer",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Boxer",
+      "text": "Boxer"
+    }
+  }
+},
+"menu-item#category-kids-junior-clasico": {
+  "props": {
+    "id": "menu-item-category-kids-junior-clasico",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Clasico",
+      "text": "Clásico"
+    }
+  }
+},
+"menu-item#category-kids-junior-hipster": {
+  "props": {
+    "id": "menu-item-category-kids-junior-hipster",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Hipster",
+      "text": "Hipster"
+    }
+  }
+},
+"menu-item#category-kids-junior-surtido-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-surtido-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+
+
+
+"menu-item#category-kids-junior-material-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-material-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "MaterialSuperior",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-junior-algodon-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-algodo-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-junior-seamless-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-seamless-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-junior-surtido-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-surtido-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+
+
+"menu-item#category-kids-junior-material-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-material-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "MaterialSuperior",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-junior-material-algodon-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-material-algodo-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-junior-material-seamless-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-material-seamless-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-junior-material-surtido-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-surtido-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+
+"menu-item#category-kids-junior-Compra_mas_y_ahorra-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Compra_mas_y_ahorra-superior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2486,11 +3178,132 @@
       "type": "internal",
       "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
       "noFollow": false,
-      "tagTitle": "Compra_mas_y_ahorra",
-      "text": "Compra mas y ahorra"
+      "tagTitle": "Compra_mas_y_ahorra-superior",
+      "text": "Compra Más y Ahorra"
     }
   }
 },
+"menu-item#category-kids-junior-individual-superior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-individual-superior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual-superior",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-junior-paquete-x2-superior-col4": {
+  "props": {
+    "id": "menu-item-category-kids-junior-paquete-x2-superior-col4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquete x2"
+    }
+  }
+},
+"menu-item#category-kids-junior-Compra_mas_y_ahorra-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-Compra_mas_y_ahorra-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Compramasyahorra",
+      "text": "Compra Más y Ahorra"
+    }
+  }
+},
+"menu-item#category-kids-junior-individual-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-individual-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-junior-paquete-x2-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-paquete-x2-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquete x 2"
+    }
+  }
+},
+"menu-item#category-kids-junior-paquete-x3-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-paquete-x3-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex3",
+      "text": "Paquete x 3"
+    }
+  }
+},
+"menu-item#category-kids-junior-paquete-x4-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-paquete-x4-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex4",
+      "text": "Paquete x 4"
+    }
+  }
+},
+"menu-item#category-kids-junior-semanario-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-junior-semanario-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Semanario",
+      "text": "Semanario"
+    }
+  }
+},
+
 //inicio submenu kids&teen teen
 "flex-layout.row#category-kids-teen": {
   "children": [
@@ -2503,13 +3316,11 @@
 },
 "flex-layout.col#category-kids-teen-1": {
   "children": [
-    "menu-item#category-kids-teen-partesuperior",
     "menu-item#category-kids-teen-Buscar",
     "menu-item#category-kids-teen-Ver_todo",
     "menu-item#category-kids-teen-Lo_mas_Vendido",
     "menu-item#category-kids-teen-NuevosKids&Teen",
     "menu-item#category-kids-teen-descuentos",
-    "menu-item#category-kids-teen-inferior",
     "menu-item#category-kids-teen-buscarinferior",
     "menu-item#category-kids-teen-vertodoinferior",
     "menu-item#category-kids-teen-nuevosinferior",
@@ -2518,18 +3329,48 @@
 },
 "flex-layout.col#category-kids-teen-2": {
   "children": [
-    "menu-item#category-kids-teen-Kids",
-    "menu-item#category-kids-teen-Teen"
+    "menu-item#category-kids-teen-estilos-tops",
+    "menu-item#category-kids-teen-sin-copa",
+    "menu-item#category-kids-teen-copa-removible",
+    "menu-item#category-kids-teen-estilos-brasieres",
+    "menu-item#category-kids-teen-con-copa",
+    "menu-item#category-kids-teen-bustier",
+    "menu-item#category-kids-teen-strapless",
+    "menu-item#category-kids-teen-surtido",
+    "menu-item#category-kids-teen-sin-varilla",
+    "menu-item#category-kids-teen-estilos-inferior",
+    "menu-item#category-kids-teen-bikini",
+    "menu-item#category-kids-teen-boxer",
+    "menu-item#category-kids-teen-clasico",
+    "menu-item#category-kids-teen-hipster",
+    "menu-item#category-kids-teen-surtido-inferior"
   ]
 },
 "flex-layout.col#category-kids-teen-3": {
   "children": [
-    "menu-item#category-kids-teen-Beneficio"
+    "menu-item#category-kids-teen-material-superior",
+    "menu-item#category-kids-teen-algodon",
+    "menu-item#category-kids-teen-microfibra",
+    "menu-item#category-kids-teen-seamless",
+    "menu-item#category-kids-teen-surtido-teen",
+    "menu-item#category-kids-teen-material-inferior",
+    "menu-item#category-kids-teen-algodon-inferior",
+    "menu-item#category-kids-teen-microfibra-inferior",
+    "menu-item#category-kids-teen-seamless-inferior",
+    "menu-item#category-kids-teen-surtido-inferior-teen"
   ]
 },
 "flex-layout.col#category-kids-teen-4": {
   "children": [
-    "menu-item#category-kids-teen-Compra_mas_y_ahorra"
+    "menu-item#category-kids-teen-Compra_mas_y_ahorra",
+    "menu-item#category-kids-teen-Individual",
+    "menu-item#category-kids-teen-paquete-x2",
+    "menu-item#category-kids-teen-Compra_mas_y_ahorra-inferior",
+    "menu-item#category-kids-teen-Individual-inferior",
+    "menu-item#category-kids-teen-paquete-x2-inferior",
+    "menu-item#category-kids-teen-paquete-x3-inferior",
+    "menu-item#category-kids-teen-paquete-x4-inferior",
+    "menu-item#category-kids-teen-semanario-inferior"
   ]
 },
 "flex-layout.col#category-kids-teen-5": {
@@ -2542,21 +3383,7 @@
     "orientation": "vertical"
   }
 },
-"menu-item#category-kids-teen-partesuperior": {
-  "props": {
-    "id": "menu-item-category-kids-teen-partesuperior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Parte Superior",
-      "text": "Parte Superior teen"
-    }
-  }
-},
+
 "menu-item#category-kids-teen-Buscar": {
   "props": {
     "id": "menu-item-category-kids-teen-Buscar",
@@ -2632,21 +3459,7 @@
     }
   }
 },
-"menu-item#category-kids-teen-inferior": {
-  "props": {
-    "id": "menu-item-category-kids-teen-inferior",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
-      "noFollow": false,
-      "tagTitle": "Parte Inferior",
-      "text": "Parte Inferior"
-    }
-  }
-},
+
 "menu-item#category-kids-teen-buscarinferior": {
   "props": {
     "id": "menu-item-category-kids-teen-buscarinferior",
@@ -2658,7 +3471,7 @@
       "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
       "tagTitle": "buscar",
-      "text": "Buscar"
+      "text": "Buscar" 
     }
   }
 },
@@ -2707,39 +3520,235 @@
     }
   }
 },
-"menu-item#category-kids-teen-Kids": {
+
+"menu-item#category-kids-teen-estilos-tops": {
   "props": {
-    "id": "menu-item-category-kids-teen-Kids",
+    "id": "menu-item-category-kids-teen-estilos-tops",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/kids?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Kids",
-      "text": "Kids"
+      "tagTitle": "EstilosTops",
+      "text": "Estilos TOPS"
     }
   }
 },
-"menu-item#category-kids-teen-Teen": {
+"menu-item#category-kids-teen-sin-copa": {
   "props": {
-    "id": "menu-item-category-kids-teen-Teen",
+    "id": "menu-item-category-kids-teen-sin-copa",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/kids---teen/teen?initialMap=c,c&initialQuery=lilipink/kids---teen&map=category-1,category-2,category-3",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
       "noFollow": false,
-      "tagTitle": "Teen",
-      "text": "Teen"
+      "tagTitle": "Sin Copa",
+      "text": "Sin Copa"
     }
   }
 },
-"menu-item#category-kids-teen-Beneficio": {
+"menu-item#category-kids-teen-copa-removible": {
   "props": {
-    "id": "menu-item-category-kids-teen-Beneficio",
+    "id": "menu-item-category-kids-teen-copa-removible",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "CopaRemovible",
+      "text": "Copa Removible"
+    }
+  }
+},
+"menu-item#category-kids-teen-estilos-brasieres": {
+  "props": {
+    "id": "menu-item-category-kids-teen-estilos-brasieres",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "EstilosBrasieres",
+      "text": "Estilos BRASIERES"
+    }
+  }
+},
+"menu-item#category-kids-teen-con-copa": {
+  "props": {
+    "id": "menu-item-category-kids-teen-con-copa",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Con Copa",
+      "text": "Con Copa"
+    }
+  }
+},
+"menu-item#category-kids-teen-bustier": {
+  "props": {
+    "id": "menu-item-category-kids-teen-bustier",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Bustier",
+      "text": "Bustier"
+    }
+  }
+},
+"menu-item#category-kids-teen-strapless": {
+  "props": {
+    "id": "menu-item-category-kids-teen-strapless",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Strapless",
+      "text": "Strapless"
+    }
+  }
+},
+"menu-item#category-kids-teen-surtido": {
+  "props": {
+    "id": "menu-item-category-kids-teen-surtido",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-teen-sin-varilla": {
+  "props": {
+    "id": "menu-item-category-kids-teen-sin-varilla",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "SinVarilla",
+      "text": "Sin Varilla"
+    }
+  }
+},
+"menu-item#category-kids-teen-estilos-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-estilos-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "EstilosInferior",
+      "text": "Estilos"
+    }
+  }
+},
+"menu-item#category-kids-teen-bikini": {
+  "props": {
+    "id": "menu-item-category-kids-teen-bikini",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Bikini",
+      "text": "Bikini"
+    }
+  }
+},
+"menu-item#category-kids-teen-boxer": {
+  "props": {
+    "id": "menu-item-category-kids-teen-boxer",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Boxer",
+      "text": "Boxer"
+    }
+  }
+},
+"menu-item#category-kids-teen-clasico": {
+  "props": {
+    "id": "menu-item-category-kids-teen-clasico",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Clasico",
+      "text": "Clásico"
+    }
+  }
+},
+"menu-item#category-kids-teen-hipster": {
+  "props": {
+    "id": "menu-item-category-kids-teen-hipster",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Hipster",
+      "text": "Hipster"
+    }
+  }
+},
+"menu-item#category-kids-teen-surtido-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-surtido-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByReleaseDateDESC",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-teen-material-superior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-material-superior",
     "type": "custom",
     "iconId": null,
     "highlight": false,
@@ -2747,8 +3756,143 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Beneficio",
-      "text": "Beneficio"
+      "tagTitle": "Material",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-teen-algodon": {
+  "props": {
+    "id": "menu-item-category-kids-teen-algodon",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-teen-microfibra": {
+  "props": {
+    "id": "menu-item-category-kids-teen-microfibra",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Microfibra",
+      "text": "Microfibra"
+    }
+  }
+},
+"menu-item#category-kids-teen-seamless": {
+  "props": {
+    "id": "menu-item-category-kids-teen-seamless",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-teen-surtido-teen": {
+  "props": {
+    "id": "menu-item-category-kids-teen-surtido-teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
+    }
+  }
+},
+"menu-item#category-kids-teen-material-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-material-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Material",
+      "text": "Material"
+    }
+  }
+},
+"menu-item#category-kids-teen-algodon-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-algodon-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Algodon",
+      "text": "Algodón"
+    }
+  }
+},
+"menu-item#category-kids-teen-microfibra-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-microfibra-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Microfibra",
+      "text": "Microfibra"
+    }
+  }
+},
+"menu-item#category-kids-teen-seamless-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-seamless-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Seamless",
+      "text": "Seamless"
+    }
+  }
+},
+"menu-item#category-kids-teen-surtido-inferior-teen": {
+  "props": {
+    "id": "menu-item-category-kids-teen-surtido-inferior-teen",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Surtido",
+      "text": "Surtido"
     }
   }
 },
@@ -2763,11 +3907,130 @@
       "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
       "noFollow": false,
       "tagTitle": "Compra_mas_y_ahorra",
-      "text": "Compra mas y ahorra"
+      "text": "Compra Más y Ahorra"
     }
   }
 },
-
+"menu-item#category-kids-teen-Individual": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Individual",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-teen-paquete-x2": {
+  "props": {
+    "id": "menu-item-category-kids-teen-paquete-x2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquete x 2"
+    }
+  }
+},
+"menu-item#category-kids-teen-Compra_mas_y_ahorra-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Compra_mas_y_ahorra-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Compra_mas_y_ahorra-inferior",
+      "text": "Compra Más y Ahorra"
+    }
+  }
+},
+"menu-item#category-kids-teen-Individual-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-Individual-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Individual",
+      "text": "Individual"
+    }
+  }
+},
+"menu-item#category-kids-teen-paquete-x2-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-paquete-x2-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex2",
+      "text": "Paquetes x 2"
+    }
+  }
+},
+"menu-item#category-kids-teen-paquete-x3-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-paquete-x3-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex3",
+      "text": "Paquetes x 3"
+    }
+  }
+},
+"menu-item#category-kids-teen-paquete-x4-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-paquete-x4-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Paquetex4",
+      "text": "Paquetes x 4"
+    }
+  }
+},
+"menu-item#category-kids-teen-semanario-inferior": {
+  "props": {
+    "id": "menu-item-category-kids-teen-semanario-inferior",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lilipink/kids---teen?O=OrderByBestDiscountDESC",
+      "noFollow": false,
+      "tagTitle": "Semanario",
+      "text": "Semanario"
+    }
+  }
+},
   "menu-item#category-descanso": {
     "props": {
       "id": "menu-item-category-descanso",
