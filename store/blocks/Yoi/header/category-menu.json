@@ -13,10 +13,7 @@
       "menu-item#category-estacional",
       "menu-item#category-tecnologia",
       "menu-item#category-papeleria",
-      "menu-item#category-outlet",
-      "menu-item#category-Bioseguridad",
-      "menu-item#category-belleza",
-      "menu-item#category-lilipink-yoi"
+      "menu-item#category-belleza"
 
 
         ]
@@ -374,7 +371,8 @@
           "noFollow": false,
           "tagTitle": "ACCESORIOS",
           "text": "ACCESORIOS"
-        }
+          }
+        },
       "blocks": [
         "vtex.menu@2.x:submenu#category-accesorios"
       ]
@@ -496,6 +494,7 @@
         "noFollow": false,
         "tagTitle": "DEPORTE",
         "text": "DEPORTE"
+        }
       },
     "blocks": [
       "vtex.menu@2.x:submenu#category-deporte"
@@ -663,6 +662,7 @@
         "tagTitle": "JUGUETES",
         "text": "JUGUETES"
       }
+      },
     "blocks": [
 
       "vtex.menu@2.x:submenu#category-jugetes"
@@ -847,3 +847,4 @@
       }
 
 }
+
