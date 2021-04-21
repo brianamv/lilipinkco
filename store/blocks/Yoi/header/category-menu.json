@@ -375,124 +375,214 @@
           "tagTitle": "ACCESORIOS",
           "text": "ACCESORIOS"
         }
-      },
       "blocks": [
         "vtex.menu@2.x:submenu#category-accesorios"
       ]
     },
     "vtex.menu@2.x:submenu#category-accesorios": {
+     "props": {
+      "orientation": "vertical"
+    },
+  "children": [
+  "menu-item#category-cuidado-gafas",
+  "menu-item#category-bolsos-y-morrales",
+  "menu-item#category-moda",
+  "menu-item#category-relojeria",
+  "menu-item#category-bebe"
+    ]
+  },
+  "menu-item#category-cuidado-gafas": {
+    "props": {
+      "id": "menu-item-category-cuidado-gafas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/gafas/",
+        "noFollow": false,
+        "tagTitle": "gafas",
+        "text": "GAFAS"
+      }
+    }
+  },
+  "menu-item#category-bolsos-y-morrales": {
+    "props": {
+      "id": "menu-item-category-bolsos-y-morrales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bolsosymorrales/",
+        "noFollow": false,
+        "tagTitle": "bolsosymorrales",
+        "text": "BOLSOS Y MORRALES  "
+      }
+    }
+  },
+  "menu-item#category-moda": {
+    "props": {
+      "id": "menu-item-category-moda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/moda/",
+        "noFollow": false,
+        "tagTitle": "moda",
+        "text": "MODA "
+      }
+    }
+  },
+  "menu-item#category-relojeria": {
+    "props": {
+      "id": "menu-item-category-relojeria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/relojeria/",
+        "noFollow": false,
+        "tagTitle": "relojeria",
+        "text": "RELOJERÍA "
+      }
+    }
+  },
+  "menu-item#category-bebe": {
+    "props": {
+      "id": "menu-item-category-bebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bebe/",
+        "noFollow": false,
+        "tagTitle": "bebe",
+        "text": "BEBÉ "
+      }
+    }
+  },
+
+
+  "menu-item#category-papeleria": {
+    "props": {
+      "id": "menu-item-category-papeleria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/papeleria/",
+        "noFollow": false,
+        "tagTitle": "PAPELERIA",
+        "text": "PAPELERIA"
+      }
+    }
+  },
+      
+  "menu-item#category-deporte": {
+    "props": {
+      "id": "menu-item-category-deporte",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deporte/",
+        "noFollow": false,
+        "tagTitle": "DEPORTE",
+        "text": "DEPORTE"
+      },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-deporte"
+    ]
+    },
+    "vtex.menu@2.x:submenu#category-deporte": {
+
       "props": {
         "width": "auto"
       },
       "children": [
-        "vtex.menu@2.x:menu#category-accesorios"
+
+        "vtex.menu@2.x:menu#category-deporte"
       ]
     },
-    "vtex.menu@2.x:menu#category-accesorios": {
+    "vtex.menu@2.x:menu#category-deporte": {
       "props": {
         "orientation": "vertical"
       },
     "children": [
+      "menu-item#category-gym",
+      "menu-item#category-yoga",
+      "menu-item#category-natacion",
+      "menu-item#category-Ciclismo"
       ]
     },
-
-
-    "menu-item#category-papeleria": {
+    "menu-item#category-gym": {
       "props": {
-        "id": "menu-item-category-papeleria",
+        "id": "menu-item-category-gym",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/papeleria/",
+          "href": "/hogar/gym/",
           "noFollow": false,
-          "tagTitle": "PAPELERIA",
-          "text": "PAPELERIA"
+          "tagTitle": "gym",
+          "text": "GYM"
         }
       }
     },
-    "menu-item#category-deporte": {
+    "menu-item#category-yoga": {
       "props": {
-        "id": "menu-item-category-deporte",
+        "id": "menu-item-category-yoga",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/deporte/",
+          "href": "/hogar/yoga/",
           "noFollow": false,
-          "tagTitle": "DEPORTE",
-          "text": "DEPORTE"
-        }
-      },
-
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-deporte"
-      ]
-      },
-      "vtex.menu@2.x:submenu#category-deporte": {
-        "props": {
-          "width": "auto"
-        },
-        "children": [
-          "vtex.menu@2.x:menu#category-deporte"
-        ]
-      },
-      "vtex.menu@2.x:menu#category-deporte": {
-        "props": {
-          "orientation": "vertical"
-        },
-      "children": [
-        ]
-      },
-
-
-    "menu-item#category-Bioseguridad": {
-      "props": {
-        "id": "menu-item-category-Bioseguridad",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/Bioseguridad/",
-          "noFollow": false,
-          "tagTitle": "Bioseguridad",
-          "text": "BIOSEGURIDAD"
+          "tagTitle": "yoga",
+          "text": "YOGA"
         }
       }
     },
-    "menu-item#category-lilipink-yoi": {
+    "menu-item#category-natacion": {
       "props": {
-        "id": "menu-item-category-lilipink",
+        "id": "menu-item-category-natacion",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/",
+          "href": "/hogar/natacion/",
           "noFollow": false,
-          "tagTitle": "lilipink",
-          "text": "LILIPINK"
+          "tagTitle": "natacion",
+          "text": "NATACIÓN"
         }
       }
     },
-    "menu-item#category-outlet": {
+    "menu-item#category-Ciclismo": {
       "props": {
-        "id": "menu-item-category-outlet",
+        "id": "menu-item-category-Ciclismo",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/outlet/",
+          "href": "/hogar/Ciclismo/",
           "noFollow": false,
-          "tagTitle": "outlet",
-          "text": "OUTLET"
+          "tagTitle": "Ciclismo",
+          "text": "CICLISMO"
         }
       }
     },
+
 
     "menu-item#category-belleza": {
       "props": {
@@ -559,6 +649,7 @@
     },
 
 
+
   "menu-item#category-juguetes": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -572,8 +663,8 @@
         "tagTitle": "JUGUETES",
         "text": "JUGUETES"
       }
-    },
     "blocks": [
+
       "vtex.menu@2.x:submenu#category-jugetes"
       ]
       },
@@ -754,9 +845,5 @@
           }
         }
       }
-
-
-
-
 
 }
