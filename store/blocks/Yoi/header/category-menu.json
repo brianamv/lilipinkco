@@ -493,9 +493,10 @@
         "href": "/deporte/",
         "noFollow": false,
         "tagTitle": "DEPORTE",
-        "text": "DEPORTE"
-        }
-      },
+        "text": "DEPORTES"
+      }
+    },
+
     "blocks": [
       "vtex.menu@2.x:submenu#category-deporte"
     ]
