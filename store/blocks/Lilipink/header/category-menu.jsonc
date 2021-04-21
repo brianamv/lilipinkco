@@ -2187,7 +2187,7 @@
   },
   "flex-layout.col#category-kids-girl-abajo-1": {
     "children": [
-      "menu-item#category-kids-girl-abajo-Buscar-inferior",
+      "rich-text#category-kids-teen-arriba-Buscar",
       "menu-item#category-kids-girl-abajo-Ver-Todo",
       "menu-item#category-kids-girl-abajo-Lo-Mas_Vendido",
       "menu-item#category-kids-girl-abajo-Nuevos-inferior",
