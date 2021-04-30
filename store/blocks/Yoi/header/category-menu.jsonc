@@ -961,7 +961,7 @@
   },
   "vtex.menu@2.x:submenu#category-mascotas": {
     "props": {
-      "width": "auto"
+      "width": "80%"
     },
     "children": [
       "vtex.menu@2.x:menu#category-mascotas2"
