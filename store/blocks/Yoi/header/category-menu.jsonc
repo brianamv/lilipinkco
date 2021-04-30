@@ -940,21 +940,7 @@
       }
     }
   },
-  // "menu-item#category-belleza": {
-  //   "props": {
-  //     "id": "menu-item-category-belleza",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/belleza/",
-  //       "noFollow": false,
-  //       "tagTitle": "belleza",
-  //       "text": "BELLEZA"
-  //     }
-  //   }
-  // },
+  
   "menu-item#category-mascotas": {
     "props": {
       "id": "menu-item-category-mascotas",
