@@ -1,6 +1,6 @@
 {
   "store.search.custom": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["flex-layout.row#banner-guia-de-talla","search-result-layout"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -16,7 +16,7 @@
   },
 
   "store.search.custom#brand": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["flex-layout.row#banner-guia-de-talla","search-result-layout"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -33,7 +33,7 @@
   },
 
   "store.search.custom#department": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["flex-layout.row#banner-guia-de-talla","search-result-layout"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -49,7 +49,7 @@
   },
 
   "store.search.custom#category": {
-    "blocks": ["search-result-layout","flex-layout.row#banner-guia-de-talla"],
+    "blocks": ["flex-layout.row#banner-guia-de-talla","search-result-layout"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -65,7 +65,7 @@
   },
 
   "store.search.custom#subcategory": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["flex-layout.row#banner-guia-de-talla","search-result-layout"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -82,7 +82,6 @@
 
   "search-result-layout": {
     "blocks": [
-
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
