@@ -82,9 +82,15 @@
 
   "search-result-layout": {
     "blocks": [
+      "flex-layout.row#banner-de-categoria",
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
+    ]
+  },
+  "flex-layout.row#banner-de-categoria":{
+    "children": [
+      "rich-text#titulo-guiadetallas"
     ]
   },
 

@@ -13,7 +13,10 @@
         "flex-layout.row#footer-1-desktopYoi",
         "flex-layout.row#footer-2-desktopYoi",
         "flex-layout.row#footer-3-desktopYoi"
-      ]
+      ],
+      "props": {
+        "blockClass": "footeryoi"
+      }
     },
     "flex-layout.row#footer-1-desktopYoi": {
       "children": [

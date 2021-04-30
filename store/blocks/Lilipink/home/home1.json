@@ -37,11 +37,12 @@
             {
 
               "src": "assets/BannersMainSlider/sh1.jpg" ,
-
               "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
             {
               "src": "assets/BannersMainSlider/sh2.jpg" ,
+              "link": "/brasieres/clothing/",
+
               "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
             {
