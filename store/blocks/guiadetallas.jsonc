@@ -4,25 +4,16 @@
     "blocks": [
       "flex-layout.row#titulo-guiadetallas",
       "flex-layout.row#imagenguiadetallas",
-      //"flex-layout.row#tips2",
+      "flex-layout.row#tips2",
       "list-context.image-list#guiadetallas"
     ]
   },
   //titulo
   "flex-layout.row#titulo-guiadetallas": {
     "children": [
-      "image#banner-guia-de-talle"
+      "rich-text#titulo-guiadetallas"
     ]
   },
-  "image#banner-guia-de-talle": {
-    "props": {
-      "src": "assets/BannerDeal.jpg"
-    }
-  },
-
-
-
-
   "rich-text#titulo-guiadetallas": {
     "props": {
       "textAlignment": "CENTER",

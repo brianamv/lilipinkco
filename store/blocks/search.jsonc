@@ -49,7 +49,7 @@
   },
 
   "store.search.custom#category": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout","flex-layout.row#banner-guia-de-talla"],
     "parent": {
       "header": "header.empty",
       "footer": "footer#empty"
@@ -82,16 +82,23 @@
 
   "search-result-layout": {
     "blocks": [
-      "flex-layout.row#banner-de-categoria",
+
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
-  "flex-layout.row#banner-de-categoria":{
+  "flex-layout.row#banner-guia-de-talla":{
     "children": [
-      "rich-text#titulo-guiadetallas"
+      "image#banner-guia-de-talla"
+
     ]
+
+  },
+  "image#banner-guia-de-talla": {
+    "props": {
+      "src": "assets/BannerDeal.jpg"
+    }
   },
 
 
