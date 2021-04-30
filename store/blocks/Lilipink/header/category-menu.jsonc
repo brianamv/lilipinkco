@@ -7344,7 +7344,7 @@
   //menu belleza
   "menu-item#category-belleza": {
     "props": {
-      "blockClass": "titulosMenu",
+      "blockClass": "destacado",
       "id": "menu-item-category-belleza",
       "type": "custom",
       "iconId": null,

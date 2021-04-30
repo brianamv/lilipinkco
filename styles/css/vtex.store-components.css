@@ -231,3 +231,7 @@
   width: 100%;
 }
 
+.buttonContainer :global(.vtex-button){
+  color: #000;
+}
+
