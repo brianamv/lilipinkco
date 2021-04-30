@@ -4,7 +4,7 @@
     "blocks": [
       "flex-layout.row#titulo-guiadetallas",
       "flex-layout.row#imagenguiadetallas",
-      "flex-layout.row#tips2",
+
       "list-context.image-list#guiadetallas"
     ]
   },
