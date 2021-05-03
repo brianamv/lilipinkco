@@ -4,6 +4,7 @@
 
       "stack-layout#prodsum",
       "product-summary-name",
+      "product-summary-sku-name",
       "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",

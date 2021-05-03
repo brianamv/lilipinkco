@@ -32,12 +32,12 @@
       "list-context.image-list#demo": {
         "children": ["slider-layout#demo-images"],
         "props": {
-          "height": 720,
+          "height": 400,
           "images": [
             {
               "src": "assets/BannersMainSlider/sh1.jpg" , 
               "link": {
-                "url":"/lili-pink/brasieres?O=OrderByTopSaleDESC"
+                "url":"/lili-pink/brasieres"
               },
               "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
