@@ -34,25 +34,7 @@
         "props": {
           "height": 400,
           "images": [
-            {
-              "src": "assets/BannersMainSlider/sh1.jpg" , 
-              "link": {
-                "url":"/lili-pink/brasieres"
-              },
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-              "src": "assets/BannersMainSlider/sh2.jpg" , 
-              "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-              "src": "assets/BannersMainSlider/sh3.jpg" , 
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-              "src": "assets/BannersMainSlider/sh4.jpg" , 
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            }
+            
           ]
         }
       },
@@ -87,7 +69,7 @@
         "children": ["list-context.product-list#demo1"]
       },
       "list-context.product-list#demo1": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#destacados"],
         "children": ["slider-layout#demo-products"],
         "props": {
           "orderBy": "OrderByTopSaleDESC"
