@@ -116,7 +116,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "locale-switcher",
+      //"locale-switcher", 
       "header-row#3-desktop"
     ]
   },
@@ -130,6 +130,12 @@
       "login",
       "minicart.v2"
     ]
+  },
+  "login":{
+    "props":{
+      "showIconProfile":true,
+      "iconLabel":"Mi Cuenta"
+    }
   },
   "search-bar": {
     "props": {
@@ -209,7 +215,10 @@
   },
   "image#logodesktop": {
     "props": {
-      "src": "assets/logoLargoLP.png"
+      "src": "assets/logo-header.png",
+      "maxHeight": "35px",
+      "link":"/"     
+
     }
   },
   "header-layout.mobile": {

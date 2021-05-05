@@ -45,4 +45,14 @@
   color: #000 !important;
   border-radius: 0px !important;
   border:solid 1px #000 !important;
+  margin-top: 10px;
+}
+.SKUSelectorContainer {
+  margin: 0 0 !important;
+  }
+.skuSelectorContainer {
+    margin: 0 0 !important;
+    }
+.skuSelectorItemTextValue{
+  color: #727273;
 }
