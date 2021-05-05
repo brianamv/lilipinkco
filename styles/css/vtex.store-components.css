@@ -227,9 +227,7 @@
   border-radius: 0px;
 }
 
-.imageElement.imageElement--imagencatbrasieres {
-  width: 100%;
-}
+
 
 .buttonContainer :global(.vtex-button){
   color: #000;

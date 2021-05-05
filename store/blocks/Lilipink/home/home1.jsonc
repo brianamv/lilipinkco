@@ -3,6 +3,7 @@
     "props": {
       "fullWidth": true
     },
+
     "children": [
       "flex-layout.col#home1"
     ]
@@ -12,7 +13,9 @@
       "width": "100%"
     },
     "children": [
-      "list-context.image-list#demo",
+
+      //"list-context.image-list#demo",
+      "slider-layout#banner-principal",
       "__fold__",
       "flex-layout.row#bannerComplemento",
       "rich-text#shelf-title",
@@ -23,38 +26,57 @@
       "rich-text#link",
       "flex-layout.row#redessociales"
     ]
+
   },
+  "slider-layout#banner-principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#slide1", "image#slide2", "image#slide3","image#slide4"]
+  },
+
+  "image#slide1": {
+    "props": {
+      "src": "assets/BannersMainSlider/sh1.jpg"
+    }
+  },
+  "image#slide2": {
+    "props": {
+      "src": "assets/BannersMainSlider/sh2.jpg"
+    }
+  },
+  "image#slide3": {
+    "props": {
+      "src": "assets/BannersMainSlider/sh3.jpg"
+    }
+  },
+  "image#slide4": {
+    "props": {
+      "src": "assets/BannersMainSlider/sh4.jpg"
+    }
+  },
+  
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
+
     }
   },
+
   "list-context.image-list#demo": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
+    "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 500,
       "images": [
-        {
-          "src": "assets/BannersMainSlider/sh1.jpg",
-          "link": {
-            "url": "/lili-pink/brasieres?O=OrderByTopSaleDESC"
-          },
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "src": "assets/BannersMainSlider/sh2.jpg",
-          "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "src": "assets/BannersMainSlider/sh3.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "src": "assets/BannersMainSlider/sh4.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
+
+
       ]
     }
   },
@@ -85,17 +107,12 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": [
-      "list-context.product-list#demo1"
-    ]
+
+    "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products"
-    ],
+    "blocks": ["product-summary.shelf#destacados"],
+    "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -141,6 +158,7 @@
   },
   "flex-layout.row#setInfocart": {
     "props": {
+
       "horizontalAlign": "center",
       "marginTop": 7,
       "marginBottom": 7
@@ -223,11 +241,13 @@
       "textAlignment": "center"
     }
   },
+
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
+
     "children": [
       "image#bannerSlim2"
     ]
@@ -242,6 +262,7 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
+
     "children": [
       "rich-text#newsletter-text1",
       "newsletter",
@@ -302,4 +323,4 @@
       "text": "@Lilipinkcol"
     }
   }
-}
+

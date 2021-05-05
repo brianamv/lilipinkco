@@ -130,15 +130,18 @@
 
 .styledLinkContent--titulosMenu {
   color: #757575;
-  font-size: 13px;
+  font-size: calc(0.3em + 0.5vw);
+
 }
 .styledLinkContent--titulosMenu:hover {
   color: #e4147e;
-  font-size: 13px;
+  font-size: calc(0.3em + 0.5vw);
+
 }
 .styledLinkContent--destacado {
   color: #e4147e;
-  font-size: 13px;
+  font-size: calc(0.3em + 0.5vw);
+
 }
 
 .menuItem .menuItem--GENERA-INGRESOS {
@@ -162,7 +165,7 @@
 }
 
 
-/* ajuste submenu segun pantalla */
+/* ajuste submenu segun pantalla
 .submenu--submenu {
   justify-content: left;
 }
@@ -180,5 +183,5 @@
 
 .submenu--submenu {
   padding-left: 1% ;
-}
+} */
 
