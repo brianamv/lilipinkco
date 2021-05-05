@@ -70,32 +70,23 @@
   justify-content: center;
 }
 .newsletter {
-  background-color: #EFEFEF;
-  max-width: 1528px;
-  max-height: 380px;
-  margin: 0 auto;
+  
 }
 
 .newsletter .container {
-  background-color: #EFEFEF;
-  padding: 6px 1px;
-  max-height: 100;
+  
 
 }
 .newsletter-izquuerdo{
-  background-color: #EFEFEF;
-  max-width: 1528px;
-  max-height: 380px;
+  
 
 }
 .newsletter-2{
-  background-color: #EFEFEF;
-  max-width: 1528px;
-  max-height: 380px;
+  
 
 }
 .newsletter .label {
-  display: none;
+ 
 
 }
 .notificationBarContainer--tienda-whatapps{

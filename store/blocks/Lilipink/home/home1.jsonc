@@ -1,9 +1,8 @@
 {
   "flex-layout.row#home1": {
     "props": {
-      "fullWidth": true
-    },
-
+      "fullWidth":true
+    }, 
     "children": [
       "flex-layout.col#home1"
     ]
@@ -13,7 +12,6 @@
       "width": "100%"
     },
     "children": [
-
       //"list-context.image-list#demo",
       "slider-layout#banner-principal",
       "__fold__",
@@ -26,7 +24,6 @@
       "rich-text#link",
       "flex-layout.row#redessociales"
     ]
-
   },
   "slider-layout#banner-principal": {
     "props": {
@@ -39,9 +36,13 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#slide1", "image#slide2", "image#slide3","image#slide4"]
+    "children": [
+      "image#slide1",
+      "image#slide2",
+      "image#slide3",
+      "image#slide4"
+    ]
   },
-
   "image#slide1": {
     "props": {
       "src": "assets/BannersMainSlider/sh1.jpg"
@@ -62,22 +63,18 @@
       "src": "assets/BannersMainSlider/sh4.jpg"
     }
   },
-  
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
-
     }
   },
-
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 500,
-      "images": [
-
-
-      ]
+      "images": []
     }
   },
   "slider-layout#demo-images": {
@@ -107,12 +104,17 @@
     }
   },
   "flex-layout.row#shelf": {
-
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#destacados"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf#destacados"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -158,11 +160,27 @@
   },
   "flex-layout.row#setInfocart": {
     "props": {
-
       "horizontalAlign": "center",
       "marginTop": 7,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "seccion-inferior"
     },
+    "children": [
+      "flex-layout.col#ContenedorBanners"
+    ]
+  },
+  "flex-layout.col#ContenedorBanners": {
+    "children": [
+      "flex-layout.row#TituloBanner",
+      "flex-layout.row#Banners"
+    ]
+  },
+  "flex-layout.row#TituloBanner": {
+    "children": [
+      "rich-text#titulobannerInferior"
+    ]
+  },
+  "flex-layout.row#Banners": {
     "children": [
       "flex-layout.col#espacio-banners",
       "flex-layout.col#banners-inferiores1",
@@ -175,7 +193,7 @@
   },
   "flex-layout.col#espacio-banners": {
     "props": {
-      "width":"3%"
+      "width": "3%"
     }
   },
   "flex-layout.col#banners-inferiores1": {
@@ -241,16 +259,22 @@
       "textAlignment": "center"
     }
   },
-
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-
     "children": [
       "image#bannerSlim2"
     ]
+  },
+  "rich-text#titulobannerInferior": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Colección de Temporada",
+      "blockClass": "headingLevel2"
+    }
   },
   "image#bannerSlim2": {
     "props": {
@@ -262,10 +286,24 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-
     "children": [
-      "rich-text#newsletter-text1",
-      "newsletter",
+      "flex-layout.col#texto1",
+      "flex-layout.col#formulario",
+      "flex-layout.col#texto2"
+    ]
+  },
+  "flex-layout.col#texto1": {
+    "children": [
+      "rich-text#newsletter-text1"
+    ]
+  },
+  "flex-layout.col#formulario": {
+    "children": [
+      "newsletter"
+    ]
+  },
+  "flex-layout.col#texto2": {
+    "children": [
       "rich-text#newsletter-text2"
     ]
   },
@@ -323,4 +361,4 @@
       "text": "@Lilipinkcol"
     }
   }
-
+}

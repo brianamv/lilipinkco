@@ -145,3 +145,7 @@
   }
   
 } */
+.flexRowContent--seccion-inferior {
+  background-color: #f4f4f4;
+  padding-bottom: 60px;
+}

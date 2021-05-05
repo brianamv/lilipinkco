@@ -142,12 +142,7 @@
       "containerMode": "container"
     }
   },
-  "login":{
-    "props":{
-      "showIconProfile":true,
-      "hideIconLabel":true
-    }
-  },
+
   "flex-layout.row#6-desktop": {
     "props": {
       "blockClass": "menu-link",

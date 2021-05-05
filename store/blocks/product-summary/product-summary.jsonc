@@ -54,7 +54,8 @@
     "initialSelection": "empty",
     "thumbnailImage": ["color"],
     "visibleVariations": [
-      "Color"
+      "Color",
+      "Tallas"
     ]
   }
 },
