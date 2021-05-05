@@ -3,14 +3,17 @@
     "props": {
       "fullWidth": true
     },
-    "children": ["flex-layout.col#home1"]
-  },
 
+    "children": [
+      "flex-layout.col#home1"
+    ]
+  },
   "flex-layout.col#home1": {
     "props": {
       "width": "100%"
     },
     "children": [
+
       //"list-context.image-list#demo",
       "slider-layout#banner-principal",
       "__fold__",
@@ -73,6 +76,7 @@
       "height": 500,
       "images": [
 
+
       ]
     }
   },
@@ -94,7 +98,6 @@
       "isFullModeStyle": true,
       "imageUrl": "assets/BannerDeal.jpg",
       "blockClass": "info-card-homeHorizontal"
-
     }
   },
   "rich-text#shelf-title": {
@@ -104,6 +107,7 @@
     }
   },
   "flex-layout.row#shelf": {
+
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
@@ -116,7 +120,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
@@ -125,8 +129,6 @@
       "blockClass": "shelf"
     }
   },
-
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -145,22 +147,66 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#bannerSlim"]
+    "children": [
+      "image#bannerSlim"
+    ]
   },
-
-
   "image#bannerSlim": {
     "props": {
-      "fullWidth": true,
       "src": "assets/BannerDeal.jpg"
     }
   },
   "flex-layout.row#setInfocart": {
     "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
+
+      "horizontalAlign": "center",
+      "marginTop": 7,
+      "marginBottom": 7
     },
-    "children": ["info-card#ic1", "info-card#ic2", "info-card#ic3"]
+    "children": [
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#banners-inferiores1",
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#banners-inferiores2",
+      "flex-layout.col#espacio-banners",
+      "flex-layout.col#banners-inferiores3",
+      "flex-layout.col#espacio-banners"
+    ]
+  },
+  "flex-layout.col#espacio-banners": {
+    "props": {
+      "width":"3%"
+    }
+  },
+  "flex-layout.col#banners-inferiores1": {
+    "children": [
+      "image#banners-inferiores1"
+    ]
+  },
+  "flex-layout.col#banners-inferiores2": {
+    "children": [
+      "image#banners-inferiores2"
+    ]
+  },
+  "flex-layout.col#banners-inferiores3": {
+    "children": [
+      "image#banners-inferiores3"
+    ]
+  },
+  "image#banners-inferiores1": {
+    "props": {
+      "src": "assets/body-sub.jpg"
+    }
+  },
+  "image#banners-inferiores2": {
+    "props": {
+      "src": "assets/banner-4f.jpg"
+    }
+  },
+  "image#banners-inferiores3": {
+    "props": {
+      "src": "assets/panty-sub.jpg"
+    }
   },
   "info-card#ic1": {
     "props": {
@@ -196,26 +242,32 @@
     }
   },
 
-
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#bannerSlim2"]
+
+    "children": [
+      "image#bannerSlim2"
+    ]
   },
   "image#bannerSlim2": {
     "props": {
       "src": "assets/BannerInferior.jpg"
     }
   },
-
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["rich-text#newsletter-text1", "newsletter", "rich-text#newsletter-text2"]
+
+    "children": [
+      "rich-text#newsletter-text1",
+      "newsletter",
+      "rich-text#newsletter-text2"
+    ]
   },
   "rich-text#newsletter-text1": {
     "props": {
@@ -229,16 +281,12 @@
       "blockClass": "newsletter-2"
     }
   },
-
-
-
   "rich-text#link": {
     "props": {
       "text": "\n*Sígue Nuestras Redes Sociales*\n",
       "blockClass": "link"
     }
   },
-
   "flex-layout.row#redessociales": {
     "props": {
       "verticalAlign": "middle",
@@ -251,7 +299,6 @@
       "rich-text#ig"
     ]
   },
-
   "image#redesfb": {
     "props": {
       "blockClass": "Img-fb",
@@ -277,4 +324,3 @@
     }
   }
 
-}

@@ -4,13 +4,13 @@
 
       "stack-layout#prodsum",
       "product-summary-name",
-      //"product-summary-sku-name",
-      "flex-layout.col#productRating",
-      "product-summary-space",
+      "product-identifier.product",
+      //"flex-layout.col#productRating",
+      //"product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       //"product-installments#summary",
-      
+      "product-summary-sku-selector",    
       "product-summary-sku-selector#search",
       "add-to-cart-button",
       "product-summary-add-to-list-button"    
@@ -42,7 +42,8 @@
       "initialSelection": "empty",
       "thumbnailImage": ["color"],
       "visibleVariations": [
-        "Color"
+        "Color",
+        "Tallas"
       ],
       "displayMode":"slider"
     }
