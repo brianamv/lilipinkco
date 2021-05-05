@@ -106,7 +106,6 @@
   padding-bottom: 4px;
   display: flex;
   color: #fff;
-  margin: -30%;
 }
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
@@ -124,7 +123,6 @@
   /*background-color: transparent;*/
   color: #faf4f7;
   border: none;
-  margin-right: -24px;
 }
 :global(.vtex-button) {
   /*background-color: transparent;*/
@@ -151,7 +149,7 @@
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    
   }
 
   .label {
@@ -222,6 +220,10 @@
 
 .buttonContainer :global(.vtex-button){
   color: #000;
+}
+.buttonContainer :global(.vtex-button):hover{
+  color: #000;
+  background-color: #fff;
 }
 
 .skuSelectorSubcontainer {

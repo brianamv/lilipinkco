@@ -284,7 +284,8 @@
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"seccion-newsletter"
     },
     "children": [
       "flex-layout.col#texto1",
@@ -293,6 +294,10 @@
     ]
   },
   "flex-layout.col#texto1": {
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    },
     "children": [
       "rich-text#newsletter-text1"
     ]
@@ -302,20 +307,29 @@
       "newsletter"
     ]
   },
+  "newsletter":{
+"props":{
+  "hideLabel":true
+}
+  },
   "flex-layout.col#texto2": {
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "left"
+    },
     "children": [
       "rich-text#newsletter-text2"
     ]
   },
   "rich-text#newsletter-text1": {
     "props": {
-      "text": "Regístrate y sé el primero en recibir noticias de ofertas y promociones especiales",
+      "text": "Regístrate y sé el primero en \n recibir noticias de ofertas y \n promociones especiales",
       "blockClass": "newsletter-izquierdo"
     }
   },
   "rich-text#newsletter-text2": {
     "props": {
-      "text": "Al registrar tu correo electrónico aceptas los terminos y condiciones",
+      "text": "Al registrar tu correo \n electrónico aceptas \n los terminos y condiciones",
       "blockClass": "newsletter-2"
     }
   },
