@@ -229,3 +229,9 @@
 .skuSelectorSubcontainer {
   margin-bottom: 0 !important;
   }
+  .discountInsideContainer{
+  left: 0!important;
+  right: inherit ;
+  font-size: 18px;
+
+  }

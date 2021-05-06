@@ -345,33 +345,49 @@
       "horizontalAlign": "center"
     },
     "children": [
+      "flex-layout.col#facebook",
+      "flex-layout.col#instagram"
+    ]
+  },
+  "flex-layout.col#facebook":{
+    "props":{
+      "horizontalAlign":"right"
+    },
+    "children":[
       "image#redesfb",
-      "rich-text#fb",
+      "rich-text#fb"
+    ]
+  },
+  "flex-layout.col#instagram":{
+    "props":{
+      "horizontalAlign":"left"
+    },
+    "children":[
       "image#redesig",
       "rich-text#ig"
     ]
   },
   "image#redesfb": {
     "props": {
-      "blockClass": "Img-fb",
-      "src": "assets/face-pink.png"
+      "src": "assets/face-pink.png",
+      "maxWidth":"30px",
+      "maxHeight":"30px"
     }
   },
   "rich-text#fb": {
     "props": {
-      "blockClass": "Facebook",
       "text": " @LiliPinkColombia "
     }
   },
   "image#redesig": {
     "props": {
-      "blockClass": "Img-ig",
-      "src": "assets/insta-pink.png"
+      "src": "assets/insta-pink.png",
+      "maxWidth":"30px",
+      "maxHeight":"30px"
     }
   },
   "rich-text#ig": {
     "props": {
-      "blockClass": "Instagram",
       "text": "@Lilipinkcol"
     }
   }
