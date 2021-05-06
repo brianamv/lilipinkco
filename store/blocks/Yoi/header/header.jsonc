@@ -124,11 +124,11 @@
       "children": [
         "flex-layout.col#spacer",
         "flex-layout.col#logo1",
-        "rich-text#linkImperdibles",    
+        "rich-text#linkImperdibles-yoi",    
         "flex-layout.col#logo2",  
-        "rich-text#linkPedidoWhatsapp",      
+        "rich-text#linkPedidoWhatsapp-yoi",      
         "flex-layout.col#spacer"
-      ]
+      ] 
     },
     "flex-layout.col#logo1": {
       "props": {
@@ -162,14 +162,14 @@
         "src": "assets/logo-wh.png"  
       }  
     },
-    "rich-text#linkImperdibles": {
+    "rich-text#linkImperdibles-yoi": {
       "props": {
         "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
         "href":"#",
         "blockClass": "Encuentra"
       }
     },
-    "rich-text#linkPedidoWhatsapp": {
+    "rich-text#linkPedidoWhatsapp-yoi": {
       "props": {
         "text": "Haz tu pedido vía Whatsapp AQUÍ",
         "blockClass": "home-whatapps"

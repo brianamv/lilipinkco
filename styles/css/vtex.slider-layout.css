@@ -7,7 +7,10 @@
 }
 
 .sliderTrackContainer {
-  max-width: 1920px !important;
+  max-width: 100% !important;
+}
+.sliderTrackContainer :global(.vtex-store-components-3-x-imageElement) {
+  width: 100% !important;
 }
 
 .paginationDotsContainer {

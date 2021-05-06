@@ -152,3 +152,6 @@
 .flexRowContent--seccion-newsletter {
   background-color: #f4f4f4;
 }
+.flexCol--espaciado{
+  width: 60px !important;
+}

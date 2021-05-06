@@ -45,7 +45,7 @@
   },
   "image#slide1": {
     "props": {
-      "src": "assets/BannersMainSlider/sh1.jpg"
+      "src": "assets/banner-catalogo11.jpg"
     }
   },
   "image#slide2": {
@@ -335,59 +335,74 @@
   },
   "rich-text#link": {
     "props": {
-      "text": "\n*Sígue Nuestras Redes Sociales*\n",
-      "blockClass": "link"
+      "text": "Sígue Nuestras Redes Sociales",
+      "blockClass": "titulo-redes",
+      "textAlignment":"CENTER"
     }
   },
   "flex-layout.row#redessociales": {
     "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#logoface",
+      "rich-text#fb",
+      "flex-layout.col#spacermini",
+      "flex-layout.col#logoinsta",
+      "rich-text#ig",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacermini":{
+"props":{
+  "blockClass":"espaciado"
+}
+  },
+  "flex-layout.col#logoface": {
+    "props": {
+      "blockClass": "logo1",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": [
-      "flex-layout.col#facebook",
-      "flex-layout.col#instagram"
+      "image#logoface"
     ]
   },
-  "flex-layout.col#facebook":{
-    "props":{
-      "horizontalAlign":"right"
-    },
-    "children":[
-      "image#redesfb",
-      "rich-text#fb"
-    ]
-  },
-  "flex-layout.col#instagram":{
-    "props":{
-      "horizontalAlign":"left"
-    },
-    "children":[
-      "image#redesig",
-      "rich-text#ig"
-    ]
-  },
-  "image#redesfb": {
+  "image#logoface": {
     "props": {
-      "src": "assets/face-pink.png",
-      "maxWidth":"30px",
-      "maxHeight":"30px"
+      "blockClass": "Imagenetiquetaredes",
+      "src": "assets/face-pink.png"
+    }
+  },
+  "flex-layout.col#logoinsta": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logoinsta"
+    ]
+  },
+  "image#logoinsta": {
+    "props": {
+      "blockClass": "Imagenetiquetaredes",
+      "src": "assets/insta-pink.png"
     }
   },
   "rich-text#fb": {
     "props": {
+      "blockClass":"texto-redes",
       "text": " @LiliPinkColombia "
-    }
-  },
-  "image#redesig": {
-    "props": {
-      "src": "assets/insta-pink.png",
-      "maxWidth":"30px",
-      "maxHeight":"30px"
     }
   },
   "rich-text#ig": {
     "props": {
+      "blockClass":"texto-redes",
       "text": "@Lilipinkcol"
     }
   }

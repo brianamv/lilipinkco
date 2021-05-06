@@ -6,7 +6,7 @@
       "product-summary-name",
       "product-identifier.product",
       //"flex-layout.col#productRating",
-      //"product-summary-space",
+      "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       //"product-installments#summary",    

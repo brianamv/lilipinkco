@@ -194,7 +194,7 @@
   },
   "rich-text#linkImperdibles": {
     "props": {
-      "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
+      "text": "Encuentra Nuestros Imperdibles AQUÍ        |   ",
       "href": "#",
       "blockClass": "Encuentra"
     }
@@ -202,7 +202,7 @@
   "rich-text#linkPedidoWhatsapp": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "blockClass": "home-whatapps"
+      "blockClass": "Encuentra"
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -293,7 +293,7 @@
       "menu-item#category-vestidos",
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
-      "menu-item#yoi"
+      "menu-item#yoi" 
     ],
     "props": {
       "orientation": "vertical"
