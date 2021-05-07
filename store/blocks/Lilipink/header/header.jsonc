@@ -154,9 +154,10 @@
     "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#logo1",
+      "menu-item#linkImperdibles", 
       "rich-text#linkImperdibles",
       "flex-layout.col#logo2",
-      "rich-text#linkPedidoWhatsapp",
+      "menu-item#linkPedidoWhatsapp",
       "flex-layout.col#spacer"
     ]
   },
@@ -192,16 +193,23 @@
       "src": "assets/logo-wh.png"
     }
   },
-  "rich-text#linkImperdibles": {
+  "menu-item#linkImperdibles": {
     "props": {
-      "text": "Encuentra Nuestros Imperdibles AQUÍ        |   ",
-      "href": "#",
+      "text": "Encuentra Nuestros Imperdibles AQUÍ",
+      "href": "/brasieres",
       "blockClass": "Encuentra"
     }
   },
-  "rich-text#linkPedidoWhatsapp": {
+  "rich-text#linkImperdibles": {
+    "props": {
+      "text": "|",
+      "blockClass": "Encuentra"
+    }
+  },
+  "menu-item#linkPedidoWhatsapp": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "href": "/brasieres",
       "blockClass": "Encuentra"
     }
   },

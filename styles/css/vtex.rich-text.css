@@ -203,5 +203,10 @@ font-family: "Monserrat-bold";
 .paragraph--Encuentra{
   color: #727272;
   font-family: 'Monserrat-bold';
-  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.paragraph--titulos-footer{
+  color:#fff;
+  font-family: 'Monserrat-bold' ;
 }

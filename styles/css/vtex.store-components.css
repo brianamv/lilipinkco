@@ -45,7 +45,7 @@
 .imageElement--Imagenetiqueta{
   height :30px;
   width: 30px;
-  margin: 0 2px 0 30px;
+  margin: 0 2px 0 20px;
   display: flex;
   justify-content: center;
 }
@@ -55,6 +55,14 @@
   display: flex;
   justify-content: center;
 }
+.imageElement--Imagenetiquetaredes-i{
+  height :30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
 .imageElement--Img-ig{
   height :44px;
   width: 15%;

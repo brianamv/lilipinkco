@@ -27,8 +27,8 @@
   "modal-content#quickview": {
     "children": [
       "vtex.store-components:product-name",
-      "flex-layout.col#quickviewPrice",
-      "product-summary-sku-selector#quickview"
+      "flex-layout.col#quickviewPrice"
+      //"product-summary-sku-selector#quickview"
     ],
     "props": {
       "blockClass": "quickviewContent"
@@ -38,7 +38,8 @@
     "children": [
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-installments"
+      "product-summary-sku-selector#search"
+      //"product-installments"
     ]
   },
   "modal-actions#quickview": {
@@ -93,7 +94,7 @@
         "variant": "secondary"
       },
       "displayMode": "button",
-      "label": "View details",
+      "label": "Ver Detalle",
       "href": "/{slug}/p"
     }
   },
@@ -137,7 +138,8 @@
   "product-images#quickview" : {
     "props": {
       "blockClass": "quickview",
-      "showNavigationArrows": true
+      "showNavigationArrows": true,
+      "aspectRatio":"8:7"
     }
   }
 }

@@ -390,7 +390,7 @@
   },
   "image#logoinsta": {
     "props": {
-      "blockClass": "Imagenetiquetaredes",
+      "blockClass": "Imagenetiquetaredes-i",
       "src": "assets/insta-pink.png"
     }
   },
@@ -403,7 +403,7 @@
   "rich-text#ig": {
     "props": {
       "blockClass":"texto-redes",
-      "text": "@Lilipinkcol"
+      "text": " @Lilipinkcol"
     }
   }
 }
