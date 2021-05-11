@@ -6,7 +6,7 @@
     },
     "blocks": ["flex-layout.row#home2"]
   },
-  "flex-layout.row#home2": {
+  "flex-layout.row#home2": { 
       "props":{
           "fullWidth":true
       },
@@ -22,9 +22,9 @@
           "rich-text#shelf-titleYoi",
           "flex-layout.row#shelfYoi",
           "flex-layout.row#setInfocartYoi",
-          "flex-layout.row#bannerInferiorYoi",
-          "newsletter",
+          "flex-layout.row#formularioYoi",
           "rich-text#linkYoi",
+          "flex-layout.row#redessocialesYoi",
           "social-networks"
       ]
 
@@ -141,12 +141,6 @@
   }
 },
 
-"rich-text#linkYoi": {
-  "props": {
-    "text": "\n*Sígue Nuestras Redes Sociales*\n",
-    "blockClass": "link"
-  }
-},
 "flex-layout.row#bannerComplementoYoi": {
   "props": {
     "verticalAlign": "middle",
@@ -164,84 +158,204 @@
 
 "flex-layout.row#setInfocartYoi": {
   "props": {
-     "verticalAlign": "middle",
-    "horizontalAlign": "center"
+    "horizontalAlign": "center",
+    "marginTop": 7,
+    "marginBottom": 7,
+    "blockClass": "seccion-inferiorYoi"
   },
-  "children": ["info-card#ic1", "info-card#ic2", "info-card#ic3"]
+  "children": [
+    "flex-layout.col#ContenedorBannersYoi"
+  ]
 },
-"info-card#ic1": {
+"flex-layout.col#ContenedorBannersYoi": {
+  "children": [
+    "flex-layout.row#TituloBannerYoi",
+    "flex-layout.row#BannersYoi"
+  ]
+},
+"flex-layout.row#TituloBannerYoi": {
+  "children": [
+    "rich-text#titulobannerInferiorYoi"
+  ]
+},
+"flex-layout.row#BannersYoi": {
+  "children": [
+    "flex-layout.col#espacio-banners",
+    "flex-layout.col#banners-inferiores1Yoi",
+    "flex-layout.col#espacio-banners",
+    "flex-layout.col#banners-inferiores2Yoi",
+    "flex-layout.col#espacio-banners",
+    "flex-layout.col#banners-inferiores3Yoi",
+    "flex-layout.col#espacio-banners"
+  ]
+},
+"flex-layout.col#espacio-banners": {
   "props": {
-    "id": "info-card-ic1",
-    "isFullModeStyle":true,
-     "imageUrl": "assets/infoHomeA.jpg",
-     "callToActionText": "COMPRA AQUÍ",
-    "callToActionUrl": "/sale/d",
-    "blockClass": "info-card",
-    "textAlignment": "center"
+    "width": "3%"
   }
 },
-"info-card#ic2": {
+"rich-text#titulobannerInferiorYoi": {
   "props": {
-    "id": "info-card-ic2",
-    "isFullModeStyle": true,
-     "imageUrl": "assets/infoHome2.jpg",
-     "callToActionText": "COMPRA AQUÍ",
-    "callToActionUrl": "/sale/d",
-    "blockClass": "info-card",
-    "textAlignment": "center"
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Nuevas Llegadas",
+    "blockClass": "headingLevel2Yoi"
   }
 },
-"info-card#ic3": {
+"flex-layout.col#banners-inferiores1Yoi": {
+  "children": [
+    "image#banners-inferiores1Yoi"
+  ]
+},
+"flex-layout.col#banners-inferiores2Yoi": {
+  "children": [
+    "image#banners-inferiores2Yoi"
+  ]
+},
+"flex-layout.col#banners-inferiores3Yoi": {
+  "children": [
+    "image#banners-inferiores3Yoi"
+  ]
+},
+"image#banners-inferiores1Yoi": {
   "props": {
-    "id": "info-card-ic3",
-    "isFullModeStyle": true,
-     "imageUrl": "assets/fresca.jpg",
-     "callToActionText": "COMPRA AQUÍ",
-    "callToActionUrl": "/sale/d",
-    "blockClass": "info-card",
-    "textAlignment": "center"
+    "src": "assets/body-sub.jpg"
+  }
+},
+"image#banners-inferiores2Yoi": {
+  "props": {
+    "src": "assets/banner-4f.jpg"
+  }
+},
+"image#banners-inferiores3Yoi": {
+  "props": {
+    "src": "assets/panty-sub.jpg"
   }
 },
 
-
-
-"flex-layout.row#bannerInferiorYoi": {
-  "props": {
-    "verticalAlign": "middle",
-    "horizontalAlign": "center"
-  },
-  "children": ["image#bannerSlim2Yoi"]
-},
-
-
-"image#bannerSlim2Yoi": {
-  "props": {
-    "src": "assets/BannerInferior.jpg"
-  }
-},
-
-"social-networks": {
+"flex-layout.row#formularioYoi": {
   "props": {
     "verticalAlign": "middle",
     "horizontalAlign": "center",
-    "socialNetworks": [
-      {
-        "name": "Facebook",
-        "url": "https://www.facebook.com/vtexonline/"
-      },
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/vtextruecloud/"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/vtexonline"
-      },
-      {
-        "name": "Youtube",
-        "url": "https://www.youtube.com/user/VTEXTV"
-      }
-    ]
+    "blockClass":"seccion-newsletterYoi"
+  },
+  "children": [
+    "flex-layout.col#texto1Yoi",
+    "flex-layout.col#formularioYoi",
+    "flex-layout.col#texto2Yoi"
+  ]
+},
+"flex-layout.col#texto1Yoi": {
+  "props":{
+    "verticalAlign": "middle",
+    "horizontalAlign": "right"
+  },
+  "children": [
+    "rich-text#newsletter-text1"
+  ]
+},
+"flex-layout.col#formularioYoi": {
+  "children": [
+    "newsletter"
+  ]
+},
+"newsletter":{
+"props":{
+"hideLabel":true
+}
+},
+"flex-layout.col#texto2Yoi": {
+  "props":{
+    "verticalAlign": "middle",
+    "horizontalAlign": "left"
+  },
+  "children": [
+    "rich-text#newsletter-text2"
+  ]
+},
+"rich-text#newsletter-text1Yoi": {
+  "props": {
+    "text": "Regístrate y sé el primero en \n recibir noticias de ofertas y \n promociones especiales",
+    "blockClass": "newsletter-izquierdo"
+  }
+},
+"rich-text#newsletter-text2Yoi": {
+  "props": {
+    "text": "Al registrar tu correo \n electrónico aceptas \n los terminos y condiciones",
+    "blockClass": "newsletter-2"
+  }
+},
+"rich-text#linkYoi": {
+  "props": {
+    "text": "Sígue Nuestras Redes Sociales",
+    "blockClass": "titulo-redesYoi",
+    "textAlignment":"CENTER"
+  }
+},
+"flex-layout.row#redessocialesYoi": {
+  "props": {
+    "horizontalAlign": "center",
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": true,
+    "fullWidth": true
+  },
+  "children": [
+    "flex-layout.col#spacer",
+    "flex-layout.col#logofaceYoi",
+    "rich-text#fbYoi",
+    "flex-layout.col#spacermini",
+    "flex-layout.col#logoinstaYoi",
+    "rich-text#igYoi",
+    "flex-layout.col#spacer"
+  ]
+},
+"flex-layout.col#spacermini":{
+"props":{
+"blockClass":"espaciado"
+}
+},
+"flex-layout.col#logofaceYoi": {
+  "props": {
+    "blockClass": "logo1",
+    "verticalAlign": "middle",
+    "horizontalAlign": "center"
+  },
+  "children": [
+    "image#logofaceYoi"
+  ]
+},
+"image#logofaceYoi": {
+  "props": {
+    "blockClass": "Imagenetiquetaredes",
+    "src": "assets/face-yoi.png"
+  }
+},
+"flex-layout.col#logoinstaYoi": {
+  "props": {
+    "blockClass": "logo2",
+    "verticalAlign": "middle",
+    "horizontalAlign": "center"
+  },
+  "children": [
+    "image#logoinstaYoi"
+  ]
+},
+"image#logoinstaYoi": {
+  "props": {
+    "blockClass": "Imagenetiquetaredes-i",
+    "src": "assets/insta-yoi.png"
+  }
+},
+"rich-text#fbYoi": {
+  "props": {
+    "blockClass":"texto-redes",
+    "text": " @LiliPinkColombia "
+  }
+},
+"rich-text#igYoi": {
+  "props": {
+    "blockClass":"texto-redes",
+    "text": " @Lilipinkcol"
   }
 }
 

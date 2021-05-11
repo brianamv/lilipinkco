@@ -115,6 +115,9 @@
 .flexRow--menu-row{
   background-color: #e4147e;
 }
+.flexRow--menu-rowYoi{
+  background-color: #08ab97;
+}
 
 /* ajuste del menu segun pantalla */
 .flexRowContent--menuPrincipalLilipink {
@@ -152,8 +155,15 @@
   background-color: #f4f4f4;
   padding-bottom: 60px;
 }
+.flexRowContent--seccion-inferiorYoi {
+  background-color: #f3e2ec;
+  padding-bottom: 60px;
+}
 .flexRowContent--seccion-newsletter {
   background-color: #f4f4f4;
+}
+.flexRowContent--seccion-newsletterYoi {
+  background-color: #FBD481;
 }
 .flexCol--espaciado{
   width: 60px !important;
