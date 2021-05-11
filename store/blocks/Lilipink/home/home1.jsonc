@@ -226,39 +226,7 @@
       "src": "assets/panty-sub.jpg"
     }
   },
-  "info-card#ic1": {
-    "props": {
-      "id": "info-card-ic1",
-      "isFullModeStyle": true,
-      "imageUrl": "assets/infoHomeA.jpg",
-      "callToActionText": "COMPRA AQUÍ",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#ic2": {
-    "props": {
-      "id": "info-card-ic2",
-      "isFullModeStyle": true,
-      "imageUrl": "assets/infoHome2.jpg",
-      "callToActionText": "COMPRA AQUÍ",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#ic3": {
-    "props": {
-      "id": "info-card-ic3",
-      "isFullModeStyle": true,
-      "imageUrl": "assets/fresca.jpg",
-      "callToActionText": "COMPRA AQUÍ",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card",
-      "textAlignment": "center"
-    }
-  },
+ 
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",

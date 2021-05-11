@@ -108,7 +108,6 @@
         "flex-layout.col#spacer",
         "flex-layout.col#logo-desktopYoi",
         "flex-layout.col#spacer",
-        "locale-switcher",
         "login",
         "minicart.v2"
       ]
@@ -124,9 +123,10 @@
       "children": [
         "flex-layout.col#spacer",
         "flex-layout.col#logo1",
-        "rich-text#linkImperdibles-yoi",    
+        "menu-item#linkImperdibles-YOI",
+        "rich-text#linkImperdibles",    
         "flex-layout.col#logo2",  
-        "rich-text#linkPedidoWhatsapp-yoi",      
+        "menu-item#linkPedidoWhatsapp-YOI",      
         "flex-layout.col#spacer"
       ] 
     },
@@ -162,17 +162,18 @@
         "src": "assets/logo-wh.png"  
       }  
     },
-    "rich-text#linkImperdibles-yoi": {
+    "menu-item#linkImperdibles-YOI": {
       "props": {
-        "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
-        "href":"#",
+        "text": "Encuentra Nuestros Imperdibles AQUÍ",
+        "href": "/brasieres",
         "blockClass": "Encuentra"
       }
     },
-    "rich-text#linkPedidoWhatsapp-yoi": {
+    "menu-item#linkPedidoWhatsapp-YOI": {
       "props": {
         "text": "Haz tu pedido vía Whatsapp AQUÍ",
-        "blockClass": "home-whatapps"
+        "href": "/brasieres",
+        "blockClass": "Encuentra"
       }
     },
     "flex-layout.col#logo-desktopYoi": {
@@ -186,8 +187,8 @@
     
     "image#logodesktopYoi": {  
       "props": {  
-        "src": "assets/yoi/LogoLargoYoi5.jpg"  ,
-        "maxHeight":"90px"
+        "src": "assets/logo-yoi.png"  ,
+        "maxHeight":"65px"
       }  
     },
     

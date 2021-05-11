@@ -30,9 +30,9 @@
 
         ],
       "props": {
-        "blockClass": "menu-row",
+        "blockClass": "menu-rowYoi",
         "paddingTop": 6,
-        "paddingBottom": 3
+        "paddingBottom": 6
       }
     },
 
@@ -51,7 +51,9 @@
         "flex-layout.row#imagenes-tarjetas-8Yoi"
       ],
       "props": {
-        "blockClass": "payment-methods"
+        "blockClass": "payment-methods",
+        "paddingTop": 4,
+        "paddingBottom": 4
       }
     },
     "accepted-payment-methods": {

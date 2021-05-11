@@ -138,6 +138,16 @@
   font-size: calc(0.3em + 0.5vw);
 
 }
+.styledLinkContent--titulosMenuYoi {
+  color: #757575;
+  font-size: calc(0.3em + 0.5vw);
+
+}
+.styledLinkContent--titulosMenuYoi:hover {
+  color: #08AB97;
+  font-size: calc(0.3em + 0.5vw);
+
+}
 .styledLinkContent--destacado {
   color: #e4147e;
   font-size: calc(0.3em + 0.5vw);
@@ -162,6 +172,16 @@
 }
 .styledLinkContent--itemMenu:hover {
   color: #e4147e !important;
+}
+.styledLinkContent--ItemMenuYoi {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+  font-family: 'Monserrat-semibold' !important;
+  font-size: 0.8rem !important;
+  color: #757575 !important;
+}
+.styledLinkContent--ItemMenuYoi:hover {
+  color: #08AB97 !important;
 }
 
 

@@ -18,6 +18,7 @@
   },
   "menu-item#category-hogar": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-hogar",
       "type": "custom",
       "iconId": null,
@@ -66,6 +67,7 @@
   },
   "menu-item#category-hogar-accesorios": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-accesorios",
       "type": "custom",
       "iconId": null,
@@ -81,6 +83,7 @@
   },
   "menu-item#category-hogar-articulos-llevar": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-articulos-llevar",
       "type": "custom",
       "iconId": null,
@@ -96,6 +99,7 @@
   },
   "menu-item#category-hogar-ambientacion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-ambientacion",
       "type": "custom",
       "iconId": null,
@@ -111,6 +115,7 @@
   },
   "menu-item#category-hogar-cesta": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cesta",
       "type": "custom",
       "iconId": null,
@@ -126,6 +131,7 @@
   },
   "menu-item#category-hogar-bbq": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-bbq",
       "type": "custom",
       "iconId": null,
@@ -141,6 +147,7 @@
   },
   "menu-item#category-hogar-lavanderia": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-lavanderia",
       "type": "custom",
       "iconId": null,
@@ -156,6 +163,7 @@
   },
   "menu-item#category-hogar-cocina": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cocina",
       "type": "custom",
       "iconId": null,
@@ -171,6 +179,7 @@
   },
   "menu-item#category-hogar-almacenamiento": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-almacenamiento",
       "type": "custom",
       "iconId": null,
@@ -186,6 +195,7 @@
   },
   "menu-item#category-hogar-articulo-de-mesa": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-articulo-de-mesa",
       "type": "custom",
       "iconId": null,
@@ -201,6 +211,7 @@
   },
   "menu-item#category-hogar-celebracion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-celebracion",
       "type": "custom",
       "iconId": null,
@@ -216,6 +227,7 @@
   },
   "menu-item#category-hogar-electro": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-electro",
       "type": "custom",
       "iconId": null,
@@ -231,6 +243,7 @@
   },
   "menu-item#category-hogar-limpieza": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-limpieza",
       "type": "custom",
       "iconId": null,
@@ -246,6 +259,7 @@
   },
   "menu-item#category-hogar-baño": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-baño",
       "type": "custom",
       "iconId": null,
@@ -261,6 +275,7 @@
   },
   "menu-item#category-hogar-decoracion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-decoracion",
       "type": "custom",
       "iconId": null,
@@ -276,6 +291,7 @@
   },
   "menu-item#category-hogar-almohadas-y-cojines": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-almohadas-y-cojines",
       "type": "custom",
       "iconId": null,
@@ -291,6 +307,7 @@
   },
   "menu-item#category-hogar-herramientas": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-herramientas",
       "type": "custom",
       "iconId": null,
@@ -306,6 +323,7 @@
   },
   "menu-item#category-hogar-aromas": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-aromas",
       "type": "custom",
       "iconId": null,
@@ -320,7 +338,8 @@
     }
   },
   "menu-item#category-cuidado": {
-    "props": {
+    "props": { 
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-cuidado",
       "type": "custom",
       "iconId": null,
@@ -363,6 +382,7 @@
   },
   "menu-item#category-hogar-cuidadocorporal": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cuidadocorporal",
       "type": "custom",
       "iconId": null,
@@ -378,6 +398,7 @@
   },
   "menu-item#category-hogar-manosypies": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-manosypies",
       "type": "custom",
       "iconId": null,
@@ -393,6 +414,7 @@
   },
   "menu-item#category-hogar-maquillaje": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-maquillaje",
       "type": "custom",
       "iconId": null,
@@ -408,6 +430,7 @@
   },
   "menu-item#category-hogar-prevencionycuidado": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-prevencionycuidado",
       "type": "custom",
       "iconId": null,
@@ -423,6 +446,7 @@
   },
   "menu-item#category-hogar-cuidadofacial": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cuidadofacial",
       "type": "custom",
       "iconId": null,
@@ -438,6 +462,7 @@
   },
   "menu-item#category-hogar-accesorios-maquillaje": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-accesorios-maquillaje",
       "type": "custom",
       "iconId": null,
@@ -453,6 +478,7 @@
   },
   "menu-item#category-hogar-cuidadobucal": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cuidadobucal",
       "type": "custom",
       "iconId": null,
@@ -468,6 +494,7 @@
   },
   "menu-item#category-hogar-cuidadocabello": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-cuidadocabello",
       "type": "custom",
       "iconId": null,
@@ -483,6 +510,7 @@
   },
   "menu-item#category-hogar-fragancias": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-hogar-fragancias",
       "type": "custom",
       "iconId": null,
@@ -498,6 +526,7 @@
   },
   "menu-item#category-tecnologia": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-tecnologia",
       "type": "custom",
       "iconId": null,
@@ -535,6 +564,7 @@
   },
   "menu-item#category-accesoriosmoviles": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-accesoriosmoviles",
       "type": "custom",
       "iconId": null,
@@ -550,6 +580,7 @@
   },
   "menu-item#category-audio": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-audio",
       "type": "custom",
       "iconId": null,
@@ -565,6 +596,7 @@
   },
   "menu-item#category-cargadores": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-cargadores",
       "type": "custom",
       "iconId": null,
@@ -580,6 +612,7 @@
   },
   "menu-item#category-computacion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-computacion",
       "type": "custom",
       "iconId": null,
@@ -595,6 +628,7 @@
   },
   "menu-item#category-accesorios": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-accesorios",
       "type": "custom",
       "iconId": null,
@@ -627,6 +661,7 @@
   },
   "menu-item#category-cabello": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-cabello",
       "type": "custom",
       "iconId": null,
@@ -642,6 +677,7 @@
   },
   "menu-item#category-bisuteria": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-bisuteria",
       "type": "custom",
       "iconId": null,
@@ -657,6 +693,7 @@
   },
   "menu-item#category-cuidado-gafas": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-cuidado-gafas",
       "type": "custom",
       "iconId": null,
@@ -672,6 +709,7 @@
   },
   "menu-item#category-bolsos-y-morrales": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-bolsos-y-morrales",
       "type": "custom",
       "iconId": null,
@@ -687,6 +725,7 @@
   },
   "menu-item#category-moda": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-moda",
       "type": "custom",
       "iconId": null,
@@ -702,6 +741,7 @@
   },
   "menu-item#category-relojeria": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-relojeria",
       "type": "custom",
       "iconId": null,
@@ -717,6 +757,7 @@
   },
   "menu-item#category-bebe": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-bebe",
       "type": "custom",
       "iconId": null,
@@ -732,6 +773,7 @@
   },
   "menu-item#category-papeleria": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-papeleria",
       "type": "custom",
       "iconId": null,
@@ -770,6 +812,7 @@
   },
   "menu-item#category-envolturasregalo": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-envolturasregalo",
       "type": "custom",
       "iconId": null,
@@ -785,6 +828,7 @@
   },
   "menu-item#category-escritura": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-escritura",
       "type": "custom",
       "iconId": null,
@@ -800,6 +844,7 @@
   },
   "menu-item#category-kitspapeleria": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-kitspapeleria",
       "type": "custom",
       "iconId": null,
@@ -815,6 +860,7 @@
   },
   "menu-item#category-libretasyapuntes": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-libretasyapuntes",
       "type": "custom",
       "iconId": null,
@@ -830,6 +876,7 @@
   },
   "menu-item#category-utiles": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-utiles",
       "type": "custom",
       "iconId": null,
@@ -845,6 +892,7 @@
   },
   "menu-item#category-deporte": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-deporte",
       "type": "custom",
       "iconId": null,
@@ -882,6 +930,7 @@
   },
   "menu-item#category-gym": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-gym",
       "type": "custom",
       "iconId": null,
@@ -897,6 +946,7 @@
   },
   "menu-item#category-yoga": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-yoga",
       "type": "custom",
       "iconId": null,
@@ -912,6 +962,7 @@
   },
   "menu-item#category-natacion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-natacion",
       "type": "custom",
       "iconId": null,
@@ -927,6 +978,7 @@
   },
   "menu-item#category-Ciclismo": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-Ciclismo",
       "type": "custom",
       "iconId": null,
@@ -943,6 +995,7 @@
   
   "menu-item#category-mascotas": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-mascotas",
       "type": "custom",
       "iconId": null,
@@ -981,6 +1034,7 @@
   },
   "menu-item#category-mascota-accesorios": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-mascota-accesorios",
       "type": "custom",
       "iconId": null,
@@ -996,6 +1050,7 @@
   },
   "menu-item#category-mascota-alimentacion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-mascota-alimentacion",
       "type": "custom",
       "iconId": null,
@@ -1011,6 +1066,7 @@
   },
   "menu-item#category-mascota-diversion": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-mascota-diversion",
       "type": "custom",
       "iconId": null,
@@ -1026,6 +1082,7 @@
   },
   "menu-item#category-mascota-higiene": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-mascota-higiene",
       "type": "custom",
       "iconId": null,
@@ -1041,6 +1098,7 @@
   },
   "menu-item#category-mascota-comodidad": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-mascota-comodidad",
       "type": "custom",
       "iconId": null,
@@ -1056,6 +1114,7 @@
   },
   "menu-item#category-mascotas-accesorios": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-mascotas-accesorios",
       "type": "custom",
       "iconId": null,
@@ -1071,6 +1130,7 @@
   },
   "menu-item#category-estacional": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-category-estacional",
       "type": "custom",
       "iconId": null,
@@ -1106,6 +1166,7 @@
   },
   "menu-item#category-invierno": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-invierno",
       "type": "custom",
       "iconId": null,
@@ -1121,6 +1182,7 @@
   },
   "menu-item#category-verano": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-custom-verano",
       "type": "custom",
       "iconId": null,
@@ -1136,6 +1198,7 @@
   },
   "menu-item#category-juguetes": {
     "props": {
+      "blockClass": "titulosMenuYoi",
       "id": "menu-item-custom-sale",
       "type": "custom",
       "iconId": null,
@@ -1182,6 +1245,7 @@
   },
   "menu-item#category-jugetes-deportes": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-deportes",
       "type": "custom",
       "iconId": null,
@@ -1197,6 +1261,7 @@
   },
   "menu-item#category-jugetes-exteriores": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-exteriores",
       "type": "custom",
       "iconId": null,
@@ -1212,6 +1277,7 @@
   },
   "menu-item#category-jugetes-musicales": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-musicales",
       "type": "custom",
       "iconId": null,
@@ -1227,6 +1293,7 @@
   },
   "menu-item#category-jugetes-peluches": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-peluches",
       "type": "custom",
       "iconId": null,
@@ -1242,6 +1309,7 @@
   },
   "menu-item#category-jugetes-moldeables": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-moldeables",
       "type": "custom",
       "iconId": null,
@@ -1257,6 +1325,7 @@
   },
   "menu-item#category-jugetes-didacticos": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-didácticos",
       "type": "custom",
       "iconId": null,
@@ -1272,6 +1341,7 @@
   },
   "menu-item#category-jugetes-vehiculos": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-vehiculos",
       "type": "custom",
       "iconId": null,
@@ -1287,6 +1357,7 @@
   },
   "menu-item#category-jugetes-juegos-de-mesa": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-juegos-de-mesa",
       "type": "custom",
       "iconId": null,
@@ -1302,6 +1373,7 @@
   },
   "menu-item#category-jugetes-figura": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-figura",
       "type": "custom",
       "iconId": null,
@@ -1317,6 +1389,7 @@
   },
   "menu-item#category-jugetes-muñecas": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-muñecas",
       "type": "custom",
       "iconId": null,
@@ -1332,6 +1405,7 @@
   },
   "menu-item#category-jugetes-electricos": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-electricos",
       "type": "custom",
       "iconId": null,
@@ -1347,6 +1421,7 @@
   },
   "menu-item#category-jugetes-destrezas": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-jugetes-destrezas",
       "type": "custom",
       "iconId": null,
@@ -1362,6 +1437,7 @@
   },
   "menu-item#category-jugetes-juego-de-rol": {
     "props": {
+      "blockClass": "ItemMenuYoi",
       "id": "menu-item-category-juego-de-rol",
       "type": "custom",
       "iconId": null,
