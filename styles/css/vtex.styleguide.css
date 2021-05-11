@@ -1,3 +1,6 @@
 .input::placeholder{
 color: #727272!important;
 }
+.container :global(.vtex-dropdown__button){
+    color: #000;
+}
