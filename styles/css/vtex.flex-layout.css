@@ -90,8 +90,8 @@
   width: max-content ;
 }
 .flexColChild--quickviewDetails:first-child {
-  overflow-y: auto;
-  height: 66% !important;
+  overflow-y: hidden;
+  height: 100% !important;
   overflow-x: hidden;
 }
 
@@ -111,6 +111,9 @@
 /*FOOTER**/
 .flexRow--home2 .flexRowContent--menu-row {
   background: #53AC97;
+}
+.flexRow--menu-row{
+  background-color: #e4147e;
 }
 
 /* ajuste del menu segun pantalla */
@@ -145,3 +148,13 @@
   }
   
 } */
+.flexRowContent--seccion-inferior {
+  background-color: #f4f4f4;
+  padding-bottom: 60px;
+}
+.flexRowContent--seccion-newsletter {
+  background-color: #f4f4f4;
+}
+.flexCol--espaciado{
+  width: 60px !important;
+}

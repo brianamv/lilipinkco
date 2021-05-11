@@ -184,4 +184,13 @@
 .submenu--submenu {
   padding-left: 1% ;
 } */
-
+.styledLinkContent--Encuentra{
+  color: #727272;
+  font-family: 'Monserrat-bold';
+  font-size: 17px;
+  padding: 10px 0;
+}
+.styledLinkContent--items-footer{
+  font-family:"Monserrat-regular" ;
+  color: #fff;
+  }

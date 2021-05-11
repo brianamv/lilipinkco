@@ -1,9 +1,8 @@
 {
   "flex-layout.row#home1": {
     "props": {
-      "fullWidth": true
-    },
-
+      "fullWidth":true
+    }, 
     "children": [
       "flex-layout.col#home1"
     ]
@@ -13,7 +12,6 @@
       "width": "100%"
     },
     "children": [
-
       //"list-context.image-list#demo",
       "slider-layout#banner-principal",
       "__fold__",
@@ -26,7 +24,6 @@
       "rich-text#link",
       "flex-layout.row#redessociales"
     ]
-
   },
   "slider-layout#banner-principal": {
     "props": {
@@ -39,12 +36,16 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#slide1", "image#slide2", "image#slide3","image#slide4"]
+    "children": [
+      "image#slide1",
+      "image#slide2",
+      "image#slide3",
+      "image#slide4"
+    ]
   },
-
   "image#slide1": {
     "props": {
-      "src": "assets/BannersMainSlider/sh1.jpg"
+      "src": "assets/banner-catalogo11.jpg"
     }
   },
   "image#slide2": {
@@ -62,22 +63,18 @@
       "src": "assets/BannersMainSlider/sh4.jpg"
     }
   },
-  
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
-
     }
   },
-
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 500,
-      "images": [
-
-
-      ]
+      "images": []
     }
   },
   "slider-layout#demo-images": {
@@ -107,12 +104,17 @@
     }
   },
   "flex-layout.row#shelf": {
-
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#destacados"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf#destacados"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -158,11 +160,27 @@
   },
   "flex-layout.row#setInfocart": {
     "props": {
-
       "horizontalAlign": "center",
       "marginTop": 7,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "seccion-inferior"
     },
+    "children": [
+      "flex-layout.col#ContenedorBanners"
+    ]
+  },
+  "flex-layout.col#ContenedorBanners": {
+    "children": [
+      "flex-layout.row#TituloBanner",
+      "flex-layout.row#Banners"
+    ]
+  },
+  "flex-layout.row#TituloBanner": {
+    "children": [
+      "rich-text#titulobannerInferior"
+    ]
+  },
+  "flex-layout.row#Banners": {
     "children": [
       "flex-layout.col#espacio-banners",
       "flex-layout.col#banners-inferiores1",
@@ -175,7 +193,7 @@
   },
   "flex-layout.col#espacio-banners": {
     "props": {
-      "width":"3%"
+      "width": "3%"
     }
   },
   "flex-layout.col#banners-inferiores1": {
@@ -241,16 +259,22 @@
       "textAlignment": "center"
     }
   },
-
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-
     "children": [
       "image#bannerSlim2"
     ]
+  },
+  "rich-text#titulobannerInferior": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Colección de Temporada",
+      "blockClass": "headingLevel2"
+    }
   },
   "image#bannerSlim2": {
     "props": {
@@ -260,67 +284,126 @@
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"seccion-newsletter"
     },
-
     "children": [
-      "rich-text#newsletter-text1",
-      "newsletter",
+      "flex-layout.col#texto1",
+      "flex-layout.col#formulario",
+      "flex-layout.col#texto2"
+    ]
+  },
+  "flex-layout.col#texto1": {
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "rich-text#newsletter-text1"
+    ]
+  },
+  "flex-layout.col#formulario": {
+    "children": [
+      "newsletter"
+    ]
+  },
+  "newsletter":{
+"props":{
+  "hideLabel":true
+}
+  },
+  "flex-layout.col#texto2": {
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "left"
+    },
+    "children": [
       "rich-text#newsletter-text2"
     ]
   },
   "rich-text#newsletter-text1": {
     "props": {
-      "text": "Regístrate y sé el primero en recibir noticias de ofertas y promociones especiales",
+      "text": "Regístrate y sé el primero en \n recibir noticias de ofertas y \n promociones especiales",
       "blockClass": "newsletter-izquierdo"
     }
   },
   "rich-text#newsletter-text2": {
     "props": {
-      "text": "Al registrar tu correo electrónico aceptas los terminos y condiciones",
+      "text": "Al registrar tu correo \n electrónico aceptas \n los terminos y condiciones",
       "blockClass": "newsletter-2"
     }
   },
   "rich-text#link": {
     "props": {
-      "text": "\n*Sígue Nuestras Redes Sociales*\n",
-      "blockClass": "link"
+      "text": "Sígue Nuestras Redes Sociales",
+      "blockClass": "titulo-redes",
+      "textAlignment":"CENTER"
     }
   },
   "flex-layout.row#redessociales": {
     "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#logoface",
+      "rich-text#fb",
+      "flex-layout.col#spacermini",
+      "flex-layout.col#logoinsta",
+      "rich-text#ig",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacermini":{
+"props":{
+  "blockClass":"espaciado"
+}
+  },
+  "flex-layout.col#logoface": {
+    "props": {
+      "blockClass": "logo1",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": [
-      "image#redesfb",
-      "rich-text#fb",
-      "image#redesig",
-      "rich-text#ig"
+      "image#logoface"
     ]
   },
-  "image#redesfb": {
+  "image#logoface": {
     "props": {
-      "blockClass": "Img-fb",
+      "blockClass": "Imagenetiquetaredes",
       "src": "assets/face-pink.png"
+    }
+  },
+  "flex-layout.col#logoinsta": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logoinsta"
+    ]
+  },
+  "image#logoinsta": {
+    "props": {
+      "blockClass": "Imagenetiquetaredes-i",
+      "src": "assets/insta-pink.png"
     }
   },
   "rich-text#fb": {
     "props": {
-      "blockClass": "Facebook",
+      "blockClass":"texto-redes",
       "text": " @LiliPinkColombia "
-    }
-  },
-  "image#redesig": {
-    "props": {
-      "blockClass": "Img-ig",
-      "src": "assets/insta-pink.png"
     }
   },
   "rich-text#ig": {
     "props": {
-      "blockClass": "Instagram",
-      "text": "@Lilipinkcol"
+      "blockClass":"texto-redes",
+      "text": " @Lilipinkcol"
     }
   }
-
+}
