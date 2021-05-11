@@ -12,3 +12,7 @@
   font-family: 'Monserrat-bold';
   src: url(assets/fonts/Montserrat-Bold.ttf);
 }
+@font-face {
+  font-family: 'iconos-login';
+  src: url(assets/fonts/iconos-login.woff);
+}
