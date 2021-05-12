@@ -77,3 +77,41 @@
     border: solid 1px #000;
 
 }
+.googleOptionBtn :global(.vtex-button__label) {
+    display: none;
+}
+.facebookOptionBtn :global(.vtex-button__label) {
+    display: none;
+}
+.googleOptionBtn :global(.vtex-button)::before {
+    content: "\e901";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    margin-left: 11px;
+}
+.googleOptionBtn :global(.vtex-button)::after {
+    content: "Ingresar con Google";
+    font-size: 16px;
+    color: #979899;
+    text-transform: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.facebookOptionBtn :global(.vtex-button)::before {
+    content: "\e900";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #e4147e;
+    margin-left: 11px;
+}
+.facebookOptionBtn :global(.vtex-button)::after {
+    content: "Ingresar con Facebook";
+    font-size: 16px;
+    color: #979899;
+    text-transform: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 6px;
+}

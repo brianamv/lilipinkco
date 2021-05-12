@@ -14,7 +14,9 @@
     "header-layout.desktop#yoi": {
       "children": [
         "flex-layout.row#3-desktop",
-        "sticky-layout#4-desktopYoi",
+        //"sticky-layout#4-desktopYoi",
+        "flex-layout.row#5-desktopYoi",
+        "flex-layout.row#4-desktopYoi",
         //"flex-layout.row#4-desktopYoi",
          "flex-layout.row#6-desktopYoi"
         
@@ -90,8 +92,7 @@
         "blockClass": "sticky-header"
       },
       "children": [
-        "flex-layout.row#5-desktopYoi",
-        "flex-layout.row#4-desktopYoi"
+        
       ]
     },
     "flex-layout.row#5-desktopYoi": {
@@ -245,7 +246,7 @@
     "drawer": {
       "children": ["menu#drawer"]
     },
-  
+    
     "menu#drawer": {
       "children": [
         "menu-item#category-brasieres",

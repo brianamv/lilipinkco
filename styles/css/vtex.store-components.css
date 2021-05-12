@@ -1,6 +1,6 @@
 .notificationBarContainer {
   background-color: #e6f1e6;
-  color: #03034e;
+  color: #f71963;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -248,4 +248,7 @@
   right: inherit ;
   font-size: 18px;
 
+  }
+  .productBrandName--summaryListDesktop{
+    color: #757575!important;
   }
