@@ -168,3 +168,9 @@
 .flexCol--espaciado{
   width: 60px !important;
 }
+
+.flexColChild--espacio-paginacion :global(.vtex-button){
+  width: 100%; 
+  background-color:#f4f4f4 ;
+  margin-top: -3rem;
+}

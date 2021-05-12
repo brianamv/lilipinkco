@@ -221,3 +221,7 @@ font-family: "Monserrat-bold";
   color:#fff;
   font-family: 'Monserrat-bold' ;
 }
+.paragraph--titulo-colores{
+  color: #000; 
+  font-size: 1rem;
+}

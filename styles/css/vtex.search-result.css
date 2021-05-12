@@ -166,6 +166,7 @@
   align-items: center;
   padding: 5px 7px 5px 0;
   margin: 5px 5px 5px 5px;
+  
 }
 
 .filter__container--specificationFilter_91 {
@@ -179,11 +180,12 @@
   display: inline-block;
   width: auto;
   height: auto;
-  border: 1px solid #757575;
+  border: 1px solid #f2f4f5;
   font-size: 15px;
   align-items: center;
   padding: 5px 7px 5px 0;
   margin: 5px 5px 5px 5px;
+  border-radius: 3px;
 }
 
 .filter__container--specificationFilter_93 {
@@ -254,3 +256,64 @@
   text-indent: -99999px;
   border-radius: 100%;
 }*/
+.filter__container--c .filterTitle{
+  font-size: 0px;
+}
+.filter__container--specificationFilter_90 :global(.vtex-checkbox__label){
+ color: #757575;
+}
+.filter__container--specificationFilter_18 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_19 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_20 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_21 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_22 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_23 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--b {
+  color: #757575;
+  display: none;
+ }
+ .filter__container--specificationFilter_92 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .filter__container--specificationFilter_93 :global(.vtex-checkbox__label){
+  color: #757575;
+ }
+ .categoryGroup .categoryItemName{
+   color: #757575;
+ }
+ .filterPopupTitle{
+   color: #757575;
+   font-family: 'Monserrat-bold';
+ }
+ .caretIcon{
+   color: #757575;
+ }
+.orderByOptionItem{
+   color: #757575!important; 
+  }
+  .orderByOptionItem:nth-child(7n){
+   display: none;   
+  }
+  .orderByOptionItem:nth-child(8n){
+    display: none;   
+   }
+   .buttonShowMore{
+     margin-bottom: 50px;
+     background-color: #f4f4f4;
+     width: 300px;
+   }
+   .galleryTitle--layout{
+     display: none;
+   }
