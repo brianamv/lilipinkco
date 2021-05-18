@@ -95,6 +95,14 @@
     ]
   },
 
+  "add-to-cart-button":{
+    "props":{
+      "text":"AGREGAR A TU CARRITO"
+    }
+  },
+
+
+
   "product-summary-image#shelf": {
     "props": {
       "showBadge": true, 

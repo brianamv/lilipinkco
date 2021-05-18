@@ -6,10 +6,10 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       //"product-specification-group#table",
-      "flex-layout.row#shelf",
-      "product-reviews",
-      "product-questions-and-answers",
-      "shelf.relatedProducts"
+      //"flex-layout.row#shelf",
+      //"product-reviews",
+      //"product-questions-and-answers",
+      "shelf.relatedProducts" 
     ],
     "parent": {
       "header": "header.empty",
@@ -114,6 +114,7 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
+      "disclosure-layout#first1",
       "product-quantity",
       "product-availability",
       "product-assembly-options",
@@ -122,8 +123,8 @@
       "flex-layout.col#productos",
       "availability-subscriber",
       //"shipping-simulator",
-      "share#default",
-      "shelf.relatedProducts"
+      "share#default" 
+      //"shelf.relatedProducts"
     ]
   },
 
@@ -166,8 +167,10 @@
 },
 
 "disclosure-layout-group#productos": {
-  "children": [
-    "disclosure-layout#first1"
+  "children": [ 
+    "disclosure-layout#descripcion",
+    "disclosure-layout#producto-especificacion"
+  
   ]
 },
 
@@ -182,12 +185,14 @@
     "blockClass": "question",
     "as": "div"
   },
-  "children": ["disclosure-state-indicator","rich-text#Guia"]
+  "children": ["rich-text#Guia","disclosure-state-indicator"]
 },
 "rich-text#Guia": {
   "props": {
-    "text": "Guia De Tallas"
+    "text": "Guia De Tallas ",
+  "blockClass": "guia"
   }
+  
 },
 "disclosure-content#first": {
   "props": {
@@ -229,6 +234,62 @@
 
   }
 },
+
+"disclosure-layout#descripcion": {
+  "props": {
+    "animated": true
+  },
+  "children": ["disclosure-trigger#descripcion", "disclosure-content#descripcion"]
+},
+"disclosure-trigger#descripcion": {
+  "props": {
+    "blockClass": "question",
+    "as": "div"
+  },
+  "children": ["rich-text#descripcion","disclosure-state-indicator"]
+},
+"rich-text#descripcion": {
+  "props": {
+    "text": "Descripción del Producto",
+    "blockClass": "guia"
+  }
+  
+},
+"disclosure-content#descripcion": {
+  "props": {
+    "blockClass": "answer"
+  },
+  "children": ["product-description"]
+},
+
+
+"disclosure-layout#producto-especificacion": {
+  "props": {
+    "animated": true
+  },
+  "children": ["disclosure-trigger#producto-especificacion", "disclosure-content#producto-especificacion"]
+},
+"disclosure-trigger#producto-especificacion": {
+  "props": {
+    "blockClass": "question",
+    "as": "div"
+  },
+  "children": ["rich-text#producto-especificacion","disclosure-state-indicator"]
+},
+"rich-text#producto-especificacion": {
+  "props": {
+    "text": "Especificación del Producto",
+    "blockClass": "guia"
+  }
+  
+},
+"disclosure-content#producto-especificacion": {
+  "props": {
+    "blockClass": "answer"
+  },
+  "children": ["product-specification-group#table"]
+},
+
 /*tallapanty*/
 "tab-layout#bra": {
   "children": [
@@ -237,10 +298,13 @@
   ],
   "props": {
     "blockClass": "Tab-guia",
-    "defaultActiveTabId": "Tab-guia"
+    "defaultActiveTabId": "bra"
   }
 },
 "tab-list#pageBra":{
+  "props":{
+    "blockClass":"boton-tallas"
+  },
   "children": [
     "tab-list.item#bra",
     "tab-list.item#panty"
@@ -249,14 +313,14 @@
 "tab-list.item#bra": {
   "props": {
     "tabId": "bra",
-    "label": "BRA",
-    "defaultActiveTab": false
+    "label": "BRASIER",
+    "defaultActiveTab": true
   }
 },
 "tab-list.item#panty": {
   "props": {
     "tabId": "home1",
-    "label": "PANTYS"
+    "label": "PANTY"
   }
 },
 "tab-content#GuiaDeTalla": {
@@ -308,7 +372,11 @@
   },
   "children": ["flex-layout.col#imagen-panty"]
 },
-
+"add-to-cart-button":{
+  "props":{
+    "text":"AGREGAR A TU CARRITO"
+  }
+},
 "flex-layout.col#imagen-panty": {
   "children": ["image#panty-2"],
   "props": {

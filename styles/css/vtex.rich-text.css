@@ -225,3 +225,7 @@ font-family: "Monserrat-bold";
   color: #000; 
   font-size: 1rem;
 }
+.paragraph--guia{
+  color: #757575;
+  margin-right: 10px;
+}

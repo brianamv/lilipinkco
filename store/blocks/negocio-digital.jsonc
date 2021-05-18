@@ -1,0 +1,18 @@
+{
+    "store.custom#negocio-digital":{
+        "blocks":[ 
+            "flex-layout.row#banner-negocio"
+        ]
+
+    },
+    "flex-layout.row#banner-negocio":{
+        "children":[
+            "image#banner-principal"
+        ]
+    },
+    "image#banner-principal":{
+        "props":{
+            "scr":"assets/negocio-digital/banner1.jpg"
+        }
+    }
+}
