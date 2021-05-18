@@ -5,7 +5,7 @@
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
-      "product-specification-group#table",
+      //"product-specification-group#table",
       "flex-layout.row#shelf",
       "product-reviews",
       "product-questions-and-answers",
@@ -37,7 +37,7 @@
     "props": {
       "marginBottom": 7
     },
-    "children": ["product-description"]
+    "children": []
   },
 
   "flex-layout.row#product-main": {
@@ -182,24 +182,138 @@
     "blockClass": "question",
     "as": "div"
   },
-  "children": ["disclosure-state-indicator", "rich-text#talla"]
+  "children": ["disclosure-state-indicator","rich-text#Guia"]
+},
+"rich-text#Guia": {
+  "props": {
+    "text": "Guia De Tallas"
+  }
 },
 "disclosure-content#first": {
   "props": {
     "blockClass": "answer"
   },
-  "children": ["image#bra-2"]
+  "children": ["tab-layout#bra"]
 },
 
 "image#bra-2": {
   "props": {
-    "src": "assets/guiadetallas.jpg"
+    "src": "assets/tallas-bra.jpg"
 
   }
 },
-"rich-text#talla": {
+/*tallapanty*/
+"disclosure-layout#first1panty": {
   "props": {
-    "text": "Guía de tallas"
+    "animated": true
+  },
+  "children": ["disclosure-trigger#firstpanty", "disclosure-content#firstpanty"]
+},
+"disclosure-trigger#firstpanty": {
+  "props": {
+    "blockClass": "question",
+    "as": "div"
+  },
+  "children": ["disclosure-state-indicator"]
+},
+"disclosure-content#firstpanty": {
+  "props": {
+    "blockClass": "answer"
+  },
+  "children": ["image#panty-2"]
+},
+
+"image#panty-2": {
+  "props": {
+    "src": "assets/tallas-panty.jpg"
+
+  }
+},
+/*tallapanty*/
+"tab-layout#bra": {
+  "children": [
+    "tab-list#pageBra",
+    "tab-content#GuiaDeTalla"
+  ],
+  "props": {
+    "blockClass": "Tab-guia",
+    "defaultActiveTabId": "Tab-guia"
+  }
+},
+"tab-list#pageBra":{
+  "children": [
+    "tab-list.item#bra",
+    "tab-list.item#panty"
+  ]
+},
+"tab-list.item#bra": {
+  "props": {
+    "tabId": "bra",
+    "label": "BRA",
+    "defaultActiveTab": false
+  }
+},
+"tab-list.item#panty": {
+  "props": {
+    "tabId": "home1",
+    "label": "PANTYS"
+  }
+},
+"tab-content#GuiaDeTalla": {
+  "children": [
+    "tab-content.item#bra",
+    "tab-content.item#panty"
+  ]
+},
+"tab-content.item#bra": {
+  "children": [
+    "flex-layout.row#bra"
+
+  ],
+  "props": {
+    "tabId": "bra"
+  }
+},
+"tab-content.item#panty": {
+  "children": [
+    "flex-layout.row#panty"
+
+  ],
+  "props": {
+    "tabId": "home1"
+  }
+},
+
+"flex-layout.row#bra": {
+  "props": {
+    "verticalAlign": "middle",
+    "horizontalAlign": "center"
+
+  },
+  "children": ["flex-layout.col#imagen-bra"]
+},
+
+"flex-layout.col#imagen-bra": {
+  "children": ["image#bra-2"],
+  "props": {
+    "blockclass": "textColumn",
+    "preventVerticalStretch": true
+  }
+},
+"flex-layout.row#panty": {
+  "props": {
+    "verticalAlign": "middle",
+    "horizontalAlign": "center"
+
+  },
+  "children": ["flex-layout.col#imagen-panty"]
+},
+
+"flex-layout.col#imagen-panty": {
+  "children": ["image#panty-2"],
+  "props": {
+    "blockclass": "textColumn",
+    "preventVerticalStretch": true
   }
 },
 

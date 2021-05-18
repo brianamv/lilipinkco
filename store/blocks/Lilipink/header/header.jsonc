@@ -226,8 +226,9 @@
     "props": {
       "src": "assets/logo-header.png",
       "maxHeight": "35px",
-      "link":"/"     
-
+      "link":{
+        "url":"http://lilipinkco.myvtex.com"
+      }     
     }
   },
   "header-layout.mobile": {
