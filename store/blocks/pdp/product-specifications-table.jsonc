@@ -1,7 +1,7 @@
 {
   "product-specification-group#table": {
     "children": [
-      "flex-layout.row#spec-group"
+      "flex-layout.row#spec-group" 
     ]
   },
   "flex-layout.row#spec-group": {

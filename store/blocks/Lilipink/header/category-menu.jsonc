@@ -8094,7 +8094,7 @@
       "menu-item#socialseller"
     ]
   },
-  "menu-item#tiendas": {
+  "menu-item#tiendas": { 
     "props": {
       "blockClass": "tituloMenu",
       "id": "menu-item-tiendas",

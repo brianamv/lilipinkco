@@ -1,9 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#socialseller",
-      "menu-item#tiendas",
-      "menu-item#credipink"
+      "menu-item#socialseller"
     ]
   },
 

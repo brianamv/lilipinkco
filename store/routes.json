@@ -46,6 +46,9 @@
   },
   "store.custom#guia-de-tallas":{
     "path": "/guia-de-talla"
+  },
+  "store.custom#negocio-digital":{
+    "path": "/negocio-digital"
   }
 
 }

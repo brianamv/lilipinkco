@@ -88,12 +88,14 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#superintendencia"]
+    "children": ["image#superintendencia1"]
   },
-  "image#superintendencia": {  
+  "image#superintendencia1": {  
     "props": {  
       "src": "assets/logo-sic1.png",
-      "link": "https://www.sic.gov.co/" 
+      "link":{
+        "url":"https://www.sic.gov.co/"
+      } 
     }  
   },
   "vtex.menu@2.x:menu#espacio": {

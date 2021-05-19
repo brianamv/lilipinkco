@@ -252,3 +252,12 @@
   .productBrandName--summaryListDesktop{
     color: #757575!important;
   }
+  .skuSelectorItemTextValue{ 
+    color: #757575;
+  }
+  .productDescriptionTitle{
+    display: none;
+  }
+  .content{
+    font-family: 'Monserrat-regular';
+  }
