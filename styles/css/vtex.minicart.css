@@ -14,3 +14,6 @@
 }
 .minicartCheckoutButton :global(.vtex-button__label){
 font-size: 0px;}
+.minicartTitle{
+    color: #757575;
+}
