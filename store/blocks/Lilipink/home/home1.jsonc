@@ -75,6 +75,7 @@
     "props": {
       "height": 500,
       "images": []
+
     }
   },
   "slider-layout#demo-images": {
@@ -116,7 +117,8 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "category":"168"
     }
   },
   "slider-layout#demo-products": {

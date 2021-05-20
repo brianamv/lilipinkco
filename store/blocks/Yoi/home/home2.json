@@ -97,13 +97,14 @@
   }
 },
 "flex-layout.row#shelfYoi": {
-  "children": ["list-context.product-list#demo1"]
+  "children": ["list-context.product-list#demo1Yoi"]
 },
 "list-context.product-list#demo1Yoi": {
-  "blocks": ["product-summary.shelf"],
+  "blocks": ["product-summary.shelf#destacados-yoi"],
   "children": ["slider-layout#demo-products"],
   "props": {
-    "orderBy": "OrderByTopSaleDESC"
+    "orderBy": "OrderByTopSaleDESC",
+    "category": "169"
   }
 },
 "slider-layout#demo-productsYoi": {

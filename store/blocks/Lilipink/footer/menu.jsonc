@@ -132,7 +132,8 @@
       "menu-item#Condiciones-y-restricciones",
       "menu-item#políticas-de-Cambios-y-Devoluciones",
       "menu-item#Privacidad-de-la-Información",
-      "menu-item#Trabaja-con-nosotros"
+      "menu-item#Trabaja-con-nosotros",
+      "menu-item#politicas-envio"
 
     ]
   },
@@ -206,6 +207,22 @@
         "noFollow": true,
         "tagTitle": "Trabaja-con-nosotros",
         "text": "Trabaja con nosotros"
+      }
+    }
+  },
+  "menu-item#politicas-envio": {
+    "props": {
+      "blockClass": "items-footer",
+      "id": "menu-item-politicas-envio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Políticas de Envío",
+        "text": "Políticas de Envío"
       }
     }
   },

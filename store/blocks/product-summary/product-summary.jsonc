@@ -33,6 +33,22 @@
 
     ]
   },
+  "product-summary.shelf#destacados-yoi": {
+    "children": [
+
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-identifier.product",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-summary-sku-selector#destacados",
+      "add-to-cart-button",
+      "product-summary-add-to-list-button"    
+      
+
+    ]
+  },
 
 // SKU Selector Color
   "product-summary-sku-selector#search" : {

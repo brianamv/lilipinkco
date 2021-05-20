@@ -229,3 +229,9 @@ font-family: "Monserrat-bold";
   color: #757575;
   margin-right: 10px;
 }
+.paragraph--summarySpecificationBullet{
+  display: none;
+}
+.paragraph--texto-carrito{
+  color: #757575;
+}

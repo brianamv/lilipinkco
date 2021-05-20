@@ -9,6 +9,7 @@
       //"flex-layout.row#shelf",
       //"product-reviews",
       //"product-questions-and-answers",
+      //"flex-layout.row#detalle-especificacion",
       "shelf.relatedProducts" 
     ],
     "parent": {
@@ -16,6 +17,13 @@
       "footer": "footer#empty"
     }
   },
+
+  "flex-layout.row#detalle-especificacion":{
+    "children":[
+      "flex-layout.col#productos"
+    ]
+  },
+
   "flex-layout.row#specifications-title": {
     "children": [
       "rich-text#specifications"
