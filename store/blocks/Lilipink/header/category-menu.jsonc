@@ -87,12 +87,12 @@
       "menu-item#category-brasieres-bustier",
       "menu-item#category-brasieres-deportivo",
       "menu-item#category-brasieres-materno",
-      "menu-item#category-brasieres-media-copa",
-      "menu-item#category-brasieres-racerback",
+      //"menu-item#category-brasieres-media-copa",
+      //"menu-item#category-brasieres-racerback",
       "menu-item#category-brasieres-secret",
       "menu-item#category-brasieres-strapless",
-      "menu-item#category-brasieres-surtido",
-      "menu-item#category-brasieres-triangular",
+      //"menu-item#category-brasieres-surtido",
+      //"menu-item#category-brasieres-triangular",
       "menu-item#category-brasieres-sin-varilla",
       "menu-item#category-brasieres-conjuntos"
     ]
@@ -1219,8 +1219,8 @@
       "menu-item#category-panties-brasilera",
       "menu-item#category-panties-clasico",
       "menu-item#category-panties-culotte",
-      "menu-item#category-panties-hipster",
-      "menu-item#category-panties-surtido"
+      "menu-item#category-panties-hipster"
+      //"menu-item#category-panties-surtido"
     ]
   },
   "flex-layout.col#category-panties-3": {
@@ -1233,8 +1233,8 @@
       "menu-item#category-panties-Reducción-y-Control",
       "menu-item#category-panties-Levanta-Colas",
       "menu-item#category-panties-Postparto",
-      "menu-item#category-panties-Panties-Postoperatorios",
-      "menu-item#category-panties-Panties-Deportivos"
+      "menu-item#category-panties-Panties-Postoperatorios"
+      //"menu-item#category-panties-Panties-Deportivos"
     ]
   },
   "flex-layout.col#category-panties-4": {
@@ -1247,12 +1247,12 @@
       "menu-item#category-panties-Paquete-x-2",
       "menu-item#category-panties-Paquete-x-3",
       "menu-item#category-panties-Paquete-x-4",
-      "menu-item#category-panties-Semanario",
-      "rich-text#category-panties-Beneficios",
-      "menu-item#category-panties-Sin-Costuras",
-      "menu-item#category-panties-Corte-Laser-Termofusionado",
-      "menu-item#category-panties-Invisible",
-      "menu-item#category-panties-Control"
+      "menu-item#category-panties-Semanario"
+      //"rich-text#category-panties-Beneficios",
+      //"menu-item#category-panties-Sin-Costuras",
+      //"menu-item#category-panties-Corte-Laser-Termofusionado",
+      //"menu-item#category-panties-Invisible",
+      //"menu-item#category-panties-Control"
     ]
   },
   "flex-layout.col#category-panties-5": {
@@ -1811,7 +1811,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/lilipink/kids-teen/nina",
         "noFollow": false,
         "tagTitle": "niña",
         "text": "NIÑA"
@@ -1870,7 +1870,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/lilipink/kids-teen/junior",
         "noFollow": false,
         "tagTitle": "junior",
         "text": "JUNIOR"
@@ -1929,7 +1929,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/lilipink/kids-teen/teen",
         "noFollow": false,
         "tagTitle": "teen",
         "text": "TEEN"
@@ -6087,14 +6087,14 @@
     },
     "children": [
       "rich-text#category-tops-tipo",
-      "menu-item#category-tops-fashiontops",
-      "menu-item#category-tops-Cargadera-Ancha",
-      "menu-item#category-tops-Cargadera-Delgada",
+      //"menu-item#category-tops-fashiontops",
+      //"menu-item#category-tops-Cargadera-Ancha",
+      //"menu-item#category-tops-Cargadera-Delgada",
       "menu-item#category-tops-Crop-Top",
       "menu-item#category-tops-Deportivo",
       "menu-item#category-tops-Halter",
       "menu-item#category-tops-Racerback",
-      "menu-item#category-tops-Strapless",
+      //"menu-item#category-tops-Strapless",
       "menu-item#category-tops-Surtidotops",
       "menu-item#category-tops-Tanktop",
       "menu-item#category-tops-Top",
