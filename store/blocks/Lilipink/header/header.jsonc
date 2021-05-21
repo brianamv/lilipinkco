@@ -22,6 +22,7 @@
       //"flex-layout.row#1-desktop",
       //"flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
+      "sticky-layout#boton-flotante",
       //"sticky-layout#4-desktop",
       "flex-layout.row#5-desktop",
       "flex-layout.row#4-desktop",

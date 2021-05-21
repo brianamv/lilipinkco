@@ -345,7 +345,11 @@
   "image#logoface": {
     "props": {
       "blockClass": "Imagenetiquetaredes",
-      "src": "assets/face-pink.png"
+      "src": "assets/face-pink.png",
+      "link":{
+        "url":"https://www.facebook.com/LiliPinkColombia",
+        "openNewTab":true
+      }
     }
   },
   "flex-layout.col#logoinsta": {
@@ -361,19 +365,53 @@
   "image#logoinsta": {
     "props": {
       "blockClass": "Imagenetiquetaredes-i",
-      "src": "assets/insta-pink.png"
+      "src": "assets/insta-pink.png",
+      "link":{
+        "url":"https://www.instagram.com/lilipinkcol/",
+        "openNewTab":true
+      }
     }
   },
   "rich-text#fb": {
     "props": {
       "blockClass":"texto-redes",
-      "text": " @LiliPinkColombia "
+      "text": "[@LiliPinkColombia](https://www.facebook.com/LiliPinkColombia)"
     }
   },
   "rich-text#ig": {
     "props": {
       "blockClass":"texto-redes",
-      "text": " @Lilipinkcol"
+      "text": "[@Lilipinkcol](https://www.instagram.com/lilipinkcol/)"
+    }
+  },
+  "sticky-layout#boton-flotante":{
+    "children":[
+      "flex-layout.row#icono-flotante"
+    ]
+  },
+  "flex-layout.row#icono-flotante":{
+    "props":{
+      "marginTop":4,
+      "marginBottom":7,
+      "padding-Bottom":2
+    },
+    "children":[
+      "link.product#linkflotante"
+    ]
+  },
+  "link.product#linkflotante":{
+    "props":{
+      "href":"https://wa.me/5715140339?text=Hola Lili Pink",
+      "target":"_blank"
+    },
+    "children":[
+      "image#iconoflotante"
+    ]
+  },
+  "image#iconoflotante":{
+    "props":{
+     "blockClass":"flotante",
+     "src":"assets/icono-flotante.png"
     }
   }
 }

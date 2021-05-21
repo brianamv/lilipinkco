@@ -200,6 +200,11 @@ font-family: "Monserrat-bold";
   font-size: 20px;
   color: #727272;
 }
+.link--texto-redes{
+  text-decoration: none !important;
+  font-size: 20px;
+  color: #727272;
+}
 .container--titulo-redes{
    font-size: 30px;
    font-family: 'Monserrat-bold';
@@ -234,4 +239,20 @@ font-family: "Monserrat-bold";
 }
 .paragraph--texto-carrito{
   color: #757575;
+}
+.paragraph--titulo-landing{
+  color: #000;
+  font-size: 30px;
+  font-family: 'Monserrat-bold' ;
+}
+.paragraph--texto-landing{
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular' ;
+  text-align: justify;
+}
+.paragraph--titulo-peque-landing{
+  color: #757575;
+  font-size: 20px;
+  font-family: 'Monserrat-bold' ;
 }
