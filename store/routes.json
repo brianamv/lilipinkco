@@ -46,13 +46,6 @@
   },
   "store.custom.guia-de-tallas":{
     "path": "/guia-de-talla"
-  },
-  "store.custom#negocio-digital":{
-    "path": "/negocio-digital"
-  },
-  "store.custom.políticas-de-envio":{
-    "title":"Políticas de envío",
-    "path": "/politicas-de-envio"
   }
 
 }

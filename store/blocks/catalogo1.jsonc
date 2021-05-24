@@ -1,7 +1,19 @@
 {
-    "store.custom.catalogo-1":{
-        "blocks":[
-            
-        ]
+  "store.custom.catalogo-1": {
+    "blocks": [
+      "flex-layout.row#catalogo"
+    ]
+  },
+  "flex-layout.row#catalogo": {
+    "children": [
+      "image#calatoo"
+    ]
+  },
+  "image#calatoo": {
+    "props": {
+      "src": "assets/banner-4f.jpg",
+      "maxHeight": 300
     }
+  }
+
 }
