@@ -11,25 +11,25 @@
   "store.custom#tiendas": {
     "path": "/tiendas"
   },
-  "store.custom#quienes-somos": {
+  "store.custom.quienes-somos": {
     "path": "/quienes-somos"
   },
-  "store.custom#promociones": {
+  "store.custom.promociones": {
     "path": "/promociones"
   },
-  "store.custom#preguntas-frecuentes": {
+  "store.custom.preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
   },
-  "store.custom#condiciones-y-restricciones": {
+  "store.custom.condiciones-y-restricciones": {
     "path": "/condiciones-y-restricciones"
   },
   "store.custom#cambios-y-devoluciones": {
     "path": "/cambios-y-devoluciones"
   },
-  "store.custom#privacidad-de-la-informacion": {
+  "store.custom.privacidad-de-la-informacion": {
     "path": "/privacidad-de-la-informacion"
   },
-  "store.custom#trabaja-con-nosotros": {
+  "store.custom.trabaja-con-nosotros": {
     "path": "/trabaja-con-nosotros"
   },
   "store.custom#servicio-al-cliente": {
@@ -41,14 +41,18 @@
   "store.custom#giftcard":{
     "path": "/gift-card"
   },
-  "store.custom#politica-cambios-garantias-lili":{
+  "store.custom.politica-cambios-garantias-lili":{
     "path": "/politica-cambios-garantias-lili"
   },
-  "store.custom#guia-de-tallas":{
+  "store.custom.guia-de-tallas":{
     "path": "/guia-de-talla"
   },
   "store.custom#negocio-digital":{
     "path": "/negocio-digital"
+  },
+  "store.custom.políticas-de-envio":{
+    "title":"Políticas de envío",
+    "path": "/politicas-de-envio"
   }
 
 }

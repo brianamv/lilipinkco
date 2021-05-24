@@ -1,6 +1,6 @@
 
 {
-    "store.custom#preguntas-frecuentes":{
+  "store.custom.preguntas-frecuentes":{
       "blocks": [
         "flex-layout.row#faq"
         

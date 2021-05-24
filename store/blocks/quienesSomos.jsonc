@@ -1,6 +1,6 @@
 
 {
-  "store.custom#quienes-somos":{
+  "store.custom.quienes-somos":{
     "blocks": [        
       "flex-layout.row#quienesSomos",
       "flex-layout.row#textos1",

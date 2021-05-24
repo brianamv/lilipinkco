@@ -1,6 +1,6 @@
 
 {
-  "store.custom#guia-de-tallas": {
+  "store.custom.guia-de-tallas": {
     "blocks": [
       "flex-layout.row#titulo-guiadetallas",
       "flex-layout.row#imagenguiadetallas",

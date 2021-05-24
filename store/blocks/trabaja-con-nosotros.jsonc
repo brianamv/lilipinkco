@@ -1,6 +1,6 @@
 
 {
-    "store.custom#trabaja-con-nosotros":{
+    "store.custom.trabaja-con-nosotros":{
         "blocks": [
           
             "flex-layout.row#tiendasa",
