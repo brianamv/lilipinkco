@@ -65,6 +65,7 @@
     "vtex.category-menu": "2.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-availability": "0.x",
+    "vtex.iframe": "0.x",
     "lilipinkco.filters": "0.x",
     "lilipinkco.multihome": "0.x",
     "lilipinkco.multihomecustom": "0.x"

@@ -49,10 +49,19 @@
     "store.custom.negocio-digital": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.catalogo": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "store.custom.catalogo-1": {
         "around": ["multi-home-wrapper.custom"]
     },
     "store.custom.catalogo-2": {
+        "around": ["multi-home-wrapper.custom"]
+    },
+    "store.custom.catalogo-3": {
+        "around": ["multi-home-wrapper.custom"]
+    },
+    "store.custom.catalogo-4": {
         "around": ["multi-home-wrapper.custom"]
     },
     "header.yoi": {},
