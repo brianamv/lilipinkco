@@ -9,13 +9,15 @@
 .sliderTrackContainer {
   max-width: 100% !important;
 }
+/* carrusel guia de tallas */
 .sliderTrackContainer .slideChildrenContainer--carouseltips {
   max-width: 900px !important;
   margin: 0 auto;
 }
-/*.sliderTrackContainer :global(.vtex-store-components-3-x-imageElement) {
+/* carrusel home full width */
+.sliderTrackContainer .slideChildrenContainer--carousel :global(.vtex-store-components-3-x-imageElement) {
   width: 100% !important;
-}*/
+}
 
 .paginationDotsContainer {
   margin-top: .5rem;
