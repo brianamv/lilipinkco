@@ -4,7 +4,20 @@
     "blocks": [
       "flex-layout.row#titulo-guiadetallas",
       "flex-layout.row#imagenguiadetallas",
-
+      "flex-layout.row#carousel-tips"
+      
+    ]
+  },
+  "flex-layout.row#carousel-tips":{
+    "children":[
+      "flex-layout.col#carousel-tips"
+    ],
+    "props":{
+      "marginBottom":8
+    }
+  },
+  "flex-layout.col#carousel-tips":{
+    "children":[
       "list-context.image-list#guiadetallas"
     ]
   },
@@ -18,14 +31,15 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-2",
-      "text": "Guia de tallas y medidas"
+      "text": "GUIA DE TALLAS",
+      "blockClass":"titulo-landing"
     }
   },
   "flex-layout.row#imagenguiadetallas": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"tallas-landing"
     },
     "children": [
       "flex-layout.col#imagenguiadetallas"
@@ -37,13 +51,108 @@
       "horizontalAlign": "center"
     },
     "children": [
-      "image#imagenguiadetallas"
+      "tab-layout#bragrande"
     ]
   },
-  "image#imagenguiadetallas": {
+
+  "tab-layout#bragrande": {
+    "children": [
+      "tab-list#pageBragrande",
+      "tab-content#GuiaDeTallagrande"
+    ],
     "props": {
-      "src": "assets/guiadetallas.jpg",
-      "href": "/guia-de-talla"
+      "blockClass": "Tab-guia",
+      "defaultActiveTabId": "bra"
+    }
+  },
+  "tab-list#pageBragrande":{
+    "props":{
+      "blockClass":"boton-tallas"
+    },
+    "children": [
+      "tab-list.item#bragrande",
+      "tab-list.item#pantygrande"
+    ]
+  },
+  "tab-list.item#bragrande": {
+    "props": {
+      "tabId": "bra",
+      "label": "BRASIER",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#pantygrande": {
+    "props": {
+      "tabId": "home1",
+      "label": "PANTY"
+    }
+  },
+  "tab-content#GuiaDeTallagrande": {
+    "children": [
+      "tab-content.item#bragrande",
+      "tab-content.item#pantygrande"
+    ]
+  },
+  "tab-content.item#bragrande": {
+    "children": [
+      "flex-layout.row#bragrande"
+  
+    ],
+    "props": {
+      "tabId": "bra"
+    }
+  },
+  "tab-content.item#pantygrande": {
+    "children": [
+      "flex-layout.row#pantygrande"
+  
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  
+  "flex-layout.row#bragrande": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+  
+    },
+    "children": ["flex-layout.col#imagen-bragrande"]
+  },
+  
+  "flex-layout.col#imagen-bragrande": {
+    "children": ["image#bra-2grande"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#bra-2grande": {
+    "props": {
+      "src": "assets/bra-grande.jpg"
+  
+    }
+  },
+  "flex-layout.row#pantygrande": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+  
+    },
+    "children": ["flex-layout.col#imagen-pantygrande"]
+  },
+  "flex-layout.col#imagen-pantygrande": {
+    "children": ["image#panty-2grande"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#panty-2grande": {
+    "props": {
+      "src": "assets/panty-grande.jpg"
+  
     }
   },
   //tips
@@ -108,8 +217,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "showNavigationArrows": "never",
+      "blockClass": "carouseltips"
     }
   }
 }

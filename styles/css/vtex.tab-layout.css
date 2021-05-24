@@ -27,3 +27,33 @@
     margin: 0px !important;
     width: 50%;
 }
+
+
+
+
+.listContainer--tabs-promociones .listItemActive :global(.vtex-button){
+    background-color: #efefef;
+    border: none !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    width: 100%;
+    color: #757575;
+    font-family: 'Monserrat-bold';
+}
+.listContainer--tabs-promociones .listItem :global(.vtex-button){
+    border: none !important;
+    width: 100%;
+    color: #757575;
+    font-family: 'Monserrat-bold';
+}
+.listContainer--tabs-promociones .listItemActive{
+    padding-left: 0px !important;
+    margin: 0px !important;
+    width: 25%;
+}
+.listContainer--tabs-promociones .listItem{
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 25%;
+}

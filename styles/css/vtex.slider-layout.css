@@ -9,9 +9,13 @@
 .sliderTrackContainer {
   max-width: 100% !important;
 }
-.sliderTrackContainer :global(.vtex-store-components-3-x-imageElement) {
-  width: 100% !important;
+.sliderTrackContainer .slideChildrenContainer--carouseltips {
+  max-width: 900px !important;
+  margin: 0 auto;
 }
+/*.sliderTrackContainer :global(.vtex-store-components-3-x-imageElement) {
+  width: 100% !important;
+}*/
 
 .paginationDotsContainer {
   margin-top: .5rem;

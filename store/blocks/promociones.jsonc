@@ -25,7 +25,10 @@
         "tab-list.item#TiendaFisica",
         "tab-list.item#NegocioDigital",
         "tab-list.item#Redes"
-      ]   
+      ],
+      "props":{
+        "blockClass":"tabs-promociones"
+      }   
     },
     "tab-list.item#PaginaWeb": {
       "props": {
@@ -200,7 +203,7 @@
 
     "rich-text#webPromociones1": {
       "props": {
-        "text": "• Válido del 19 de marzo desde e las 12:01 am hasta el 28 de marzo a las 11:59 pm únicamente. \n• Aplica solo en www.lilipink.com\n • No aplica en tiendas físicas\n • Descuento de hasta 40% aplicable en toda la tienda y sus productos publicados con etiqueta del descuento de la actividad\n • 256.761 unidades disponibles para esta promoción o hasta agotar existencias destinadas para esta promoción\n • NO acumulable con otras promociones o descuentos\n • No aplica para compras anteriores, ni posteriores. así como tampoco aplica para compras realizadas en tiendas físicas • En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Los medios de pago aceptados son los indicados en la sección condiciones y restricciones en el numeral quinto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web [AQUÍ](https://angie--mqaenvironment.myvtex.com/politica-cambios-garantias-lili)",
+        "text": "• Válido del 19 de marzo desde e las 12:01 am hasta el 28 de marzo a las 11:59 pm únicamente. \n• Aplica solo en www.lilipink.com\n • No aplica en tiendas físicas\n • Descuento de hasta 40% aplicable en toda la tienda y sus productos publicados con etiqueta del descuento de la actividad\n • 256.761 unidades disponibles para esta promoción o hasta agotar existencias destinadas para esta promoción\n • NO acumulable con otras promociones o descuentos\n • No aplica para compras anteriores, ni posteriores. así como tampoco aplica para compras realizadas en tiendas físicas • En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Los medios de pago aceptados son los indicados en la sección condiciones y restricciones en el numeral quinto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web [AQUÍ](https://angie--mqaenvironment.myvtex.com/politica-cambios-garantias-lili)\n valeria",
         "blockClass": "web-promociones"
       }
     },

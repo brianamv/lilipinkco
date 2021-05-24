@@ -27,7 +27,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/quienes-somos",
+        "href": "/quienessomos",
         "noFollow": false,
         "tagTitle": "Quienes-somos",
         "text": "Quienes somos"
@@ -76,7 +76,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "guia-de-tallas",
+        "href": "guia-de-talla",
         "noFollow": false,
         "tagTitle": "Guía-de-Tallas-y-Tips",
         "text": "Guía de Tallas y Tips"
@@ -92,8 +92,10 @@
   },
   "image#superintendencia": {  
     "props": {  
-      "src": "assets/logo-sic1.png",
-      "link": "https://www.sic.gov.co/" 
+      "src": "assets/logo-sic1.png", 
+      "link":{
+        "url":"https://www.sic.gov.co/",
+        "openNewTab":true }
     }  
   },
   "vtex.menu@2.x:menu#espacio": {

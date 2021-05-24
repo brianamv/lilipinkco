@@ -18,164 +18,84 @@
   
     "flex-layout.col#faq": {
       "children": [
-        "rich-text#faq",
-        "disclosure-layout-group#group"
+        "rich-text#faq1",
+        "flex-layout.row#texto-preguntas"
       ]
     },
     
-    "rich-text#faq": {
+    "rich-text#faq1": {
       "props": {
-        "text": "## Preguntas Frecuentes"
+        "text": "PREGUNTAS FRECUENTES",
+        "blockClass": "titulo-landing"
       }
     },
-  
-    "disclosure-layout-group#group": {
+  "flex-layout.row#texto-preguntas":{
+    "children":[
+      "flex-layout.col#texto-preguntas"
+    ],
+    "props":{
+      "marginBottom":8
+    }
+  },
+  "flex-layout.col#texto-preguntas": {
       "children": [
-        "disclosure-layout#first",
-        "disclosure-layout#second",
-        "disclosure-layout#third",
-        "disclosure-layout#fourth"
+        "rich-text#titulopregunta1",
+        "rich-text#textopregunta1",
+        "rich-text#titulopregunta2",
+        "rich-text#textopregunta2",
+        "rich-text#titulopregunta3",
+        "rich-text#textopregunta3",
+        "rich-text#titulopregunta4",
+        "rich-text#textopregunta4"
       ]
     },
-  
-    "disclosure-layout#first": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#first", "disclosure-content#first"]
-    },
-    "disclosure-trigger#first": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question1"]
-    },
-    "disclosure-content#first": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer1"]
-    },
-    "rich-text#question1": {
-      "props": {
-        "text": "Tu Cuenta"
-      }
-    },
-    "rich-text#answer1": {
-      "props": {
-        "text": "Podrás crear tu cuenta ingresando en el home en la parte superior a “MI CUENTA”, se desplegarán las opciones para que la página te reconozca y guarde tus wishlist e información de pedidos:\n • Recibir la clave de acceso rápido por e-mail: ingresa tu correo electrónico y espera nuestro mensaje de confirmación con un código que deberás ingresar en la página web\n • Ingresar por Facebook\n• Ingresar con google registrará los datos de tu cuenta de correo electrónico\n• Ingresar con mail y contraseña: una vez estés registrado podrás ingresar con tu e-mail y contraseña"
-      }
-    },
-  
-    "disclosure-layout#second": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#second", "disclosure-content#second"]
-    },
-    "disclosure-trigger#second": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question2"]
-    },
-    "disclosure-content#second": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer2"]
-    },
-    "rich-text#question2": {
-      "props": {
-        "text": "Cupones De Descuento"
-      }
-    },
-    "rich-text#answer2": {
-      "props": {
-        "text": "Si tienes un cupón de descuento, realiza el proceso de la compra como lo haces normalmente: seleccionas producto, talla, color y cantidad; agregas al carrito de compras; sigues comprando productos que te interesen; cuando vayas a realizar el pago te diriges al carrito de compras y antes de dar click en “finalizar compra” hay un campo que te pedirá ingresar cupones de descuento si los tienes -recuerda respetar mayúsculas, minúsculas para que el cupón sea efectivo."
-        }
-    },
-  
-  
-    "disclosure-layout#third": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#third", "disclosure-content#third"]
-    },
-    "disclosure-trigger#third": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question3"]
-    },
-    "disclosure-content#third": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer3"]
-    },
-    "rich-text#question3": {
-      "props": {
-        "text": "Compras Emprendedoras"
-      }
-    },
-    "rich-text#answer3": {
-      "props": {
-        "text": "Si eres una Emprendedora Lili Pink podrás hacer tus pedidos comprando en esta página web:\n• Envía a tu red de compradoras las fotografías de los productos disponibles en la página web a través de redes -debajo de la información de cada producto podrás compartirlo por WhatsApp, Facebook o correo electrónico\n• Una vez tengas el pedido, empieza a agregar los productos al carrito de compras\n• Recuerda que el pedido debe superar los $300.000 para que se active el descuento del 25%\n• Una vez hayas terminado de seleccionar el producto, dirígete al carrito de compras;\nfinaliza la compra e ingresa tu correo electrónico\n• Al ingresar tu correo electrónico el descuento del 25% estará activo, ya que la página te identificara como una emprendedora\n• Si tienes el crédito emprendedora y vas a pagar con este medio, el departamento de emprendedoras se comunicara contigo para validar la compra y enviarte una\ndocumentación que debes diligenciar y enviar adjunta como una autorización validando tu identidad"
-      }
-    },
-  
-  
-    "disclosure-layout#fourth": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
-    },
-    "disclosure-trigger#fourth": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question4"]
-    },
-    "disclosure-content#fourth": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer4"]
-    },
-    "rich-text#question4": {
-      "props": {
-        "text": "IVA EN LOS PRODUCTOS"
-      }
-    },
-    "rich-text#answer4": {
-      "props": {
-        "text": "Todos los precios que encuentras en la página web cuentan con el IVA del 19% incluido."
-      }
-    },
-  
-  
-    "disclosure-state-indicator": {
-      "props": {
-        "Show": "icon-caret#down",
-        "Hide": "icon-caret#up"
-      }
-    },
-    "icon-caret#down": {
-      "props": {
-        "orientation": "down"
-      }
-    },
-    "icon-caret#up": {
-      "props": {
-        "orientation": "up"
-      }
-    }
+ "rich-text#titulopregunta1":{
+  "props":{
+    "text":"TU CUENTA",
+    "blockClass": "titulo-peque-landing"
+  }
+ },
+ "rich-text#textopregunta1":{
+  "props":{
+    "text":"Podrás crear tu cuenta ingresando en el home en la parte superior a “MI CUENTA”, se desplegarán las opciones para que la página te reconozca y guarde tus wishlist e información de pedidos:\n\n• Recibir la clave de acceso rápido por e-mail: ingresa tu correo electrónico y espera nuestro mensaje de confirmación con un código que deberás ingresar en la página web\n• Ingresar por Facebook\n• Ingresar con google registrará los datos de tu cuenta de correo electrónico\n• Ingresar con mail y contraseña: una vez estés registrado podrás ingresar con tu e-mail y contraseña\n",
+    "blockClass": "texto-landing"
+  }
+ },
+ "rich-text#titulopregunta2":{
+  "props":{
+    "text":"CUPONES DE DESCUENTO",
+    "blockClass": "titulo-peque-landing"
+  }
+ },
+ "rich-text#textopregunta2":{
+  "props":{
+    "text":"Si tienes un cupón de descuento, realiza el proceso de la compra como lo haces normalmente: seleccionas producto, talla, color y cantidad; agregas al carrito de compras; sigues comprando productos que te interesen; cuando vayas a realizar el pago te diriges al carrito de compras y antes de dar click en “finalizar compra” hay un campo que te pedirá ingresar cupones de descuento si los tienes -recuerda respetar mayúsculas, minúsculas para que el cupón sea efectivo.",
+    "blockClass": "texto-landing"
+  }
+ },
+ "rich-text#titulopregunta3":{
+  "props":{
+    "text":"COMPRAS EMPRENDEDORAS",
+    "blockClass": "titulo-peque-landing"
+  }
+ },
+ "rich-text#textopregunta3":{
+  "props":{
+    "text":"Si eres una Emprendedora Lili Pink podrás hacer tus pedidos comprando en esta página web:\n\n• Envía a tu red de compradoras las fotografías de los productos disponibles en la página web a través de redes -debajo de la información de cada producto podrás compartirlo por WhatsApp, Facebook o correo electrónico\n• Una vez tengas el pedido, empieza a agregar los productos al carrito de compras\n• Recuerda que el pedido debe superar los $300.000 para que se active el descuento del 25%\n• Una vez hayas terminado de seleccionar el producto, dirígete al carrito de compras; finaliza la compra e ingresa tu correo electrónico\n• Al ingresar tu correo electrónico el descuento del 25% estará activo, ya que la página te identificara como una emprendedora\n• Si tienes el crédito emprendedora y vas a pagar con este medio, el departamento de emprendedoras se comunicara contigo para validar la compra y enviarte una documentación que debes diligenciar y enviar adjunta como una autorización validando tu identidad",
+    "blockClass": "texto-landing"
+  }
+ },
+ "rich-text#titulopregunta4":{
+  "props":{
+    "text":"IVA EN LOS PRODUCTOS",
+    "blockClass": "titulo-peque-landing"
+  }
+ },
+ "rich-text#textopregunta4":{
+  "props":{
+    "text":"Todos los precios que encuentras en la página web cuentan con el IVA del 19% incluido.",
+    "blockClass": "texto-landing"
+  }
+ }
 }
   

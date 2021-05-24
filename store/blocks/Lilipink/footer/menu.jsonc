@@ -9,7 +9,7 @@
       "menu-item#Promociones",
       "menu-item#Preguntas-frecuentes",
       "menu-item#Guía-de-Tallas-y-Tips",
-      "flex-layout.row#imagenes-superintendencia"
+      "flex-layout.row#imagenes-superintendencia3"
     ]
   },
   "rich-text#Links-de-interes": {
@@ -18,7 +18,7 @@
       "text": "LINKS DE INTERES"
     }
   },
-  "menu-item#Quienes-somos": {
+  "menu-item#Quienes-somos1": {
     "props": {
       "blockClass": "items-footer",
       "id": "menu-item-Quienes-somos",
@@ -27,7 +27,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/quienes-somos",
+        "href": "/quienessomos",
         "noFollow": false,
         "tagTitle": "Quienes-somos",
         "text": "Quienes somos"
@@ -83,18 +83,19 @@
       }
     }  
   },
-  "flex-layout.row#imagenes-superintendencia": {
+  "flex-layout.row#imagenes-superintendencia3": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#superintendencia1"]
+    "children": ["image#superintendencia3"]
   },
-  "image#superintendencia1": {  
+  "image#superintendencia3": {  
     "props": {  
-      "src": "assets/logo-sic1.png",
+      "src": "assets/logo-sic1.png", 
       "link":{
-        "url":"https://www.sic.gov.co/"
+        "url":"https://www.sic.gov.co/",
+        "openNewTab":true
       } 
     }  
   },
@@ -335,7 +336,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#Quienes-somos",
+      "menu-item#Quienes-somos1",
       "menu-item#Promociones",
       "menu-item#Preguntas-frecuentes",
       "menu-item#Guía-de-Tallas-y-Tips"
