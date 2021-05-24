@@ -37,6 +37,8 @@
   },
   "flex-layout.row#imagenguiadetallas": {
     "props": {
+      "marginTop":7,
+      "marginBottom":7,
       "verticalAlign": "middle",
       "horizontalAlign": "center",
       "blockClass":"tallas-landing"

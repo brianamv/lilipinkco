@@ -247,12 +247,7 @@ font-family: "Monserrat-bold";
 }
 
 
-.paragraph--texto-landing{
-  color: #757575;
-  font-size: 15px;
-  font-family: 'Monserrat-regular' ;
-  text-align: justify;
-}
+
 .paragraph--titulo-peque-landing{
   color: #757575;
   font-size: 20px;
@@ -287,4 +282,18 @@ font-family: "Monserrat-bold";
   font-size: 10px;
   font-family: 'Monserrat-regular' ;
   margin-bottom: 40px;
+}
+.paragraph--texto-landing{
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular' ;
+  text-align: justify;
+}
+.listOrdered--texto2-landing{
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular' ;
+  text-align: justify;
+  line-height: 1.5;
+  
 }
