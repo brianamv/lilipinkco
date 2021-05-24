@@ -231,11 +231,11 @@
  
   "flex-layout.row#bannerInferior": {
     "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     },
     "children": [
-      "image#bannerSlim2"
+      "flex-layout.col#bannerSlim2"
     ]
   },
   "rich-text#titulobannerInferior": {
@@ -246,9 +246,21 @@
       "blockClass": "headingLevel2"
     }
   },
+  "flex-layout.col#bannerSlim2":{
+    "props":{
+      "horizontalAlign":"center"
+    },
+    "children":[
+      "image#bannerSlim2"
+    ]
+  },
   "image#bannerSlim2": {
     "props": {
-      "src": "assets/BannerInferior.jpg"
+      "src": "assets/BannerInferior.jpg",
+      "link": {
+        "url":"/catalogo-1"
+      }
+      
     }
   },
   "flex-layout.row#formulario": {

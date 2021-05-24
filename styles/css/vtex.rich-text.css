@@ -245,6 +245,8 @@ font-family: "Monserrat-bold";
   font-size: 30px;
   font-family: 'Monserrat-bold' ;
 }
+
+
 .paragraph--texto-landing{
   color: #757575;
   font-size: 15px;
@@ -273,3 +275,16 @@ font-family: "Monserrat-bold";
     text-align: justify;
     margin:20px 84px 10px 110px;
   }
+
+  /* estilos catálogo */
+.paragraph--titulo-catalogo{
+  color: #757575;
+  font-size: 14px;
+  font-family: 'Monserrat-bold' ;
+}
+.paragraph--subtitulo-catalogo{
+  color: #757575;
+  font-size: 10px;
+  font-family: 'Monserrat-regular' ;
+  margin-bottom: 40px;
+}

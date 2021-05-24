@@ -46,6 +46,9 @@
     "store.custom.políticas-de-envio": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.politicas-envio": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "store.custom.negocio-digital": {
         "around": ["multi-home-wrapper.custom"]
     },
