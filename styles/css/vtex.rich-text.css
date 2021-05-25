@@ -3,17 +3,19 @@
   text-align: center;
   justify-content: center;
 }
+
 .container--shelfTitle {
   color: #727273;
   justify-content: center;
   text-align: center;
 }
+
 .container--paratiYoi {
   color: #53AC97;
   justify-content: center;
   text-align: center;
   background-color: #C2FAF3;
-  font-family: 'Times New Roman', Montserrat , Montserrat;
+  font-family: 'Times New Roman', Montserrat, Montserrat;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -30,7 +32,7 @@
 
 .container--link {
   justify-content: center;
-  margin-bottom: -60px!important;
+  margin-bottom: -60px !important;
   font-style: normal;
   font-weight: bold;
   font-size: 90%;
@@ -39,7 +41,8 @@
 .container--question {
   justify-content: center;
 }
-.heading--shelfTitle{
+
+.heading--shelfTitle {
   color: black;
   font-style: bold;
 }
@@ -51,10 +54,12 @@
   padding-top: 120px;
   color: #e4147e;
 }
-.container--Info-trabaja{
+
+.container--Info-trabaja {
   padding: 50px;
 }
-.container--condiciones-restriciones{
+
+.container--condiciones-restriciones {
   text-align: center;
   justify-content: center;
   padding-top: 120px;
@@ -62,17 +67,19 @@
   font-size: 25px;
   font-weight: bolder;
   font-style: inherit;
-  color:gray;
+  color: gray;
 
 }
-.container--condiciones-restriciones2{
+
+.container--condiciones-restriciones2 {
   padding-right: 60px;
   padding-left: 60px;
   text-justify: distribute;
-  color:gray;
+  color: gray;
 
 }
-.container--Vacantes{
+
+.container--Vacantes {
   text-align: center;
   justify-content: center;
   padding-top: 120px;
@@ -80,6 +87,8 @@
   font-size: 25px;
   font-weight: bolder;
   font-style: inherit;
+  color: #000;
+  border-bottom: solid 1px #f5f5f5 ;
 
 }
 
@@ -96,33 +105,37 @@
   padding-bottom: 84px;
   color: #e4147e;
 }
-.container--newsletter-izquierdo{
-  
-}
-.container--newsletter-2{
- 
-}
-.paragraph--newsletter-izquierdo{
+
+.container--newsletter-izquierdo {}
+
+.container--newsletter-2 {}
+
+.paragraph--newsletter-izquierdo {
   color: #727273;
 }
-.paragraph--newsletter-2{
+
+.paragraph--newsletter-2 {
   color: #727273;
 }
-.paragraph--text-whatapps{
-  color:rgb(101, 173, 28) !important;
+
+.paragraph--text-whatapps {
+  color: rgb(101, 173, 28) !important;
   font-size: 16px;
 }
-.paragraph--Info-cc{
+
+.paragraph--Info-cc {
   font-size: 21px;
   text-align: center;
   color: #e4147e;
   margin-left: 80px;
 
 }
-.paragraph--Info-cc-2{
+
+.paragraph--Info-cc-2 {
 
   text-align: center;
 }
+
 .container--link .strong {
   font-size: 16px;
   font-weight: 700;
@@ -141,12 +154,13 @@
   font-size: 28px;
   font-weight: 700;
 }
+
 .container--subtitulos-lilipink {
   border-bottom: solid 1px #000;
   color: #e4147e;
   font-size: 0.82rem;
   font-weight: bold;
-  padding: 1px;  
+  padding: 1px;
   font-family: 'Monserrat-semibold';
 }
 
@@ -155,6 +169,7 @@
   margin-bottom: 0.2rem;
   margin-top: 0.2rem;
 }
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -171,129 +186,258 @@
     font-weight: 700;
     max-width: 60%;
   }
-  .container--tituloMenu{
+
+  .container--tituloMenu {
     background-color: #f0f0f0;
     font-family: 'Monserrat-semibold';
     font-size: 15px;
     margin-bottom: 0.3rem;
-    
+
   }
 
-  
+
   .container--title .paragraph {
     line-height: 1.3em;
 
   }
 
 }
+
 .container--headingLevel2 {
-color: #000;
-font-size: 2.25rem;
-font-family: "Monserrat-bold";
+  color: #000;
+  font-size: 2.25rem;
+  font-family: "Monserrat-bold";
 }
+
 .container--headingLevel2Yoi {
   color: #FB376C;
   font-size: 2.25rem;
   font-family: "Monserrat-bold";
-  }
-.paragraph--texto-redes{
+}
+
+.paragraph--texto-redes {
   font-size: 20px;
   color: #727272;
 }
-.link--texto-redes{
+
+.link--texto-redes {
   text-decoration: none !important;
   font-size: 20px;
   color: #727272;
 }
-.container--titulo-redes{
-   font-size: 30px;
-   font-family: 'Monserrat-bold';
-   justify-content: center;
-}
-.container--titulo-redesYoi{
+
+.container--titulo-redes {
   font-size: 30px;
   font-family: 'Monserrat-bold';
   justify-content: center;
-  color:#08ab97 !important;
 }
-.paragraph--Encuentra{
+
+.container--titulo-redesYoi {
+  font-size: 30px;
+  font-family: 'Monserrat-bold';
+  justify-content: center;
+  color: #08ab97 !important;
+}
+
+.paragraph--Encuentra {
   color: #727272;
   font-family: 'Monserrat-bold';
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.paragraph--titulos-footer{
-  color:#fff;
-  font-family: 'Monserrat-bold' ;
+
+.paragraph--titulos-footer {
+  color: #fff;
+  font-family: 'Monserrat-bold';
 }
-.paragraph--titulo-colores{
-  color: #000; 
+
+.paragraph--titulo-colores {
+  color: #000;
   font-size: 1rem;
 }
-.paragraph--guia{
+
+.paragraph--guia {
   color: #757575;
   margin-right: 10px;
 }
-.paragraph--summarySpecificationBullet{
+
+.paragraph--summarySpecificationBullet {
   display: none;
 }
-.paragraph--texto-carrito{
+
+.paragraph--texto-carrito {
   color: #757575;
 }
-.paragraph--titulo-landing{
+
+.paragraph--titulo-landing {
   color: #000;
   font-size: 30px;
-  font-family: 'Monserrat-bold' ;
+  font-family: 'Monserrat-bold';
 }
 
 
 
-.paragraph--titulo-peque-landing{
+.paragraph--titulo-peque-landing {
   color: #757575;
   font-size: 20px;
-  font-family: 'Monserrat-bold' ;
+  font-family: 'Monserrat-bold';
 }
 
 /*Estilos de la ladding de promociones*/
-  .paragraph--promociones-titulo{
-    color: #000;
-    font-size: 20px;
-    font-family: 'Monserrat-bold' ;
-    padding:8px;
-    margin: 20px 84px 10px 110px;
-    justify-content: center;
-  }
-  .paragraph--web-promociones{
-    color:  #757575;
-    font-size: 15px;
-    font-family: 'Monserrat-regular';
-    text-align: justify;
-    margin:20px 84px 10px 110px;
-  }
+.paragraph--promociones-titulo {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Monserrat-bold';
+  padding: 8px;
+  
+  justify-content: center;
+}
 
-  /* estilos catálogo */
-.paragraph--titulo-catalogo{
+.paragraph--web-promociones {
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular';
+  text-align: justify;
+  
+}
+
+/* estilos catálogo */
+.paragraph--titulo-catalogo {
   color: #757575;
   font-size: 14px;
-  font-family: 'Monserrat-bold' ;
+  font-family: 'Monserrat-bold';
 }
-.paragraph--subtitulo-catalogo{
+
+.paragraph--subtitulo-catalogo {
   color: #757575;
   font-size: 10px;
-  font-family: 'Monserrat-regular' ;
+  font-family: 'Monserrat-regular';
   margin-bottom: 40px;
 }
-.paragraph--texto-landing{
+
+.paragraph--texto-landing {
   color: #757575;
   font-size: 15px;
-  font-family: 'Monserrat-regular' ;
+  font-family: 'Monserrat-regular';
   text-align: justify;
 }
-.listOrdered--texto2-landing{
+
+.listOrdered--texto2-landing {
   color: #757575;
   font-size: 15px;
-  font-family: 'Monserrat-regular' ;
+  font-family: 'Monserrat-regular';
   text-align: justify;
   line-height: 1.5;
-  
+
+}
+.listOrdered--texto-landing {
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular';
+  text-align: justify;
+  line-height: 1.5;
+
+}
+.listItem--texto-landing {
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular';
+  text-align: justify;
+  line-height: 1.5;
+
+}
+.listItem--texto2-landing {
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Monserrat-regular';
+  text-align: justify;
+  line-height: 1.5;
+
+}
+
+.link--texto2-landing{
+  color: #757575;
+  text-decoration: none;
+}
+.link--texto-landing{
+  color: #757575;
+  text-decoration: none;
+}
+
+
+/* estilos terminos y condiciones */
+.paragraph--TERMINOS {
+  color: #000;
+  font-size: 30px;
+  padding-bottom: 1%;
+  font-family: 'Monserrat-bold';
+
+}
+
+
+
+.paragraph--TituloCambiosLilipink {
+  color: #e4147e;
+  font-size: 30px;
+  font-family: 'Monserrat-bold';
+
+
+}
+
+.paragraph--derecho {
+  color: #000;
+  padding-left: 106px;
+
+}
+
+.paragraph--TituloCambiosYoi {
+  color: #53AC97 !important;
+  font-size: 30px;
+  font-family: 'Monserrat-bold';
+
+
+
+}
+
+.paragraph--titulocambios {
+  color: #000;
+  margin-right: 140px;
+
+}
+
+.container--cancelar {
+  font-size: 30px;
+  padding-bottom: 1%;
+  font-family: 'Monserrat-bold';
+  border-bottom: 2px solid #000;
+
+}
+
+.paragraph--infoImagen {
+  color: #e4147e;
+  text-align: justify;
+  padding-right: 30px;
+
+}
+
+
+.link--web-promociones {
+  color: #757575;
+  text-decoration: none;
+}
+
+.container--TituloPrivacidad{
+  color:  #757575;
+  font-size: 17px;
+  padding-bottom: 1%;
+  font-family: 'Monserrat-bold';
+
+}
+
+.paragraph--subtituloPrivacidad{
+  color: #757575;
+  font-size: 16px;
+  font-family: 'Monserrat-bold' ;
+  padding-bottom: 1%;
+  margin: 20px 84px 10px 110px;
 }

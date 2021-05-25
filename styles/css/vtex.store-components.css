@@ -39,71 +39,67 @@
   padding: 5px;
 
 }*/
-.infoCardContainer--info-card{
-  height:400px ;
+.infoCardContainer--info-card {
+  height: 400px;
 }
-.imageElement--Imagenetiqueta{
-  height :30px;
+
+.imageElement--Imagenetiqueta {
+  height: 30px;
   width: 30px;
   margin: 0 2px 0 20px;
   display: flex;
   justify-content: center;
 }
-.imageElement--Imagenetiquetaredes{
-  height :30px;
+
+.imageElement--Imagenetiquetaredes {
+  height: 30px;
   width: 30px;
   display: flex;
   justify-content: center;
 }
-.imageElement--Imagenetiquetaredes-i{
-  height :30px;
+
+.imageElement--Imagenetiquetaredes-i {
+  height: 30px;
   width: 30px;
   display: flex;
   justify-content: center;
   margin-right: 10px;
 }
 
-.imageElement--Img-ig{
-  height :44px;
+.imageElement--Img-ig {
+  height: 44px;
   width: 15%;
   margin-bottom: -1%;
   display: flex;
   justify-content: right;
 }
-.imageElement--whatapps{
-  height :46px;
+
+.imageElement--whatapps {
+  height: 46px;
   width: 20%;
   margin-bottom: -1%;
   justify-content: left;
 }
-.imageElement--Img-fb{
-  height :44px;
+
+.imageElement--Img-fb {
+  height: 44px;
   width: 15%;
   margin-bottom: 1%;
   display: flex;
   justify-content: center;
 }
-.newsletter {
-  
-}
 
-.newsletter .container {
-  
+.newsletter {}
 
-}
-.newsletter-izquuerdo{
-  
+.newsletter .container {}
 
-}
-.newsletter-2{
-  
+.newsletter-izquuerdo {}
 
-}
-.newsletter .label {
- 
+.newsletter-2 {}
 
-}
-.notificationBarContainer--tienda-whatapps{
+.newsletter .label {}
+
+.notificationBarContainer--tienda-whatapps {
   background-color: transparent;
 
 
@@ -121,6 +117,7 @@
   display: flex;
   color: #fff;
 }
+
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
   background-color: #fff;
@@ -138,12 +135,13 @@
   color: #faf4f7;
   border: none;
 }
+
 :global(.vtex-button) {
   /*background-color: transparent;*/
   background-color: white;
   color: #000;
-   
-  
+
+
 }
 
 .buttonContainer {
@@ -162,9 +160,7 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    
-  }
+  .newsletter .container {}
 
   .label {
     font-size: 40px;
@@ -177,17 +173,19 @@
 
   .infoCardContainer--info-card-ic1 .infoCardImageContainer {
     width: 90%;
-    height:80%;
+    height: 80%;
     padding: 14px;
   }
+
   .infoCardContainer--info-card-ic2 .infoCardImageContainer {
     width: 90%;
-    height:80%;
+    height: 80%;
     padding: 14px;
   }
+
   .infoCardContainer--info-card-ic3 .infoCardImageContainer {
     width: 90%;
-    height:80%;
+    height: 80%;
     padding: 14px;
   }
 
@@ -220,7 +218,8 @@
   font-weight: bold;
   font-size: 30px;
 }
-.searchIcon{
+
+.searchIcon {
   color: #e4147e;
 
 }
@@ -232,43 +231,65 @@
 
 
 
-.buttonContainer :global(.vtex-button){
+.buttonContainer :global(.vtex-button) {
   color: #000;
 }
-.buttonContainer :global(.vtex-button):hover{
+
+.buttonContainer :global(.vtex-button):hover {
   color: #000;
   background-color: #fff;
 }
 
 .skuSelectorSubcontainer {
   margin-bottom: 0 !important;
-  }
-  .discountInsideContainer{
-  left: 0!important;
-  right: inherit ;
+}
+
+.discountInsideContainer {
+  left: 0 !important;
+  right: inherit;
   font-size: 18px;
 
-  }
-  .productBrandName--summaryListDesktop{
-    color: #757575!important;
-  }
-  .skuSelectorItemTextValue{ 
-    color: #757575;
-  }
-  .productDescriptionTitle{
-    display: none;
-  }
-  .content{
-    font-family: 'Monserrat-regular';
-  }
-  .imageElement--flotante{
-    position: fixed;
-    width: 80px;
-    height: 80px;
-    right: 40px;
-    bottom: 40px;
-    z-index:100;
-  }
-  .imageElement--imagenes-quienes-somos{
-    margin-top:50px;
-  }
+}
+
+.productBrandName--summaryListDesktop {
+  color: #757575 !important;
+}
+
+.skuSelectorItemTextValue {
+  color: #757575;
+}
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.content {
+  font-family: 'Monserrat-regular';
+}
+
+.imageElement--flotante {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 100;
+}
+
+.imageElement--imagenes-quienes-somos {
+  margin-top: 50px;
+}
+.imageElement.imageElement--imagencatbrasieres {
+  width: 100%;
+}
+
+.buttonContainer :global(.vtex-button) {
+  color: #000;
+}
+
+.imageElement--imagenCambios{
+  margin: auto;
+}
+.imageElement--bannerfull{
+  width: 100%;
+}

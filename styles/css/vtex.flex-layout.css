@@ -179,3 +179,7 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.flexRow--margenLanding{  
+  margin: 20px 120px 10px 120px;
+}

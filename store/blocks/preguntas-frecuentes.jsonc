@@ -9,7 +9,7 @@
     },
     "flex-layout.row#faq": {
       "props": {
-        "blockClass": "faq"
+        "blockClass":"margenLanding"
       },
       "children": [
         "flex-layout.col#faq"

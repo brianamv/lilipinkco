@@ -17,7 +17,8 @@
     ],
     "props": {
       "marginTop": 6,
-      "marginBottom": 6
+      "marginBottom": 6,
+      "blockClass":"margenLanding"
     }
   },
   "flex-layout.col#textos1": {
@@ -29,6 +30,9 @@
     ]
   },
   "flex-layout.row#textolanding2": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
     "children": [
       "flex-layout.col#textolanding2"
     ]
@@ -45,7 +49,8 @@
   "flex-layout.row#quienesSomos": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
     "children": [
       "flex-layout.col#quienes-somos-1", "flex-layout.col#quienes-somos-2", "flex-layout.col#quienes-somos-3"
@@ -124,7 +129,8 @@
   "flex-layout.row#Ideologia-Fotos": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
     "children": [
       "flex-layout.col#Ideologia-1", "flex-layout.col#Ideologia-2", "flex-layout.col#Ideologia-3"
@@ -210,7 +216,8 @@
   "flex-layout.row#SucrusalGeneral": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
     "children": [
       "flex-layout.col#sucursales", "flex-layout.col#franquicias", "flex-layout.col#yoi", "flex-layout.col#paises"
@@ -276,14 +283,15 @@
   "flex-layout.row#clic-vacante1": {
     "children": ["image#vacantes1"],
     "props": {
-      "blockclass": "textColumn",
+      "blockClass":"margenLanding",
       "preventVerticalStretch": true,
-      "marginBottom": 6
+      "marginBottom": 8
     }
   },
 
   "image#vacantes1": {
     "props": {
+      "blockClass":"bannerfull",
       "src": "assets/banner-trabaja-2.jpg",
       "link": {
         "url": "https://lilipink-yoi.sherlockhr.com/",

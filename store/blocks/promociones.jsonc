@@ -3,21 +3,25 @@
   "store.custom.promociones":{
 
     "blocks": [
-      "flex-layout.row#Terminosycondiciones",
-      "tab-layout#promociones"
+      "flex-layout.row#Terminosycondiciones"
+      
 
     ]
 
 
   },
   "flex-layout.row#Terminosycondiciones": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
     "children": [
       "flex-layout.col#Terminosycondiciones"
     ]
   },
   "flex-layout.col#Terminosycondiciones": {
     "children": [
-      "rich-text#terminoycondiciones"
+      "rich-text#terminoycondiciones",
+      "tab-layout#promociones"
     ],
     "props": {
       "blockclass": "textColumn",

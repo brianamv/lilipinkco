@@ -23,7 +23,7 @@
   "store.custom.condiciones-y-restricciones": {
     "path": "/condiciones-y-restricciones"
   },
-  "store.custom#cambios-y-devoluciones": {
+  "store.custom.cambios-y-devoluciones": {
     "path": "/cambios-y-devoluciones"
   },
   "store.custom.privacidad-de-la-informacion": {

@@ -67,6 +67,9 @@
     "store.custom.catalogo-4": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.cambios-y-devoluciones": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "header.yoi": {},
     "element-wrapper.lilipink": {},
     "element-wrapper.yoi": {},
