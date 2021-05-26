@@ -37,6 +37,9 @@
     "store.custom.politica-cambios-garantias-lili": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.politica-cambios-garantias-yoi": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "store.custom.privacidad-de-la-informacion": {
         "around": ["multi-home-wrapper.custom"]
     },
