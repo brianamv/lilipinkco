@@ -5,6 +5,9 @@
   background-color: white;
   margin-bottom: 2%;
 }
+.imageElementLink--carousel{
+  width: 100%;
+}
 
 .sliderTrackContainer {
   max-width: 100% !important;

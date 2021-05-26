@@ -17,9 +17,9 @@
         "sticky-layout#boton-flotante",
         //"sticky-layout#4-desktopYoi",
         "flex-layout.row#5-desktopYoi",
-        "flex-layout.row#4-desktopYoi",
+        "flex-layout.row#4-desktopYoi"
         //"flex-layout.row#4-desktopYoi",
-         "flex-layout.row#6-desktopYoi"
+         
         
       ],
       "props": {
@@ -232,7 +232,7 @@
     "flex-layout.row#1-mobile": {
       "children": [
         "drawer",
-        "logo#mobile",
+        //"logo#mobileYoi",
         "flex-layout.col#spacer",
         "login",
         "minicart.v2"
@@ -267,12 +267,12 @@
       }
     },
   
-    "logo#mobile": {
+    "logo#mobileYoi": {
       "props": {
         "title": "Logo",
         "href": "/",
-        "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-        "width": "70"
+        "url": "assets/logo-yoi.png",
+        "width": "100"
       }
     }
   }

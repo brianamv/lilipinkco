@@ -1,8 +1,8 @@
 {
   "flex-layout.row#home1": {
     "props": {
-      "fullWidth":true
-    }, 
+      "fullWidth": true
+    },
     "children": [
       "flex-layout.col#home1"
     ]
@@ -13,6 +13,9 @@
     },
     "children": [
       //"list-context.image-list#demo",
+      "flex-layout.row#6-desktop",
+      "flex-layout.row#6-mobile",
+      "list-context.image-list#bannerprincipal",
       "slider-layout#banner-principal",
       "__fold__",
       "flex-layout.row#bannerComplemento",
@@ -25,6 +28,15 @@
       "flex-layout.row#redessociales"
     ]
   },
+  "list-context.image-list#bannerprincipal": {
+    "children": ["slider-layout#banner-principal"],
+    "props": {
+      "height": 550,
+      "images": [
+        
+      ]
+    }
+  },
   "slider-layout#banner-principal": {
     "props": {
       "itemsPerPage": {
@@ -35,34 +47,38 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#6-mobile": {
+    "props": {
+      "blockClass": "menu-linkMobile",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "paddingTop":10,
+      "paddingBottom":10
     },
     "children": [
-      "image#slide1",
-      "image#slide2",
-      "image#slide3",
-      "image#slide4"
+      "menu-item#imperdiblesMobile",
+      "menu-item#whatsappMobile"
     ]
   },
-  "image#slide1": {
+  "menu-item#imperdiblesMobile": {
     "props": {
-      "src": "assets/banner-catalogo11.jpg"
+      "text": "Encuentra Nuestros Imperdibles AQUÍ",
+      "href": "/brasieres",
+      "blockClass": "EncuentraMobile1"
     }
   },
-  "image#slide2": {
+  "menu-item#whatsappMobile": {
     "props": {
-      "src": "assets/BannersMainSlider/sh2.jpg"
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "href": "/brasieres",
+      "blockClass": "EncuentraMobile2"
     }
   },
-  "image#slide3": {
-    "props": {
-      "src": "assets/BannersMainSlider/sh3.jpg"
-    }
-  },
-  "image#slide4": {
-    "props": {
-      "src": "assets/BannersMainSlider/sh4.jpg"
-    }
-  },
+  
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
@@ -118,7 +134,7 @@
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category":"168"
+      "category": "168"
     }
   },
   "slider-layout#demo-products": {
@@ -228,7 +244,7 @@
       "src": "assets/panty-sub.jpg"
     }
   },
- 
+
   "flex-layout.row#bannerInferior": {
     "props": {
       "textAlignment": "CENTER",
@@ -246,11 +262,11 @@
       "blockClass": "headingLevel2"
     }
   },
-  "flex-layout.col#bannerSlim2":{
-    "props":{
-      "horizontalAlign":"center"
+  "flex-layout.col#bannerSlim2": {
+    "props": {
+      "horizontalAlign": "center"
     },
-    "children":[
+    "children": [
       "image#bannerSlim2"
     ]
   },
@@ -258,16 +274,16 @@
     "props": {
       "src": "assets/BannerInferior.jpg",
       "link": {
-        "url":"/catalogo"
+        "url": "/catalogo"
       }
-      
+
     }
   },
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass":"seccion-newsletter"
+      "blockClass": "seccion-newsletter"
     },
     "children": [
       "flex-layout.col#texto1",
@@ -276,7 +292,7 @@
     ]
   },
   "flex-layout.col#texto1": {
-    "props":{
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "right"
     },
@@ -289,13 +305,13 @@
       "newsletter"
     ]
   },
-  "newsletter":{
-"props":{
-  "hideLabel":true
-}
+  "newsletter": {
+    "props": {
+      "hideLabel": true
+    }
   },
   "flex-layout.col#texto2": {
-    "props":{
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left"
     },
@@ -319,7 +335,7 @@
     "props": {
       "text": "Sígue Nuestras Redes Sociales",
       "blockClass": "titulo-redes",
-      "textAlignment":"CENTER"
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.row#redessociales": {
@@ -339,10 +355,10 @@
       "flex-layout.col#spacer"
     ]
   },
-  "flex-layout.col#spacermini":{
-"props":{
-  "blockClass":"espaciado"
-}
+  "flex-layout.col#spacermini": {
+    "props": {
+      "blockClass": "espaciado"
+    }
   },
   "flex-layout.col#logoface": {
     "props": {
@@ -358,9 +374,9 @@
     "props": {
       "blockClass": "Imagenetiquetaredes",
       "src": "assets/face-pink.png",
-      "link":{
-        "url":"https://www.facebook.com/LiliPinkColombia",
-        "openNewTab":true
+      "link": {
+        "url": "https://www.facebook.com/LiliPinkColombia",
+        "openNewTab": true
       }
     }
   },
@@ -378,52 +394,52 @@
     "props": {
       "blockClass": "Imagenetiquetaredes-i",
       "src": "assets/insta-pink.png",
-      "link":{
-        "url":"https://www.instagram.com/lilipinkcol/",
-        "openNewTab":true
+      "link": {
+        "url": "https://www.instagram.com/lilipinkcol/",
+        "openNewTab": true
       }
     }
   },
   "rich-text#fb": {
     "props": {
-      "blockClass":"texto-redes",
+      "blockClass": "texto-redes",
       "text": "[@LiliPinkColombia](https://www.facebook.com/LiliPinkColombia)"
     }
   },
   "rich-text#ig": {
     "props": {
-      "blockClass":"texto-redes",
+      "blockClass": "texto-redes",
       "text": "[@Lilipinkcol](https://www.instagram.com/lilipinkcol/)"
     }
   },
-  "sticky-layout#boton-flotante":{
-    "children":[
+  "sticky-layout#boton-flotante": {
+    "children": [
       "flex-layout.row#icono-flotante"
     ]
   },
-  "flex-layout.row#icono-flotante":{
-    "props":{
-      "marginTop":4,
-      "marginBottom":7,
-      "padding-Bottom":2
+  "flex-layout.row#icono-flotante": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "padding-Bottom": 2
     },
-    "children":[
+    "children": [
       "link.product#linkflotante"
     ]
   },
-  "link.product#linkflotante":{
-    "props":{
-      "href":"https://wa.me/5715140339?text=Hola Lili Pink",
-      "target":"_blank"
+  "link.product#linkflotante": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Lili Pink",
+      "target": "_blank"
     },
-    "children":[
+    "children": [
       "image#iconoflotante"
     ]
   },
-  "image#iconoflotante":{
-    "props":{
-     "blockClass":"flotante",
-     "src":"assets/icono-flotante.png"
+  "image#iconoflotante": {
+    "props": {
+      "blockClass": "flotante",
+      "src": "assets/icono-flotante.png"
     }
   }
 }
