@@ -19,6 +19,7 @@
     },
     "children": [
       "flex-layout.row#6-desktopYoi",
+      "flex-layout.row#6-mobile",
       "list-context.image-list#demoYoi",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#bannerComplementoYoi",

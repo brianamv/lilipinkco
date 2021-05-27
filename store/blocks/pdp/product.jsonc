@@ -1,5 +1,5 @@
 {
-  "store.product.custom": {
+  "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
