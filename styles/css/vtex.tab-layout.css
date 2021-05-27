@@ -73,33 +73,48 @@
 
 
 
-.listContainer--tabs-promociones .listItemActive :global(.vtex-button) {
-  background-color: #efefef;
+.listContainer--negocio-digital .listItemActive :global(.vtex-button) {
+  background-color: #00bab5 !important;
   border: none !important;
   padding-left: 0px !important;
   margin: 0px !important;
   border-radius: 0px !important;
   width: 100%;
-  color: #757575;
-  font-family: 'Monserrat-bold';
+  color: #fff !important;
+  font-family: 'Monserrat-regular';
 }
 
-.listContainer--tabs-promociones .listItem :global(.vtex-button) {
+.listContainer--negocio-digital .listItem :global(.vtex-button) {
+  background-color: transparent;
   border: none !important;
   width: 100%;
-  color: #757575;
-  font-family: 'Monserrat-bold';
+  color: #000;
+  font-family: 'Monserrat-regular';
 }
+.listItem{
+  background-color: #efefef !important;
+} 
 
-.listContainer--tabs-promociones .listItemActive {
+.listContainer--negocio-digital .listItemActive {
   padding-left: 0px !important;
   margin: 0px !important;
-  width: 25%;
+  width: 33%;
 }
 
-.listContainer--tabs-promociones .listItem {
+.listContainer--negocio-digital .listItem {
+  background-color: #efefef !important;
   padding: 0px !important;
   margin: 0px !important;
-  width: 25%;
+  width: 33%;
+
 
 }
+.contentContainer--negocio-digital{
+  background-color: #ddf2f1;
+}
+
+.listContainer--negocio-digital{
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+

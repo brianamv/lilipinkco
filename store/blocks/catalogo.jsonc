@@ -24,7 +24,8 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "width": 235
+      "width": 235,
+      "blockClass": "margenLanding"
     },
     "children": [
       "flex-layout.col#catalogo-1", "flex-layout.col#catalogo-2", "flex-layout.col#catalogo-3", "flex-layout.col#catalogo-4"
@@ -33,7 +34,8 @@
   "flex-layout.row#titulocatalogo": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "margenLanding"
     },
     "children": [
       "flex-layout.row#titulo-1", "flex-layout.row#titulo-2", "flex-layout.row#titulo-3", "flex-layout.row#titulo-4"
@@ -42,7 +44,8 @@
   "flex-layout.row#titulocatalogo-2": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "margenLanding"
     },
     "children": [
       "flex-layout.row#titulo-5", "flex-layout.row#titulo-6", "flex-layout.row#titulo-7", "flex-layout.row#titulo-8"
@@ -63,7 +66,7 @@
       "link": {
         "url":"/catalogo-1"
       },
-      "width": 235
+      "width": "98%"
     }
   },
   "flex-layout.row#titulo-1": {
@@ -95,7 +98,7 @@
       "link": {
         "url":"/catalogo-2"
       },
-      "width": 235
+      "width": "98%"
     }
   },
   "flex-layout.row#titulo-2": {
@@ -127,7 +130,7 @@
       "link": {
         "url":"/catalogo-3"
       },
-      "width": 235
+      "width": "98%"
     }
   },
   "flex-layout.row#titulo-3": {
@@ -159,7 +162,7 @@
       "link": {
         "url":"/catalogo-4"
       },
-      "width": 235
+      "width": "98%"
     }
   },
   "flex-layout.row#titulo-4": {

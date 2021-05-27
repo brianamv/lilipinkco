@@ -216,9 +216,18 @@
 }
 
 .flexRow--margenLanding{  
-  margin: 20px 120px 10px 120px;
+  margin: .5rem 200px .5rem 200px;
 }
 
 .flexColChild--politicasenvio{
   margin: 0 auto;
+}
+
+.flexColChild--membresia-negocio{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.flexColChild--membresia-negocio{
+  width: 100%;
 }
