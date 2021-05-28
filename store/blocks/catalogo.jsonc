@@ -1,18 +1,16 @@
 {
   "store.custom.catalogo": {
     "blocks": [
-      "flex-layout.row#titulo",
-      "flex-layout.row#catalogo",
-      "flex-layout.row#titulocatalogo",
-      "flex-layout.row#titulocatalogo-2"
+      "flex-layout.row#tituloCatalogo",
+      "flex-layout.row#catalogo"
     ]
   },
-  "flex-layout.row#titulo": {
+  "flex-layout.row#tituloCatalogo": {
     "children": [
-      "rich-text#titulo"
+      "rich-text#tituloCatalogo"
     ]
   },
-  "rich-text#titulo": {
+  "rich-text#tituloCatalogo": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -31,49 +29,29 @@
       "flex-layout.col#catalogo-1", "flex-layout.col#catalogo-2", "flex-layout.col#catalogo-3", "flex-layout.col#catalogo-4"
     ]
   },
-  "flex-layout.row#titulocatalogo": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "blockClass": "margenLanding"
-    },
-    "children": [
-      "flex-layout.row#titulo-1", "flex-layout.row#titulo-2", "flex-layout.row#titulo-3", "flex-layout.row#titulo-4"
-    ]
-  },
-  "flex-layout.row#titulocatalogo-2": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "blockClass": "margenLanding"
-    },
-    "children": [
-      "flex-layout.row#titulo-5", "flex-layout.row#titulo-6", "flex-layout.row#titulo-7", "flex-layout.row#titulo-8"
-    ]
-  },
+  
   "flex-layout.col#catalogo-1": {
     "props": {
+      "blockClass":"contenidocentrado",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": [
-      "image#catalogo-1"
+      "image#catalogo-1",
+      "rich-text#titulo-1",
+      "rich-text#titulo-5"
     ]
   },
   "image#catalogo-1": {
     "props": {
       "src": "assets/catalogo/catalogo1.jpg",
       "link": {
-        "url":"/catalogo-1"
+        "url": "/catalogo-1"
       },
-      "width": "98%"
+      "width": "80%"
     }
   },
-  "flex-layout.row#titulo-1": {
-    "children": [
-      "rich-text#titulo-1"
-    ]
-  },
+  
   "rich-text#titulo-1": {
     "props": {
       "textAlignment": "CENTER",
@@ -84,28 +62,27 @@
   },
   "flex-layout.col#catalogo-2": {
     "props": {
+      "blockClass":"contenidocentrado",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
 
     "children": [
-      "image#catalogo-2"
+      "image#catalogo-2",
+      "rich-text#titulo-2",
+      "rich-text#titulo-6"
     ]
   },
   "image#catalogo-2": {
     "props": {
       "src": "assets/catalogo/catalogo2.jpg",
       "link": {
-        "url":"/catalogo-2"
+        "url": "/catalogo-2"
       },
-      "width": "98%"
+      "width": "80%"
     }
   },
-  "flex-layout.row#titulo-2": {
-    "children": [
-      "rich-text#titulo-2"
-    ]
-  },
+  
   "rich-text#titulo-2": {
     "props": {
       "textAlignment": "CENTER",
@@ -116,28 +93,27 @@
   },
   "flex-layout.col#catalogo-3": {
     "props": {
+      "blockClass":"contenidocentrado",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
 
     },
     "children": [
-      "image#catalogo-3"
+      "image#catalogo-3",
+      "rich-text#titulo-3",
+      "rich-text#titulo-7"
     ]
   },
   "image#catalogo-3": {
     "props": {
       "src": "assets/catalogo/catalogo3.jpg",
       "link": {
-        "url":"/catalogo-3"
+        "url": "/catalogo-3"
       },
-      "width": "98%"
+      "width": "80%"
     }
   },
-  "flex-layout.row#titulo-3": {
-    "children": [
-      "rich-text#titulo-3"
-    ]
-  },
+  
   "rich-text#titulo-3": {
     "props": {
       "textAlignment": "CENTER",
@@ -148,28 +124,27 @@
   },
   "flex-layout.col#catalogo-4": {
     "props": {
+      "blockClass":"contenidocentrado",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
 
     },
     "children": [
-      "image#catalogo-4"
+      "image#catalogo-4",
+      "rich-text#titulo-4",
+      "rich-text#titulo-8"
     ]
   },
   "image#catalogo-4": {
     "props": {
       "src": "assets/catalogo/catalogo4.jpg",
       "link": {
-        "url":"/catalogo-4"
+        "url": "/catalogo-4"
       },
-      "width": "98%"
+      "width": "80%"
     }
   },
-  "flex-layout.row#titulo-4": {
-    "children": [
-      "rich-text#titulo-4"
-    ]
-  },
+  
   "rich-text#titulo-4": {
     "props": {
       "textAlignment": "CENTER",
@@ -179,11 +154,7 @@
     }
   },
 
-  "flex-layout.row#titulo-5": {
-    "children": [
-      "rich-text#titulo-5"
-    ]
-  },
+  
   "rich-text#titulo-5": {
     "props": {
       "textAlignment": "CENTER",
@@ -192,11 +163,7 @@
       "text": "Vigencia del 08 al 14 de Abril de 2021"
     }
   },
-  "flex-layout.row#titulo-6": {
-    "children": [
-      "rich-text#titulo-6"
-    ]
-  },
+  
   "rich-text#titulo-6": {
     "props": {
       "textAlignment": "CENTER",
@@ -206,11 +173,7 @@
     }
   },
 
-  "flex-layout.row#titulo-7": {
-    "children": [
-      "rich-text#titulo-7"
-    ]
-  },
+  
   "rich-text#titulo-7": {
     "props": {
       "textAlignment": "CENTER",
@@ -220,11 +183,7 @@
     }
   },
 
-  "flex-layout.row#titulo-8": {
-    "children": [
-      "rich-text#titulo-8"
-    ]
-  },
+  
   "rich-text#titulo-8": {
     "props": {
       "textAlignment": "CENTER",

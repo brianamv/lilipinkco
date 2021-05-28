@@ -251,3 +251,8 @@
   justify-content: center;
   margin: 0 auto;
 }
+@media screen and (max-width:900px) {
+  .styledLink--titulosMenu{
+    font-size: 2.5rem;
+  }
+}

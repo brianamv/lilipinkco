@@ -73,6 +73,9 @@
     "store.custom.cambios-y-devoluciones": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.storelocator.custom": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "header.yoi": {},
     "element-wrapper.lilipink": {},
     "element-wrapper.yoi": {},

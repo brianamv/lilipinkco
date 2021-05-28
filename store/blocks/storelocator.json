@@ -1,11 +1,14 @@
 {
-    "store.storelocator": {
+    "store.storelocator.custom": {
       "blocks": ["flex-layout.row#title", "flex-layout.row#container"]
     },
     "flex-layout.row#title": {
       "children": ["flex-layout.col#title"]
     },
     "flex-layout.row#container": {
+      "props":{
+        "marginBottom":8
+      },
       "children": ["store-list"]
     },
     "flex-layout.col#title": {

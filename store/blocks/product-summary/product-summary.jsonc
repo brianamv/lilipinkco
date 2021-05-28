@@ -78,6 +78,17 @@
       "displayMode":"slider"
     }
  },
+ "product-summary-sku-selector#quick" : {
+  "props": {
+    "showValueNameForImageVariation": true,
+    "initialSelection": "empty",
+    "thumbnailImage": ["color"],
+    "visibleVariations": [
+      "Color",
+      "Tallas"
+    ]
+  }
+},
  "product-summary-sku-selector#destacados" : {
   "props": {
     "showValueNameForImageVariation": true,

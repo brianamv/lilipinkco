@@ -31,7 +31,6 @@
   "list-context.image-list#bannerprincipal": {
     "children": ["slider-layout#banner-principal"],
     "props": {
-      "height": 550,
       "images": [
         
       ]

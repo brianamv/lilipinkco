@@ -231,3 +231,6 @@
 .flexColChild--membresia-negocio{
   width: 100%;
 }
+.flexCol--contenidocentrado{
+  text-align: center;
+}

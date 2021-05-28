@@ -135,7 +135,8 @@
   "login":{
     "props":{
       "showIconProfile":true,
-      "iconLabel":"Mi Cuenta"
+      "iconLabel":"Mi Cuenta",
+      "termsAndConditions":"Al ingresar aceptas los [**términos y condiciones**](/Condiciones-y-restricciones)"
     }
   },
   "search-bar": {

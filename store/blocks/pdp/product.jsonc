@@ -170,6 +170,7 @@
   },
   "product-images": {
     "props": {
+      "showBadge":true,
       "aspectRatio": {
         "desktop": "auto",
         "phone": "16:9"
