@@ -132,12 +132,19 @@
   color: #e4147e;
 }
 
-.container--newsletter-izquierdo {}
+.wrapper--newsletter-izquierdo {
+  margin: 5%;
+}
 
-.container--newsletter-2 {}
+
+.wrapper--newsletter-2 {
+  margin: 5%;
+}
+
 
 .paragraph--newsletter-izquierdo {
   color: #727273;
+  text-align: justify;
 }
 
 .paragraph--newsletter-2 {
@@ -244,6 +251,7 @@
 .paragraph--texto-redes {
   font-size: 20px;
   color: #727272;
+  margin: 0 0px 0px 100px;
 }
 
 .link--texto-redes {

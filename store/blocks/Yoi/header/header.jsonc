@@ -127,8 +127,8 @@
         "flex-layout.col#logo1",
         "menu-item#linkImperdibles-YOI",
         "rich-text#linkImperdibles",    
-        "flex-layout.col#logo2",  
-        "menu-item#linkPedidoWhatsapp-YOI",      
+        "flex-layout.col#logowhatyoi",  
+        "rich-text#linkPedidoWhatsappYoi",             
         "flex-layout.col#spacer"
       ] 
     },
@@ -148,22 +148,28 @@
         "src": "assets/label.png"  
       }  
     },
-    "flex-layout.col#logo2": {
+   /*IMAGEN DE WHATAPPS CON REDIRECCIONAMIENTO */
+    "flex-layout.col#logowhatyoi": {
       "props": {
         "blockClass": "logo2",
         "verticalAlign": "middle",
         "horizontalAlign": "center"
       },
-      "children": ["image#logo2"]
+      "children": [
+        "image#logo3"
+      ]
     },
-   
-    
-    "image#logo2": {  
-      "props": {  
+    "image#logo3": {
+      "props": {
         "blockClass": "Imagenetiqueta",
-        "src": "assets/logo-wh.png"  
-      }  
+        "src": "assets/logo-wh.png",
+        "link":{
+          "url":"https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
+          "openNewTab":true
+        }
+      }
     },
+    /**/
     "menu-item#linkImperdibles-YOI": {
       "props": {
         "text": "Encuentra Nuestros Imperdibles AQUÍ",
@@ -171,10 +177,10 @@
         "blockClass": "Encuentra"
       }
     },
-    "menu-item#linkPedidoWhatsapp-YOI": {
+    /*texto whatappps yoi header*/
+    "rich-text#linkPedidoWhatsappYoi": {
       "props": {
-        "text": "Haz tu pedido vía Whatsapp AQUÍ",
-        "href": "/brasieres",
+        "text": "Haz tu pedido vía Whatsapp [AQUÍ](http://wa.me/5715140339?text=HolaLiliPink)",
         "blockClass": "Encuentra"
       }
     },
@@ -190,7 +196,10 @@
     "image#logodesktopYoi": {  
       "props": {  
         "src": "assets/logo-yoi.png"  ,
-        "maxHeight":"65px"
+        "maxHeight":"65px",
+        "link":{
+          "url":"/"
+        }
       }  
     },
     

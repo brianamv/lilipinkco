@@ -158,8 +158,8 @@
       "flex-layout.col#logo1",
       "menu-item#linkImperdibles", 
       "rich-text#linkImperdibles",
-      "flex-layout.col#logo2",
-      "menu-item#linkPedidoWhatsapp",
+      "flex-layout.col#logowhatlilipink",
+      "rich-text#linkPedidoWhatsapp",      
       "flex-layout.col#spacer"
     ]
   },
@@ -179,22 +179,7 @@
       "src": "assets/label.png"
     }
   },
-  "flex-layout.col#logo2": {
-    "props": {
-      "blockClass": "logo2",
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "image#logo2"
-    ]
-  },
-  "image#logo2": {
-    "props": {
-      "blockClass": "Imagenetiqueta",
-      "src": "assets/logo-wh.png"
-    }
-  },
+  
   "menu-item#linkImperdibles": {
     "props": {
       "text": "Encuentra Nuestros Imperdibles AQUÍ",
@@ -208,13 +193,34 @@
       "blockClass": "Encuentra"
     }
   },
-  "menu-item#linkPedidoWhatsapp": {
+  "flex-layout.col#logowhatlilipink": {
     "props": {
-      "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "href": "/brasieres",
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logo2"
+    ]
+  },
+  "image#logo2": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/logo-wh.png",
+      "link":{
+        "url":"https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
+        "openNewTab":true
+      }
+    }
+  },
+  /*TEXTO DE WHATAPPS lilipink*/
+  "rich-text#linkPedidoWhatsapp": {
+    "props": {
+      "text": "Haz tu pedido vía Whatsapp [AQUÍ](http://wa.me/5715140339?text=HolaLiliPink)",
       "blockClass": "Encuentra"
     }
   },
+  /**/
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",

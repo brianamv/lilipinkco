@@ -254,7 +254,7 @@
       "horizontalAlign": "right"
     },
     "children": [
-      "rich-text#newsletter-text1"
+      "rich-text#newsletter-text1Yoi"
     ]
   },
   "flex-layout.col#formularioYoi": {
@@ -278,13 +278,13 @@
   },
   "rich-text#newsletter-text1Yoi": {
     "props": {
-      "text": "Regístrate y sé el primero en \n recibir noticias de ofertas y \n promociones especiales",
+      "text": "Regístrate y sé el primero en recibir noticias de ofertas y promociones especiales",
       "blockClass": "newsletter-izquierdo"
     }
   },
   "rich-text#newsletter-text2Yoi": {
     "props": {
-      "text": "Al registrar tu correo \n electrónico aceptas \n los terminos y condiciones",
+      "text": "Al registrar tu correo electrónico aceptas los terminos y condiciones",
       "blockClass": "newsletter-2"
     }
   },
