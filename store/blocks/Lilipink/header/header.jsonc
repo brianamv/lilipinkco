@@ -117,7 +117,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      //"locale-switcher", 
+      //"locale-switcher",
       "header-row#3-desktop"
     ]
   },
@@ -156,10 +156,10 @@
     "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#logo1",
-      "menu-item#linkImperdibles", 
+      "menu-item#linkImperdibles",
       "rich-text#linkImperdibles",
       "flex-layout.col#logowhatlilipink",
-      "rich-text#linkPedidoWhatsapp",      
+      "rich-text#linkPedidoWhatsapp",
       "flex-layout.col#spacer"
     ]
   },
@@ -179,7 +179,7 @@
       "src": "assets/label.png"
     }
   },
-  
+
   "menu-item#linkImperdibles": {
     "props": {
       "text": "Encuentra Nuestros Imperdibles AQUÍ",
@@ -236,7 +236,7 @@
       "maxHeight": "35px",
       "link":{
         "url":"/"
-      }     
+      }
     }
   },
   "header-layout.mobile": {
@@ -282,6 +282,7 @@
     "children": [
       "drawer",
       //"logo#mobilelili",
+      "search-bar#lilipink",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -298,6 +299,12 @@
       "menu#drawer"
     ]
   },
+  "search-bar#lilipink":{
+    "props":{
+      "compactMode": true
+    }
+
+  },
   "menu#drawer": {
     "children": [
       "menu-item#category-brasieres",
@@ -310,7 +317,7 @@
       "menu-item#category-vestidos",
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
-      "menu-item#yoi" 
+      "menu-item#yoi"
     ],
     "props": {
       "orientation": "vertical"

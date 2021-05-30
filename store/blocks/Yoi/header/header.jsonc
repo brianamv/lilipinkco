@@ -19,8 +19,8 @@
         "flex-layout.row#5-desktopYoi",
         "flex-layout.row#4-desktopYoi"
         //"flex-layout.row#4-desktopYoi",
-         
-        
+
+
       ],
       "props": {
         "blockClass": "yoi-header"
@@ -32,7 +32,7 @@
         "fullWidth": true
       }
     },
-  
+
     "flex-layout.row#2-desktop": {
       "children": ["notification.bar#home"],
       "props": {
@@ -63,25 +63,25 @@
       "props": {
         "verticalAlign": "middle",
         "horizontalAlign": "center"
-        
+
       },
       "children": ["image#btnLiliPink", "image#btnYoi"]
     },
-   
-    
-    "image#btnLiliPink": {  
-      "props": {  
+
+
+    "image#btnLiliPink": {
+      "props": {
         "src": "assets/buttonLP1.jpg" ,
         "href": "#" ,
-        "width": "55%"     
+        "width": "55%"
       }
-    }, 
-    "image#btnYoi": {  
-      "props": {  
+    },
+    "image#btnYoi": {
+      "props": {
         "src": "assets/buttonYoi1.jpg" ,
         "href": "#" ,
-        "width": "55%" 
-      }  
+        "width": "55%"
+      }
     },
     "flex-layout.col#spacer": {
       "props": {
@@ -93,7 +93,7 @@
         "blockClass": "sticky-header"
       },
       "children": [
-        
+
       ]
     },
     "flex-layout.row#5-desktopYoi": {
@@ -126,11 +126,11 @@
         "flex-layout.col#spacer",
         "flex-layout.col#logo1",
         "menu-item#linkImperdibles-YOI",
-        "rich-text#linkImperdibles",    
-        "flex-layout.col#logowhatyoi",  
-        "rich-text#linkPedidoWhatsappYoi",             
+        "rich-text#linkImperdibles",
+        "flex-layout.col#logowhatyoi",
+        "rich-text#linkPedidoWhatsappYoi",
         "flex-layout.col#spacer"
-      ] 
+      ]
     },
     "flex-layout.col#logo1": {
       "props": {
@@ -140,13 +140,13 @@
       },
       "children": ["image#logo1"]
     },
-   
-    
-    "image#logo1": {  
-      "props": {  
+
+
+    "image#logo1": {
+      "props": {
         "blockClass": "Imagenetiqueta",
-        "src": "assets/label.png"  
-      }  
+        "src": "assets/label.png"
+      }
     },
    /*IMAGEN DE WHATAPPS CON REDIRECCIONAMIENTO */
     "flex-layout.col#logowhatyoi": {
@@ -191,18 +191,18 @@
       },
       "children": ["image#logodesktopYoi"]
     },
-   
-    
-    "image#logodesktopYoi": {  
-      "props": {  
+
+
+    "image#logodesktopYoi": {
+      "props": {
         "src": "assets/logo-yoi.png"  ,
         "maxHeight":"65px",
         "link":{
           "url":"/"
         }
-      }  
+      }
     },
-    
+
     "header-layout.mobile#yoi": {
       "children": ["sticky-layout#1-mobile"]
     },
@@ -222,7 +222,7 @@
         "flex-layout.col#category-menuYoi"
       ]
     },
-  
+
      "category-menu": {
       "props": {
         "showAllDepartments": true,
@@ -231,7 +231,7 @@
         "departments": []
       }
     },
-  
+
     "flex-layout.col#category-menuYoi": {
       "props": {
         "verticalAlign": "middle"
@@ -241,6 +241,7 @@
     "flex-layout.row#1-mobile": {
       "children": [
         "drawer",
+        "search-bar#yoi",
         //"logo#mobileYoi",
         "flex-layout.col#spacer",
         "login",
@@ -256,7 +257,13 @@
     "drawer": {
       "children": ["menu#drawer"]
     },
-    
+    "search-bar#yoi":{
+      "props":{
+        "compactMode": true
+      }
+
+    },
+
     "menu#drawer": {
       "children": [
         "menu-item#category-brasieres",
@@ -275,7 +282,7 @@
         "orientation": "vertical"
       }
     },
-  
+
     "logo#mobileYoi": {
       "props": {
         "title": "Logo",
