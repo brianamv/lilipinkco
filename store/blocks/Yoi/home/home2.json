@@ -170,15 +170,41 @@
       "flex-layout.col#ContenedorBannersYoi"
     ]
   },
+
+
   "flex-layout.col#ContenedorBannersYoi": {
     "children": [
-      "flex-layout.row#TituloBannerYoi",
-      "flex-layout.row#BannersYoi"
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ]
   },
   "flex-layout.row#TituloBannerYoi": {
     "children": [
       "rich-text#titulobannerInferiorYoi"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": ["flex-layout.row#TituloBannerYoi","flex-layout.row#BannersYoi"]
+  },
+  "responsive-layout.phone": {
+    "children": ["flex-layout.row#TituloBannerYoi","slider-layout#coleccionesMobileyoi"]
+  },
+  "slider-layout#coleccionesMobileyoi": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#banners-inferiores1Yoi",
+      "image#banners-inferiores2Yoi",
+      "image#banners-inferiores3Yoi"
+
     ]
   },
   "flex-layout.row#BannersYoi": {

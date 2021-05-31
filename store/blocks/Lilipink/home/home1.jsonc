@@ -33,7 +33,7 @@
     "children": ["slider-layout#banner-principal"],
     "props": {
       "images": [
-        
+
       ]
     }
   },
@@ -48,6 +48,25 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
+  },
+
+  "slider-layout#coleccionesMobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#banners-inferiores1",
+      "image#banners-inferiores2",
+      "image#banners-inferiores3"
+
+    ]
   },
   "flex-layout.row#6-mobile": {
     "props": {
@@ -78,7 +97,7 @@
       "blockClass": "EncuentraMobile2"
     }
   },
-  
+
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
@@ -189,10 +208,17 @@
   },
   "flex-layout.col#ContenedorBanners": {
     "children": [
-      "flex-layout.row#TituloBanner",
-      "flex-layout.row#Banners"
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ]
   },
+  "responsive-layout.desktop": {
+    "children": ["flex-layout.row#TituloBanner","flex-layout.row#Banners"]
+  },
+  "responsive-layout.phone": {
+    "children": ["flex-layout.row#TituloBanner","slider-layout#coleccionesMobile"]
+  },
+
   "flex-layout.row#TituloBanner": {
     "children": [
       "rich-text#titulobannerInferior"
