@@ -311,5 +311,10 @@
   .buttonContainer{
     margin-top: 6px;
   }
+  .imageElement--flotante {
+    position: fixed;
+    right: 4px;
+    bottom: 4px;
+  }
 
 }

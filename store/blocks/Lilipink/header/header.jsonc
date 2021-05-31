@@ -285,7 +285,8 @@
       "search-bar#lilipink",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "flex-layout.row#icono-flotante"
     ],
     "props": {
       "blockClass": "main-header-mobile",
