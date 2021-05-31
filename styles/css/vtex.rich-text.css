@@ -553,4 +553,10 @@
     color: #08ab97;
     margin-right: 2px;
   }
+  .paragraph--subtituloPrivacidad{
+    margin: 0;
+  }
+  .paragraph--derecho{
+    padding-left: 0;
+  }
 }
