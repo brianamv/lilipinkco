@@ -200,6 +200,16 @@
 .flexCol--contenidocentrado{
   text-align: center;
 }
+.flexRow--mobilefooter{
+  background-color: #e4147e;
+}
+.flexRow--mobilefooterYoi{
+  background-color: #08ab97;
+}
+.flexColChild--payment-methods .flexRowContent{
+  display: flex;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--menu-linkMobile,
@@ -233,7 +243,5 @@
     background-color: #EFEFEF;
     color: #fff;
     display: none;
-  }
-  .flexRowContent--redessociales{
   }
 }

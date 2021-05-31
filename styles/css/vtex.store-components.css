@@ -295,6 +295,10 @@
     max-height: 700px;
   }
 }
+.imageElement--payment-methods{
+  height: fit-content;
+  /* margin: auto; */
+}
 
 @media screen and (max-width:900px) {
   .inputGroup {

@@ -222,6 +222,13 @@
   font-family: "Monserrat-regular";
   color: #fff;
 }
+.styledLinkContent--titulos-footer{
+  font-family: "Monserrat-bold";
+  color: #fff;
+}
+.accordionIcon--titulos-footer{
+  color: #fff;
+}
 
 .styledLinkContent--EncuentraMobile1::before{
   content: "\e900";

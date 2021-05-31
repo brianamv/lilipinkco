@@ -296,6 +296,7 @@
 
   "menu-item#Links-de-Interes-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -305,7 +306,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Links de Interes"
+        "text": "Links de Interés"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -329,6 +330,7 @@
 
   "menu-item#Politicas-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "itemProps": {
         "tagTitle": "Politicas",
         "text": "Politicas"
@@ -342,6 +344,7 @@
 
   "vtex.menu@2.x:menu#footer-Politicas-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "orientation": "vertical"
     },
     "children": [
@@ -354,6 +357,7 @@
 
   "menu-item#sale-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "itemProps": {
         "tagTitle": "Sale",
         "text": "Atención al cliente"

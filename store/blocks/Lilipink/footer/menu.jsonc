@@ -322,7 +322,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Links de Interes"
+        "text": "Links de Inres"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
