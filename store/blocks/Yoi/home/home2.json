@@ -28,8 +28,8 @@
       "flex-layout.row#setInfocartYoi",
       "flex-layout.row#formularioYoi",
       "rich-text#linkYoi",
-      "flex-layout.row#redessocialesYoi",
-      "social-networks"
+      "responsive-layout.desktop#redessocialesYoi",
+      "responsive-layout.phone#redessocialesYoi"
     ]
 
   },
@@ -295,6 +295,11 @@
       "textAlignment": "CENTER"
     }
   },
+  "responsive-layout.desktop#redessocialesYoi":{
+    "children":[
+      "flex-layout.row#redessocialesYoi"
+    ]
+  },
   "flex-layout.row#redessocialesYoi": {
     "props": {
       "horizontalAlign": "center",
@@ -359,6 +364,33 @@
     "props": {
       "blockClass": "texto-redes",
       "text": " @Lilipinkcol"
+    }
+  },
+  "responsive-layout.phone#redessocialesYoi":{
+    "children":[
+      "flex-layout.row#redessocialesmobileYoi"
+    ]
+  },
+  "flex-layout.row#redessocialesmobileYoi":{
+    "props": {
+      "blockClass":"redessociales",
+      "horizontalAlign":"center"
+    },
+    "children":[
+      "rich-text#fbmobileYoi",
+      "rich-text#igmobileYoi"
+    ]
+  },
+  "rich-text#fbmobileYoi": {
+    "props": {
+      "blockClass": "texto-redes3",
+      "text": "[@LiliPinkColombia](https://www.facebook.com/LiliPinkColombia)"
+    }
+  },
+  "rich-text#igmobileYoi": {
+    "props": {
+      "blockClass": "texto-redes4",
+      "text": "[@Lilipinkcol](https://www.instagram.com/lilipinkcol/)"
     }
   }
 

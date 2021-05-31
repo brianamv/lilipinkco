@@ -255,7 +255,9 @@
 
 .link--texto-redes,
 .link--texto-redes1,
-.link--texto-redes2 {
+.link--texto-redes2,
+.link--texto-redes3,
+.link--texto-redes4 {
   text-decoration: none !important;
   font-size: 20px;
   color: #727272;
@@ -520,7 +522,9 @@
     margin: 8px 6px;
   }
   .container--texto-redes1,
-  .container--texto-redes2{
+  .container--texto-redes2,
+  .container--texto-redes3,
+  .container--texto-redes4{
     justify-content: center;
   }
   .link--texto-redes1::before{
@@ -534,6 +538,19 @@
     font-size: 1.5rem;
     font-family: iconos-extra;
     color: #e4147e;
+    margin-right: 2px;
+  }
+  .link--texto-redes3::before{
+    content: "\e900";
+    font-size: 1.5rem;
+    font-family: iconos-login;
+    color: #08ab97;
+  }
+  .link--texto-redes4::before{
+    content: "\ea92";
+    font-size: 1.5rem;
+    font-family: iconos-extra;
+    color: #08ab97;
     margin-right: 2px;
   }
 }
