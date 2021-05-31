@@ -123,3 +123,8 @@
     font-family: 'Monserrat-bold';
     text-decoration: none;
 }
+@media screen and (max-width:900px) {
+    .contentInitialScreen{
+        width: 100%;
+    }
+}
