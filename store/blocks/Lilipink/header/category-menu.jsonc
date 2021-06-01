@@ -54,19 +54,31 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-brasieres",
+      "flex-layout.col#category-brasieres-imagen"
+    ]
+  },
+  "flex-layout.col#contenido-brasieres": {
+    "children": [
+      "flex-layout.row#contenido-brasieres"
+    ]
+  },
+  "flex-layout.row#contenido-brasieres": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-brasieres-1",
       "flex-layout.col#category-brasieres-2",
       "flex-layout.col#category-brasieres-3",
-      "flex-layout.col#category-brasieres-4",
-      "flex-layout.col#category-brasieres-imagen"
+      "flex-layout.col#category-brasieres-4"
     ]
   },
   "flex-layout.col#category-brasieres-1": {
     "props": {
-      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Buscar",
@@ -78,7 +90,6 @@
   },
   "flex-layout.col#category-brasieres-2": {
     "props": {
-      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Tipo",
@@ -99,7 +110,6 @@
   },
   "flex-layout.col#category-brasieres-3": {
     "props": {
-      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Beneficio",
@@ -122,7 +132,6 @@
   },
   "flex-layout.col#category-brasieres-4": {
     "props": {
-      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Compra_mas_y_ahorra",
@@ -924,236 +933,7 @@
     "blocks": [
       "vtex.menu@2.x:submenu#category-tops"
     ]
-  },
-  "vtex.menu@2.x:submenu#category-tops2": {
-    "props": {
-      "width": "100%",
-      "blockClass": "submenu"
-    },
-    "children": [
-      "flex-layout.row#category-tops"
-    ]
-  },
-  /*"flex-layout.row#category-tops2": {
-    "children": [
-      "flex-layout.col#category-tops-1",
-      "flex-layout.col#category-tops-2",
-      "flex-layout.col#category-tops-3",
-      "flex-layout.col#category-tops-4",
-      "flex-layout.col#category-tops-5"
-    ]
-  },
-  "flex-layout.col#category-tops-11": {
-    "children": [
-      "rich-text#category-tops-Buscar",
-      "menu-item#category-tops-Ver_todo",
-      "menu-item#category-tops-Lo_mas_Vendido",
-      "menu-item#category-tops-nuevosbrasieresybralettes",
-      "menu-item#category-tops-Ofertas"
-    ]
-  },
-  "flex-layout.col#category-tops-22": {
-    "children": [
-      "rich-text#category-tops-tipo",
-      "menu-item#category-tops-fashiontops",
-      "menu-item#category-tops-Cargadera-Ancha",
-      "menu-item#category-tops-Cargadera-Delgada",
-      "menu-item#category-tops-Crop-Top",
-      "menu-item#category-tops-Deportivo",
-      "menu-item#category-tops-Halter",
-      "menu-item#category-tops-Racerback",
-      "menu-item#category-tops-Strapless",
-      "menu-item#category-tops-Surtido",
-      "menu-item#category-tops-Tanktop",
-      "menu-item#category-tops-Top",
-      "menu-item#category-tops-Sin-Copa",
-      "menu-item#category-tops-Copa-Removible"
-    ]
-  },
-  "flex-layout.col#category-tops-33": {
-    "children": [
-      "menu-item#category-tops-beneficios"
-    ]
-  },
-  "flex-layout.col#category-tops-44": {
-    "children": [
-      "rich-text#category-tops-Compra_mas_y_ahorra",
-    "menu-item#category-tops-Paquete-x-4",
-    "menu-item#category-tops-Paquete-x-2",
-    "menu-item#category-tops-Paquete-x-3"
-    ]
-  },
-  "flex-layout.col#category-tops-55": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-tops66": {
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "rich-text#category-tops-Buscar": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Buscar",
-      "textColor": "black",
-      "font": "10px",
-      "blockClass": "subtitulos-lilipink"
-     }
-  },
-  "menu-item#category-tops-Ver_todo1": {
-    "props": {
-      "id": "menu-item-category-tops-Ver_todo",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/tops",
-        "noFollow": false,
-        "tagTitle": "Ver_todo",
-        "text": "Ver Todo"
-      }
-    }
-  },
-  "menu-item#category-tops-Lo_mas_Vendido1": {
-    "props": {
-      "id": "menu-item-category-tops-Lo_mas_Vendido",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/tops?O=OrderByTopSaleDESC",
-        "noFollow": false,
-        "tagTitle": "Lo_mas_Vendido",
-        "text": "Lo Mas Vendido"
-      }
-    }
-  },
-  "menu-item#category-tops-nuevosbrasieresybralettes1": {
-    "props": {
-      "id": "menu-item-category-tops-nuevosbrasieresybralettes",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Nuevos Brasieres y Bralettes",
-        "text": "Nuevos Brasieres y Bralettes"
-      }
-    }
-  },
-  "menu-item#category-tops-Ofertas1": {
-    "props": {
-      "id": "menu-item-category-tops-Ofertas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
-      }
-    }
-  },
-  "rich-text#category-tops-tipo": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Estilos",
-      "textColor": "black",
-      "font": "10px",
-      "blockClass": "subtitulos-lilipink"
-     }
-  },
-  "menu-item#category-tops-fashiontops1": {
-    "props": {
-      "id": "menu-item-category-tops-fashiontops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/tops/fashion-tops",
-        "noFollow": false,
-        "tagTitle": "Fashion Tops",
-        "text": "Fashion Tops"
-      }
-    }
-  },
-  "rich-text#category-tops-beneficios": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Beneficios",
-      "textColor": "black",
-      "font": "10px",
-      "blockClass": "subtitulos-lilipink"
-     }
-  },
-  
-  "rich-text#category-tops-Compra_mas_y_ahorra": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Compra Más y Ahorrasssssssssss",
-      "textColor": "black",
-      "font": "10px",
-      "blockClass": "subtitulos-lilipink"
-     }
-  },
-  "menu-item#category-tops-Paquete-x-2": {
-    "props": {
-      "id": "menu-item-category-tops-Paquete-x-2",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/tops/pq-x-2?O=OrderByBestDiscountDESC&initialMap=c,c&initialQuery=lilipink/brasieres&map=category-1,category-2,cantidadxpaquete",
-        "noFollow": false,
-        "tagTitle": "Paquete-x-2",
-        "text": "Paquete x 2"
-      }
-    }
-  },
-  "menu-item#category-tops-Paquete-x-3": {
-    "props": {
-      "id": "menu-item-category-tops-Paquete-x-3",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Paquete x 3",
-        "text": "Paquete x 3"
-      }
-    }
-  },
-  "menu-item#category-tops-Paquete-x-4": {
-    "props": {
-      "id": "menu-item-category-tops-Paquete-x-4",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Paquete x 4",
-        "text": "Paquete x 4"
-      }
-    }
-  },*/
+  },  
   "menu-item#category-panties": {
     "props": {
       "blockClass": "titulosMenu",
@@ -1186,14 +966,27 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-panties",
+      "flex-layout.col#category-panties-5"
+    ]
+  },
+  "flex-layout.col#contenido-panties": {
+    "children": [
+      "flex-layout.row#contenido-panties"
+    ]
+  },
+  "flex-layout.row#contenido-panties": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-panties-1",
       "flex-layout.col#category-panties-2",
       "flex-layout.col#category-panties-3",
-      "flex-layout.col#category-panties-4",
-      "flex-layout.col#category-panties-5"
+      "flex-layout.col#category-panties-4"
     ]
   },
   "flex-layout.col#category-panties-1": {
@@ -1831,6 +1624,11 @@
     ]
   },
   "flex-layout.row#menuGirl": {
+    "props": {
+      "colGap": 3,
+      "preventHorizontalStretch": true,
+      "blockClass":"pruebamenu"
+    },
     "children": [
       "flex-layout.col#partes-menu-girl",
       "flex-layout.col#partes-menu-girl-2"
@@ -1890,6 +1688,11 @@
     ]
   },
   "flex-layout.row#menuJunior": {
+    "props": {
+      "colGap": 3,
+      "preventHorizontalStretch": true,
+      "blockClass":"pruebamenu"
+    },
     "children": [
       "flex-layout.col#partes-menu-junior-1",
       "flex-layout.col#partes-menu-junior-2"
@@ -1949,6 +1752,11 @@
     ]
   },
   "flex-layout.row#menuTeen": {
+    "props": {
+      "colGap": 3,
+      "preventHorizontalStretch": true,
+      "blockClass":"pruebamenu"
+    },
     "children": [
       "flex-layout.col#partes-menu-teen-1",
       "flex-layout.col#partes-menu-teen-2"
@@ -4354,15 +4162,26 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-descanso",
+      "flex-layout.col#category-descanso-5"
+    ]
+  },
+  "flex-layout.col#contenido-descanso": {
+    "children": [
+      "flex-layout.row#contenido-descanso"
+    ]
+  },
+  "flex-layout.row#contenido-descanso": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-descanso-1",
       "flex-layout.col#category-descanso-2",
-      "flex-layout.col#category-descanso-3",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-descanso-5"
+      "flex-layout.col#category-descanso-3"
     ]
   },
   "flex-layout.col#category-descanso-1": {
@@ -4940,15 +4759,27 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-medias",
+      "flex-layout.col#category-medias-5"
+    ]
+  },
+  "flex-layout.col#contenido-medias": {
+    "children": [
+      "flex-layout.row#contenido-medias"
+    ]
+  },
+  "flex-layout.row#contenido-medias": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-medias-1",
       "flex-layout.col#category-medias-2",
       "flex-layout.col#category-medias-3",
-      "flex-layout.col#category-medias-4",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-medias-5"
+      "flex-layout.col#category-medias-4"
     ]
   },
   "flex-layout.col#category-medias-1": {
@@ -5389,15 +5220,27 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-deportivo",
+      "flex-layout.col#category-deportivo-5"
+
+    ]
+  },
+  "flex-layout.col#contenido-deportivo": {
+    "children": [
+      "flex-layout.row#contenido-deportivo"
+    ]
+  },
+  "flex-layout.row#contenido-deportivo": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-deportivo-1",
       "flex-layout.col#category-deportivo-2",
-      "flex-layout.col#category-deportivo-3",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-deportivo-5"
+      "flex-layout.col#category-deportivo-3"
     ]
   },
   "flex-layout.col#category-deportivo-1": {
@@ -5750,15 +5593,26 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-vestidos",
+      "flex-layout.col#category-vestidos-5"
+    ]
+  },
+  "flex-layout.col#contenido-vestidos": {
+    "children": [
+      "flex-layout.row#contenido-vestidos"
+    ]
+  },
+  "flex-layout.row#contenido-vestidos": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-vestidos-1",
       "flex-layout.col#category-vestidos-2",
-      "flex-layout.col#category-vestidos-3",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-vestidos-5"
+      "flex-layout.col#category-vestidos-3"
     ]
   },
   "flex-layout.col#category-vestidos-1": {
@@ -6059,14 +5913,27 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-tops",
+      "flex-layout.col#category-tops-5"
+    ]
+  },
+  "flex-layout.col#contenido-tops": {
+    "children": [
+      "flex-layout.row#contenido-tops"
+    ]
+  },
+  "flex-layout.row#contenido-tops": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-tops-1",
       "flex-layout.col#category-tops-2",
       "flex-layout.col#category-tops-3",
-      "flex-layout.col#category-tops-4",
-      "flex-layout.col#category-tops-5"
+      "flex-layout.col#category-tops-4"
     ]
   },
   "flex-layout.col#category-tops-1": {
@@ -7374,15 +7241,25 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-belleza",
+      "flex-layout.col#category-belleza-5"
+    ]
+  },
+  "flex-layout.col#contenido-belleza": {
+    "children": [
+      "flex-layout.row#contenido-belleza"
+    ]
+  },
+  "flex-layout.row#contenido-belleza": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-belleza-1",
-      "flex-layout.col#category-belleza-2",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-belleza-5"
+      "flex-layout.col#category-belleza-2"
     ]
   },
   "flex-layout.col#category-belleza-1": {
@@ -7856,15 +7733,25 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "colSize": "equal"
+      "blockClass":"pruebamenu"
+    },
+    "children": [
+      "flex-layout.col#contenido-bioseguridad",
+      "flex-layout.col#category-bioseguridad-5"
+    ]
+  },
+  "flex-layout.col#contenido-bioseguridad": {
+    "children": [
+      "flex-layout.row#contenido-bioseguridad"
+    ]
+  },
+  "flex-layout.row#contenido-bioseguridad": {
+    "props":{
+      "blockClass":"category-menu"
     },
     "children": [
       "flex-layout.col#category-bioseguridad-1",
-      "flex-layout.col#category-bioseguridad-2",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-bioseguridad-5"
+      "flex-layout.col#category-bioseguridad-2"
     ]
   },
   "flex-layout.col#category-bioseguridad-1": {
@@ -8058,43 +7945,14 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/home-yoi",
         "noFollow": true,
         "tagTitle": "YOI",
         "text": "YOI"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#yoi"
-    ]
+    }
   },
-  "vtex.menu@2.x:submenu#yoi": {
-    "props": {
-      "blockClass": "submenu"
-    },
-    "children": [
-      "flex-layout.row#menu-yoi"
-    ]
-  },
-  "flex-layout.row#menu-yoi": {
-    "children": [
-      "flex-layout.col#menu-yoi-1"
-    ]
-  },
-  "flex-layout.col#menu-yoi-1": {
-    "children": [
-      "vtex.menu@2.x:menu#yoi"
-    ]
-  },
-  "vtex.menu@2.x:menu#yoi": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#socialseller"
-    ]
-  },
-  "menu-item#tiendas": { 
+  "menu-item#tiendas": {
     "props": {
       "blockClass": "tituloMenu",
       "id": "menu-item-tiendas",
