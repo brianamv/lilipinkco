@@ -125,7 +125,6 @@
   background-color: #fff;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-  border-bottom: solid 2px #f0f0f0;
 }
 
 .flexRow--banner-guia-de-talla {
@@ -208,6 +207,16 @@
 }
 .flexColChild--payment-methods .flexRowContent{
   display: flex;
+}
+.flexRowContent--pruebamenu{
+  justify-content: space-between;
+}
+.flexRowContent--category-menu .stretchChildrenWidth{
+  width: max-content !important;
+}
+.flexRow--pruebamenu{
+  width: calc(100% - 3rem);
+  justify-content: center;
 }
 
 @media screen and (min-width: 40em) {

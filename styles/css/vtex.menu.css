@@ -191,6 +191,37 @@
   color: #08AB97 !important;
 }
 
+@media screen and (min-width:1280px) {
+  .submenu--submenu {
+    width: 96% !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:1440px) {
+  .submenu--submenu {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:1920px),
+screen and (min-width:1850px) {
+  .submenu--submenu {
+    width: 75% !important;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width:2560px) {
+  .submenu--submenu {
+    width: 66% !important;
+    margin: 0 auto;
+  }
+}
+
+
+
 
 /* ajuste submenu segun pantalla
 .submenu--submenu {
@@ -222,44 +253,50 @@
   font-family: "Monserrat-regular";
   color: #fff;
 }
-.styledLinkContent--titulos-footer{
+
+.styledLinkContent--titulos-footer {
   font-family: "Monserrat-bold";
   color: #fff;
 }
-.accordionIcon--titulos-footer{
+
+.accordionIcon--titulos-footer {
   color: #fff;
 }
 
-.styledLinkContent--EncuentraMobile1::before{
+.styledLinkContent--EncuentraMobile1::before {
   content: "\e900";
-    font-size: 1.2rem;
-    font-family: 'iconos-extra';
-    color: #757575;
-    margin-right: 6px;
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
 
 }
-.styledLinkContent--EncuentraMobile2::before{
+
+.styledLinkContent--EncuentraMobile2::before {
   content: "\ea93";
-    font-size: 1.2rem;
-    font-family: 'iconos-extra';
-    color: #757575;
-    margin-right: 6px;
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
 
 }
-.menuItem--EncuentraMobile1{
+
+.menuItem--EncuentraMobile1 {
   padding: 6px;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
 }
-.menuItem--EncuentraMobile2{
+
+.menuItem--EncuentraMobile2 {
   padding: 6px;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
 }
+
 @media screen and (max-width:900px) {
-  .styledLink--titulosMenu{
+  .styledLink--titulosMenu {
     font-size: 2.5rem;
   }
 }
