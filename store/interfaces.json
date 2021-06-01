@@ -76,6 +76,12 @@
     "store.storelocator.custom": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.login": {
+        "around": ["multi-home-wrapper.custom"]
+    },
+    "store.custom.account": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "header.yoi": {},
     "element-wrapper.lilipink": {},
     "element-wrapper.yoi": {},

@@ -12,14 +12,14 @@
     "blocks": ["order-placed"]
   },
 
-  "store.account": {
+  "store.custom.account": {
     "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
 
-  "store.login": {
+  "store.custom.login": {
     "blocks": ["login-content#default"]
   },
 

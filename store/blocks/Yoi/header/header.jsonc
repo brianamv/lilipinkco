@@ -257,33 +257,11 @@
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
   "search-bar#yoi": {
     "props": {
       "compactMode": true
     }
 
-  },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-brasieres",
-      "menu-item#category-tops",
-      "menu-item#category-panties",
-      "menu-item#category-kids",
-      "menu-item#category-descanso",
-      "menu-item#category-medias",
-      "menu-item#category-deportivo",
-      "menu-item#category-vestidos",
-      "menu-item#category-belleza",
-      "menu-item#category-bioseguridad",
-      "menu-item#yoi"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
   },
 
   "logo#mobileYoi": {

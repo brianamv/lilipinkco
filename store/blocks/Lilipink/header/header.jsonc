@@ -100,8 +100,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": [
-    ]
+    "children": []
   },
   "flex-layout.row#5-desktop": {
     "props": {
@@ -132,11 +131,12 @@
       "minicart.v2"
     ]
   },
-  "login":{
-    "props":{
-      "showIconProfile":true,
-      "iconLabel":"Mi Cuenta",
-      "termsAndConditions":"Al ingresar aceptas los [**términos y condiciones**](/Condiciones-y-restricciones)"
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Mi Cuenta",
+      "termsAndConditions": "Al ingresar aceptas los [**términos y condiciones**](/Condiciones-y-restricciones)",
+      "logInButtonBehavior": "popover"
     }
   },
   "search-bar": {
@@ -207,9 +207,9 @@
     "props": {
       "blockClass": "Imagenetiqueta",
       "src": "assets/logo-wh.png",
-      "link":{
-        "url":"https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
-        "openNewTab":true
+      "link": {
+        "url": "https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
+        "openNewTab": true
       }
     }
   },
@@ -234,8 +234,8 @@
     "props": {
       "src": "assets/logo-header.png",
       "maxHeight": "35px",
-      "link":{
-        "url":"/"
+      "link": {
+        "url": "/"
       }
     }
   },
@@ -295,19 +295,52 @@
       "fullWidth": true
     }
   },
+  // "drawer": {
+  //   "children": [
+  //     "menu#drawer"
+  //   ]
+  // },
   "drawer": {
+    "props": {
+      
+    },
+    
     "children": [
       "menu#drawer"
     ]
   },
-  "search-bar#lilipink":{
-    "props":{
+  "drawer#2": {
+    
+    
+    "children": [
+      "rich-text#open-drawer"
+    ],
+    "blocks": ["drawer-trigger"]
+  },
+
+  "drawer-trigger": {
+    "children": ["rich-text#open-drawer"]
+  },
+
+  "rich-text#open-drawer": {
+    "props": {
+      "text": "Open drawer"
+    }
+  },
+
+
+  "search-bar#lilipink": {
+    "props": {
       "compactMode": true
     }
 
   },
   "menu#drawer": {
+    "props": {
+      "orientation": "vertical"
+    },
     "children": [
+      "drawer#2",
       "menu-item#category-brasieres",
       "menu-item#category-tops",
       "menu-item#category-panties",
@@ -319,10 +352,7 @@
       "menu-item#category-belleza",
       "menu-item#category-bioseguridad",
       "menu-item#yoi"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
+    ]
   },
   "logo#mobilelili": {
     "props": {
