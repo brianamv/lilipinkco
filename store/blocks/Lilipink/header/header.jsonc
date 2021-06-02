@@ -300,33 +300,7 @@
   //     "menu#drawer"
   //   ]
   // },
-  "drawer": {
-    "props": {
-      
-    },
-    
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "drawer#2": {
-    
-    
-    "children": [
-      "rich-text#open-drawer"
-    ],
-    "blocks": ["drawer-trigger"]
-  },
-
-  "drawer-trigger": {
-    "children": ["rich-text#open-drawer"]
-  },
-
-  "rich-text#open-drawer": {
-    "props": {
-      "text": "Open drawer"
-    }
-  },
+  
 
 
   "search-bar#lilipink": {
