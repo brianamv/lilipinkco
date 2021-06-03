@@ -209,7 +209,7 @@
   display: flex;
 }
 .flexRowContent--pruebamenu{
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 .flexRowContent--category-menu .stretchChildrenWidth{
   width: max-content !important;

@@ -14,7 +14,6 @@
     "children": [
       //"list-context.image-list#demo",
       "flex-layout.row#6-desktop",
-      "flex-layout.row#6-mobile",
       "list-context.image-list#bannerprincipal",
       "slider-layout#banner-principal",
       "__fold__",
@@ -26,7 +25,8 @@
       "flex-layout.row#formulario",
       "rich-text#link",
       "responsive-layout.desktop#redessociales",
-      "responsive-layout.phone#redessociales"
+      "responsive-layout.phone#redessociales",
+      "flex-layout.row#6-mobile"
     ]
   },
   "list-context.image-list#bannerprincipal": {

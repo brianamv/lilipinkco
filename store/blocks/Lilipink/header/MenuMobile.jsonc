@@ -1,428 +1,80 @@
 {
-  "drawer": {
-    "props": {
-    },
+  "drawer#lili": {
     "children": [
-      "menu#drawer"
-    ]
-  },
-  /**/
-
-  "flex-layout.row#MenuMobileBrasieres": {
-    "children": [
-      "flex-layout.col#MenuMobileBrasieres"
+      "menu#nivel-1"
     ]
   },
 
-  "flex-layout.col#MenuMobileBrasieres": {
+  "menu#nivel-1": {
     "children": [
-      "rich-text#open-brasieres",
-      "drawer#3",
-      "drawer#4",
-      "drawer#5",
-      "drawer#6"
-    ]
-  },
-  "flex-layout.row#MenuMobileTop": {
-    "children": [
-      "flex-layout.col#MenuMobileTop"
-    ]
-  },
-
-  "flex-layout.col#MenuMobileTop": {
-    "children": [
-      "drawer#7",
-      "drawer#8",
-      "drawer#9",
-      "drawer#10"
-
-    ]
-  },
-  "flex-layout.row#MenuMobilepanties": {
-    "children": [
-      "flex-layout.col#MenuMobilepanties"
-    ]
-  },
-
-  "flex-layout.col#MenuMobilepanties": {
-    "children": [
-      "drawer#7"
-    ]
-  },
-
-  /**/
-
-  "drawer#2": {
-    "children": [ "flex-layout.row#MenuMobileBrasieres" ],
-    "blocks": ["drawer-trigger#1"]
-  },
-
-  "drawer#2.1": {
-    "children": ["flex-layout.row#MenuMobileTop" ],
-    "blocks": ["drawer-trigger#2"]
-  },
-  "drawer#2.2": {
-    "children": ["flex-layout.row#MenuMobilepanties"],
-    "blocks": ["drawer-trigger#3"]
-  },
-  "drawer#2.3": {
-    "children": [],
-    "blocks": ["drawer-trigger#4"]
-  },
-  "drawer#2.4": {
-    "children": [],
-    "blocks": ["drawer-trigger#5"]
-  },
-  "drawer#2.5": {
-    "children": [],
-    "blocks": ["drawer-trigger#6"]
-  },
-  "drawer#2.6": {
-    "children": [],
-    "blocks": ["drawer-trigger#7"]
-  },
-  "drawer#2.7": {
-    "children": [],
-    "blocks": ["drawer-trigger#8"]
-  },
-  "drawer#2.8": {
-    "children": [],
-    "blocks": ["drawer-trigger#9"]
-  },
-  "drawer#2.9": {
-    "children": [],
-    "blocks": ["drawer-trigger#11"]
-  },
-  "drawer#2.10": {
-    "children": [],
-    "blocks": ["drawer-trigger#12"]
-  },
-  "drawer#2.11": {
-    "children": [],
-    "blocks": ["drawer-trigger#12"]
-  },
-  /*BRASIERES : BUSCAR , ESTILO , MATERIAL  ETC**/
-
-  "drawer#3": {
-    "children": ["vtex.menu@2.x:menu#brasieres-mobile"],
-    "blocks": ["drawer-trigger"]
-  },
-  "drawer#4": {
-    "children": ["vtex.menu@2.x:menu#brasieres-mobile2"],
-    "blocks": ["drawer-trigger#1.2"]
-  },
-  "drawer#5": {
-    "children": ["vtex.menu@2.x:menu#brasieres-mobile3"],
-    "blocks": ["drawer-trigger#1.3"]
-  },
-  "drawer#6": {
-    "children": ["vtex.menu@2.x:menu#brasieres-mobile4"],
-    "blocks": ["drawer-trigger#1.4"]
-  },
-  /*TOP*/
-  "drawer#7": {
-    "children": ["vtex.menu@2.x:menu#panties-mobile1"],
-    "blocks": ["drawer-trigger"]
-  },
-  "drawer#8": {
-    "children": ["vtex.menu@2.x:menu#panties-mobile2"],
-    "blocks": ["drawer-trigger#1.2"]
-  },
-  "drawer#9": {
-    "children": ["vtex.menu@2.x:menu#panties-mobile3"],
-    "blocks": ["drawer-trigger#1.3"]
-  },
-  "drawer#10": {
-    "children": ["vtex.menu@2.x:menu#panties-mobile4"],
-    "blocks": ["drawer-trigger#1.4"]
-  },
-
-
-
-
-  /*PANTIES*/
-  "drawer#16": {
-    "children": [],
-    "blocks": ["drawer-trigger#1.5"]
-  },
-  /**/
-
-
-  /**/
-  "drawer-trigger#1": {
-    "children": ["rich-text#open-brasieres"]
-  },
-  "rich-text#open-brasieres": {
-    "props": {
-      "text": "BRASIERES"
-    }
-  },
-
-  /**/
-  "drawer-trigger#2": {
-    "children": ["rich-text#open2"]
-  },
-  "rich-text#open2": {
-    "props": {
-      "text": "TOP"
-    }
-  },
-  "drawer-trigger#3": {
-    "children": ["rich-text#open3"]
-  },
-  "rich-text#open3": {
-    "props": {
-      "text": "PANTIES"
-    }
-  },
-  "drawer-trigger#4": {
-    "children": ["rich-text#open4"]
-  },
-  "rich-text#open4": {
-    "props": {
-      "text": "KIDS & TEENS"
-    }
-  },
-  "drawer-trigger#5": {
-    "children": ["rich-text#open5"]
-  },
-  "rich-text#open5": {
-    "props": {
-      "text": "DESCANSO Y MULTIUSOS"
-    }
-  },
-  "drawer-trigger#6": {
-    "children": ["rich-text#open6"]
-  },
-  "rich-text#open6": {
-    "props": {
-      "text": "MEDIAS"
-    }
-  },
-  "drawer-trigger#7": {
-    "children": ["rich-text#open7"]
-  },
-  "rich-text#open7": {
-    "props": {
-      "text": "DEPORTIVO"
-    }
-  },
-  "drawer-trigger#8": {
-    "children": ["rich-text#open8"]
-  },
-  "rich-text#open8": {
-    "props": {
-      "text": "VESTIDO DE BAÑO"
-    }
-  },
-  "drawer-trigger#9": {
-    "children": ["rich-text#open9"]
-  },
-  "rich-text#open9": {
-    "props": {
-      "text": "BELLEZA"
-    }
-  },
-  "drawer-trigger#10": {
-    "children": ["rich-text#open10"]
-  },
-  "rich-text#open10": {
-    "props": {
-      "text": "OUTLET"
-    }
-  },
-  "drawer-trigger#11": {
-    "children": ["rich-text#open11"]
-  },
-  "rich-text#open11": {
-    "props": {
-      "text": "BIOSEGURIDAD"
-    }
-  },
-  "drawer-trigger#12": {
-    "children": ["rich-text#open12"]
-  },
-  "rich-text#open12": {
-    "props": {
-      "text": "YOI"
-    }
-  },
-
-
-
-
-  "drawer-trigger": {
-    "children": ["rich-text#open-drawer2"]
-  },
-  "rich-text#open-drawer2": {
-    "props": {
-      "text": "BUSCAR"
-    }
-  },
-  "drawer-trigger#1.0": {
-    "children": ["rich-text#open-drawer1.0"]
-  },
-  "rich-text#open-drawer1.0": {
-    "props": {
-      "text": "BRASIERES"
-    }
-  },
-
-  "drawer-trigger#1.2": {
-    "children": ["rich-text#open-drawer1.2"]
-  },
-  "rich-text#open-drawer1.2": {
-    "props": {
-      "text": "ESTILO"
-    }
-  },
-  "drawer-trigger#1.3": {
-    "children": ["rich-text#open-drawer1.3"]
-  },
-  "rich-text#open-drawer1.3": {
-    "props": {
-      "text": "MATERIAL"
-    }
-  },
-  "drawer-trigger#1.4": {
-    "children": ["rich-text#open-drawer1.4"]
-  },
-  "rich-text#open-drawer1.4": {
-    "props": {
-      "text": "COMPRA MÁS Y AHORRA"
-    }
-  },
-  "drawer-trigger#1.5": {
-    "children": ["rich-text#open-drawer1.5"]
-  },
-  "rich-text#open-drawer1.5": {
-    "props": {
-      "text": "BRALETTE"
-    }
-  },
-  "drawer-trigger#1.6": {
-    "children": ["rich-text#open-drawer1.6"]
-  },
-  "rich-text#open-drawer1.6": {
-    "props": {
-      "text": "CON COPA"
-    }
-  },
-  "drawer-trigger#1.7": {
-    "children": ["rich-text#open-drawer1.7"]
-  },
-  "rich-text#open-drawer1.7": {
-    "props": {
-      "text": "BUSTIER"
-    }
-  },
-  "drawer-trigger#1.8": {
-    "children": ["rich-text#open-drawer1.8"]
-  },
-  "rich-text#open-drawer1.8": {
-    "props": {
-      "text": "DEPORTIVO"
-    }
-  },
-  "drawer-trigger#1.9": {
-    "children": ["rich-text#open-drawer1.9"]
-  },
-  "rich-text#open-drawer1.9": {
-    "props": {
-      "text": "MATERNO"
-    }
-  },
-  "drawer-trigger#1.10": {
-    "children": ["rich-text#open-drawer1.10"]
-  },
-
-  "rich-text#open-drawer1.10": {
-    "props": {
-      "text": "SECRET"
-    }
-  },
-  "drawer-trigger#1.11": {
-    "children": ["rich-text#open-drawer1.11"]
-  },
-  "rich-text#open-drawer1.11": {
-    "props": {
-      "text": "STRAPLESS"
-    }
-  },
-  "drawer-trigger#1.12": {
-    "children": ["rich-text#open-drawer1.12"]
-  },
-  "rich-text#open-drawer1.12": {
-    "props": {
-      "text": "SIN VARILLA"
-    }
-  },
-  "drawer-trigger#1.13": {
-    "children": ["rich-text#open-drawer1.13"]
-  },
-  "rich-text#open-drawer1.13": {
-    "props": {
-      "text": "CONJUNTOS"
-    }
-  },
-
-
-
-
-  "menu#drawer": {
-    "children": [
-      "drawer#2",
-      "drawer#2.1",
-      "drawer#2.2",
-      "drawer#2.3",
-      "drawer#2.4",
-      "drawer#2.5",
-      "drawer#2.6",
-      "drawer#2.7",
-      "drawer#2.8",
-      "drawer#2.9",
-      "drawer#2.10"
+      "drawer#brasieres"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-  /*Version mobile menu*/
-  "vtex.menu@2.x:menu#MobileBrasieresTexto": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "drawer#brasieres": {
     "children": [
-      "rich-text#MobileBrasieresTexto"
-    ]
+      "menu#brasieres"
+    ],
+    "blocks": ["drawer-trigger#brasieres"]
   },
-  "rich-text#MobileBrasieresTexto": {
+  "drawer-trigger#brasieres": {
+    "children": ["rich-text#brasieres"]
+  },
+  "rich-text#brasieres": {
     "props": {
-      "blockClass": "titulos-footer",
       "text": "BRASIERES"
     }
   },
-
-
-
-  "vtex.menu@2.x:menu#brasieres-mobile": {
+  "menu#brasieres": {
+    "children": [
+      "drawer#brasieres-buscar",
+      "drawer#brasieres-estilos"
+    ],
     "props": {
       "orientation": "vertical"
-    },
+    }
+  },
+  "drawer#brasieres-buscar": {
+    "children": ["menu#brasieres-buscar"],
+    "blocks": ["drawer-trigger#buscar"]
+  },
+  "drawer-trigger#buscar": {
+    "children": ["rich-text#buscar"]
+  },
+  "rich-text#buscar": {
+    "props": {
+      "text": "BUSCAR"
+    }
+  },
+  "menu#brasieres-buscar": {
     "children": [
-      "rich-text#open-brasieres",
       "menu-item#category-brasieres-Ver_todo",
       "menu-item#category-brasieres-Lo_mas_Vendido",
       "menu-item#category-brasieres-nuevos",
       "menu-item#category-brasieres-Ofertas"
-    ]
-  },
-  "vtex.menu@2.x:menu#brasieres-mobile2": {
+    ],
     "props": {
       "orientation": "vertical"
-    },
+    }
+  },
+
+
+  "drawer#brasieres-estilos": {
+    "children": ["menu#brasieres-estilos"],
+    "blocks": ["drawer-trigger#estilos"]
+  },
+  "drawer-trigger#estilos": {
+    "children": ["rich-text#estilos"]
+  },
+  "rich-text#estilos": {
+    "props": {
+      "text": "ESTILOS"
+    }
+  },
+  "menu#brasieres-estilos": {
     "children": [
-      "rich-text#open-brasieres",
       "menu-item#category-brasieres-bralette",
       "menu-item#category-brasieres-con-copa",
       "menu-item#category-brasieres-bustier",
@@ -432,92 +84,10 @@
       "menu-item#category-brasieres-strapless",
       "menu-item#category-brasieres-sin-varilla",
       "menu-item#category-brasieres-conjuntos"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#brasieres-mobile3": {
+    ],
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "rich-text#open-brasieres",
-      "menu-item#category-brasieres-PushUp_realce",
-      "menu-item#category-brasieres-reduce",
-      "menu-item#category-brasieres-facilitadores-postura",
-      "menu-item#category-brasieres-Post-Quirúrgicos",
-      "menu-item#category-brasieres-Maternidad-y-Lactancia"
-    ]
-  },
-  "vtex.menu@2.x:menu#brasieres-mobile4": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "rich-text#open-brasieres",
-      "menu-item#category-brasieres-Paquete-x-2",
-      "menu-item#category-brasieres-Paquete-x-3",
-      "menu-item#category-brasieres-Paquete-x-4"
-    ]
-  },
-  "vtex.menu@2.x:menu#brasieres-mobile5": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "rich-text#open-brasieres",
-      "menu-item#category-panties-Ver_todo",
-      "menu-item#category-panties-Lo_mas_Vendido",
-      "menu-item#category-panties-Nuevos-Panties",
-      "menu-item#category-panties-Ofertas"
-    ]
-  },
-  "vtex.menu@2.x:menu#panties-mobile1": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-panties-Ver_todo",
-      "menu-item#category-panties-Lo_mas_Vendido",
-      "menu-item#category-panties-Nuevos-Panties",
-      "menu-item#category-panties-Ofertas"
-    ]
-  },
-  "vtex.menu@2.x:menu#panties-mobile2": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-panties-bikini",
-      "menu-item#category-panties-boxer",
-      "menu-item#category-panties-brasilera",
-      "menu-item#category-panties-clasico",
-      "menu-item#category-panties-culotte",
-      "menu-item#category-panties-hipster"
-        ]
-  },
-  "vtex.menu@2.x:menu#panties-mobile3": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-panties-Invisibles",
-      "menu-item#category-panties-Reducción-y-Control",
-      "menu-item#category-panties-Levanta-Colas",
-      "menu-item#category-panties-Postparto",
-      "menu-item#category-panties-Panties-Postoperatorios"
-        ]
-  },
-  "vtex.menu@2.x:menu#panties-mobile4": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-panties-Individual",
-      "menu-item#category-panties-Paquete-x-2",
-      "menu-item#category-panties-Paquete-x-3",
-      "menu-item#category-panties-Paquete-x-4",
-      "menu-item#category-panties-Semanario"
-        ]
+    }
   }
-/**/
+
 }

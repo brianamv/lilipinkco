@@ -280,7 +280,7 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
+      "drawer#lili",
       //"logo#mobilelili",
       "search-bar#lilipink",
       "flex-layout.col#spacer",
@@ -295,39 +295,8 @@
       "fullWidth": true
     }
   },
-  // "drawer": {
-  //   "children": [
-  //     "menu#drawer"
-  //   ]
-  // },
   
-
-
-  "search-bar#lilipink": {
-    "props": {
-      "compactMode": true
-    }
-
-  },
-  "menu#drawer": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "drawer#2",
-      "menu-item#category-brasieres",
-      "menu-item#category-tops",
-      "menu-item#category-panties",
-      "menu-item#category-kids",
-      "menu-item#category-descanso",
-      "menu-item#category-medias",
-      "menu-item#category-deportivo",
-      "menu-item#category-vestidos",
-      "menu-item#category-belleza",
-      "menu-item#category-bioseguridad",
-      "menu-item#yoi"
-    ]
-  },
+  
   "logo#mobilelili": {
     "props": {
       "title": "Logo",
