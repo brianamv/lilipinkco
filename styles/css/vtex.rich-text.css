@@ -508,6 +508,21 @@
   padding-bottom: 1%;
   margin: 20px 84px 10px 110px;
 }
+.paragraph--trigger-movil{
+  color: #727272;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+.paragraph--textosYoi{
+  color: #000;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.container--textosYoi{
+  padding-left: 1rem;
+  border-bottom: #f0f0f0 solid 1px;
+}
 
 @media (max-width: 900px) {
   .paragraph--Encuentra {

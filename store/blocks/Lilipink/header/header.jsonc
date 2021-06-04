@@ -8,13 +8,13 @@
   "header": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.mobile#lili"
     ]
   },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.mobile#lili"
     ]
   },
   "header-layout.desktop": {
@@ -239,14 +239,14 @@
       }
     }
   },
-  "header-layout.mobile": {
+  "header-layout.mobile#lili": {
     "children": [
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile-lili"
     ]
   },
-  "sticky-layout#1-mobile": {
+  "sticky-layout#1-mobile-lili": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-mobile-lili"
     ]
   },
   "flex-layout.row#4-desktop": {
@@ -278,7 +278,7 @@
       "vtex.menu@2.x:menu#category-menu"
     ]
   },
-  "flex-layout.row#1-mobile": {
+  "flex-layout.row#1-mobile-lili": {
     "children": [
       "drawer#lili",
       //"logo#mobilelili",
@@ -294,6 +294,12 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "search-bar#lilipink": {
+    "props": {
+      "compactMode": true
+    }
+
   },
   
   

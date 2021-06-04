@@ -54,7 +54,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-brasieres",
@@ -67,8 +67,8 @@
     ]
   },
   "flex-layout.row#contenido-brasieres": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-brasieres-1",
@@ -78,8 +78,7 @@
     ]
   },
   "flex-layout.col#category-brasieres-1": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "rich-text#category-brasieres-Buscar",
       "menu-item#category-brasieres-Ver_todo",
@@ -89,8 +88,7 @@
     ]
   },
   "flex-layout.col#category-brasieres-2": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "rich-text#category-brasieres-Tipo",
       "menu-item#category-brasieres-bralette",
@@ -109,8 +107,7 @@
     ]
   },
   "flex-layout.col#category-brasieres-3": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "rich-text#category-brasieres-Beneficio",
       "menu-item#category-brasieres-PushUp_realce",
@@ -131,8 +128,7 @@
     ]
   },
   "flex-layout.col#category-brasieres-4": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "rich-text#category-brasieres-Compra_mas_y_ahorra",
       "menu-item#category-brasieres-Paquete-x-2",
@@ -933,7 +929,7 @@
     "blocks": [
       "vtex.menu@2.x:submenu#category-tops"
     ]
-  },  
+  },
   "menu-item#category-panties": {
     "props": {
       "blockClass": "titulosMenu",
@@ -966,7 +962,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-panties",
@@ -979,8 +975,8 @@
     ]
   },
   "flex-layout.row#contenido-panties": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-panties-1",
@@ -1627,7 +1623,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#partes-menu-girl",
@@ -1691,7 +1687,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#partes-menu-junior-1",
@@ -1755,7 +1751,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#partes-menu-teen-1",
@@ -4162,7 +4158,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-descanso",
@@ -4175,8 +4171,8 @@
     ]
   },
   "flex-layout.row#contenido-descanso": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-descanso-1",
@@ -4759,7 +4755,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-medias",
@@ -4772,8 +4768,8 @@
     ]
   },
   "flex-layout.row#contenido-medias": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-medias-1",
@@ -5220,7 +5216,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-deportivo",
@@ -5234,8 +5230,8 @@
     ]
   },
   "flex-layout.row#contenido-deportivo": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-deportivo-1",
@@ -5593,7 +5589,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-vestidos",
@@ -5606,8 +5602,8 @@
     ]
   },
   "flex-layout.row#contenido-vestidos": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-vestidos-1",
@@ -5913,7 +5909,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-tops",
@@ -5926,8 +5922,8 @@
     ]
   },
   "flex-layout.row#contenido-tops": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-tops-1",
@@ -7241,7 +7237,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-belleza",
@@ -7254,8 +7250,8 @@
     ]
   },
   "flex-layout.row#contenido-belleza": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-belleza-1",
@@ -7733,7 +7729,7 @@
     "props": {
       "colGap": 3,
       "preventHorizontalStretch": true,
-      "blockClass":"pruebamenu"
+      "blockClass": "pruebamenu"
     },
     "children": [
       "flex-layout.col#contenido-bioseguridad",
@@ -7746,8 +7742,8 @@
     ]
   },
   "flex-layout.row#contenido-bioseguridad": {
-    "props":{
-      "blockClass":"category-menu"
+    "props": {
+      "blockClass": "category-menu"
     },
     "children": [
       "flex-layout.col#category-bioseguridad-1",
@@ -7954,7 +7950,7 @@
   },
   "menu-item#tiendas": {
     "props": {
-      "blockClass": "tituloMenu",
+      "blockClass": "movil-extra",
       "id": "menu-item-tiendas",
       "type": "custom",
       "iconId": null,
@@ -7968,36 +7964,21 @@
       }
     }
   },
-  "menu-item#credipink": {
-    "props": {
-      "blockClass": "tituloMenu",
-      "id": "menu-item-credipink",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/credipink",
-        "noFollow": true,
-        "tagTitle": "CrediPink",
-        "text": "CrediPink"
-      }
-    }
-  },
   "menu-item#socialseller": {
     "props": {
-      "blockClass": "GENERA-INGRESOS",
+      "blockClass": "movil-extra",
       "id": "menu-item-socialseller",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/socialseller",
+        "href": "/negociodigital",
         "noFollow": true,
         "tagTitle": "",
-        "text": ""
+        "text": "GENERA INGRESOS ADICIONALES"
       }
     }
   }
+
 }

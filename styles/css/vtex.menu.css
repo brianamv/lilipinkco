@@ -323,6 +323,21 @@ screen and (min-width:1850px) {
   justify-content: center;
   margin: 0 auto;
 }
+.menuContainerNav--menu-movil{
+  width: 100%;
+}
+.styledLinkContent--movil-extra{
+  color: #757575;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.menuItem--movil-extra {
+  padding: 0;
+  background-color: #f0f0f0;
+
+}
 
 @media screen and (max-width:900px) {
   .styledLink--titulosMenu {
