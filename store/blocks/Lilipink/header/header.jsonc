@@ -159,7 +159,7 @@
       "menu-item#linkImperdibles",
       "rich-text#linkImperdibles",
       "flex-layout.col#logowhatlilipink",
-      "rich-text#linkPedidoWhatsapp",
+      "link.product#whatsapp",
       "flex-layout.col#spacer"
     ]
   },
@@ -214,9 +214,28 @@
     }
   },
   /*TEXTO DE WHATAPPS lilipink*/
+  
+  "link.product#whatsapp": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Lili Pink",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
+  "link.product#whatsapp-yoi": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Yoi",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
   "rich-text#linkPedidoWhatsapp": {
     "props": {
-      "text": "Haz tu pedido vía Whatsapp [AQUÍ](http://wa.me/5715140339?text=HolaLiliPink)",
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
       "blockClass": "Encuentra"
     }
   },

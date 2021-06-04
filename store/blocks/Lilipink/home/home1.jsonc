@@ -93,7 +93,7 @@
   "menu-item#whatsappMobile": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "href": "/brasieres",
+      "href": "http://wa.me/5715140339?text=HolaLiliPink",
       "blockClass": "EncuentraMobile2"
     }
   },

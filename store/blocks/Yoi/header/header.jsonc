@@ -128,7 +128,7 @@
       "menu-item#linkImperdibles-YOI",
       "rich-text#linkImperdibles",
       "flex-layout.col#logowhatyoi",
-      "rich-text#linkPedidoWhatsappYoi",
+      "link.product#whatsapp-yoi",
       "flex-layout.col#spacer"
     ]
   },
