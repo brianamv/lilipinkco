@@ -241,7 +241,8 @@
   },
   "header-layout.mobile#lili": {
     "children": [
-      "sticky-layout#1-mobile-lili"
+      "sticky-layout#1-mobile-lili",      
+      "sticky-layout#boton-flotante"
     ]
   },
   "sticky-layout#1-mobile-lili": {
@@ -285,8 +286,7 @@
       "search-bar#lilipink",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2",
-      "flex-layout.row#icono-flotante"
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
