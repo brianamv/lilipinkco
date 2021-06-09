@@ -145,6 +145,7 @@
   font-family: 'Monserrat-semibold' !important;
   font-size: 0.8rem !important;
   color: #757575 !important;
+  white-space: pre-line;
 }
 
 .styledLinkContent--itemMenu:hover {
