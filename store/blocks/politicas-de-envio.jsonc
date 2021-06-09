@@ -81,7 +81,8 @@
   },
   "image#paso1": {
     "props": {
-      "src": "assets/politicas-envio/paso1.jpg"
+      "src": "assets/politicas-envio/paso1.jpg",
+      "width":900
 
     }
   },
@@ -103,7 +104,7 @@
   "image#paso2": {
     "props": {
       "src": "assets/politicas-envio/paso2.jpg",
-      "width":800
+      "width":900
 
     }
   },
@@ -147,7 +148,8 @@
   },
   "image#paso4": {
     "props": {
-      "src": "assets/politicas-envio/paso4.jpg"
+      "src": "assets/politicas-envio/paso4.jpg",
+      "width":900
 
     }
   },
@@ -168,7 +170,8 @@
   },
   "image#paso5": {
     "props": {
-      "src": "assets/politicas-envio/paso5.jpg"
+      "src": "assets/politicas-envio/paso5.jpg",
+      "width":900
 
     }
   },
@@ -189,7 +192,8 @@
   },
   "image#paso6": {
     "props": {
-      "src": "assets/politicas-envio/paso6.jpg"
+      "src": "assets/politicas-envio/paso6.jpg",
+      "width":900
 
     }
   }

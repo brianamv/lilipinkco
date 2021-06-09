@@ -82,6 +82,9 @@
     "store.custom.account": {
         "around": ["multi-home-wrapper.custom"]
     },
+    "store.custom.orderplaced": {
+        "around": ["multi-home-wrapper.custom"]
+    },
     "header.yoi": {},
     "element-wrapper.lilipink": {},
     "element-wrapper.yoi": {},
