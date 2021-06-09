@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.7.0] - 2021-06-09
+
 ## [0.6.1] - 2021-04-30
 ### Fixed
 - Fix color
