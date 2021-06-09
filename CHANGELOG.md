@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.8.0] - 2021-06-09
+### Added
+- estilos checkout
+- fix menu y mega menu
+- cambio de elementos mobile
 
 ## [0.7.0] - 2021-05-12
 ### Added
