@@ -1,12 +1,12 @@
 {
   "element-wrapper.footer-lilipink": {
-    "children": [ "footer"],
+    "children": ["footer"],
     "props": {
       "blockClass": "header-lilipink"
     }
   },
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile#lili"]
   },
   "footer-layout.desktop": {
     "children": [
@@ -25,7 +25,7 @@
       "vtex.menu@2.x:menu#footer-Atención-al-cliente",
       "footer-spacer"
 
-      ],
+    ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
@@ -53,11 +53,6 @@
       "paddingBottom": 4
     }
   },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
-    }
-  },
   "flex-layout.row#imagenes-tarjetas": {
     "props": {
       "verticalAlign": "middle",
@@ -66,19 +61,22 @@
     "children": ["image#tarjetas"]
   },
   "image#tarjetas": {
-    "props": {
+    "props": {      
+      "blockClass":"payment-methods",
       "src": "assets/efecty.png"
     }
   },
   "flex-layout.row#imagenes-tarjetas-2": {
     "props": {
+      "blockClass":"payment-methods",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": ["image#tarjetas-2"]
   },
   "image#tarjetas-2": {
-    "props": {
+    "props": {      
+      "blockClass":"payment-methods",
       "src": "assets/DAVIVIENDA.png"
     }
   },
@@ -90,7 +88,8 @@
     "children": ["image#tarjetas-3"]
   },
   "image#tarjetas-3": {
-    "props": {
+    "props": {      
+      "blockClass":"payment-methods",
       "src": "assets/PSE.png"
     }
   },
@@ -103,6 +102,7 @@
   },
   "image#tarjetas-4": {
     "props": {
+      "blockClass":"payment-methods",
       "src": "assets/VISA.png"
     }
   },
@@ -115,6 +115,7 @@
   },
   "image#tarjetas-5": {
     "props": {
+      "blockClass":"payment-methods",
       "src": "assets/MASTERCARD.png"
     }
   },
@@ -127,6 +128,7 @@
   },
   "image#tarjetas-6": {
     "props": {
+      "blockClass":"payment-methods",
       "src": "assets/CODENSA.png"
     }
   },
@@ -139,6 +141,7 @@
   },
   "image#tarjetas-7": {
     "props": {
+      "blockClass":"payment-methods",
       "src": "assets/DINERS-CLUB.png"
     }
   },
@@ -151,6 +154,7 @@
   },
   "image#tarjetas-8": {
     "props": {
+      "blockClass":"payment-methods",
       "src": "assets/AMERICAN.png"
     }
   },
@@ -167,7 +171,7 @@
     }
   },
 
-  "footer-layout.mobile": {
+  "footer-layout.mobile#lili": {
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
@@ -183,8 +187,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-       "rich-text#footer-mobile"
+      "flex-layout.row#footer-2-logosmobile"
     ],
     "props": {
       "blockClass": "payment-methods",
@@ -193,17 +196,31 @@
       "rowGap": 4
     }
   },
+  "flex-layout.row#footer-2-logosmobile":{
+    "props":{
+      "blockClass":"payment-methods",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "image#tarjetas",
+      "image#tarjetas-2",
+      "image#tarjetas-3",
+      "image#tarjetas-4",
+      "image#tarjetas-5",
+      "image#tarjetas-6",
+      "image#tarjetas-7",
+      "image#tarjetas-8"
+      
+    ]
+  },
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "mobilefooter"
+
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
   }
 }

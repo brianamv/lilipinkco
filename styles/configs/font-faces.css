@@ -16,3 +16,7 @@
   font-family: 'iconos-login';
   src: url(assets/fonts/iconos-login.woff);
 }
+@font-face {
+  font-family: 'iconos-extra';
+  src: url(assets/fonts/iconos-extra.woff);
+}

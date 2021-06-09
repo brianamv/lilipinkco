@@ -132,7 +132,8 @@
       "menu-item#Condiciones-y-restricciones",
       "menu-item#políticas-de-Cambios-y-Devoluciones",
       "menu-item#Privacidad-de-la-Información",
-      "menu-item#Trabaja-con-nosotros"
+      "menu-item#Trabaja-con-nosotros",
+      "menu-item#politicas-envio"
 
     ]
   },
@@ -169,7 +170,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/políticas-de-Cambios-y-Devoluciones",
+        "href": "/cambios-y-devoluciones",
         "noFollow": true,
         "tagTitle": "políticas-de-Cambios-y-Devoluciones",
         "text": "Cambios y Devoluciones"
@@ -295,6 +296,7 @@
 
   "menu-item#Links-de-Interes-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -304,7 +306,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Links de Interes"
+        "text": "Links de Interés"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -328,6 +330,7 @@
 
   "menu-item#Politicas-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "itemProps": {
         "tagTitle": "Politicas",
         "text": "Politicas"
@@ -341,18 +344,21 @@
 
   "vtex.menu@2.x:menu#footer-Politicas-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "orientation": "vertical"
     },
     "children": [
       "menu-item#Condiciones-y-restricciones",
       "menu-item#políticas-de-Cambios-y-Devoluciones",
       "menu-item#Privacidad-de-la-Información",
-      "menu-item#Trabaja-con-nosotros"
+      "menu-item#Trabaja-con-nosotros",
+      "menu-item#politicas-envio"
     ]
   },
 
   "menu-item#sale-mobile": {
     "props": {
+      "blockClass": "titulos-footer",
       "itemProps": {
         "tagTitle": "Sale",
         "text": "Atención al cliente"

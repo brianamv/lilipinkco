@@ -1,7 +1,6 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#socialseller"
     ]
   },
 

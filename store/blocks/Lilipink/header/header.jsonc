@@ -8,13 +8,13 @@
   "header": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.mobile#lili"
     ]
   },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.mobile#lili"
     ]
   },
   "header-layout.desktop": {
@@ -25,9 +25,9 @@
       "sticky-layout#boton-flotante",
       //"sticky-layout#4-desktop",
       "flex-layout.row#5-desktop",
-      "flex-layout.row#4-desktop",
+      "flex-layout.row#4-desktop"
       //"flex-layout.row#4-desktop",
-      "flex-layout.row#6-desktop"
+      //"flex-layout.row#6-desktop"
     ]
   },
   "flex-layout.row#1-desktop": {
@@ -100,8 +100,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": [
-    ]
+    "children": []
   },
   "flex-layout.row#5-desktop": {
     "props": {
@@ -117,7 +116,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      //"locale-switcher", 
+      //"locale-switcher",
       "header-row#3-desktop"
     ]
   },
@@ -132,10 +131,12 @@
       "minicart.v2"
     ]
   },
-  "login":{
-    "props":{
-      "showIconProfile":true,
-      "iconLabel":"Mi Cuenta"
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Mi Cuenta",
+      "termsAndConditions": "Al ingresar aceptas los [**términos y condiciones**](/Condiciones-y-restricciones)",
+      "logInButtonBehavior": "popover"
     }
   },
   "search-bar": {
@@ -155,10 +156,10 @@
     "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#logo1",
-      "menu-item#linkImperdibles", 
+      "menu-item#linkImperdibles",
       "rich-text#linkImperdibles",
-      "flex-layout.col#logo2",
-      "menu-item#linkPedidoWhatsapp",
+      "flex-layout.col#logowhatlilipink",
+      "link.product#whatsapp",
       "flex-layout.col#spacer"
     ]
   },
@@ -178,22 +179,7 @@
       "src": "assets/label.png"
     }
   },
-  "flex-layout.col#logo2": {
-    "props": {
-      "blockClass": "logo2",
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "image#logo2"
-    ]
-  },
-  "image#logo2": {
-    "props": {
-      "blockClass": "Imagenetiqueta",
-      "src": "assets/logo-wh.png"
-    }
-  },
+
   "menu-item#linkImperdibles": {
     "props": {
       "text": "Encuentra Nuestros Imperdibles AQUÍ",
@@ -207,13 +193,53 @@
       "blockClass": "Encuentra"
     }
   },
-  "menu-item#linkPedidoWhatsapp": {
+  "flex-layout.col#logowhatlilipink": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#logo2"
+    ]
+  },
+  "image#logo2": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/logo-wh.png",
+      "link": {
+        "url": "https://api.whatsapp.com/send/?phone=5715140339&text=Hola+Lili+Pink&app_absent=0",
+        "openNewTab": true
+      }
+    }
+  },
+  /*TEXTO DE WHATAPPS lilipink*/
+  
+  "link.product#whatsapp": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Lili Pink",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
+  "link.product#whatsapp-yoi": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Yoi",
+      "target": "_blank"
+    },
+    "children": [
+      "rich-text#linkPedidoWhatsapp"
+    ]
+  },
+  "rich-text#linkPedidoWhatsapp": {
     "props": {
       "text": "Haz tu pedido vía Whatsapp AQUÍ",
-      "href": "/brasieres",
       "blockClass": "Encuentra"
     }
   },
+  /**/
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
@@ -227,19 +253,20 @@
     "props": {
       "src": "assets/logo-header.png",
       "maxHeight": "35px",
-      "link":{
-        "url":"http://lilipinkco.myvtex.com"
-      }     
+      "link": {
+        "url": "/"
+      }
     }
   },
-  "header-layout.mobile": {
+  "header-layout.mobile#lili": {
     "children": [
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile-lili",      
+      "sticky-layout#boton-flotante"
     ]
   },
-  "sticky-layout#1-mobile": {
+  "sticky-layout#1-mobile-lili": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-mobile-lili"
     ]
   },
   "flex-layout.row#4-desktop": {
@@ -271,10 +298,11 @@
       "vtex.menu@2.x:menu#category-menu"
     ]
   },
-  "flex-layout.row#1-mobile": {
+  "flex-layout.row#1-mobile-lili": {
     "children": [
-      "drawer",
-      "logo#mobile",
+      "drawer#lili",
+      //"logo#mobilelili",
+      "search-bar#lilipink",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -286,34 +314,19 @@
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-brasieres",
-      "menu-item#category-tops",
-      "menu-item#category-panties",
-      "menu-item#category-kids",
-      "menu-item#category-descanso",
-      "menu-item#category-medias",
-      "menu-item#category-deportivo",
-      "menu-item#category-vestidos",
-      "menu-item#category-belleza",
-      "menu-item#category-bioseguridad",
-      "menu-item#yoi" 
-    ],
+  "search-bar#lilipink": {
     "props": {
-      "orientation": "vertical"
+      "compactMode": true
     }
+
   },
-  "logo#mobile": {
+  
+  
+  "logo#mobilelili": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "assets/logo-header.png",
       "width": "70"
     }
   },

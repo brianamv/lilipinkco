@@ -38,7 +38,7 @@
     "children": [
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-summary-sku-selector#search"
+      "product-summary-sku-selector#quick"
       //"product-installments"
     ]
   },

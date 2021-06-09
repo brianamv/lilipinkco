@@ -1,6 +1,6 @@
 
 {
-  "store.custom#guia-de-tallas": {
+  "store.custom.guia-de-tallas": {
     "blocks": [
       "flex-layout.row#titulo-guiadetallas",
       "flex-layout.row#imagenguiadetallas",
@@ -37,6 +37,8 @@
   },
   "flex-layout.row#imagenguiadetallas": {
     "props": {
+      "marginTop":7,
+      "marginBottom":7,
       "verticalAlign": "middle",
       "horizontalAlign": "center",
       "blockClass":"tallas-landing"

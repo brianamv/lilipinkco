@@ -35,9 +35,13 @@
   height: 0;
   overflow: hidden;
 }
+
+
 .trigger--question--visible {
   color: #E4147E !important;
-  }
-  .trigger--question--hidden {
-      color: #757575 !important;
-      }
+  
+}
+
+.trigger--question--hidden {
+  color: #757575 !important;
+}

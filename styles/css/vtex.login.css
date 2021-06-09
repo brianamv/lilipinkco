@@ -115,3 +115,16 @@
     margin-top: 4px;
     margin-left: 6px;
 }
+.content--emailVerification{
+    display: block;
+}
+.termsAndConditions :global(a){
+    color: #000;
+    font-family: 'Monserrat-bold';
+    text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    .contentInitialScreen{
+        width: 100%;
+    }
+}

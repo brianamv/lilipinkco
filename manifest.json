@@ -28,6 +28,7 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -65,6 +66,8 @@
     "vtex.category-menu": "2.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-availability": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.sandbox": "0.x",
     "lilipinkco.filters": "0.x",
     "lilipinkco.multihome": "0.x",
     "lilipinkco.multihomecustom": "0.x"

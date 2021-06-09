@@ -8,18 +8,18 @@
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
  {
-  "store.orderplaced": {
+  "store.custom.orderplaced": {
     "blocks": ["order-placed"]
   },
 
-  "store.account": {
+  "store.custom.account": {
     "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
 
-  "store.login": {
+  "store.custom.login": {
     "blocks": ["login-content#default"]
   },
 

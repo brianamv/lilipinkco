@@ -1,8 +1,8 @@
 {
   "flex-layout.row#home1": {
     "props": {
-      "fullWidth":true
-    }, 
+      "fullWidth": true
+    },
     "children": [
       "flex-layout.col#home1"
     ]
@@ -13,6 +13,9 @@
     },
     "children": [
       //"list-context.image-list#demo",
+      "flex-layout.row#6-desktop",
+      "flex-layout.row#6-mobile",
+      "list-context.image-list#bannerprincipal",      
       "slider-layout#banner-principal",
       "__fold__",
       "flex-layout.row#bannerComplemento",
@@ -22,8 +25,17 @@
       "flex-layout.row#bannerInferior",
       "flex-layout.row#formulario",
       "rich-text#link",
-      "flex-layout.row#redessociales"
+      "responsive-layout.desktop#redessociales",
+      "responsive-layout.phone#redessociales"
     ]
+  },
+  "list-context.image-list#bannerprincipal": {
+    "children": ["slider-layout#banner-principal"],
+    "props": {
+      "images": [
+
+      ]
+    }
   },
   "slider-layout#banner-principal": {
     "props": {
@@ -35,34 +47,57 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+
+  "slider-layout#coleccionesMobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel"
     },
     "children": [
-      "image#slide1",
-      "image#slide2",
-      "image#slide3",
-      "image#slide4"
+      "image#banners-inferiores1",
+      "image#banners-inferiores2",
+      "image#banners-inferiores3"
+
     ]
   },
-  "image#slide1": {
+  "flex-layout.row#6-mobile": {
     "props": {
-      "src": "assets/banner-catalogo11.jpg"
+      "blockClass": "menu-linkMobile",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "paddingTop":10,
+      "paddingBottom":10
+    },
+    "children": [
+      "menu-item#imperdiblesMobile",
+      "menu-item#whatsappMobile"
+    ]
+  },
+  "menu-item#imperdiblesMobile": {
+    "props": {
+      "text": "Encuentra Nuestros Imperdibles AQUÍ",
+      "href": "/brasieres",
+      "blockClass": "EncuentraMobile1"
     }
   },
-  "image#slide2": {
+  "menu-item#whatsappMobile": {
     "props": {
-      "src": "assets/BannersMainSlider/sh2.jpg"
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "href": "http://wa.me/5715140339?text=HolaLiliPink",
+      "blockClass": "EncuentraMobile2"
     }
   },
-  "image#slide3": {
-    "props": {
-      "src": "assets/BannersMainSlider/sh3.jpg"
-    }
-  },
-  "image#slide4": {
-    "props": {
-      "src": "assets/BannersMainSlider/sh4.jpg"
-    }
-  },
+
   "rich-text#home-1": {
     "props": {
       "text": "Este es el Home LiliPink"
@@ -118,7 +153,7 @@
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category":"168"
+      "category": "168"
     }
   },
   "slider-layout#demo-products": {
@@ -173,10 +208,17 @@
   },
   "flex-layout.col#ContenedorBanners": {
     "children": [
-      "flex-layout.row#TituloBanner",
-      "flex-layout.row#Banners"
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ]
   },
+  "responsive-layout.desktop": {
+    "children": ["flex-layout.row#TituloBanner","flex-layout.row#Banners"]
+  },
+  "responsive-layout.phone": {
+    "children": ["flex-layout.row#TituloBanner","slider-layout#coleccionesMobile"]
+  },
+
   "flex-layout.row#TituloBanner": {
     "children": [
       "rich-text#titulobannerInferior"
@@ -228,14 +270,14 @@
       "src": "assets/panty-sub.jpg"
     }
   },
- 
+
   "flex-layout.row#bannerInferior": {
     "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     },
     "children": [
-      "image#bannerSlim2"
+      "flex-layout.col#bannerSlim2"
     ]
   },
   "rich-text#titulobannerInferior": {
@@ -246,16 +288,28 @@
       "blockClass": "headingLevel2"
     }
   },
+  "flex-layout.col#bannerSlim2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#bannerSlim2"
+    ]
+  },
   "image#bannerSlim2": {
     "props": {
-      "src": "assets/BannerInferior.jpg"
+      "src": "assets/BannerInferior.jpg",
+      "link": {
+        "url": "/catalogo"
+      }
+
     }
   },
   "flex-layout.row#formulario": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass":"seccion-newsletter"
+      "blockClass": "seccion-newsletter"
     },
     "children": [
       "flex-layout.col#texto1",
@@ -264,7 +318,7 @@
     ]
   },
   "flex-layout.col#texto1": {
-    "props":{
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "right"
     },
@@ -277,13 +331,13 @@
       "newsletter"
     ]
   },
-  "newsletter":{
-"props":{
-  "hideLabel":true
-}
+  "newsletter": {
+    "props": {
+      "hideLabel": true
+    }
   },
   "flex-layout.col#texto2": {
-    "props":{
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left"
     },
@@ -293,13 +347,13 @@
   },
   "rich-text#newsletter-text1": {
     "props": {
-      "text": "Regístrate y sé el primero en \n recibir noticias de ofertas y \n promociones especiales",
+      "text": "Regístrate y sé el primero en recibir noticias de ofertas y  promociones especiales",
       "blockClass": "newsletter-izquierdo"
     }
   },
   "rich-text#newsletter-text2": {
     "props": {
-      "text": "Al registrar tu correo \n electrónico aceptas \n los terminos y condiciones",
+      "text": "Al registrar tu correo electrónico aceptas los terminos y condiciones",
       "blockClass": "newsletter-2"
     }
   },
@@ -307,8 +361,18 @@
     "props": {
       "text": "Sígue Nuestras Redes Sociales",
       "blockClass": "titulo-redes",
-      "textAlignment":"CENTER"
+      "textAlignment": "CENTER"
     }
+  },
+  "responsive-layout.desktop#redessociales":{
+    "children":[
+      "flex-layout.row#redessociales"
+    ]
+  },
+  "responsive-layout.phone#redessociales":{
+    "children":[
+      "flex-layout.row#redessocialesmobile"
+    ]
   },
   "flex-layout.row#redessociales": {
     "props": {
@@ -327,10 +391,10 @@
       "flex-layout.col#spacer"
     ]
   },
-  "flex-layout.col#spacermini":{
-"props":{
-  "blockClass":"espaciado"
-}
+  "flex-layout.col#spacermini": {
+    "props": {
+      "blockClass": "espaciado"
+    }
   },
   "flex-layout.col#logoface": {
     "props": {
@@ -346,9 +410,9 @@
     "props": {
       "blockClass": "Imagenetiquetaredes",
       "src": "assets/face-pink.png",
-      "link":{
-        "url":"https://www.facebook.com/LiliPinkColombia",
-        "openNewTab":true
+      "link": {
+        "url": "https://www.facebook.com/LiliPinkColombia",
+        "openNewTab": true
       }
     }
   },
@@ -366,52 +430,74 @@
     "props": {
       "blockClass": "Imagenetiquetaredes-i",
       "src": "assets/insta-pink.png",
-      "link":{
-        "url":"https://www.instagram.com/lilipinkcol/",
-        "openNewTab":true
+      "link": {
+        "url": "https://www.instagram.com/lilipinkcol/",
+        "openNewTab": true
       }
     }
   },
   "rich-text#fb": {
     "props": {
-      "blockClass":"texto-redes",
+      "blockClass": "texto-redes",
       "text": "[@LiliPinkColombia](https://www.facebook.com/LiliPinkColombia)"
     }
   },
   "rich-text#ig": {
     "props": {
-      "blockClass":"texto-redes",
+      "blockClass": "texto-redes",
       "text": "[@Lilipinkcol](https://www.instagram.com/lilipinkcol/)"
     }
   },
-  "sticky-layout#boton-flotante":{
+  "flex-layout.row#redessocialesmobile":{
+    "props": {
+      "blockClass":"redessociales",
+      "horizontalAlign":"center"
+    },
     "children":[
+      "rich-text#fbmobile",
+      "rich-text#igmobile"
+    ]
+  },
+  "rich-text#fbmobile": {
+    "props": {
+      "blockClass": "texto-redes1",
+      "text": "[@LiliPinkColombia](https://www.facebook.com/LiliPinkColombia)"
+    }
+  },
+  "rich-text#igmobile": {
+    "props": {
+      "blockClass": "texto-redes2",
+      "text": "[@Lilipinkcol](https://www.instagram.com/lilipinkcol/)"
+    }
+  },
+  "sticky-layout#boton-flotante": {
+    "children": [
       "flex-layout.row#icono-flotante"
     ]
   },
-  "flex-layout.row#icono-flotante":{
-    "props":{
-      "marginTop":4,
-      "marginBottom":7,
-      "padding-Bottom":2
+  "flex-layout.row#icono-flotante": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "padding-Bottom": 2
     },
-    "children":[
+    "children": [
       "link.product#linkflotante"
     ]
   },
-  "link.product#linkflotante":{
-    "props":{
-      "href":"https://wa.me/5715140339?text=Hola Lili Pink",
-      "target":"_blank"
+  "link.product#linkflotante": {
+    "props": {
+      "href": "https://wa.me/5715140339?text=Hola Lili Pink",
+      "target": "_blank"
     },
-    "children":[
+    "children": [
       "image#iconoflotante"
     ]
   },
-  "image#iconoflotante":{
-    "props":{
-     "blockClass":"flotante",
-     "src":"assets/icono-flotante.png"
+  "image#iconoflotante": {
+    "props": {
+      "blockClass": "flotante",
+      "src": "assets/icono-flotante.png"
     }
   }
 }

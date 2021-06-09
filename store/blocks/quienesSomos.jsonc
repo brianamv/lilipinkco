@@ -1,57 +1,61 @@
-
 {
-  "store.custom#quienes-somos":{
-    "blocks": [        
+  "store.custom.quienes-somos": {
+    "blocks": [
       "flex-layout.row#quienesSomos",
       "flex-layout.row#textos1",
       "flex-layout.row#Ideologia-Fotos",
       "flex-layout.row#textolanding2",
       "flex-layout.row#SucrusalGeneral",
       "flex-layout.row#clic-vacante1"
-     
-    ]
-  },  
 
-  "flex-layout.row#textos1":{
-    "children":[
+    ]
+  },
+
+  "flex-layout.row#textos1": {
+    "children": [
       "flex-layout.col#textos1"
     ],
-    "props":{
-      "marginTop":6,
-      "marginBottom":6
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 6,
+      "blockClass":"margenLanding"
     }
   },
-  "flex-layout.col#textos1":{
-    "children":[
+  "flex-layout.col#textos1": {
+    "children": [
       "rich-text#QuienesSomos",
       "rich-text#QuienesSomosInterno",
       "rich-text#ideologia",
       "rich-text#ideologiaInterna"
-      ]
+    ]
   },
-  "flex-layout.row#textolanding2":{
-    "children":[
+  "flex-layout.row#textolanding2": {
+    "props":{
+      "blockClass":"margenLanding"
+    },
+    "children": [
       "flex-layout.col#textolanding2"
     ]
-   },
-   "flex-layout.col#textolanding2":{
-     "children":[
-       "rich-text#nuestroPilar",
-       "rich-text#soyLili",
-       "rich-text#soyLiliInfo",
-       "rich-text#sobreLiliPink",
-       "rich-text#sobreLiliPinkInterno"
-     ]
-   },
+  },
+  "flex-layout.col#textolanding2": {
+    "children": [
+      "rich-text#nuestroPilar",
+      "rich-text#soyLili",
+      "rich-text#soyLiliInfo",
+      "rich-text#sobreLiliPink",
+      "rich-text#sobreLiliPinkInterno"
+    ]
+  },
   "flex-layout.row#quienesSomos": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
-  "children": [
-    "flex-layout.col#quienes-somos-1","flex-layout.col#quienes-somos-2","flex-layout.col#quienes-somos-3"
-   
-  ]
+    "children": [
+      "flex-layout.col#quienes-somos-1", "flex-layout.col#quienes-somos-2", "flex-layout.col#quienes-somos-3"
+
+    ]
   },
   "flex-layout.col#quienes-somos-1": {
     "props": {
@@ -59,14 +63,14 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#quienessomos1"
+      "image#quienessomos1"
     ]
-  },   
-  "image#quienessomos1": {  
-    "props": {  
-      "src": "assets/quieneSomos3.jpg",  
-    "blockClass":"imagenes-quienes-somos"  
-    }  
+  },
+  "image#quienessomos1": {
+    "props": {
+      "src": "assets/quieneSomos3.jpg",
+      "blockClass": "imagenes-quienes-somos"
+    }
   },
   "flex-layout.col#quienes-somos-2": {
     "props": {
@@ -74,14 +78,14 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#quienessomos2"
+      "image#quienessomos2"
     ]
-  },   
-  "image#quienessomos2": {  
-    "props": {  
-      "src": "assets/quieneSomos2.jpg",  
-      "blockClass":"imagenes-quienes-somos" 
-    }  
+  },
+  "image#quienessomos2": {
+    "props": {
+      "src": "assets/quieneSomos2.jpg",
+      "blockClass": "imagenes-quienes-somos"
+    }
   },
   "flex-layout.col#quienes-somos-3": {
     "props": {
@@ -89,48 +93,49 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#quienessomos3"
+      "image#quienessomos3"
     ]
-  },   
-  "image#quienessomos3": {  
-    "props": {  
-      "src": "assets/quieneSomos3.jpg",  
-      "blockClass":"imagenes-quienes-somos"
-    } 
   },
-  "rich-text#QuienesSomos":{
+  "image#quienessomos3": {
+    "props": {
+      "src": "assets/quieneSomos3.jpg",
+      "blockClass": "imagenes-quienes-somos"
+    }
+  },
+  "rich-text#QuienesSomos": {
     "props": {
       "text": "QUIENES SOMOS",
       "blockClass": "titulo-landing"
     }
   },
-  "rich-text#QuienesSomosInterno":{
-    "props":{
-      "text":"Somos una marca JOVEN, CREATIVA, FRESCA y DIVERTIDA, pensada en mujeres con estas mismas características. El color, la comodidad y la tecnología son nuestras principales cualidades por las que nuestras consumidoras nos refieren.",
+  "rich-text#QuienesSomosInterno": {
+    "props": {
+      "text": "Somos una marca JOVEN, CREATIVA, FRESCA y DIVERTIDA, pensada en mujeres con estas mismas características. El color, la comodidad y la tecnología son nuestras principales cualidades por las que nuestras consumidoras nos refieren.",
       "blockClass": "texto-landing"
     }
   },
-  "rich-text#ideologia":{
-    "props":{
-      "text":"IDEOLOGÍA",
+  "rich-text#ideologia": {
+    "props": {
+      "text": "IDEOLOGÍA",
       "blockClass": "titulo-landing"
     }
   },
-  "rich-text#ideologiaInterna":{
-    "props":{
-      "text":"Nos comprometemos con la FELICIDAD de las mujeres que piensan en comodidad y que les gusta estar en tendencia, creando y comercializando productos a precios asequibles para demostrar que no es necesario invertir tanto para tener lo mejor de la moda en tus manos.",
+  "rich-text#ideologiaInterna": {
+    "props": {
+      "text": "Nos comprometemos con la FELICIDAD de las mujeres que piensan en comodidad y que les gusta estar en tendencia, creando y comercializando productos a precios asequibles para demostrar que no es necesario invertir tanto para tener lo mejor de la moda en tus manos.",
       "blockClass": "texto-landing"
     }
   },
   "flex-layout.row#Ideologia-Fotos": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
-  "children": [
-    "flex-layout.col#Ideologia-1","flex-layout.col#Ideologia-2","flex-layout.col#Ideologia-3"
-   
-  ]
+    "children": [
+      "flex-layout.col#Ideologia-1", "flex-layout.col#Ideologia-2", "flex-layout.col#Ideologia-3"
+
+    ]
   },
   "flex-layout.col#Ideologia-1": {
     "props": {
@@ -138,14 +143,14 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#ideologia1"
+      "image#ideologia1"
     ]
-  },  
-  "image#ideologia1": {  
-    "props": {  
-      "src": "assets/ideologia-quienes-somos.jpg"  
-      
-    }  
+  },
+  "image#ideologia1": {
+    "props": {
+      "src": "assets/ideologia-quienes-somos.jpg"
+
+    }
   },
   "flex-layout.col#Ideologia-2": {
     "props": {
@@ -153,14 +158,14 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#ideologia2"
+      "image#ideologia2"
     ]
   },
-  "image#ideologia2": {  
-    "props": {  
-      "src": "assets/ideologia-quienes-somos-2.jpg"  
-      
-    }  
+  "image#ideologia2": {
+    "props": {
+      "src": "assets/ideologia-quienes-somos-2.jpg"
+
+    }
   },
   "flex-layout.col#Ideologia-3": {
     "props": {
@@ -168,54 +173,55 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#ideologia3"
+      "image#ideologia3"
     ]
   },
-  "image#ideologia3": {  
-    "props": {  
-      "src": "assets/ideologia-quienes-somos-3.jpg"  
-      
-    }  
+  "image#ideologia3": {
+    "props": {
+      "src": "assets/ideologia-quienes-somos-3.jpg"
+
+    }
   },
-  
-  "rich-text#nuestroPilar":{
-    "props":{
-      "text":"NUESTRO PILAR",
+
+  "rich-text#nuestroPilar": {
+    "props": {
+      "text": "NUESTRO PILAR",
       "blockClass": "titulo-landing"
     }
   },
-  "rich-text#soyLili":{
-    "props":{
-      "text":"Yo soy Lili…",
+  "rich-text#soyLili": {
+    "props": {
+      "text": "Yo soy Lili…",
       "blockClass": "texto-landing"
     }
   },
-  "rich-text#soyLiliInfo":{
-    "props":{
-      "text":"Soy una mujer joven, divertida, alegre, expresiva, buena amiga, espontanea, cercana, curiosa, segura, independiente, que navega confiada en el mundo digital. Me gusta mi cuerpo y quiero que todas amen el suyo, soy incluyente y diversa.",
+  "rich-text#soyLiliInfo": {
+    "props": {
+      "text": "Soy una mujer joven, divertida, alegre, expresiva, buena amiga, espontanea, cercana, curiosa, segura, independiente, que navega confiada en el mundo digital. Me gusta mi cuerpo y quiero que todas amen el suyo, soy incluyente y diversa.",
       "blockClass": "texto-landing"
     }
   },
-  "rich-text#sobreLiliPink":{
-    "props":{
-      "text":"SOBRE LILIPINK.",
+  "rich-text#sobreLiliPink": {
+    "props": {
+      "text": "SOBRE LILIPINK.",
       "blockClass": "titulo-landing"
     }
   },
-  "rich-text#sobreLiliPinkInterno":{
-    "props":{
-      "text":"Estamos ubicados en 6 países con más de 50 tiendas: México, Guatemala, Costa Rica, Panamá, Ecuador y Perú.En Colombia, contamos con más de 200 tiendas propias, más de 100 franquicias y más de 50 tiendas de nuestra marca YOI..",
+  "rich-text#sobreLiliPinkInterno": {
+    "props": {
+      "text": "Estamos ubicados en 6 países con más de 50 tiendas: México, Guatemala, Costa Rica, Panamá, Ecuador y Perú.En Colombia, contamos con más de 200 tiendas propias, más de 100 franquicias y más de 50 tiendas de nuestra marca YOI..",
       "blockClass": "texto-landing"
     }
   },
   "flex-layout.row#SucrusalGeneral": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"margenLanding"
     },
-  "children": [
-    "flex-layout.col#sucursales" ,"flex-layout.col#franquicias","flex-layout.col#yoi","flex-layout.col#paises"
-  ]
+    "children": [
+      "flex-layout.col#sucursales", "flex-layout.col#franquicias", "flex-layout.col#yoi", "flex-layout.col#paises"
+    ]
   },
   "flex-layout.col#sucursales": {
     "props": {
@@ -223,13 +229,13 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#sucursalInfo"
+      "image#sucursalInfo"
     ]
   },
-  "image#sucursalInfo": {  
-    "props": {  
-      "src": "assets/sobre-lilipink-1.png" 
-    }  
+  "image#sucursalInfo": {
+    "props": {
+      "src": "assets/sobre-lilipink-1.png"
+    }
   },
   "flex-layout.col#franquicias": {
     "props": {
@@ -237,13 +243,13 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#franquicias"
+      "image#franquicias"
     ]
   },
-  "image#franquicias": {  
-    "props": {  
-      "src": "assets/sobre-lilipink-2.png" 
-    }  
+  "image#franquicias": {
+    "props": {
+      "src": "assets/sobre-lilipink-2.png"
+    }
   },
   "flex-layout.col#yoi": {
     "props": {
@@ -251,13 +257,13 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#yoi"
+      "image#yoi"
     ]
   },
-  "image#yoi": {  
-    "props": {  
-      "src": "assets/sobre-lilipink-3.png" 
-    }  
+  "image#yoi": {
+    "props": {
+      "src": "assets/sobre-lilipink-3.png"
+    }
   },
   "flex-layout.col#paises": {
     "props": {
@@ -265,31 +271,33 @@
       "horizontalAlign": "center"
     },
     "children": [
-        "image#paises"
+      "image#paises"
     ]
   },
-  "image#paises": {  
-    "props": {  
-      "src": "assets/sobre-lilipink-4.png" 
-    }  
-  },
- 
-  "flex-layout.row#clic-vacante1":{
-    "children": ["image#vacantes1"],
+  "image#paises": {
     "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true,
-      "marginBottom":6
+      "src": "assets/sobre-lilipink-4.png"
     }
   },
 
-"image#vacantes1": {  
-  "props": {  
-    "src": "assets/banner-trabaja-2.jpg",
-    "link": "https://lilipink-yoi.sherlockhr.com/",
-    "openNewTab":true 
-  }  
-}
-}
+  "flex-layout.row#clic-vacante1": {
+    "children": ["image#vacantes1"],
+    "props": {
+      "blockClass":"margenLanding",
+      "preventVerticalStretch": true,
+      "marginBottom": 8
+    }
+  },
 
+  "image#vacantes1": {
+    "props": {
+      "blockClass":"bannerfull",
+      "src": "assets/banner-trabaja-2.jpg",
+      "link": {
+        "url": "https://lilipink-yoi.sherlockhr.com/",
+        "openNewTab": true
+      }
 
+    }
+  }
+}

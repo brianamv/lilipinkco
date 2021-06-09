@@ -128,31 +128,7 @@
   font-family: 'Monserrat-bold';
 }
 
-.styledLinkContent--titulosMenu {
-  color: #757575;
-  font-size: calc(0.3em + 0.5vw);
 
-}
-.styledLinkContent--titulosMenu:hover {
-  color: #e4147e;
-  font-size: calc(0.3em + 0.5vw);
-
-}
-.styledLinkContent--titulosMenuYoi {
-  color: #757575;
-  font-size: calc(0.3em + 0.5vw);
-
-}
-.styledLinkContent--titulosMenuYoi:hover {
-  color: #08AB97;
-  font-size: calc(0.3em + 0.5vw);
-
-}
-.styledLinkContent--destacado {
-  color: #e4147e;
-  font-size: calc(0.3em + 0.5vw);
-
-}
 
 .menuItem .menuItem--GENERA-INGRESOS {
   display: none;
@@ -170,9 +146,11 @@
   font-size: 0.8rem !important;
   color: #757575 !important;
 }
+
 .styledLinkContent--itemMenu:hover {
   color: #e4147e !important;
 }
+
 .styledLinkContent--ItemMenuYoi {
   margin-top: 0.1rem !important;
   margin-bottom: 0.1rem !important;
@@ -180,9 +158,12 @@
   font-size: 0.8rem !important;
   color: #757575 !important;
 }
+
 .styledLinkContent--ItemMenuYoi:hover {
   color: #08AB97 !important;
 }
+
+
 
 
 /* ajuste submenu segun pantalla
@@ -204,13 +185,149 @@
 .submenu--submenu {
   padding-left: 1% ;
 } */
-.styledLinkContent--Encuentra{
+.styledLinkContent--Encuentra {
   color: #727272;
   font-family: 'Monserrat-bold';
   font-size: 17px;
   padding: 10px 0;
 }
-.styledLinkContent--items-footer{
-  font-family:"Monserrat-regular" ;
+
+.styledLinkContent--items-footer {
+  font-family: "Monserrat-regular";
   color: #fff;
+}
+
+.styledLinkContent--titulos-footer {
+  font-family: "Monserrat-bold";
+  color: #fff;
+}
+
+.accordionIcon--titulos-footer {
+  color: #fff;
+}
+
+.styledLinkContent--EncuentraMobile1::before {
+  content: "\e900";
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
+
+}
+
+.styledLinkContent--EncuentraMobile2::before {
+  content: "\ea93";
+  font-size: 1.2rem;
+  font-family: 'iconos-extra';
+  color: #757575;
+  margin-right: 6px;
+
+}
+
+.menuItem--EncuentraMobile1 {
+  padding: 6px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menuItem--EncuentraMobile2 {
+  padding: 6px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.menuContainerNav--menu-movil{
+  width: 100%;
+}
+.styledLinkContent--movil-extra{
+  color: #757575;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.menuItem--movil-extra {
+  padding: 0;
+  background-color: #f0f0f0;
+
+}
+.menuItem--itemMenu{
+  width: 150px;
+}
+
+@media screen and (max-width:900px) {
+  .styledLink--titulosMenu {
+    font-size: 2.5rem;
   }
+}
+
+/*estilos para el menu*/
+@media screen and (max-width: 1350px) {
+  .styledLinkContent--titulosMenu {
+    color: #757575;
+    font-size: 11px !important;
+  
+  }
+  .submenu--submenu {
+    width: 1200px !important;
+    margin: 0 auto;
+  }
+  
+  .styledLinkContent--titulosMenu:hover {
+    color: #e4147e;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--titulosMenuYoi {
+    color: #757575;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--titulosMenuYoi:hover {
+    color: #08AB97;
+    font-size: 11px !important;
+  
+  }
+  
+  .styledLinkContent--destacado {
+    color: #e4147e;
+    font-size: 11px !important;
+  
+  }
+}
+.styledLinkContent--titulosMenu {
+  color: #757575;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenu:hover {
+  color: #e4147e;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenuYoi {
+  color: #757575;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--titulosMenuYoi:hover {
+  color: #08AB97;
+  font-size: 13px;
+
+}
+
+.styledLinkContent--destacado {
+  color: #e4147e;
+  font-size: 13px;
+
+}
+.submenu--submenu {
+  width: 1336px ;
+  margin: 0 auto;
+}
